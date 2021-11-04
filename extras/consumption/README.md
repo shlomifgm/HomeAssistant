@@ -46,7 +46,14 @@ SELECT sum("value")  * POWER_PRICE / 1000 FROM "kW" WHERE ("entity_id" = 'power_
 SELECT sum("value")  * POWER_PRICE / 1000 FROM "kW" WHERE ("entity_id" = 'power_consumption') AND $timeFilter GROUP BY time(30d) fill(null)
 ```
 
+# HomeAssistant Energy Dashboard
+Here Is The New Dashboard On HomeAssistant For Energy
+![Dashboard-Energy][dashboard-energy]
+
+
+
 [dashboard]: /extras/img/useage-dashboard.png
+[dashboard-energy]: /extras/img/energy-dashboard.png
 [influxdb-addon]: https://github.com/hassio-addons/addon-influxdb
 [grafana-addon]: https://github.com/hassio-addons/addon-grafana
 [hassio]: https://www.home-assistant.io/hassio/
