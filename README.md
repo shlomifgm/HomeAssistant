@@ -6,7 +6,9 @@ HaDashboard instead.
 The UI is partially isnspired by [Homekit Infused](https://github.com/jimz011/homekit-infused), 
 implemented by me using mostly Custom Button Card and Delluttering Card for the templates.
 
-Please join me in discord :smile: under the following [link](https://discord.com/channels/903416013532561520/903416013532561526), welcome to visit 
+
+
+Please join me in [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.com/channels/903416013532561520/903416013532561526) , welcome to visit 
 and ask questions.
 
 <a href="https://www.paypal.me/sfh182" target="_blank"><img height="41px" width="167px" 
@@ -52,15 +54,17 @@ Below my server setup on which I run Home Assistant:
 - [Amazon Fire HD10](<https://www.amazon.com/Fire-HD-10/dp/B07K1RZWMC>) - Wall Panel Tablet
 - [Apple TV](<https://www.apple.com/il/apple-tv-4k//>) - Apple TV As Bridge For Homekit
 
-### In House
+### In House   
+:house_with_garden:
 
-Curious about what kind of hardware I have in my Home Assistant system? I have a list: [Check it out](<https://github.com/shlomifgm/HomeAssistant/blob/master/extras/github_resources/hardware.md>) (Last update: 30 October 2021).
+Curious about what kind of hardware I have in my Home Assistant system? I have a :pencil: list: [Check it out](<https://github.com/shlomifgm/HomeAssistant/blob/master/extras/github_resources/hardware.md>) (Last update: 30 October 2021).
 
 ## Grafana energy consumption dashboard
 
 I have built my own dashboard in grafana for my energy consumption, which I can call through an iframe panel in Home Assistant. If you want to know more about this, [take a look here](<https://github.com/shlomifgm/HomeAssistant/blob/master/extras/consumption/README.md>).
 
 ## Back-ups
+:floppy_disk:
 
 Every day at 2:00 am an [automation makes a snapshot][backup-github] of my installation. In the past it happened that the sd card of my Pi became corrupt and I lost everything. That's why this backup is also made locally on my NAS automatically and this is fully automated. (Inspired by: [@adonno][adonno-github])
 
@@ -93,7 +97,8 @@ Wallpanel:
 
 ## License
 
-MIT License
+MIT License 
+
 
 Copyright (c) 2021 Shlomi Fabrikant
 
