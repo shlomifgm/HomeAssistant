@@ -37,6 +37,8 @@ and ask questions.
 
 ## Current Configuration
 
+![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/ha-hardware.png "HaHardware")
+
 Recently I switched from a raspberry pi 4B to an Intel NUC. I noticed that the Pi for my house was no longer powerful enough to run all processes. That is why I invested in an Intel NUC, which is now smoothly running. I also switched from hassbian to [Home Assistant - Supervised][hassio] in docker.
 
 ## My HA Server
