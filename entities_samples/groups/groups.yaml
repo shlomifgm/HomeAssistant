@@ -1,0 +1,9 @@
+waze:
+  name: Waze
+  entities:
+    - sensor.home_to_work
+    - sensor.home_to_work_distance
+    - sensor.home_to_work_route
+    - sensor.back_form_work
+    - sensor.back_form_work_distance
+    - sensor.back_form_work_route

@@ -1,0 +1,5 @@
+
+  room_cleaning:
+    name: Currently Cleaning Room
+    initial: charging
+

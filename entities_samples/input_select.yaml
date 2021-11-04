@@ -1,0 +1,8 @@
+# Stairs Inputs
+  stairsf01:
+    name: Stairs Floor 01 Lamp
+    options:
+      - "off"
+      - "on"
+      - "auto"
+    icon: mdi:target

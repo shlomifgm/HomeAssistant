@@ -1,0 +1,28 @@
+############################################################################
+#                                                                          #
+#   Fan Automations                                                        #
+#                                                                          #
+############################################################################
+
+
+- alias: AutoOff Parents Fan
+  description: AutoOff Parents Fan
+  trigger:
+  - at: 08:30:00
+    platform: time
+  condition:
+  - after: 08:29:00
+    before: 08:31:00
+    condition: time
+    weekday:
+    - sun
+    - mon
+    - tue
+    - wed
+    - thu
+    - fri
+  action:
+  - data: {}
+    entity_id: fan.parents_fan
+    service: fan.turn_off
+  mode: single

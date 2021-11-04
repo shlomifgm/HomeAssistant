@@ -1,0 +1,11 @@
+good_night:
+  alias: good night
+  icon: mdi:weather-night
+  mode: single
+  sequence:
+  - data: {}
+    entity_id: light.xxxxxxx
+    service: light.turn_off
+  - data: {}
+    entity_id: light.xxxxxxxx
+    service: light.turn_off

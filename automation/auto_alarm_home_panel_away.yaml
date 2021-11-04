@@ -1,0 +1,138 @@
+#Trigger alarm while armed away
+- alias: 'Trigger alarm while armed away'
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.alarm_motionsensor_saloon
+      to: 'on'  
+    - platform: state    
+      entity_id: binary_sensor.alarm_motionsensor_stairs01
+      to: 'on'    
+    - platform: state    
+      entity_id: binary_sensor.alarm_motionsensor_stairs02
+      to: 'on'    
+    - platform: state    
+      entity_id: binary_sensor.alarm_gassensor_kitchen
+      to: 'on'    
+    - platform: state    
+      entity_id: binary_sensor.alarm_windowsensor_floor03
+      to: 'on'    
+    - platform: state    
+      entity_id: binary_sensor.alarm_windowsensor_kitchen
+      to: 'on'    
+    - platform: state    
+      entity_id: binary_sensor.alarm_windowsensor_liel
+      to: 'on'    
+    - platform: state    
+      entity_id: binary_sensor.alarm_windowsensor_maor
+      to: 'on'    
+    - platform: state    
+      entity_id: binary_sensor.alarm_windowsensor_meitar
+      to: 'on'    
+    - platform: state    
+      entity_id: binary_sensor.alarm_windowsensor_parents
+      to: 'on'    
+    - platform: state    
+      entity_id: binary_sensor.alarm_windowsensor_saloonbig
+      to: 'on'    
+    - platform: state    
+      entity_id: binary_sensor.alarm_windowsensor_saloonsmall
+      to: 'on'    
+    - platform: state    
+      entity_id: binary_sensor.alarm_windowsensor_sherut
+      to: 'on'    
+    - platform: state    
+      entity_id: binary_sensor.alarm_doorsensor_entrance
+      to: 'on'
+    - platform: state    
+      entity_id: binary_sensor.alarm_smokesensor_hallfloor02
+      to: 'on'
+    - platform: state    
+      entity_id: binary_sensor.alarm_smokesensor_kitchen
+      to: 'on'
+    - platform: state    
+      entity_id: binary_sensor.alarm_smokesensor_liel
+      to: 'on'
+    - platform: state    
+      entity_id: binary_sensor.alarm_smokesensor_maor
+      to: 'on'
+    - platform: state    
+      entity_id: binary_sensor.alarm_smokesensor_meitar
+      to: 'on'
+    - platform: state    
+      entity_id: binary_sensor.alarm_smokesensor_parents
+      to: 'on'
+    - platform: state    
+      entity_id: binary_sensor.alarm_smokesensor_room03
+      to: 'on'
+    - platform: state    
+      entity_id: binary_sensor.alarm_smokesensor_saloon
+      to: 'on'
+    - platform: state    
+      entity_id: binary_sensor.khlvn_gynh_contact
+      to: 'on'
+    - platform: state
+      entity_id: binary_sensor.dlt_knysh_contact
+      to: 'on'
+    - platform: state
+      entity_id: binary_sensor.khlvn_mtbkh_contact
+      to: 'on'
+    - platform: state
+      entity_id: binary_sensor.dlt_gynh_contact
+      to: 'on'
+    - platform: state
+      entity_id: binary_sensor.khlvn_hvrym_shml_contact
+      to: 'on'
+    - platform: state
+      entity_id: binary_sensor.door_and_window_sensor_3bda
+      to: 'on'
+    - platform: state
+      entity_id: binary_sensor.gly_nzylvt_mtbkh_water_leak
+      to: 'on'
+#    - platform: state
+#      entity_id: binary_sensor.gly_npkh_knysh_occupancy
+#      to: 'on'
+    - platform: state
+      entity_id: binary_sensor.khlvn_mytr_contact
+      to: 'on'      
+    - platform: state
+      entity_id: binary_sensor.khlvn_mvr_contact
+      to: 'on'      
+    - platform: state
+      entity_id: binary_sensor.door_and_window_sensor_storage_entrance
+      to: 'on'      
+    - platform: state
+      entity_id: binary_sensor.mkhsn_3_khdr_contact
+      to: 'on'      
+
+
+
+
+
+
+
+  condition:
+    - condition: state
+      entity_id: alarm_control_panel.home_alarm
+      state: armed_away
+
+  action:
+    service: alarm_control_panel.alarm_trigger
+    entity_id: alarm_control_panel.home_alarm
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+ 

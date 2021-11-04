@@ -1,0 +1,4 @@
+last_reset:
+  name: Last Reset
+  has_date: true
+  has_time: true

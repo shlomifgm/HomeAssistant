@@ -1,0 +1,16 @@
+#RF Switch Light Send Signal
+- platform: mqtt
+  name: "roxx_entrancexx"
+  command_topic: "cmnd/SO_RFBrxx/Backlog"
+  availability_topic: "tele/SO_RFBrxx/LWT"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  state_topic: "tele/SO_RFBrxx/RESULT"
+  value_template: '{{value_json.RfCode}}'
+  payload_on: "RfSync 1111; RfLow 111; RfHigh 111; RfCode #111111"
+  payload_off: "RfSync 1111; RfLow 111; RfHigh 111; RfCode #111111_off"
+  state_on: "#111111"
+  state_off: "#11111_off"
+  optimistic: true
+  retain: false
+  qos: 2  

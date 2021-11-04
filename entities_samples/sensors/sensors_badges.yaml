@@ -1,0 +1,12 @@
+
+#Badges
+- platform: template
+  sensors:
+    sun_state_day:
+      friendly_name: "יום"
+      value_template: >-
+        {% if is_state('sun.sun', 'above_horizon') %}
+          on
+        {% else %}
+          off
+        {% endif %}        

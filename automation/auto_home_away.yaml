@@ -1,0 +1,361 @@
+############################################################################
+#                                                                          #
+#   Maor Away/Home/Army                                                    #
+#                                                                          #
+############################################################################
+
+- alias: Maor Away
+  description: ''
+  trigger:
+  - entity_id: device_tracker.iphone_mf_2
+    event: leave
+    platform: zone
+    zone: zone.home
+  condition: []
+  action:
+  - data:
+      message: מאור מחוץ לבית
+      data:
+        push:
+          sound: "SIMToolkitGeneralBeep.caf"      
+    service: notify.sarit_and_shlomi_iphone_devices
+  mode: single
+
+- alias: Maor At Home
+  description: Maor At Home
+  trigger:
+  - entity_id: device_tracker.iphone_mf_2
+    event: enter
+    platform: zone
+    zone: zone.home
+  condition: []
+  action:
+  - data:
+      message: מאור הגיע הביתה
+      data:
+        push:
+          sound: "SIMToolkitGeneralBeep.caf"      
+    service: notify.sarit_and_shlomi_iphone_devices
+  mode: single
+
+- alias: Maor On Army
+  description: ''
+  trigger:
+  - entity_id: device_tracker.iphone_mf_2
+    event: enter
+    platform: zone
+    zone: zone.army
+  condition: []
+  action:
+  - data:
+      message: מאור הגיע לצבא
+      data:
+        push:
+          sound: "SIMToolkitGeneralBeep.caf"            
+    service: notify.sarit_and_shlomi_iphone_devices
+  mode: single
+
+- alias: Maor Back From Army
+  description: ''
+  trigger:
+  - entity_id: device_tracker.iphone_mf_2
+    event: leave
+    platform: zone
+    zone: zone.army
+  condition: []
+  action:
+  - data:
+      message: מאור יצא מהבסיס
+      data:
+        push:
+          sound: "SIMToolkitGeneralBeep.caf"            
+    service: notify.sarit_and_shlomi_iphone_devices
+  mode: single
+  
+- alias: Maor On Gan Hadarom
+  description: ''
+  trigger:
+  - entity_id: device_tracker.iphone_mf_2
+    event: enter
+    platform: zone
+    zone: zone.gan_hadarom
+  condition: []
+  action:
+  - data:
+      message: מאור בגן הדרום
+      data:
+        push:
+          sound: "SIMToolkitGeneralBeep.caf"          
+    service: notify.sarit_and_shlomi_iphone_devices
+  mode: single
+
+
+############################################################################
+#                                                                          #
+#   Liel Away/Home/School                                                  #
+#                                                                          #
+############################################################################
+
+- alias: Liel Is Away
+  description: Liel Is Away
+  trigger:
+  - entity_id: device_tracker.iphone_lf_3
+    event: leave
+    platform: zone
+    zone: zone.home
+  condition: []
+  action:
+  - data:
+      message: ליאל מחוץ לבית
+      data:
+        push:
+          sound: "SIMToolkitGeneralBeep.caf"            
+    service: notify.sarit_and_shlomi_iphone_devices
+  mode: single
+
+- alias: Liel At Home
+  description: Liel At Home
+  trigger:
+  - entity_id: device_tracker.iphone_lf_3
+    event: enter
+    platform: zone
+    zone: zone.home
+  condition: []
+  action:
+  - data:
+      message: ליאל הגיעה הביתה
+      data:
+        push:
+          sound: "SIMToolkitGeneralBeep.caf"            
+    service: notify.sarit_and_shlomi_iphone_devices
+  mode: single
+
+
+- alias: Liel At School
+  description: Liel At School
+  trigger:
+  - entity_id: device_tracker.iphone_lf_3
+    event: enter
+    platform: zone
+    zone: zone.school_neomi
+  condition: []
+  action:
+  - data:
+      message: ליאל הגיעה לבית הספר
+      data:
+        push:
+          sound: "SIMToolkitGeneralBeep.caf"            
+    service: notify.sarit_and_shlomi_iphone_devices
+  mode: single
+
+- alias: Liel Back From School
+  description: Liel Back From School
+  trigger:
+  - entity_id: device_tracker.iphone_lf_3
+    event: leave
+    platform: zone
+    zone: zone.school_neomi
+  condition: []
+  action:
+  - data:
+      message: ליאל יצאה מבית הספר
+      data:
+        push:
+          sound: "SIMToolkitGeneralBeep.caf"            
+    service: notify.sarit_and_shlomi_iphone_devices
+  mode: single
+
+############################################################################
+#                                                                          #
+#   Sarit Away/Home                                                        #
+#                                                                          #
+############################################################################
+
+- alias: Sarit Away
+  description: ''
+  trigger:
+  - entity_id: device_tracker.iphone_saf_2
+    event: leave
+    platform: zone
+    zone: zone.home
+  condition: []
+  action:
+  - data:
+      message: שרית מחוץ לבית
+      data:
+        push:
+          sound: "SIMToolkitGeneralBeep.caf"            
+    service: notify.mobile_app_iphone_sf
+  mode: single
+
+- alias: Sarit At Home
+  description: ''
+  trigger:
+  - entity_id: device_tracker.iphone_saf_2
+    event: enter
+    platform: zone
+    zone: zone.home
+  condition: []
+  action:
+  - data:
+      message: שרית הגיעה הביתה
+      data:
+        push:
+          sound: "SIMToolkitGeneralBeep.caf"            
+    service: notify.mobile_app_iphone_sf
+  mode: single
+
+############################################################################
+#                                                                          #
+#   Meitar Away/Home/School                                                #
+#                                                                          #
+############################################################################
+
+- alias: Meitar Away
+  description: Meitar Away
+  trigger:
+  - entity_id: device_tracker.iphone_mef_2
+    event: leave
+    platform: zone
+    zone: zone.home
+  condition: []
+  action:
+  - data:
+      message: מיתר מחוץ לבית
+      data:
+        push:
+          sound: "SIMToolkitGeneralBeep.caf"            
+    service: notify.sarit_and_shlomi_iphone_devices
+  mode: single
+
+- alias: Meitar At Home
+  description: Meitar At Home
+  trigger:
+  - entity_id: device_tracker.iphone_mef_2
+    event: enter
+    platform: zone
+    zone: zone.home
+  condition: []
+  action:
+  - data:
+      message: מיתר הגיעה הביתה
+      data:
+        push:
+          sound: "SIMToolkitGeneralBeep.caf"            
+    service: notify.sarit_and_shlomi_iphone_devices
+  mode: single
+
+- alias: Meitar At School
+  description: Meitar At School
+  trigger:
+  - entity_id: device_tracker.iphone_mef_2
+    event: enter
+    platform: zone
+    zone: zone.school_ilan
+  condition: []
+  action:
+  - data:
+      message: מיתר הגיעה לבית הספר
+      data:
+        push:
+          sound: "SIMToolkitGeneralBeep.caf"            
+    service: notify.sarit_and_shlomi_iphone_devices
+  mode: single
+
+- alias: Meitar Back From School
+  description: Meitar Back From School
+  trigger:
+  - entity_id: device_tracker.iphone_mef_2
+    event: leave
+    platform: zone
+    zone: zone.school_neomi
+  condition: []
+  action:
+  - data:
+      message: מיתר יצאה מבית הספר
+      data:
+        push:
+          sound: "SIMToolkitGeneralBeep.caf"            
+    service: notify.sarit_and_shlomi_iphone_devices
+  mode: single
+
+############################################################################
+#                                                                          #
+#   Shlomi Away/Home/Work                                                       #
+#                                                                          #
+############################################################################
+
+- alias: Shlomi Away
+  description: Shlomi Away
+  trigger:
+  - entity_id: device_tracker.iphone_sf_2
+    event: leave
+    platform: zone
+    zone: zone.home
+  condition: []
+  action:
+  - data:
+      message: שלומי מחוץ לבית
+      data:
+        push:
+          sound: "SIMToolkitGeneralBeep.caf"            
+    service: notify.mobile_app_iphone_saf
+  mode: single
+
+- alias: Shlomi At Home
+  description: Shlomi At Home
+  trigger:
+  - entity_id: device_tracker.iphone_sf_2
+    event: enter
+    platform: zone
+    zone: zone.home
+  condition: []
+  action:
+  - data:
+      message: שלומי הגיע הביתה
+      data:
+        push:
+          sound: "SIMToolkitGeneralBeep.caf"            
+    service: notify.mobile_app_iphone_saf
+  mode: single
+
+- alias: Shlomi At Work
+  description: Shlomi At Work
+  trigger:
+  - entity_id: device_tracker.iphone_sf_2
+    event: enter
+    platform: zone
+    zone: zone.work
+  condition: []
+  action:
+  - data:
+      message: שלומי הגיע לעבודה 
+      data:
+        push:
+          sound: "SIMToolkitGeneralBeep.caf"            
+    service: notify.mobile_app_iphone_saf
+  mode: single
+
+- alias: Shlomi Back From Work
+  description: Shlomi Back From Work
+  trigger:
+  - entity_id: device_tracker.iphone_sf_2
+    event: leave
+    platform: zone
+    zone: zone.work
+  condition: []
+  action:
+  - data:
+      message: שלומי יצא מהעבודה
+      data:
+        push:
+          sound: "SIMToolkitGeneralBeep.caf"            
+    service: notify.mobile_app_iphone_saf
+  mode: single
+
+
+
+
+
+
+

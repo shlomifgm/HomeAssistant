@@ -1,0 +1,758 @@
+#Lights
+light.entrance_inside:
+  assumed_state: true
+  friendly_name: כניסה פנים
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+light.entrance_outside:
+  assumed_state: true
+  friendly_name: כניסה חוץ
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+light.hall_near_restroom:
+  assumed_state: true
+  friendly_name: מעבר ליד שרותים קומה 1
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+light.restroomf01:
+  assumed_state: true
+  friendly_name: שרותים קומה 1
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+light.garden_big:
+  assumed_state: true
+  friendly_name: גינה גדול
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+light.garden_small:
+  assumed_state: true
+  friendly_name: גינה קטן
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+light.kitchen:
+  assumed_state: true
+  friendly_name: מטבח
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+light.led_tv:
+  assumed_state: true
+  friendly_name: לד טלויזיה
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+light.sherut:
+  assumed_state: true
+  friendly_name: מרפסת שרות
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+light.liel_room:
+  assumed_state: true
+  friendly_name: ליאל
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+light.maor_room:
+  assumed_state: true
+  friendly_name: מאור
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+light.meitar_room:
+  assumed_state: true
+  friendly_name: מיתר
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+light.parents_light:
+  assumed_state: true
+  friendly_name: הורים
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+light.roomf03:
+  assumed_state: true
+  friendly_name: קומה 3
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+light.street_sign:
+  assumed_state: true
+  friendly_name: שלט רחוב
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+light.stairs01_up:
+#switch.bfe674592a2504ea04plpi:
+#light.stairs01_down_nvsp:
+  assumed_state: true
+  friendly_name: מדרגות קומה 1 נוסף
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+light.stairs03_up:
+#light.stairs03_down_nvsp:  
+#switch.bf19f4690d56b326c1y831:
+  assumed_state: true
+  friendly_name:  מדרגות קומה 3 נוסף
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+light.parents_restroom:
+  friendly_name: שירותים הורים
+  icon: 'mdi:lightbulb'
+light.parents_shower:
+  friendly_name: מקלחת הורים
+  icon: 'mdi:lightbulb'
+light.childrens_shower:
+  friendly_name: מקלחת ילדים
+  icon: 'mdi:lightbulb'
+light.childrens_restroom:
+  friendly_name: שרותים ילדים
+  icon: 'mdi:lightbulb'
+light.stairs01_down:
+#switch.bf24ed6a8dda957235kteb:
+  assumed_state: true
+  friendly_name: מדרגות קומה 1
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+light.stairs02:
+#switch.bfed0912d9d9418779oq29:
+  assumed_state: true
+  friendly_name: מדרגות קומה 2
+  icon: mdi:string-lights
+  icon_height: 40px
+  state_color: 'true'
+light.stairs03_down:
+#switch.bf69e80831eaf56da0tgep:
+  assumed_state: true
+  friendly_name: מדרגות קומה 3
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'  
+switch.slvn_rshy:
+#switch.bf8ac35e550dd83ec1omiy_1:
+  friendly_name: סלון ראשי
+  icon: 'mdi:lightbulb'
+switch.pynt_vkl:  
+#switch.bf8ac35e550dd83ec1omiy_2:
+  friendly_name: פינת אוכל
+  icon: 'mdi:lightbulb'
+switch.slvn_qvbyvt:
+#switch.bf7a8a862c7a6ab9a3valh_2:
+  friendly_name: סלון קוביות
+  icon: 'mdi:lightbulb'
+switch.slvn_ld:
+#switch.bf7a8a862c7a6ab9a3valh_1:
+  friendly_name: סלון לד עליון
+  icon: 'mdi:lightbulb'
+switch.room03_entrance:
+  assumed_state: true
+  friendly_name: כניסה קומה 3
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+light.fire_tablet_screen:
+  assumed_state: true
+  friendly_name: טאבלט
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+
+#Climate
+climate.floor01_ac:
+  assumed_state: true
+  friendly_name: מזגן קומה 1
+  icon: mdi:air-conditioner
+  icon_height: 40px
+  state_color: 'true'
+
+climate.floor02_ac:
+  assumed_state: true
+  friendly_name: מזגן קומה 2
+  icon: mdi:air-conditioner
+  icon_height: 40px
+  state_color: 'true'
+
+climate.floor03_ac:
+  assumed_state: true
+  friendly_name: מזגן קומה 3
+  icon: mdi:air-conditioner
+  icon_height: 40px
+  state_color: 'true'  
+
+
+#Covers (Shutters)
+cover.trys_slvn_shml:
+  assumed_state: true
+  friendly_name: תריס סלון שמאל
+  icon: mdi:window-shutter
+  icon_height: 40px
+  state_color: 'true'
+cover.trys_slvn_ymyn:
+  assumed_state: true
+  friendly_name: תריס סלון ימין
+  icon: mdi:window-shutter
+  icon_height: 40px
+  state_color: 'true'
+cover.trys_shyrvt:
+  assumed_state: true
+  friendly_name: תריס מרפסת שירות
+  icon: mdi:window-shutter
+  icon_height: 40px
+  state_color: 'true'
+cover.trys_hvrym_ymyn:
+  assumed_state: true
+  friendly_name: תריס הורים ימין
+  icon: mdi:window-shutter
+  icon_height: 40px
+  state_color: 'true'
+cover.trys_hvrym_shml:
+  assumed_state: true
+  friendly_name: תריס הורים שמאל
+  icon: mdi:window-shutter
+  icon_height: 40px
+  state_color: 'true'
+cover.trys_mvr:
+  assumed_state: true
+  friendly_name: תריס מאור
+  icon: mdi:window-shutter
+  icon_height: 40px
+  state_color: 'true'
+cover.trys_mtbkh:
+  assumed_state: true
+  friendly_name: תריס מטבח
+  icon: mdi:window-shutter
+  icon_height: 40px
+  state_color: 'true'
+cover.trys_mytr:
+  assumed_state: true
+  friendly_name: תריס מיתר
+  icon: mdi:window-shutter
+  icon_height: 40px
+  state_color: 'true'
+cover.trys_qvmh_3:
+  assumed_state: true
+  friendly_name: תריס קומה 3
+  icon: mdi:window-shutter
+  icon_height: 40px
+  state_color: 'true'
+
+
+#Scripts
+script.liel_off:
+  assumed_state: true
+  friendly_name: ליאל כיבוי
+  icon: mdi:lightbulb-outline
+  icon_height: 40px
+  state_color: 'true'
+script.liel_on:
+  assumed_state: true
+  friendly_name: ליאל הדלקה
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+script.floor03_entrance_off:
+  assumed_state: true
+  friendly_name: קומה 3 כניסה כיבוי
+  icon: mdi:lightbulb-outline
+  icon_height: 40px
+  state_color: 'true'
+script.floor03_entrance_on:
+  assumed_state: true
+  friendly_name: קומה 3 כניסה הדלקה
+  icon: mdi:lightbulb
+  icon_height: 40px
+  state_color: 'true'
+
+
+#Persons
+person.sarit_fabrikant:
+  entity_picture: "/local/Person_Pic/sarit.jpg"
+person.shlomi_fabrikant:
+  entity_picture: "/local/Person_Pic/shlomi.jpg"  
+person.liel_fabrikant:
+  entity_picture: "/local/Person_Pic/liel.jpg"  
+person.maor_fabrikant:
+  entity_picture: "/local/Person_Pic/maor.jpg"  
+person.meitar_fabrikant:
+  entity_picture: "/local/Person_Pic/meitar.jpg"
+
+
+#Binary Sensors  
+binary_sensor.dlt_knysh_contact:
+  friendly_name:  כניסה
+  icon: mdi:door-open
+binary_sensor.khlvn_gynh_contact:
+  friendly_name: גינה 
+  icon: mdi:window-open-variant
+binary_sensor.khlvn_mtbkh_contact:
+  friendly_name: מטבח
+  icon: mdi:window-open-variant
+binary_sensor.dlt_gynh_contact:
+  friendly_name: גינה
+  icon: mdi:door-open
+binary_sensor.khlvn_hvrym_shml_contact:
+  friendly_name: הורים שמאל
+  icon: mdi:window-open-variant
+binary_sensor.door_and_window_sensor_3bda:
+  friendly_name: קומה3
+  icon: mdi:window-open-variant
+binary_sensor.khlvn_mytr_contact:
+  friendly_name: מיתר
+  icon: mdi:window-open-variant
+binary_sensor.khlvn_mvr_contact:
+  friendly_name: מאור
+  icon: mdi:window-open-variant
+binary_sensor.door_and_window_sensor_storage_entrance:
+  friendly_name: מחסן-כניסה
+  icon: mdi:door-open
+binary_sensor.mkhsn_3_khdr_contact:
+  friendly_name: מחסן-חדר
+  icon: mdi:door-open      
+binary_sensor.gly_nzylvt_mtbkh_water_leak:
+  friendly_name: מטבח
+  icon: mdi:water-alert-outline
+sensor.temperature_and_humidity_sensor_8067_temperature:
+  friendly_name: temperature01
+  icon: mdi:home-thermometer-outline
+sensor.temperature_and_humidity_sensor_8067_humidity:
+  friendly_name: humidity01
+  icon: mdi:water-percent
+binary_sensor.gly_npkh_knysh_occupancy:
+  friendly_name: כניסה
+  icon: mdi:motion-sensor
+light.aqara_hub_cd5c:
+  friendly_name: מנורת לילה מיתר
+  icon: mdi:lightbulb
+alarm_control_panel.aqara_hub_cd5c:
+  friendly_name: Aqara Hub Security
+  icon: mdi:alarm-panel-outline
+sensor.gly_vybrtsyh_action:
+  friendly_name: Vibration Sensor
+  icon: mdi:motion-sensor
+binary_sensor.cube_sensor:
+  friendly_name: Cube Sensor    
+  icon: fas:creative-commons-sampling
+
+
+
+
+
+#Battery Binary Sensors
+sensor.khlvn_mtbkh_battery:
+  friendly_name: מטבח
+sensor.khlvn_gynh_battery:
+  friendly_name: חלון גינה 
+sensor.dlt_knysh_battery:
+  friendly_name:  דלת כניסה
+sensor.khlvn_hvrym_shml_battery:
+  friendly_name: הורים שמאל
+sensor.lumi_lumi_sensor_cube_power:
+  friendly_name: קוביה
+sensor.dlt_gynh_battery:
+  friendly_name: דלת גינה
+sensor.gly_npkh_knysh_battery:
+  friendly_name: נפח כניסה
+sensor.gly_nzylvt_mtbkh_battery:
+  friendly_name: מטבח
+sensor.gly_vybrtsyh_battery:
+  friendly_name: ויברציה                                
+sensor.lumi_lumi_weather_power:
+  friendly_name: טמפרטורה  
+sensor.lumi_lumi_sensor_magnet_aq2_da3bc006_power:
+  friendly_name: קומה 3  
+sensor.qvbyh_battery:
+  friendly_name: קוביה    
+  icon: fas:creative-commons-sampling
+sensor.khlvn_mytr_battery:
+  friendly_name: מיתר
+sensor.khlvn_mvr_battery:
+  friendly_name: מאור
+sensor.lumi_lumi_sensor_magnet_aq2_18c9be06_power:
+  friendly_name: מחסן-כניסה
+sensor.mkhsn_3_khdr_battery:
+  friendly_name: מחסן-חדר
+sensor.lumi_lumi_remote_b186acn01_37055504_power:
+  friendly_name: מדרגות01-תחתון
+sensor.lumi_lumi_remote_b186acn01_60ff6404_power:
+  friendly_name: מדרגות01-עליון
+sensor.lumi_lumi_remote_b186acn01_c8017101_power:
+  friendly_name: מדרגות02-תחתון  
+sensor.lumi_lumi_remote_b186acn01_25fe6404_power:
+  friendly_name: מדרגות02-עליון  
+sensor.lumi_lumi_remote_b186acn01_f5fe6404_power:
+  friendly_name: מדרגות03-תחתון  
+sensor.lumi_lumi_remote_b186acn01_62055504_power:      
+  friendly_name: מדרגות03-עליון
+
+#Binary Smoke Sensors 
+binary_sensor.alarm_smokesensor_hallfloor02:
+  friendly_name: עשן - קומה 2
+  icon: mdi:smoke-detector
+binary_sensor.alarm_smokesensor_kitchen:
+  friendly_name: עשן - מטבח
+  icon: mdi:smoke-detector
+binary_sensor.alarm_smokesensor_liel:
+  friendly_name: עשן - ליאל
+  icon: mdi:smoke-detector
+binary_sensor.alarm_smokesensor_maor:
+  friendly_name: עשן - מאור
+  icon: mdi:smoke-detector
+binary_sensor.alarm_smokesensor_meitar:
+  friendly_name: עשן - מיתר
+  icon: mdi:smoke-detector
+binary_sensor.alarm_smokesensor_parents:
+  friendly_name: עשן - הורים
+  icon: mdi:smoke-detector
+binary_sensor.alarm_smokesensor_room03:
+  friendly_name: עשן - קומה 3
+  icon: mdi:smoke-detector
+binary_sensor.alarm_smokesensor_saloon:
+  friendly_name: עשן - סלון
+  icon: mdi:smoke-detector
+
+
+#Binary Motion Sensors
+binary_sensor.alarm_motionsensor_saloon:
+  friendly_name: תנועה - סלון
+  icon: mdi:motion-sensor
+binary_sensor.alarm_motionsensor_stairs01:
+  friendly_name: תנועה - מדרגות 1
+  icon: mdi:motion-sensor
+binary_sensor.alarm_motionsensor_stairs02:
+  friendly_name: תנועה - מדרגות 2
+  icon: mdi:motion-sensor
+
+
+#Binary Gas Sensors
+binary_sensor.alarm_gassensor_kitchen:
+  friendly_name:  גז - מטבח
+  icon: mdi:molecule-co
+
+
+#Binary Window Sensors
+binary_sensor.alarm_windowsensor_floor03:
+  friendly_name: חלון - קומה 3
+  icon: mdi:window-open-variant
+binary_sensor.alarm_windowsensor_kitchen:
+  friendly_name: חלון - מטבח
+  icon: mdi:window-open-variant
+binary_sensor.alarm_windowsensor_liel:
+  friendly_name: חלון - ליאל
+  icon: mdi:window-open-variant
+binary_sensor.alarm_windowsensor_maor:
+  friendly_name: חלון - מאור
+  icon: mdi:window-open-variant
+binary_sensor.alarm_windowsensor_meitar:
+  friendly_name: חלון - מיתר
+  icon: mdi:window-open-variant
+binary_sensor.alarm_windowsensor_parents:
+  friendly_name: חלון - הורים
+  icon: mdi:window-open-variant
+binary_sensor.alarm_windowsensor_saloonbig:
+  friendly_name: חלון - סלון גדול
+  icon: mdi:window-open-variant
+binary_sensor.alarm_windowsensor_saloonsmall:
+  friendly_name: חלון - סלון קטן
+  icon: mdi:window-open-variant
+binary_sensor.alarm_windowsensor_sherut:
+  friendly_name: חלון - שירות
+  icon: mdi:window-open-variant
+
+
+#Binary Door Sensors
+binary_sensor.alarm_doorsensor_entrance:
+  friendly_name: דלת - כניסה
+  icon: mdi:door-open
+
+#Binary Alarm Panel
+alarm_control_panel.home_alarm:
+  friendly_name: אזעקה
+  icon: mdi:alarm-panel-outline
+alarm_control_panel.kerui_alarm:
+  friendly_name: אזעקה חיצונית
+  icon: mdi:alarm-panel-outline  
+switch.kerui_alarm_home:
+  friendly_name: אזעקה ראשית בית
+  icon: 'mdi:alarm-light'
+switch.kerui_alarm_away: 
+  friendly_name: אזעקה ראשית חוץ
+  icon: 'mdi:alarm-light-outline'
+
+
+#Media Players
+media_player.apple_tv4_9:
+  friendly_name: אפל טיוי
+  icon: mdi:apple
+media_player.sei_s905x2:
+  friendly_name: סטרימר סלון
+  icon: mdi:android
+media_player.pioneer_avr:
+  friendly_name: מגבר קומה 1
+  icon: mdi:audio-video  
+media_player.ua46es6200:
+  friendly_name: טלויזיה סמסונג
+  icon: mdi:television-classic  
+  mac: 1C:5A:3E:FC:E4:BF
+media_player.mi_box:
+  friendly_name: סטרימר הורים
+  icon: mdi:android  
+media_player.fire_tablet_media_player:
+  friendly_name: טאבלט קיר
+  icon: mdi:tablet  
+media_player.plex_plex_web_chrome:
+  friendly_name: plex mplayer
+  icon: mdi:plex
+media_player.spotify_shlomifgm:
+  friendly_name: spotify mplayer
+  icon: mdi:spotify
+
+
+#Media Players Browser_Mod
+media_player.5d9edae7_eac28e1e:
+  friendly_name: iphone_sf_mplayer_browser_mod
+  icon: mdi:card-outline
+media_player.cea76277_cd34bb7c:
+  friendly_name: tablet_wall_mplayer_browser_mod
+  icon: mdi:card-outline  
+media_player.c20ac329_2594125d:
+  friendly_name: laptop_shlomi_mplayer_browser_mod
+  icon: mdi:card-outline  
+media_player.e27fb4e3_083bb116:
+  friendly_name: ipad_pro_mplayer_browser_mod
+  icon: mdi:card-outline
+media_player.01a6b8f2_0203d10c:
+  friendly_name: iphone_saf_mplayer_browser_mod
+  icon: mdi:card-outline
+media_player.feb4e683_08256aa9:
+  friendly_name: iphone_lf_mplayer_browser_mod
+  icon: mdi:card-outline
+media_player.9a9aeae9_f455e09e:
+  friendly_name: iphone_mef_mplayer_browser_mod
+  icon: mdi:card-outline
+media_player.e6f61f0d_8b82a892:
+  friendly_name: room03_desktop_mplayer_browser_mod
+  icon: mdi:card-outline
+media_player.6aeaadef_2591b9dd:
+  friendly_name: iphone_mf_mplayer_browser_mod
+  icon: mdi:card-outline
+
+#Lights Browser_Mod
+light.5d9edae7_eac28e1e:
+  friendly_name: iphone_sf_light_browser_mod
+  icon: mdi:lightbulb
+light.71a93b45_29dff893:
+  friendly_name: tablet_wall_light_browser_mod
+  icon: mdi:lightbulb  
+light.c20ac329_2594125d:
+  friendly_name: laptop_shlomi_light_browser_mod
+  icon: mdi:lightbulb  
+light.e27fb4e3_083bb116:
+  friendly_name: ipad_pro_light_browser_mod
+  icon: mdi:lightbulb
+light.01a6b8f2_0203d10c:
+  friendly_name: iphone_saf_light_browser_mod
+  icon: mdi:lightbulb
+light.feb4e683_08256aa9:
+  friendly_name: iphone_lf_light_browser_mod
+  icon: mdi:lightbulb
+light.9a9aeae9_f455e09e:
+  friendly_name: iphone_mef_light_browser_mod
+  icon: mdi:lightbulb
+light.e6f61f0d_8b82a892:
+  friendly_name: room03_desktop_light_browser_mod
+  icon: mdi:lightbulb
+light.6aeaadef_2591b9dd:
+  friendly_name: iphone_mf_light_browser_mod
+  icon: mdi:lightbulb
+
+#TV
+switch.tv_floor01:
+  friendly_name: טלויזיה קומה 1
+  icon: mdi:television-classic
+switch.tv_floor02:
+  friendly_name: טלויזיה קומה 2
+  icon: mdi:television-classic
+switch.tv_floor03:  
+  friendly_name: טלויזיה קומה 3
+  icon: mdi:television-classic 
+#switch.shq_tlvyzyh_q2:
+#  friendly_name: שקע קומה 2
+#  icon: 'mdi:power-socket-de'
+switch.shq_tblt:
+  friendly_name: שקע טאבלט
+  icon: 'mdi:power-socket-de'
+
+
+#Boiler
+switch.switcher_boiler_31f2:
+  friendly_name: דוד
+  icon: 'mdi:water-boiler' 
+
+#Hass
+sensor.db_file_size:
+  friendly_name: Hass DB Size
+  icon: mdi:database-outline
+
+#RedAlert
+sensor.rest_sensor:
+  friendly_name: Red Alert
+  icon: mdi:radio-tower
+binary_sensor.home_alert:
+  friendly_name: Missle Alert Gan Yavne
+  icon: mdi:radio-tower
+
+#Energy Sensors
+sensor.house_energy_kwh:    
+  friendly_name: צריכה ביתית
+sensor.liel_energy_kwh:
+  friendly_name: תאורה - ליאל
+sensor.maor_energy_kwh:
+  friendly_name: תאורה - מאור
+sensor.kitchen_energy_kwh:
+  friendly_name: תאורה - מטבח
+sensor.saloon_main_power_energy_kwh:
+  friendly_name: תאורה - סלון ראשי
+sensor.hall_near_restroom_energy_kwh:
+  friendly_name: תאורה - מסדרון ליד שרותים
+sensor.meitar_energy_kwh:
+  friendly_name: תאורה - מיתר
+sensor.parents_energy_kwh:
+  friendly_name: תאורה - הורים
+sensor.parents_shower_energy_kwh:
+  friendly_name: תאורה - מקלחת הורים
+sensor.saloon_cubes_energy_kwh:
+  friendly_name: תאורה - סלון קוביות
+sensor.saloon_led_energy_kwh:
+  friendly_name: תאורה - סלון לד
+sensor.stairsf01_energy_kwh:
+  friendly_name: תאורה - מדרגות קומה 1 תחתון
+sensor.stairsf01more_energy_kwh:
+  friendly_name: תאורה - מדרגות קומה 1 עליון
+sensor.stairsf02_energy_kwh:
+  friendly_name: תאורה - מדרגות קומה 2
+sensor.stairsf03_energy_kwh:
+  friendly_name: תאורה - מדרגות קומה 3 תחתון
+sensor.stairsf03more_energy_kwh:
+  friendly_name: תאורה - מדרגות קומה 3 עליון
+sensor.entrance_outside_energy_kwh:
+  friendly_name: תאורה - כניסה חוץ
+sensor.childrens_shower_energy_kwh:
+  friendly_name: תאורה - מקלחת ילדים
+sensor.dinning_energy_kwh:
+  friendly_name: תאורה - פינת אוכל
+sensor.entrance_inside_energy_kwh:
+  friendly_name: תאורה - כניסה פנים
+sensor.childrens_restroom_energy_kwh:
+  friendly_name: תאורה - שרותים ילדים
+sensor.tv_floor01_energy_kwh:
+  friendly_name: טלויזיה קומה 1
+sensor.receiver_floor01_energy_kwh:
+  friendly_name: מגבר קומה 1
+sensor.sherut_energy_kwh:
+  friendly_name: תאורה - מרפסת שירות
+sensor.garden_big_energy_kwh:
+  friendly_name: תאורה - גינה גדול
+sensor.garden_small_energy_kwh:
+  friendly_name: תאורה - גינה קטן
+sensor.restroom_f01_energy_kwh:
+  friendly_name: תאורה - שרותים קומה 1
+sensor.roomf03_energy_kwh:
+  friendly_name: תאורה - חדר קומה 3
+sensor.sign_outside_energy_kwh:
+  friendly_name: תאורה - שלט חוץ
+sensor.parents_restroom_energy_kwh:
+  friendly_name: תאורה - שרותים הורים
+sensor.switcher_energy_kwh:
+  friendly_name: דוד שמש
+sensor.climate_floor01_ac_cool_energy_kwh:
+  friendly_name: מזגן קומה 1 קירור
+sensor.climate_floor01_ac_heat_energy_kwh:
+  friendly_name: מזגן קומה 1 חימום
+sensor.climate_floor02_ac_cool_energy_kwh:
+  friendly_name: מזגן קומה 2 קירור
+sensor.climate_floor02_ac_heat_energy_kwh:
+  friendly_name: מזגן קומה 2 חימום
+sensor.climate_floor03_ac_cool_energy_kwh:
+  friendly_name: מזגן קומה 3 קירור
+sensor.climate_floor03_ac_heat_energy_kwh:
+  friendly_name: מזגן קומה 3 חימום
+sensor.refrigerator_energy_kwh:
+  friendly_name: מקרר  
+sensor.socket01_energy_total:
+  friendly_name: מדיח כלים
+sensor.androidtvsaloon_energy_kwh:
+  friendly_name: סטרימר אנדרואיד סלון
+sensor.appletv_energy_kwh:
+  friendly_name: סטרימר אפל טיוי 
+sensor.dlinkswitches_energy_kwh:
+  friendly_name: DLINK מתגים
+sensor.routersdeco_energy_kwh:
+  friendly_name: DECO נתבים
+sensor.tami4_energy_kwh:
+  friendly_name: תמי4
+sensor.wdmyclouddisks_energy_kwh:
+  friendly_name: NAS דיסקים
+
+
+
+######## dashnew #######
+
+switch.power:
+  icon: mdi:power
+switch.speakers_vol_up:
+  icon: mdi:volume-plus
+switch.speakers_vol_down:
+  icon: mdi:volume-minus
+light.kitchen_fridge_lights:
+  icon: mdi:google-circles-communities
+light.kitchen_sink_lights:
+  icon: mdi:google-circles-communities
+
+
+
+
+
+
+#Templates
+
+#sensor.season:
+#  templates:
+#    friendly_name_template: return state
+#    icon: >
+#      if (state === 'spring') return 'mdi:flower';
+#      if (state === 'summer') return 'mdi:sunglasses';
+#      if (state === 'autumn') return 'mdi:leaf';
+#      if (state === 'winter') return 'mdi:snowflake';
+#      return 'mdi:cloud';
+#    icon_color: >
+#      if (state === 'spring') return 'green';
+#      if (state === 'summer') return 'yellow';
+#      if (state === 'autumn') return 'orange';
+#      if (state === 'winter') return 'blue';
+#      return 'grey';
+
+#sun.sun:
+#  templates:
+#    icon: >
+#      if (state =='above_horizon') return 'mdi:weather-sunny';
+#      return 'mdi:weather-night';
+#    icon_color: >
+#      if (state === 'above_horizon') return 'green';
+#      if (state === 'below_horizon') return 'yellow';
+#      return 'grey';      
+
+
+
+
+
+

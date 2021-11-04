@@ -1,0 +1,8 @@
+### Notification service for file logging
+  
+- platform: group  
+  name: xxxx And xxxx Mobile Devices
+  services:
+    - service: mobile_app_xxxxxxx1
+    - service: mobile_app_xxxxxxx2
+  

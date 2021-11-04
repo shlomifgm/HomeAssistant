@@ -1,0 +1,301 @@
+homeassistant:    
+  name: Home
+  time_zone: Asia/Jerusalem
+  unit_system: metric  
+  currency: ILS
+  allowlist_external_dirs:
+    - "/tmp"
+    - "/media/Cameras"
+
+# Customization file 
+  customize: !include customize.yaml
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+http:
+  server_port: !secret hass_server_port
+  use_x_forwarded_for: true
+  trusted_proxies:
+    - !secret proxy_server_ip  # Add the IP address of the proxy server
+    - !secret subnet_mask  # You may also provide the subnet mask  
+    - !secret trusted_proxies01
+  base_url: !secret base_url
+
+websocket_api:
+
+# Enables the frontend
+frontend:
+  themes: 
+    !include_dir_merge_named themes
+
+group: !include_dir_merge_named /config/entities/groups/ #!include groups.yaml
+automation: !include_dir_merge_list /config/automation/ #!include automations.yaml
+script: !include_dir_merge_named /config/entities/scripts/ #script: !include /config/entities/scripts.yaml
+sensor: !include_dir_merge_list /config/entities/sensors/ #sensor: !include /config/entities/sensors.yaml
+binary_sensor: !include_dir_merge_list /config/entities/binary_sensors/ #sensor: !include /config/entities/binary_sensors.yaml
+template: !include_dir_merge_list /config/entities/template_sensors/ #sensor: !include /config/entities/template_sensors.yaml
+zone: !include /config/entities/zones.yaml
+switch: !include_dir_merge_list /config/entities/switches/ #switch: !include /config/entities/switches.yaml
+input_boolean: !include /config/entities/input_boolean.yaml
+input_select: !include /config/entities/input_select.yaml
+input_number: !include /config/entities/input_number.yaml
+input_datetime: !include /config/entities/input_datetime.yaml
+input_text: !include /config/entities/input_text.yaml
+scene: !include_dir_merge_list /config/entities/scenes/ #scene: !include /config/entities/scenes.yaml
+notify: !include_dir_merge_list /config/entities/notify/ #scene: !include /config/entities/notify.yaml
+camera: !include /config/entities/camera.yaml
+
+delete:
+
+folder_watcher:
+  - folder: /media/Cameras
+    patterns:
+      - '*.mp4'
+      - '*.jpg'  
+
+stream:
+# alert: !include_dir_merge_list /config/entities/alerts/ #scene: !include /config/entities/alert.yaml
+
+api:
+
+ffmpeg:
+recorder:
+  exclude:
+    event_types:
+      - folder_watcher
+      - panels_updated
+      - service_registered
+      - call_service
+      - component_loaded
+    entity_globs:
+      - binary_sensor.so*  
+      - sensor.clock*
+      - sensor.date*
+      - sensor.glances*
+      - sensor.load_*m
+      - sensor.time*
+      - sensor.uptime*
+      - sensor.openweathermap*      
+    domains:
+      - device_tracker
+      - media_player
+      - uptime
+      - time_date
+      - worldclock
+    entities:
+      - binary_sensor.discord_com
+      - binary_sensor.google_com
+      - binary_sensor.pfsense_localsfh
+      - binary_sensor.71a93b45_29dff893
+      - sensor.71a93b45_29dff893
+      - sensor.p20hd_eea_ram_free_memory
+      - binary_sensor.pfsense
+      - binary_sensor.tplink_switch_tl_sg108e    
+      - sensor.processor_use_percent
+      - weather.openweathermap
+panel_iframe:
+  tasmoadmin:
+    title: TasmoAdmin
+    icon: 'mdi:lightbulb-on'
+    url: !secret panel_iframe
+logger:
+  default: warning
+  logs:
+    homeassistant.helpers.template: error
+    homeassistant.components.webhook: debug
+
+# Text to speech
+tts:
+  - platform: google_translate
+    language: 'en'
+
+  - platform: reversotts
+    language: "he-IL-Asaf-Hebrew"
+    pitch: "100"
+    bitrate: "128k"    
+        
+#Pioneer 822K
+media_player:
+  - platform: pioneer
+    host: !secret pioneer_f01_ip
+    port: !secret pioneer_f01_port
+    sources:
+      'CD': '01'
+      'Tuner': '02'
+      'DVD': '04'
+      'TV': '05'
+      'Sat/Cbl': '06'
+      'Video': '10'
+      'DVR/BDR': '15'
+      'iPod/USB': '17'
+      'BD': '25'
+      'Adapter': '33'
+      'Netradio': '38'
+      'Pandora': '41'
+      'Media Server': '44'
+      'Favorites': '45'
+      'Game': '49'      
+smartir:
+  check_updates: false
+                    
+climate:
+    - platform: smartir
+      name: Floor01_AC
+      unique_id: floor01_ac
+      device_code: !secret climate_ac_f01_devicecode
+      controller_data: remote.bl_floor01_remote
+      temperature_sensor: sensor.temperature
+      humidity_sensor: sensor.humidity
+      power_sensor: binary_sensor.ac_power          
+
+    - platform: smartir
+      name: Floor02_AC
+      unique_id: floor02_ac
+      device_code: !secret climate_ac_f02_devicecode
+      controller_data: remote.bl_floor02_remote
+      temperature_sensor: sensor.temperature
+      humidity_sensor: sensor.humidity
+      power_sensor: binary_sensor.ac_power
+
+    - platform: smartir
+      name: Floor03_AC
+      unique_id: floor03_ac
+      device_code: !secret climate_ac_f03_devicecode
+      controller_data: remote.bl_floor03_remote
+      temperature_sensor: sensor.temperature
+      humidity_sensor: sensor.humidity
+      power_sensor: binary_sensor.ac_power
+            
+fan:
+  - platform: smartir
+    name: Parents Fan
+    unique_id: parents_fan
+    device_code: !secret fan_ac_f02_devicecode
+    controller_data: remote.bl_floor02_remote
+    power_sensor: binary_sensor.fan_power      
+                                          
+vacuum:
+    
+  - platform: miio2
+    host: !secret xiaomi_vacuum_pro_ip
+    token: !secret xiaomi_vacuum_pro_token
+    name: Xiaomi Robot Pro SF
+
+python_script:
+
+# Alarm Control Panel Home
+alarm_control_panel:
+  - platform: manual
+    name: Home Alarm
+    code: !secret alarm_control_panel_home_code
+    arming_time: 30
+    delay_time: 20
+    trigger_time: 300
+    disarmed:
+      trigger_time: 0
+    armed_home:
+      arming_time: 0
+      delay_time: 0
+    armed_away:
+      arming_time: 60
+      delay_time: 0    
+
+  - platform: manual
+    name: Kerui Alarm
+    code: !secret alarm_control_panel_home_code
+    arming_time: 30
+    delay_time: 20
+    trigger_time: 300
+    disarmed:
+      trigger_time: 0
+    armed_home:
+      arming_time: 0
+      delay_time: 0
+    armed_away:
+      arming_time: 60
+      delay_time: 0    
+influxdb:
+  host: !secret influxdb_address
+  port: !secret influxdb_port
+  database: homeassistant
+  username: !secret influxdb_username
+  password: !secret influxdb_password
+  max_retries: 3
+  default_measurement: state
+browser_mod:
+  devices:
+    c20ac329-2594125d:
+      name: laptop
+    cea76277-cd34bb7c:
+      name: tablet_home  
+      camera: true     
+    e27fb4e3-083bb116:
+      name: ipad_pro  
+    5d9edae7-eac28e1e:
+      name: iphone_sf
+      disable:
+        - light
+        - media_player
+    01a6b8f2-0203d10c:
+      name: iphone_saf
+      disable:
+        - light
+        - media_player    
+    feb4e683-08256aa9:
+      name: iphone_lf
+      disable:
+        - light
+        - media_player
+    9a9aeae9-f455e09e:
+      name: iphone_mef
+      disable:
+        - light
+        - media_player
+    e6f61f0d_8b82a892:
+      name: room03_desktop
+      disable:
+        - light
+        - media_player
+    6aeaadef-2591b9dd:
+      name: iphone_mf
+      disable:
+        - light
+        - media_player        
+
+ptz_camera:  
+
+fontawesome:
+  regular:
+  solid:
+  brands:
+
+ios:
+  push:
+    categories:
+      - name: ioslightson
+        identifier: 'ios_lights_on'
+        actions:
+          - identifier: 'TURN_ON_LIGHTS'
+            title: 'Turn on Lights'
+            activationMode: 'background'
+            authenticationRequired: false
+            destructive: false
+      - name: ioslightsoff
+        identifier: 'ios_lights_off'
+        actions:            
+          - identifier: 'TURN_OFF_LIGHTS'
+            title: 'Turn off Lights'
+            activationMode: 'background'
+            authenticationRequired: false
+            destructive: false
+
+spotify:
+    client_id: !secret spotify_client_id
+    client_secret: !secret spotify_secret
+
+# Example configuration.yaml entry for the Telegram Bot
+telegram_bot:
+  - platform: polling
+    api_key: !secret telegram_bot_api_key
+    allowed_chat_ids:
+      - !secret telegram_bot_chat_id01

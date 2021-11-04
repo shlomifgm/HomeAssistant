@@ -1,0 +1,12 @@
+######## For Energy Integration Total ##########
+
+- sensor:
+    - name: "ho_energy_kwh"    
+      unit_of_measurement: "kWh"
+      state_class: measurement
+      device_class: energy
+      state: >        
+        {% set phase1 = states('sensor.total_power_kwh') | float %}
+        {{ float(phase1) }}
+      attributes:         
+        last_reset: '1970-01-01T00:00:00+00:00'        

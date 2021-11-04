@@ -1,0 +1,7 @@
+  switcher_set_auto_off_hours_slider:
+      name: Set Auto-Off Hours
+      initial: 1
+      min: 1
+      max: 23
+      step: 1
+      

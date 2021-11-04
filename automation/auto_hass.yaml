@@ -1,0 +1,113 @@
+############################################################################
+#                                                                          #
+#   Home Assistant Automations                                             #
+#                                                                          #
+############################################################################
+
+- alias: Purge Database
+  id: Purge Database
+  trigger:
+  - platform: time
+    at: '03:00:00'
+  action:
+  - service: recorder.purge
+    data:
+      keep_days: 10
+      repack: true
+
+- alias: Unavailable Entities Notification
+  id: unavailable_entities_notification
+  description: Create persistent notification if there are unavailable entities, dismiss if none.
+  mode: restart
+  trigger:
+    - platform: state
+      entity_id: sensor.unavailable_entities
+  action:
+    - choose:
+        conditions:
+          - condition: numeric_state
+            entity_id: sensor.unavailable_entities
+            below: 1
+        sequence:
+          - service: persistent_notification.dismiss
+            data:
+              notification_id: unavailable_entities
+      default:
+        - service: persistent_notification.create
+          data:
+            title: Unavailable Entities
+            message: "- {{ expand(state_attr('sensor.unavailable_entities','entities'))|map(attribute='entity_id')|join('\n- ') }}"
+            notification_id: unavailable_entities
+
+
+
+
+#- alias: New Version Home Assistant
+#  description: New Version Home Assistant
+#  trigger:
+#  - entity_id: binary_sensor.updater
+#    from: 'off'
+#    platform: state
+#    to: 'on'
+#  condition: []
+#  action:
+#  - data:
+#      message: There is a new Home Assistant release available.
+#    service: notify.mobile_app_iphone_sf
+#  mode: single
+
+- alias: Notify Hass Power Down
+  description: Notify Hass Power Down
+  trigger:
+  - event: start
+    platform: homeassistant
+  condition: []
+  action:
+  - data:
+      message: שרת הבית החכם כעת זמין
+      title: הפעלת שרת הבית החכם!
+      data:
+        push:
+          sound: "SystemStartup_Haptic.caf"            
+    service: notify.mobile_app_iphone_sf
+  mode: single  
+
+
+#- alias: Hass start Update Cost Sensor
+#  trigger:
+#  - event_type: homeassistant_start
+#    platform: event
+#  action:
+#  - data:
+#      entity_id: sensor.house_energy_kwh_cost
+#      state: >              
+#        {{ states.sensor.total_cost_energy_today.state }}
+#    service: python_script.set_state
+
+
+
+
+
+
+
+
+
+
+
+
+
+#- alias: Change House Mode To Normal At 00:00
+#  description: Change House Mode To Normal At 00:00
+#  trigger:
+#  - at: 00:00:00
+#    platform: time
+#  condition:
+#  - condition: state
+#    entity_id: input_select.house_modes
+#    state: '{{ states.attributes.state != Normal }}'
+#  action:
+#    - service: input_select.select_option
+#      data:
+#        entity_id: input_select.house_modes
+#        option: "Normal"
+#  mode: single

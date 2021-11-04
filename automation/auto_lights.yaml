@@ -1,0 +1,191 @@
+############################################################################
+#                                                                          #
+#   Lights Automations                                                     #
+#                                                                          #
+############################################################################
+
+
+- alias: Light on in the evening
+  description: Light on in the evening
+  trigger:
+  - event: sunset
+    offset: -01:00:00
+    platform: sun
+  condition:
+  - after: '15:00:00'
+    before: '23:59:00'
+    condition: time
+  - condition: state
+    entity_id: sensor.home_exit
+    state: 'off'
+  action:
+  - data: {}
+    service: script.kitchen_on
+  - service: script.saloon_main_on
+  mode: single
+
+  
+#- alias: Turn On Kitchen Light When Someone Arrive Home At Night
+#  description: Turn On Kitchen Light When Someone Arrive Home At Night
+#  trigger:
+#    platform: state
+#    entity_id: 
+#      - sensor.home_exit
+#    to: 'off'
+#  condition:
+#  - after: sunset
+#    after_offset: +02:00:00
+#    before: sunrise
+#    before_offset: -02:00:00
+#    condition: sun
+#  action:
+#  - data: {}
+#    service: script.kitchen_on
+#  mode: single
+
+
+############################################################################
+#                                                                          #
+#   Lights on Stairs Automations                                           #
+#                                                                          #
+############################################################################
+
+
+
+### Power On The Other Light On Stairs01
+
+- alias: Power On Stairs01 Up
+  description: ''
+  trigger:
+  - entity_id: light.stairs01_down
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - service: light.turn_on
+    data:
+      entity_id: light.stairs01_up
+  mode: single
+
+- alias: Power Off Stairs01 Up
+  description: ''
+  trigger:
+  - entity_id: light.stairs01_down
+    platform: state
+    to: 'off'
+  condition: []
+  action:
+  - service: light.turn_off
+    data:
+      entity_id: light.stairs01_up
+  mode: single
+
+- alias: Power On Stairs01 Down
+  description: ''
+  trigger:
+  - entity_id: light.stairs01_up
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - service: light.turn_on
+    data:
+      entity_id: light.stairs01_down
+  mode: single
+
+- alias: Power Off Stairs01 Down
+  description: ''
+  trigger:
+  - entity_id: light.stairs01_up
+    platform: state
+    to: 'off'
+  condition: []
+  action:
+  - service: light.turn_off
+    data:
+      entity_id: light.stairs01_down
+  mode: single
+
+### Power On The Other Light On Stairs03
+
+- alias: Power On Stairs03 Up
+  description: ''
+  trigger:
+  - entity_id: light.stairs03_down
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - service: light.turn_on
+    data:
+      entity_id: light.stairs03_up
+  mode: single
+
+- alias: Power Off Stairs03 Up
+  description: ''
+  trigger:
+  - entity_id: light.stairs03_down
+    platform: state
+    to: 'off'
+  condition: []
+  action:
+  - service: light.turn_off
+    data:
+      entity_id: light.stairs03_up
+  mode: single
+
+- alias: Power On Stairs03 Down
+  description: ''
+  trigger:
+  - entity_id: light.stairs03_up
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - service: light.turn_on
+    data:
+      entity_id: light.stairs03_down
+  mode: single
+
+- alias: Power Off Stairs03 Down
+  description: ''
+  trigger:
+  - entity_id: light.stairs03_up
+    platform: state
+    to: 'off'
+  condition: []
+  action:
+  - service: light.turn_off
+    data:
+      entity_id: light.stairs03_down
+  mode: single
+
+
+### Old
+#- alias: Power On Stairs03
+#  description: ''
+#  trigger:
+#  #- entity_id: switch.bf69e80831eaf56da0tgep
+#  - entity_id: light.stairs03_down
+#    platform: state
+#    to: 'on'
+#  condition: []
+#  action:
+#  - service: light.turn_on
+#    data:
+#      entity_id: light.stairs03_up
+#  mode: single
+
+#- alias: Power Off Stairs03
+#  description: ''
+#  trigger:
+#  #- entity_id: switch.bf69e80831eaf56da0tgep
+#  - entity_id: light.stairs03_down
+#    platform: state
+#    to: 'off'
+#  condition: []
+#  action:
+#  - service: light.turn_off
+#    data:
+#      entity_id: light.stairs03_up
+#  mode: single
