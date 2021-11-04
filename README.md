@@ -11,8 +11,7 @@ implemented by me using mostly Custom Button Card and Delluttering Card for the 
 Please join me in [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.com/channels/903416013532561520/903416013532561526) , welcome to visit 
 and ask questions.
 
-<a href="https://www.paypal.me/sfh182" target="_blank"><img height="41px" width="167px" 
-src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee"></a>
+ [![Buy Me A Coffee][paypal-shield]][paypal]
 
 ![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/www/screens/banner.png "Banner")
 ## Features
