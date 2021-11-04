@@ -53,7 +53,7 @@ Here Is The New Dashboard On HomeAssistant For Energy
 
 
 [dashboard]: /extras/img/useage-dashboard.png
-[dashboard-energy]: /extras/img/energy-dashboard.png
+[dashboard-energy]: /extras/img/energy-monitor.png
 [influxdb-addon]: https://github.com/hassio-addons/addon-influxdb
 [grafana-addon]: https://github.com/hassio-addons/addon-grafana
 [hassio]: https://www.home-assistant.io/hassio/
