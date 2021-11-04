@@ -6,7 +6,7 @@ homeassistant:
   allowlist_external_dirs:
     - "/tmp"
     - "/media/Cameras"
-####
+
 # Customization file 
   customize: !include customize.yaml
 
