@@ -1,4 +1,4 @@
-# Shlomi'f Home Assistant configuration
+# ShlomiF Home Assistant configuration
 
 I’m using Lovelace mostly for my mobile devices and for Wallpanel tablet which some times used with 
 HaDashboard instead.
@@ -15,6 +15,9 @@ and ask questions.
 
 ![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/www/screens/banner.png "Banner")
 ## Features
+
+![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/features.jpg "Features")
+
 - HomeKit style design using [Button Card](https://github.com/custom-cards/button-card)
 - HomeKit style dynamic badges for People, Lights, Motion sensors and Climate devices.
 - Templating with [Decluttering Card](https://github.com/custom-cards/decluttering-card)
@@ -70,11 +73,14 @@ Curious about what kind of hardware I have in my Home Assistant system? I have a
 I have built my own dashboard in grafana for my energy consumption, which I can call through an iframe panel in Home Assistant. If you want to know more about this, [Take a look here](<https://github.com/shlomifgm/HomeAssistant/blob/master/extras/consumption/README.md>).
 
 ## Back-ups
-:floppy_disk:
+
+![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/ha-backup.jpg "HaBackup")
 
 Every day at 2:00 am an [automation makes a snapshot][backup-github] of my installation. In the past it happened that the sd card of my Pi became corrupt and I lost everything. That's why this backup is also made locally on my NAS automatically and this is fully automated. (Inspired by: [@adonno][adonno-github])
 
 ## Apps to control
+
+![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/ha-apps.png "HaApps")
 
 Nothing is better than being able to control your own smart home from your phone or tablet.
 
