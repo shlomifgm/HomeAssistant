@@ -6,7 +6,7 @@ HaDashboard instead.
 The UI is partially isnspired by [Homekit Infused](https://github.com/jimz011/homekit-infused), 
 implemented by me using mostly Custom Button Card and Delluttering Card for the templates.
 
-Please join me in discord under the following [link](https://discord.com/channels/903416013532561520/903416013532561526), welcome to visit 
+Please join me in discord :smile: under the following [link](https://discord.com/channels/903416013532561520/903416013532561526), welcome to visit 
 and ask questions.
 
 <a href="https://www.paypal.me/sfh182" target="_blank"><img height="41px" width="167px" 
