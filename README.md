@@ -59,7 +59,7 @@ Below my server setup on which I run Home Assistant:
 Curious about what kind of hardware I have in my Home Assistant system? I have a :pencil: list: [Check it out](<https://github.com/shlomifgm/HomeAssistant/blob/master/extras/github_resources/hardware.md>) (Last update: 30 October 2021).
 
 ## Grafana energy consumption dashboard
-
+![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/www/screens/grafana.jpg "Grafana")
 I have built my own dashboard in grafana for my energy consumption, which I can call through an iframe panel in Home Assistant. If you want to know more about this, [take a look here](<https://github.com/shlomifgm/HomeAssistant/blob/master/extras/consumption/README.md>).
 
 ## Back-ups
