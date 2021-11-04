@@ -41,6 +41,8 @@ Recently I switched from a raspberry pi 4B to an Intel NUC. I noticed that the P
 
 ## My HA Server
 
+![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/ha-server.jpg "HaServer")
+
 Below my server setup on which I run Home Assistant:
 
 - [Intel Gigabyte GB-BLCE-4105C][intel-Gigabyte] - Inside it 4GB Ram, 500GB SSD and running [Ubuntu Server LTS][ubuntu-server].
@@ -53,7 +55,7 @@ Below my server setup on which I run Home Assistant:
 - [Amazon Fire HD10](<https://www.amazon.com/Fire-HD-10/dp/B07K1RZWMC>) - Wall Panel Tablet
 - [Apple TV](<https://www.apple.com/il/apple-tv-4k//>) - Apple TV As Bridge For Homekit
 
-### In My House   
+## In My House   
 
 ![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/house.jpg "House")
 
@@ -63,7 +65,7 @@ Curious about what kind of hardware I have in my Home Assistant system? I have a
 
 ![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/grafana.jpg "Grafana")
 
-I have built my own dashboard in grafana for my energy consumption, which I can call through an iframe panel in Home Assistant. If you want to know more about this, [take a look here](<https://github.com/shlomifgm/HomeAssistant/blob/master/extras/consumption/README.md>).
+I have built my own dashboard in grafana for my energy consumption, which I can call through an iframe panel in Home Assistant. If you want to know more about this, [Take a look here](<https://github.com/shlomifgm/HomeAssistant/blob/master/extras/consumption/README.md>).
 
 ## Back-ups
 :floppy_disk:
