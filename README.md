@@ -54,7 +54,8 @@ Below my server setup on which I run Home Assistant:
 - [Apple TV](<https://www.apple.com/il/apple-tv-4k//>) - Apple TV As Bridge For Homekit
 
 ### In My House   
-:house_with_garden:
+
+![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/house.jpg "House")
 
 Curious about what kind of hardware I have in my Home Assistant system? I have a :pencil: list: [Check it out](<https://github.com/shlomifgm/HomeAssistant/blob/master/extras/github_resources/hardware.md>) (Last update: 30 October 2021).
 
