@@ -92,12 +92,15 @@ Nothing is better than being able to control your own smart home from your phone
 
 ## Needing Help?
 
+![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/need-help.jpg "NeedHelp")
+
 - [Home Assistant Homepage](<https://home-assistant.io/>)
 - [Home Assistant Forums](<https://community.home-assistant.io/>)
 - [Home Assistant Discord Chat](<https://discord.gg/c5DvZ4e>)
 - [Other Featured Home Assistant Configurations](<https://home-assistant.io/cookbook/>)
 - [Home Assistant GitHub Source Repository](<https://github.com/home-assistant/home-assistant>)
 - [Official Home Assistant Demo](<https://home-assistant.io/demo/>)
+- [Discord Home Assistant ShlomiF](<https://discord.com/channels/903416013532561520/903416013532561526/>)
 ### Screens
 
 Mobile:    
@@ -111,6 +114,7 @@ Wallpanel:
 
 MIT License 
 
+![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/mit-license.png "MitLicense")
 
 Copyright (c) 2021 Shlomi Fabrikant
 
