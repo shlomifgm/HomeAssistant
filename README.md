@@ -53,7 +53,7 @@ Below my server setup on which I run Home Assistant:
 - [Amazon Fire HD10](<https://www.amazon.com/Fire-HD-10/dp/B07K1RZWMC>) - Wall Panel Tablet
 - [Apple TV](<https://www.apple.com/il/apple-tv-4k//>) - Apple TV As Bridge For Homekit
 
-### In House   
+### In My House   
 :house_with_garden:
 
 Curious about what kind of hardware I have in my Home Assistant system? I have a :pencil: list: [Check it out](<https://github.com/shlomifgm/HomeAssistant/blob/master/extras/github_resources/hardware.md>) (Last update: 30 October 2021).
