@@ -1,5 +1,7 @@
 # Grafana energy consumption dashboard
 
+![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/grafana.jpg "Grafana")
+
 ![Dashboard][dashboard]
 
 Since some of you would like to know how you can just build a consumption dashboard like what I have. I decided to share my SQL code with everyone so that it might be easier for everyone to build the same dashboard.
@@ -47,6 +49,9 @@ SELECT sum("value")  * POWER_PRICE / 1000 FROM "kW" WHERE ("entity_id" = 'power_
 ```
 
 # HomeAssistant Energy Dashboard
+
+![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/ha-apps.png "HaApps")
+
 Here Is The New Dashboard On HomeAssistant For Energy
 ![Dashboard-Energy][dashboard-energy]
 
