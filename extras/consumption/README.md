@@ -50,7 +50,7 @@ SELECT sum("value")  * POWER_PRICE / 1000 FROM "kW" WHERE ("entity_id" = 'power_
 
 # HomeAssistant Energy Dashboard
 
-![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/ha-apps.png "HaApps")
+![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/homeassistant.jpg "HomeAssistant")
 
 Here Is The New Dashboard On HomeAssistant For Energy
 ![Dashboard-Energy][dashboard-energy]
