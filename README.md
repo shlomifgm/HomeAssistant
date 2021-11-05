@@ -35,7 +35,7 @@ and ask questions.
 | Shows how active I am with this repo annually | This shows how up to date this repo is |
 | [![GitHub issues][issues-shield]][issues] | [![HA Version][ha-version-shield]][home-assistant] |
 | I now use the issues as a TODO list | This is the version that I am currently running with Home Assistant |
-| [![GitHub Stars][stars-shield]][stars] | [![Buy Me A Coffee][paypal-shield]][paypal] |
+| [![GitHub Stars][stars-shield]][stars] [![GitHub watchers][watchers-shield]][watchers] | [![Buy Me A Coffee][paypal-shield]][paypal] |
 | Please :star: this repo if you find it useful, like these people have | If this config was very helpfull, you could buy a coffee :coffee: for me :smile: |
 
 ## Current Configuration
@@ -138,6 +138,7 @@ SOFTWARE.
 
 [commits-shield]: https://img.shields.io/github/commit-activity/y/shlomifgm/HomeAssistant.svg
 [last-commit-shield]: https://img.shields.io/github/last-commit/shlomifgm/HomeAssistant.svg?color=blue&style=plasticr
+[watchers-shield]: https://img.shields.io/github/watchers/shlomifgm/HomeAssistant.svg?color=blue&style=plasticr
 [stars-shield]: https://img.shields.io/github/stars/shlomifgm/HomeAssistant.svg
 [ha-version-shield]: https://img.shields.io/badge/Home%20Assistant-2021.10.6-blue.svg
 [uptime-shield]: https://img.shields.io/uptimerobot/status/m781145866-63b6526d17827ec6eebe586f.svg
@@ -147,6 +148,7 @@ SOFTWARE.
 
 [commits]: https://github.com/shlomifgm/HomeAssistant/commits/master
 [stars]: https://github.com/shlomifgm/HomeAssistant/stargazers
+[watchers]: https://github.com/shlomifgm/HomeAssistant/watchers
 [home-assistant]: https://home-assistant.io
 [uptime-robot]: https://uptimerobot.com
 [gitlabci]: https://gitlab.com/shlomifgmhome/homeassistant/pipelines
