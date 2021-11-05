@@ -1,5 +1,7 @@
 # Hardware Index List
 
+![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/hardware.jpg "Hardware")
+
 On this page you will find in addition to all the components that I use a reference to:
 
 - The Home Assistant documentation (**HA Documentation**)
@@ -11,6 +13,8 @@ References to stores will mainly be China webshops
 If one of the links no longer works, let me know!
 
 ## Sensors
+
+![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/sensors.jpg "Sensors")
 
 |No.|Device|Where to Buy|
 |:---:|:---|:---:|
@@ -28,6 +32,8 @@ If one of the links no longer works, let me know!
 
 ## Switches
 
+![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/switches.jpg "Switches")
+
 |No.|Device|HA Documentation|Where to Buy|
 |:---:|:---|:---:|:---:|
 |1.|Athom Wall plug|[Switch Docs][switch-docs]|[Buy Here](<https://www.aliexpress.com/item/1005001670337343.html?spm=a2g0o.productlist.0.0.2b172d7bL8Eo4g&algo_pvid=b7c58c3d-8873-4b96-a4c2-11335834355e&algo_exp_id=b7c58c3d-8873-4b96-a4c2-11335834355e-1&pdp_ext_f=%7B%22sku_id%22%3A%2212000017057652185%22%7D>)|
@@ -38,15 +44,19 @@ If one of the links no longer works, let me know!
 
 ## Lights
 
+![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/lights.png "Lights")
+
 |No.|Device|Where to Buy|
 |:---:|:---|:---:|
-|1.|Athom Switch 1 Gang|[Buy Here](<https://www.aliexpress.com/item/1005001278010906.html?spm=a2g0o.productlist.0.0.2b172d7bL8Eo4g&algo_pvid=b7c58c3d-8873-4b96-a4c2-11335834355e&algo_exp_id=b7c58c3d-8873-4b96-a4c2-11335834355e-6&pdp_ext_f=%7B%22sku_id%22%3A%2212000015558722674%22%7D>)|
-|2.|Athom Switch 2 Gang|[Buy Here](<https://www.aliexpress.com/item/1005001278010906.html?spm=a2g0o.productlist.0.0.2b172d7bL8Eo4g&algo_pvid=b7c58c3d-8873-4b96-a4c2-11335834355e&algo_exp_id=b7c58c3d-8873-4b96-a4c2-11335834355e-6&pdp_ext_f=%7B%22sku_id%22%3A%2212000015558722674%22%7D>)|
+|1.|Athom Light Switch 1 Gang|[Buy Here](<https://www.aliexpress.com/item/1005001278010906.html?spm=a2g0o.productlist.0.0.2b172d7bL8Eo4g&algo_pvid=b7c58c3d-8873-4b96-a4c2-11335834355e&algo_exp_id=b7c58c3d-8873-4b96-a4c2-11335834355e-6&pdp_ext_f=%7B%22sku_id%22%3A%2212000015558722674%22%7D>)|
+|2.|Athom Light Switch 2 Gang|[Buy Here](<https://www.aliexpress.com/item/1005001278010906.html?spm=a2g0o.productlist.0.0.2b172d7bL8Eo4g&algo_pvid=b7c58c3d-8873-4b96-a4c2-11335834355e&algo_exp_id=b7c58c3d-8873-4b96-a4c2-11335834355e-6&pdp_ext_f=%7B%22sku_id%22%3A%2212000015558722674%22%7D>)|
 |3.|Aqara M1S & Night Light|[Buy Here](<https://www.aliexpress.com/item/4000984871716.html?spm=a2g0o.productlist.0.0.285150b5kZVkqx&algo_pvid=f131a964-7380-40ce-9606-3151eeabebc9&algo_exp_id=f131a964-7380-40ce-9606-3151eeabebc9-0&pdp_ext_f=%7B%22sku_id%22%3A%2212000018720341557%22%7D>)|
 
 ---
 
 ## Media
+
+![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/appletv.jpg "Media")
 
 |No.|Device|HA Documentation|On My Github|Where to Buy|
 |:---:|:---|:---:|:---:|:---:|
@@ -56,6 +66,8 @@ If one of the links no longer works, let me know!
 ---
 
 ## Interfaces
+
+![alt text](https://github.com/shlomifgm/HomeAssistant/blob/master/extras/img/lovelaceui.jpg "Interfaces")
 
 |No.|Device|HA Documentation|On My Github
 |:---:|:---|:---:|:---:|
