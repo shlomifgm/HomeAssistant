@@ -87,6 +87,9 @@ recorder:
       - binary_sensor.google_com
       - binary_sensor.pfsense_localsfh
       - binary_sensor.71a93b45_29dff893
+      - binary_sensor.thinkpad_laptop_x390
+      - binary_sensor.meitar_pc
+      - binary_sensor.maor_pc
       - sensor.71a93b45_29dff893
       - sensor.p20hd_eea_ram_free_memory
       - binary_sensor.pfsense
