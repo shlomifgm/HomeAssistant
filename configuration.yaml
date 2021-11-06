@@ -70,17 +70,17 @@ recorder:
     entity_globs:
       - binary_sensor.so*  
       - sensor.clock*
-      - sensor.date*
+#      - sensor.date*
       - sensor.glances*
       - sensor.load_*m
-      - sensor.time*
+#      - sensor.time*
       - sensor.uptime*
       - sensor.openweathermap*      
     domains:
       - device_tracker
       - media_player
       - uptime
-      - time_date
+#      - time_date
       - worldclock
     entities:
       - binary_sensor.discord_com
