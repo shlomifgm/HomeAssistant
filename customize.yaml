@@ -703,6 +703,11 @@ sensor.tami4_energy_kwh:
 sensor.wdmyclouddisks_energy_kwh:
   friendly_name: NAS דיסקים
 
+sensor.meitar_pc_energy_kwh:
+  friendly_name: מחשב של מיתר
+
+sensor.maor_pc_energy_kwh:
+  friendly_name: מחשב של מאור
 
 
 ######## dashnew #######
