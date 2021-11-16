@@ -74,7 +74,7 @@
 #      entity_id: binary_sensor.khlvn_hvrym_shml_contact
 #      to: 'on'
     - platform: state
-      entity_id: binary_sensor.door_and_window_sensor_3bda
+      entity_id: binary_sensor.lumi_lumi_sensor_magnet_aq2_da3bc006_on_off
       to: 'on'
     - platform: state
       entity_id: binary_sensor.gly_nzylvt_mtbkh_water_leak
@@ -89,7 +89,7 @@
 #      entity_id: binary_sensor.khlvn_mvr_contact
 #      to: 'on'      
     - platform: state
-      entity_id: binary_sensor.door_and_window_sensor_storage_entrance
+      entity_id: binary_sensor.lumi_lumi_sensor_magnet_aq2_18c9be06_on_off
       to: 'on'      
     - platform: state
       entity_id: binary_sensor.mkhsn_3_khdr_contact

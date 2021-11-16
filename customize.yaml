@@ -303,7 +303,7 @@ binary_sensor.dlt_gynh_contact:
 binary_sensor.khlvn_hvrym_shml_contact:
   friendly_name: הורים שמאל
   icon: mdi:window-open-variant
-binary_sensor.door_and_window_sensor_3bda:
+binary_sensor.lumi_lumi_sensor_magnet_aq2_da3bc006_on_off:
   friendly_name: קומה3
   icon: mdi:window-open-variant
 binary_sensor.khlvn_mytr_contact:
@@ -312,7 +312,7 @@ binary_sensor.khlvn_mytr_contact:
 binary_sensor.khlvn_mvr_contact:
   friendly_name: מאור
   icon: mdi:window-open-variant
-binary_sensor.door_and_window_sensor_storage_entrance:
+binary_sensor.lumi_lumi_sensor_magnet_aq2_18c9be06_on_off:
   friendly_name: מחסן-כניסה
   icon: mdi:door-open
 binary_sensor.mkhsn_3_khdr_contact:
@@ -321,10 +321,10 @@ binary_sensor.mkhsn_3_khdr_contact:
 binary_sensor.gly_nzylvt_mtbkh_water_leak:
   friendly_name: מטבח
   icon: mdi:water-alert-outline
-sensor.temperature_and_humidity_sensor_8067_temperature:
+sensor.tmprtvrh_vlkhvt_temperature:
   friendly_name: temperature01
   icon: mdi:home-thermometer-outline
-sensor.temperature_and_humidity_sensor_8067_humidity:
+sensor.tmprtvrh_vlkhvt_humidity:
   friendly_name: humidity01
   icon: mdi:water-percent
 binary_sensor.gly_npkh_knysh_occupancy:
