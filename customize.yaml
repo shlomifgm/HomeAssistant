@@ -688,8 +688,6 @@ sensor.climate_floor03_ac_heat_energy_kwh:
   friendly_name: מזגן קומה 3 חימום
 sensor.refrigerator_energy_kwh:
   friendly_name: מקרר  
-sensor.socket01_energy_total:
-  friendly_name: מדיח כלים
 sensor.androidtvsaloon_energy_kwh:
   friendly_name: סטרימר אנדרואיד סלון
 sensor.appletv_energy_kwh:
@@ -698,14 +696,30 @@ sensor.dlinkswitches_energy_kwh:
   friendly_name: DLINK מתגים
 sensor.routersdeco_energy_kwh:
   friendly_name: DECO נתבים
-sensor.tami4_energy_kwh:
-  friendly_name: תמי4
+sensor.dishwasher_energy_kwh:
+  friendly_name: מדיח כלים
+sensor.socket01_energy_total:
+  friendly_name: מדיח כלים
+sensor.oven_energy_kwh:
+  friendly_name: תנור
+sensor.socket02_energy_total:
+  friendly_name: תנור
+sensor.microgal_energy_kwh:
+  friendly_name: מיקרוגל
+sensor.socket03_energy_total:
+  friendly_name: מיקרוגל
+sensor.washing_machine_energy_kwh:
+  friendly_name: מכונת כביסה
+sensor.socket04_energy_total:
+  friendly_name: מכונת כביסה
+sensor.kitchen_devices_energy_kwh:
+  friendly_name: מטבח מכשירים
+sensor.socket05_energy_total:
+  friendly_name: מטבח מכשירים
 sensor.wdmyclouddisks_energy_kwh:
   friendly_name: NAS דיסקים
-
 sensor.meitar_pc_energy_kwh:
   friendly_name: מחשב של מיתר
-
 sensor.maor_pc_energy_kwh:
   friendly_name: מחשב של מאור
 
