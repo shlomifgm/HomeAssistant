@@ -103,6 +103,7 @@ logger:
   logs:
     homeassistant.helpers.template: error
     homeassistant.components.webhook: debug
+    custom_components.localtuya: debug
 
 # Text to speech
 tts:
