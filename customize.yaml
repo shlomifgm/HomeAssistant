@@ -613,7 +613,7 @@ binary_sensor.home_alert:
 
 #Energy Sensors
 sensor.house_energy_kwh:    
-  state_class: total_increasing
+#  state_class: total_increasing
   friendly_name: צריכה ביתית
 sensor.liel_energy_kwh:
   friendly_name: תאורה - ליאל
