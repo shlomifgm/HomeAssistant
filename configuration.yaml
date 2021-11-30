@@ -60,6 +60,7 @@ api:
 
 ffmpeg:
 recorder:
+  db_url: !secret mariadb_url
   exclude:
     event_types:
       - folder_watcher
