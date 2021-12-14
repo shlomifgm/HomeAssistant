@@ -5,64 +5,123 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark">
   <head>
     <meta charset="utf-8">
   <link rel="dns-prefetch" href="https://github.githubassets.com">
   <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
   <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
   <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+  <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
+  <link rel="preconnect" href="https://avatars.githubusercontent.com">
 
 
 
-  <link crossorigin="anonymous" media="all" integrity="sha512-Mtzi+qUCw8Vvt7IU3btuwd4eYMVQpitK5UJnJYdalWi/+0Nxx4oUwjmifaDiQqDEWew54oYLGwGerZ1U/Uk9IA==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-32dce2faa502c3c56fb7b214ddbb6ec1.css" />
-  <link crossorigin="anonymous" media="all" integrity="sha512-dtC9YxYPDf7rSYFTxJICzRGbo+emk23EouQ4esChocd5dbXcgBKFCGfHCmqj8vVINu4hniotR6iCD+PZ/tnBJQ==" rel="stylesheet" href="https://github.githubassets.com/assets/site-76d0bd63160f0dfeeb498153c49202cd.css" />
-    <link crossorigin="anonymous" media="all" integrity="sha512-7fJOLwO8vsORCwBxD6LXlir1B2y1mmZ+aJThs0XAkSTKCkkAyx6FMAnq75pIFNdxzM+WX5EN+7+z4pPKx3BWDw==" rel="stylesheet" href="https://github.githubassets.com/assets/behaviors-edf24e2f03bcbec3910b00710fa2d796.css" />
-    
-    
-    
-    <link crossorigin="anonymous" media="all" integrity="sha512-EGWB1qicycNySO8q51kmVmiB4Hra2RGfw1yG9qxAYhni+SBdeFi/glW+Sg+ZPTL57lmzt9RzwawPTdtVSOYofw==" rel="stylesheet" href="https://github.githubassets.com/assets/github-106581d6a89cc9c37248ef2ae7592656.css" />
-
-  <script crossorigin="anonymous" defer="defer" integrity="sha512-8K2vvwbW+6H27Nad5ydg8PA2/aMD/LKq+EiK9s0U0hhVZxCI2tWBsYk9beAtisRw2j+Or5k2/F+6dk02nmj/PA==" type="application/javascript" src="https://github.githubassets.com/assets/environment-f0adafbf.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-uegmzg6YcTlTw7auMhvPV/UsnZ1KDIdAWhaEI/R8dHN24lz0HyO2tGwv0e2gdPoMXA6AzXeJng5gP77sAU3AgA==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-frameworks-b9e826ce.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-OuSfHcWZSefb+c3urntBdV200m6pJ6PrSeiwM0ss3xi9F39F+M2aHYiaLo7fMFbZcwbP7Tgd6ET77YUD5c1dyw==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-vendor-3ae49f1d.js"></script>
+  <link crossorigin="anonymous" media="all" integrity="sha512-1G4rYJktwRTQKn7fVfJUxH8RRZFUJlGo77xMZfBfIhZPx4BHVrzPE1VgnafttXI8G3y/PywH3uXyhNkSLp3+oA==" rel="stylesheet" href="https://github.githubassets.com/assets/light-d46e2b60992dc114d02a7edf55f254c4.css" /><link crossorigin="anonymous" media="all" integrity="sha512-hI5b2oqTE9njfjYrfuzXqA4bSGSNrE5OMc9IiFhZy+RDGg9Qn4Si1A97o0MlinlwFt3xAifvoLX0s7jHmHSvVw==" rel="stylesheet" href="https://github.githubassets.com/assets/dark-848e5bda8a9313d9e37e362b7eecd7a8.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" integrity="sha512-klQdb3t14AYaRMkB0v9buaf5Ftfbec/sbxdkvyQpG6oBvzZxxH6N5QwA4llOyZsoyjqiZaTra2ci5TgInnLqQg==" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed-92541d6f7b75e0061a44c901d2ff5bb9.css" /><link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" integrity="sha512-CBsfpBvg1D/Hvn8FFY4JwUVgoKjgynOSFKwgThDHrHASVid/Isgz0ueab5xSuSVx8vEvNL9UfYcpWIJRJYTCjg==" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_high_contrast-081b1fa41be0d43fc7be7f05158e09c1.css" /><link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" integrity="sha512-09ipkynAtzCqasl2D2//N51bUOVnOzBFdadcXdMWyphI81s1FWmJ9AD1NRq3e0PMfiJEiVSm9mjTYd7gv2xtWA==" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind-d3d8a99329c0b730aa6ac9760f6fff37.css" /><link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" integrity="sha512-OJwnC/pGdOV3QMoWud8vp0nxtQhtzAcpNWB7mSSh/e7fPslExSb07EOdNTAJsBAS4bN7Yrdxm2F7htANgTIMsA==" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind-389c270bfa4674e57740ca16b9df2fa7.css" /><link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" integrity="sha512-5swg0RJGlhj0UH3SLkJ6e/BYm/DmpyGTaUSCUBhf1HtC4lBV+zM9mxOQ8febH318pxcUzUpp09qi0z7EKfWuDQ==" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_high_contrast-e6cc20d112469618f4507dd22e427a7b.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-T3N453hWCYsL8yKfu3yye2yyO/D51Lq2iT5svAdl7UKvV2rBPcV7iOgr3fihzB9vYV7YFIK3PxpyTTkfxAshog==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-4f7378e77856098b0bf3229fbb7cb27b.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-07Fhxaln6iqVJ4z2DB1ClmjJlWF7DzfsNoKUsyssjWIHwaRn5kHhGuiMih3gqL6MvY9nu7mIRMSzIoxpAb9dlg==" rel="stylesheet" href="https://github.githubassets.com/assets/behaviors-d3b161c5a967ea2a95278cf60c1d4296.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-MCJFYfbQoT4EXC6aWx5Wghs8FC/jslHEeN2iWXphliccmede2dQlhIBTAUCBq9Yu5poltu4askungzvyCsycGg==" rel="stylesheet" href="https://github.githubassets.com/assets/tab-size-fix-30224561f6d0a13e045c2e9a5b1e5682.css" />
   
-  <script crossorigin="anonymous" defer="defer" integrity="sha512-ISpXOWTI81M/9jow9c5rKVDZm/3oAvwfSH+UfKHs/SArJuqj1lCI2rhyQ8TJnjOVZCA+piaJyf1nvtcMzY2K/w==" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-212a5739.js"></script>
   
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-evfy6RyDyXvLuaEEFaUaIlw9dSRgvKkF3rMeUELkvXq7sGEK/43vTg+3EE6E8nOsjpuPyYQjgS8bxzqkTjlZag==" type="application/javascript" data-module-id="./chunk-contributions-spider-graph.js" data-src="https://github.githubassets.com/assets/chunk-contributions-spider-graph-7af7f2e9.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-obMR8mPKx8OvqRe34LgnUcxeJ1qujiA4ND3H6UX13ExMlA/WfHLjEzXRmgGRcRvN/8J1nzc+Z+jgz/PLTFy6zg==" type="application/javascript" data-module-id="./chunk-drag-drop.js" data-src="https://github.githubassets.com/assets/chunk-drag-drop-a1b311f2.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-V4eZZUWgD9RSVrXzWPGn+vP/9+D0oCITMcifb0ktnwvLUUuXHtwiPWXiu4CYxU4zzC1k6DMTDCZG/GQi0QOJpA==" type="application/javascript" data-module-id="./chunk-edit.js" data-src="https://github.githubassets.com/assets/chunk-edit-57879965.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-TGnbT/6B5dxVwEk7iOlwSY9mfqhfq8m05ec+KjdlfEwoieq73iBeyidClQUSmFa2snukwzF9peY8c7FJf9FARA==" type="application/javascript" data-module-id="./chunk-emoji-picker-element.js" data-src="https://github.githubassets.com/assets/chunk-emoji-picker-element-4c69db4f.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-NwYkwzxETzKUYRXumHDsBIuggkh86KmJ1WrwWZW5wTvVPf047+wOmOHI5b4D65bfdtd3WbXJ7k+3ZWoxpIaqcA==" type="application/javascript" data-module-id="./chunk-insights-graph.js" data-src="https://github.githubassets.com/assets/chunk-insights-graph-370624c3.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-FrgE/rf7iPI/rYtbUZnmUu7DATKUTwSFoOvztvKKOAfNL25SFfJ65gUzEd0E0GnjlWoCIzFOJYv+irUJ0vEecA==" type="application/javascript" data-module-id="./chunk-jump-to.js" data-src="https://github.githubassets.com/assets/chunk-jump-to-16b804fe.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-tcH4xCRuMBAh1PruDaiwGnRIbHlF6bGLhxyCQ16uqok1cV5QFMguVPWJtN9KI0jGQOgN+Pha3+uOUXhXdfK/qw==" type="application/javascript" data-module-id="./chunk-profile-pins-element.js" data-src="https://github.githubassets.com/assets/chunk-profile-pins-element-b5c1f8c4.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-E+H+wAtjiqutBvn2cnXzDIvmasIhYiS7i7JzOfFUwo+Ej8zT54OrJtP//RhwixnypgOpCF4JvqzYy6zOtORDmg==" type="application/javascript" data-module-id="./chunk-runner-groups.js" data-src="https://github.githubassets.com/assets/chunk-runner-groups-13e1fec0.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-U+Pp1bYuA3fRqhike5Go//O/vsExaZLz00lrIby+rZ88yf03nQHz3wLZR9paWkakpD7TH5nS6AUpabCc7OFWpg==" type="application/javascript" data-module-id="./chunk-sortable-behavior.js" data-src="https://github.githubassets.com/assets/chunk-sortable-behavior-53e3e9d5.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-QBwrFY4kzAVN0nZmTYJLeEhi5bQ+42rE8h1g384XeZb7n62BykcUICACtaDQ473aIrRf38RSR7WDfNEIVuSlTA==" type="application/javascript" data-module-id="./chunk-tweetsodium.js" data-src="https://github.githubassets.com/assets/chunk-tweetsodium-401c2b15.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-wTiR0OTWRXem3tK60//Fv7PTDh1X8HtuH6lFldt3DQ/VbwoB2KFNLNASYsfuKhZxXF12km7x0kHMrHD95PnvXw==" type="application/javascript" data-module-id="./chunk-user-status-submit.js" data-src="https://github.githubassets.com/assets/chunk-user-status-submit-c13891d0.js"></script>
   
-  <script crossorigin="anonymous" defer="defer" integrity="sha512-uda4MPgQkL7W8ffEGe8IE8avFYKg/5Ej0krtvSjBOf9Pvj8l0DToYMxD72UEVIt6e2wwznxCh/FvuUXO/AXaVA==" type="application/javascript" src="https://github.githubassets.com/assets/repositories-b9d6b830.js"></script>
-<script crossorigin="anonymous" defer="defer" integrity="sha512-jfjW7iOzRCv0UYvp4JbQP1SqFifZZiocKQkFoQ9I4ESotg6/A9EhemttPmQtCmSGcY0VlzhlBsvyWJENZz7r0Q==" type="application/javascript" src="https://github.githubassets.com/assets/diffs-8df8d6ee.js"></script>
+  <link crossorigin="anonymous" media="all" integrity="sha512-s6gQ9zPmpX9HnhI35eVCp8zhuTUUEsP2bEbw5wm8DqB0eGsiHVfGDC+mIBp9RvV3pQLa2Gmu5GRqKVzIjb5lDg==" rel="stylesheet" href="https://github.githubassets.com/assets/github-b3a810f733e6a57f479e1237e5e542a7.css" />
+
+  <script crossorigin="anonymous" defer="defer" integrity="sha512-K/kjAAGVhlckApEbskyYOB+ASq3m0GKyJk3y0JoEafwknEbUpmilodEuQQJG09c0v1eCRlX7mSQp+GLGtXmWQg==" type="application/javascript" src="https://github.githubassets.com/assets/environment-2bf92300.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-43iG02uHDU3x1xWQNOFjY5BxmQ+LTKcrSjWdiPtpjTMSrAK3WPEHC62jVFyRTq7jjdbZF3Vn265iEWYBCd5GIQ==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-frameworks-e37886d3.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-pEuiC5g/bPxJ6DWhOK4vgGNJ82p1B9O9OrUM4c8qCrzkZqAsDILOk8S3wr7ToHsGAa0UOyM7Y4dscERce7tARQ==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-vendor-a44ba20b.js"></script>
+  
+  <script crossorigin="anonymous" defer="defer" integrity="sha512-M3/Rihza1N1EAYmwRjrDWMWE2/pK+XEKJIgaCYtWV0kQXABGP3X2QLVlkXWzA313a8TxZxyGDRXPdCd2R/VTyQ==" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-337fd18a.js"></script>
+  
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-ODZJzCJpaOfusrIka5QVZQcPiO9LBGyrrMYjhhJWSLuCN5WbZ5xiEiiOPOKVu71dqygyRdB2TY7AKPA1J5hqdg==" type="application/javascript" data-module-id="./chunk-unveil.js" data-src="https://github.githubassets.com/assets/chunk-unveil-383649cc.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-emPgUbSwW9ezLCgRnTE7n4fbbfc/MqEEDHmnkmG61dTyjWKHTYKN4wN3OPS7SY0fwmSJ8mB5+gng2nZw4/HsUg==" type="application/javascript" data-module-id="./chunk-animate-on-scroll.js" data-src="https://github.githubassets.com/assets/chunk-animate-on-scroll-7a63e051.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-x6L94lNXrnj4GyXhVug6j63GettxBVe/yQmgJU42IbfJet6sW2RBDG4tbZVkLbOCiYrNy+1Zwvoc1gA6uzSPow==" type="application/javascript" data-module-id="./chunk-input-demux.js" data-src="https://github.githubassets.com/assets/chunk-input-demux-c7a2fde2.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-d9zLk770daEV3pV4uNV22h2h49h/QxYstihxVyOEMetKZVhZcWW9bbqXOp2e1I7sIpuIj3xcpUSdlZKJxdl3tw==" type="application/javascript" data-module-id="./chunk-ref-selector.js" data-src="https://github.githubassets.com/assets/chunk-ref-selector-77dccb93.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-ZBO+Oyn6WBdC4ImO/LDfDbTEeYdqBdftRZ+cM7Y0dDr7mBdGknt2d2/TWlkf98IMeBFu7FctOV9fK9xX49gymw==" type="application/javascript" data-module-id="./chunk-filter-input.js" data-src="https://github.githubassets.com/assets/chunk-filter-input-6413be3b.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-ynV5nM8UuCr4KZ/msFeRxRL6LnG+XUKzIfh6LNIzQ21ecjLVPvm53ghTE54aIuSUaHJWHnsYg8FRzycZIcRHiA==" type="application/javascript" data-module-id="./chunk-edit.js" data-src="https://github.githubassets.com/assets/chunk-edit-ca75799c.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-GhqHDMwaAgqUsjVyltYVhaaLYy2G887rPRXXNbsdaI+Xm3dh0fbaHLhZns70EjFAEpXBgCAYFYdnlG1IQFmz1A==" type="application/javascript" data-module-id="./chunk-responsive-underlinenav.js" data-src="https://github.githubassets.com/assets/chunk-responsive-underlinenav-1a1a870c.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-gmw7obKL/JEHWPp6zWFh+ynbXUFOidj1DN2aPiTDwP8Gair0moVuDmA340LD84A29I3ZPak19CEiumG+oIiseg==" type="application/javascript" data-module-id="./chunk-tag-input.js" data-src="https://github.githubassets.com/assets/chunk-tag-input-826c3ba1.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-Ao9llFIlj54ApuKf2QLboXukbu2h7MHfMmtYHrrsVe1lprKNLiA0usVcRpvruKhfT5STDuWm/GGmyx8ox27hWQ==" type="application/javascript" data-module-id="./chunk-notification-list-focus.js" data-src="https://github.githubassets.com/assets/chunk-notification-list-focus-028f6594.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-SPWd3rzrxmU6xW6vy1JPWCd+3uWFWmnd0MVGpmw/TpHWUAdLWDqL8kWyC/sBIZJmda4mTtUO1DHJQzAXRSrC+g==" type="application/javascript" data-module-id="./chunk-cookies.js" data-src="https://github.githubassets.com/assets/chunk-cookies-48f59dde.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-4vVRplWFI7P4m3RHQ0QAhkq6eZUdtIE8PBhsKYJRwDkhQw9iK/U1st1/fM1tQZFuBFwGMyqaZblbWtQ+2ejcqQ==" type="application/javascript" data-module-id="./chunk-slug.js" data-src="https://github.githubassets.com/assets/chunk-slug-e2f551a6.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-MK53GXbb2BPV+ADlEbJbkrvg34WPcAd5RC2nBJhUH1tR/Mjr9xrsf56ptBajfWcIWKRKbqqRtLktgr0wAbB3zw==" type="application/javascript" data-module-id="./chunk-async-export.js" data-src="https://github.githubassets.com/assets/chunk-async-export-30ae7719.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-tw9SApiMkftVBYeb6/VGhEwGNw8tlyBhXc9RVXH4UbCD6u+48uuCMvXf3bxvBdOld0OoYg83SnD2mgJWhdaTiQ==" type="application/javascript" data-module-id="./chunk-premium-runners.js" data-src="https://github.githubassets.com/assets/chunk-premium-runners-b70f5202.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-D576CjzS9sbDqFBJdq0Y6+KVMHXkO6mLFO/GRL1NtoE8jgXjAvmdjoZ4nNMWyDwqbtBHspvupORzE9L+YoBLYQ==" type="application/javascript" data-module-id="./chunk-get-repo-element.js" data-src="https://github.githubassets.com/assets/chunk-get-repo-element-0f9efa0a.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-WijCTaKTp1GOgK47JLB/n/S75kI8k0RYlf7zEqQJtk46nvyIERO+BE2OYBtG9GJsqpDiMKW5EnRTaK7Wsv8YvA==" type="application/javascript" data-module-id="./chunk-query.js" data-src="https://github.githubassets.com/assets/chunk-query-5a28c24d.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-xhSAO0KtnFAlRqAK+mg8BPj/J334ccvnCmmjmBQBCgZcsoO9teHJSS6oAn3XOWYFsWPU2JehwG7S3OVEbLwdUg==" type="application/javascript" data-module-id="./chunk-color-modes.js" data-src="https://github.githubassets.com/assets/chunk-color-modes-c614803b.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-jitxouuFY6SUcDZV5W3jhadVEIfFBfCQZxfPV3kxNnsWEBzbxMJFp0ccLb7+OlBjSs1zU/MNtuOV6T9Ay7lx4w==" type="application/javascript" data-module-id="./chunk-copy.js" data-src="https://github.githubassets.com/assets/chunk-copy-8e2b71a2.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-sAeL7y7Tbq5g07u3/0pJIS9IegVGfOVwfX7LQfKPna4UYzOQtcjfAJnwXSHWbAG7jSy4jQKtsukdRuQLX8JrGQ==" type="application/javascript" data-module-id="./chunk-voting.js" data-src="https://github.githubassets.com/assets/chunk-voting-b0078bef.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-HDsLJf6gAN+WDFaJneJwmIY82XkZKWqeX7tStBLRh1XM53K8vMV6JZvjq/UQXszaNVWxWcuYtgYTG6ZWo8+QSw==" type="application/javascript" data-module-id="./chunk-confetti.js" data-src="https://github.githubassets.com/assets/chunk-confetti-1c3b0b25.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-Jm91haHZxrhZUNUTJjxVpQdGcJwkbXkupgnVWT/GunQM8NN7k9a48rWrF3rf9/ElJ9sOmP54OzFXiPy82TjCgg==" type="application/javascript" data-module-id="./chunk-codemirror.js" data-src="https://github.githubassets.com/assets/chunk-codemirror-266f7585.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-Gr3ZcJt5t73JeBM3NwOEziKyDZ3HpHwzqZL/c1pgTUfo+6QC5f88XXRw/RT6X2diwqvaa3OVFh0oWsZ9ZxhtdQ==" type="application/javascript" data-module-id="./chunk-tip.js" data-src="https://github.githubassets.com/assets/chunk-tip-1abdd970.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-EdQvlnI4Pu5Q6K0HCvp+mi0Vw9ZuwaEuhbnCbmFKX+c0xwiUWY0L3n9P0F6doLhaHhfpvW3718+miL11WG4BeA==" type="application/javascript" data-module-id="./chunk-line.js" data-src="https://github.githubassets.com/assets/chunk-line-11d42f96.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-4zSHP2sQXPKoN9jFy8q2ThHsQNej8s4qhubSR4g0/2dTexAEnoTG+RbaffdIhmjfghGjpS/DlE0cdSTFEOcipQ==" type="application/javascript" data-module-id="./chunk-array.js" data-src="https://github.githubassets.com/assets/chunk-array-e334873f.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-g8fb6U7h9SkWgiK69nfNMn4aN5D2YBYPZUbCIuLpemWoOw8NOaZY8Z0hPq4RUVs4+bYdCFR6K719k8lwFeUijg==" type="application/javascript" data-module-id="./chunk-band.js" data-src="https://github.githubassets.com/assets/chunk-band-83c7dbe9.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-6oWCu7ltWLHlroIRg8mR6RloC1wqKS9aK9e5THWgzaE2GNPAdoC+MLZEYD/TdIiZxsQRev0RInyonsXGBK0aMw==" type="application/javascript" data-module-id="./chunk-toast.js" data-src="https://github.githubassets.com/assets/chunk-toast-ea8582bb.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-miaiZ1xkDsWBUsURHOmeYtbgVKQGnm1octCo/lDXUmPzDyjtubnHULRVw1AK+sttwdwyB0+LOyhIVAWCNSGx+A==" type="application/javascript" data-module-id="./chunk-delayed-loading-element.js" data-src="https://github.githubassets.com/assets/chunk-delayed-loading-element-9a26a267.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-GD25CNhMGDMzEmeFhUT0FILBupAkx5/CHohnYXOP1togy40O0iu/lASaSp3gV8ue0nwscalJVQqR5gKDRHHDVg==" type="application/javascript" data-module-id="./chunk-three.module.js" data-src="https://github.githubassets.com/assets/chunk-three.module-183db908.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-Ofk7ddnMsJ6F9d2vCuPQav+FG9Rg8i6WRG2KmbzwT01S9H4y58Fl42zYxDh/lJjOWeSyOB9KJyfIkdpCCTYG9A==" type="application/javascript" data-module-id="./chunk-invitations.js" data-src="https://github.githubassets.com/assets/chunk-invitations-39f93b75.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-vFR+IqThljOLrAWmjhOL/kiQrjgZZg95uPovX0J7kRH5p7Y049LDRZaXLMDijfeqqk71d3MMn9XP5bUcH+lB9w==" type="application/javascript" data-module-id="./chunk-profile.js" data-src="https://github.githubassets.com/assets/chunk-profile-bc547e22.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-W3TFrSn3Iqu38aVxxYxFiNGzaVmLXtGfwRDVRH1RwRvqPVerX1fjQPEYag+HqAoWaGy5ssVFp42oyOIV93afBw==" type="application/javascript" data-module-id="./chunk-overview.js" data-src="https://github.githubassets.com/assets/chunk-overview-5b74c5ad.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-xqw233932eUGcGURAPuwUWZpC5Km/9Btq7/2Jnkt1rSWnPSVfMl+JKpr9eLtCoQmrpgP8vaghEuX8bWAS8fzTg==" type="application/javascript" data-module-id="./chunk-advanced.js" data-src="https://github.githubassets.com/assets/chunk-advanced-c6ac36df.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-6Rmd0BBAsJ9ouvb/pgrkToMPs5ogcqi8rcQ7R3GDPPHIjlu0NZ0Bx6HUn/aOruMCECETHm4Exfs5gjYdHs66RQ==" type="application/javascript" data-module-id="./chunk-runner-groups.js" data-src="https://github.githubassets.com/assets/chunk-runner-groups-e9199dd0.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-5H5N/3G/20nmVKntphXb9z0H9q3URFDmHSccLhFkMSA8ILAA9mYlRKCWAWoDcl/W437jtGw1tIxjWStfInvidw==" type="application/javascript" data-module-id="./chunk-profile-pins-element.js" data-src="https://github.githubassets.com/assets/chunk-profile-pins-element-e47e4dff.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-LrD2kFGlUY4JxKVeN3dgYfuhfq0akTPGHtqW0gxkM2sDqVY6pauK2k57tmMHw4TQdcUrs+RQnBc1HPD+ou+ZfQ==" type="application/javascript" data-module-id="./chunk-emoji-picker-element.js" data-src="https://github.githubassets.com/assets/chunk-emoji-picker-element-2eb0f690.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-EvJ2Fip59DXgARNuwTWgjdVqoCjhXQL73SP9yexijlWStKq92sfbKeGK5R4wIP0QOr39WsnW/Kaw3Wpl1QPfog==" type="application/javascript" data-module-id="./chunk-edit-hook-secret-element.js" data-src="https://github.githubassets.com/assets/chunk-edit-hook-secret-element-12f27616.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-91JzWtpBUoC7Z4dQpeXRegjwCMooGPFtg/vXxaIGVTxguoOcI/hEdyM7otQGRNQmMencK71thI0oGt11Wgfrww==" type="application/javascript" data-module-id="./chunk-insights-query.js" data-src="https://github.githubassets.com/assets/chunk-insights-query-f752735a.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-D/5Ad6jlKQNRPSHbVN5ShlFXOTyRsKbT7O0cWbVHwtOZ/UrwOC5bHKaQFHTq46qeMBbFKyDG+oIdtm5G8NifDA==" type="application/javascript" data-module-id="./chunk-remote-clipboard-copy.js" data-src="https://github.githubassets.com/assets/chunk-remote-clipboard-copy-0ffe4077.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-eO/r0W5ywI2kxVkcH8yquw3n5Gh+cA8lVOgxd+ecgJYU81FB4Q5FqFxgHhx1omigPwexB4ltwXBMDhSeW6qNeQ==" type="application/javascript" data-module-id="./chunk-series-table.js" data-src="https://github.githubassets.com/assets/chunk-series-table-78efebd1.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-eCSMVL1aAfhWSme4/3seObqN3HNdkxWVKaAX5bmZmxIXZdv0ixnuFJeESYdLeMED/wQETtQ971A03mLF3ZX8eQ==" type="application/javascript" data-module-id="./chunk-line-chart.js" data-src="https://github.githubassets.com/assets/chunk-line-chart-78248c54.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-rZhcZvsxbGBxibYeNv4aHYZkgZzW6xnRcAqmuOCbq/ehJgr75pxgiV7HrGrYrX9HNmyH8T+90HC9WSBZNM4L3g==" type="application/javascript" data-module-id="./chunk-bar-chart.js" data-src="https://github.githubassets.com/assets/chunk-bar-chart-ad985c66.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-/QP5yDdYoor56F2+SyPr/8a9FtvCZnnGP0d+lSAHQR5n+xYjaiY6LjJGB/x1cevAH8r4XY/axNN9fRWIfbwAcA==" type="application/javascript" data-module-id="./chunk-stacked-area-chart.js" data-src="https://github.githubassets.com/assets/chunk-stacked-area-chart-fd03f9c8.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-GohDpVrxfHqlavb8Zabvj+y/s6CHegYwyGpQxKtzR2MkQsynBC98LdLongRFMHI+TKAECLavp200Lsy9JbV5TQ==" type="application/javascript" data-module-id="./chunk-presence-avatars.js" data-src="https://github.githubassets.com/assets/chunk-presence-avatars-1a8843a5.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-TpHTIXhA/2bI21CVmFL1oS3dv+8zveJVZLOVVAZwXNAAI94Hy70L9vT3Q1Vvkyu4Z2gi2iFdy1a53pfYlEDgnQ==" type="application/javascript" data-module-id="./chunk-pulse-authors-graph-element.js" data-src="https://github.githubassets.com/assets/chunk-pulse-authors-graph-element-4e91d321.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-aNAcFMlIdG1ocY5LnZylnN/6KXiJxyPvKg7y1Jnai732wdnrjXazcvNiQkRnj5FY8WP6JRa3K4doCReA4nhj7w==" type="application/javascript" data-module-id="./chunk-stacks-input-config-view.js" data-src="https://github.githubassets.com/assets/chunk-stacks-input-config-view-68d01c14.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-bbW4T9/r8Np2kfViflgQnNiRYxuqR7rLgtTFUkdFLvok75aQSUlYsD5wXqKPpttPfvKicBAgztCOTkpNMPSQLA==" type="application/javascript" data-module-id="./chunk-community-contributions.js" data-src="https://github.githubassets.com/assets/chunk-community-contributions-6db5b84f.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-Kpqa6sgByBKUyzDDVVdWoGttf2SAPsHt7fGHAS7gB62Ve7KemFKz3+gvVJsvBsrErVm/eQQYT/U+kDHbnr3tFA==" type="application/javascript" data-module-id="./chunk-discussion-page-views.js" data-src="https://github.githubassets.com/assets/chunk-discussion-page-views-2a9a9aea.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-+EMrCbglrI+ow8JMBlikKWUdEVlJjllBRZFnYWVfaRXbBO1eIGSa6LV6qBRvRPPVvS+sw1SiOhBHQhGy053CJA==" type="application/javascript" data-module-id="./chunk-discussions-daily-contributors.js" data-src="https://github.githubassets.com/assets/chunk-discussions-daily-contributors-f8432b09.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-JFlBSiDVD4MXke66qKnk36YUTW3leIZNOH2wqYmOKuxS7BsWCRmcrYrUU5plAKfsSDym1Lqf2bwpEOuVY0DCbw==" type="application/javascript" data-module-id="./chunk-discussions-new-contributors.js" data-src="https://github.githubassets.com/assets/chunk-discussions-new-contributors-2459414a.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-cFe9WuBCDrJOiGiTm4+TEi7fPqhRTxRZbqng2GxfPrENGiyxllCL2NDjwgANC1PTe8UU6ATCFnK9JAgcph2rtA==" type="application/javascript" data-module-id="./chunk-tweetsodium.js" data-src="https://github.githubassets.com/assets/chunk-tweetsodium-7057bd5a.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-AVKfqEKBF/JCvS2PoakItu304k6gGt9oSMBW2R/eEfGsGuTmC9QeiQw//IJJKFRQdrzpha/FoC/cws9v6dsujQ==" type="application/javascript" data-module-id="./chunk-jump-to.js" data-src="https://github.githubassets.com/assets/chunk-jump-to-01529fa8.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-rgB4C/XatEIjEvdEJWsKRyOYwe2rj4WTWtCzlKT6jA8fR4xgjPnpcl4/QeQOprsfPE7R2BycawtlzHzh/xG0JQ==" type="application/javascript" data-module-id="./chunk-user-status-submit.js" data-src="https://github.githubassets.com/assets/chunk-user-status-submit-ae00780b.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-4xtjUJAtGhsZOLk+SHoir8MWF0vKHoR4tGlR36xsg1kGrE9ftN4BHe21k2TT5jSkqz5x8z7BfZKj/eUuwcZMEQ==" type="application/javascript" data-module-id="./chunk-launch-code-element.js" data-src="https://github.githubassets.com/assets/chunk-launch-code-element-e31b6350.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-NilVxyBbQNJ61v85EVcC3VjOsz5tz+bOlaR1h1R+jIFXNT8VhoalRgPXREht+R3JIZF5fiqkkHZy3+01pX4ZDg==" type="application/javascript" data-module-id="./chunk-metric-selection-element.js" data-src="https://github.githubassets.com/assets/chunk-metric-selection-element-362955c7.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-Gz9BhNH9Dl0I9vfifm3AZ7LBZ/pUynlfr2043a5/vq4F8lKX/2fxnRJ/8o9VdQGhZ3zlGSKq6fdRP4UehhEYLA==" type="application/javascript" data-module-id="./chunk-severity-calculator-element.js" data-src="https://github.githubassets.com/assets/chunk-severity-calculator-element-1b3f4184.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-CenNwZe9BdRle1NazZekbncDkAd9Orbo7Yj7PRhI34FRcdjcC7wCJFQsrHfLXhpX7CSwei6eMmF/F+QFW+DnBA==" type="application/javascript" data-module-id="./chunk-command-palette-page-element.js" data-src="https://github.githubassets.com/assets/chunk-command-palette-page-element-09e9cdc1.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-81Tj0C9KnDJfXp+D6y/5pBgR7ej/5wA2vWyV3rE4E8PWPeTbIyKJChNgv3a43tZfdnQ6zzZi7gLvmgtu++2Meg==" type="application/javascript" data-module-id="./chunk-command-palette-page-stack-element.js" data-src="https://github.githubassets.com/assets/chunk-command-palette-page-stack-element-f354e3d0.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-yXHkwiNZgB6O0iSDKE8jrZzTtTyF8YdFFXHcemhWEPuN3sWs1PQrSwEh0Gw4/B9TIzUfvogbqlJ71yLLuqyM+Q==" type="application/javascript" data-module-id="./chunk-readme-toc-element.js" data-src="https://github.githubassets.com/assets/chunk-readme-toc-element-c971e4c2.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-WtxFYpyZyznX2bQr5Za6UNxUXn7RheDqolsoKRcOTvUA3hxrMym/nWB3FiaNxjI4ZH7ZeF5e2l/PM3Yaj8f1Sg==" type="application/javascript" data-module-id="./chunk-feature-callout-element.js" data-src="https://github.githubassets.com/assets/chunk-feature-callout-element-5adc4562.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-cRl0mhYDAlIPglfEqHiJz2lRAr22HqkKC2c0fiLl2O/30j/wG/poJ0o+6Va1soBDK24dFMZCq/PR0T1C5IFgWQ==" type="application/javascript" data-module-id="./chunk-action-list-element.js" data-src="https://github.githubassets.com/assets/chunk-action-list-element-7119749a.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-5YiXUcB+Mz1OcilSDYegSfSeAaM/HaGv64UPVdPt0tELrDh5yrK2Hwl6UCT4G9X530PWuWHdbJsj04YucPYRxQ==" type="application/javascript" data-module-id="./chunk-project-picker-element.js" data-src="https://github.githubassets.com/assets/chunk-project-picker-element-e5889751.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-Pvx3rTrXcH5VI/XimZxFgsSzMLnRTMXnFd4laAZYre6JAI7349Swv+B1vh+YwFgR1LbZweTCKV1XBovUHhxc/A==" type="application/javascript" data-module-id="./chunk-sortable-behavior.js" data-src="https://github.githubassets.com/assets/chunk-sortable-behavior-3efc77ad.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-6JUQHgkTqBaCCdDugMcO4fQ8YxUHk+m6rwVp2Wxa4FMVz6BbBMPOzGluT4wBq8NTUcFv6DnXSOnt5e85jNgpGg==" type="application/javascript" data-module-id="./chunk-drag-drop.js" data-src="https://github.githubassets.com/assets/chunk-drag-drop-e895101e.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-28pipPJZvizfcYYETJWBBeDHsrDEz7A06d7Y5swgY/OWmsX0ZJW6mkZVFRO7Z/xZh1D1qFbPHGNixfCd1YpBnA==" type="application/javascript" data-module-id="./chunk-contributions-spider-graph.js" data-src="https://github.githubassets.com/assets/chunk-contributions-spider-graph-dbca62a4.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-VQRofBwNZhBa4vBuw0P5bjjlVtO2R+l1M0TOfMZHX1bB7xy//CFwqmyaL24rLfgLx8sahKZ7eEw1o+nkFoUzNA==" type="application/javascript" data-module-id="./chunk-webgl-warp.js" data-src="https://github.githubassets.com/assets/chunk-webgl-warp-5504687c.js"></script>
+  
+  <script crossorigin="anonymous" defer="defer" integrity="sha512-qZbRIypXkWZB1E/lrcPh1h/YbWO1VctTEhpxlDqoaP7dc3guToNpKxykwdCjgTFBg1IOYhnrYISKHXxiID7Mbg==" type="application/javascript" src="https://github.githubassets.com/assets/repositories-a996d123.js"></script>
+<script crossorigin="anonymous" defer="defer" integrity="sha512-NPsGQiyiCFdu2di35Tu6mbrFEqoHYfM/sCVbVOz4PIYY+sZ3osf0NYwL1mqwTloS7h0wYztwKgry+xrb4IiEWA==" type="application/javascript" src="https://github.githubassets.com/assets/diffs-34fb0642.js"></script>
 
   <meta name="viewport" content="width=device-width">
   
-  <title>core/sensor.py at dev · home-assistant/core · GitHub</title>
-    <meta name="description" content=":house_with_garden: Open source home automation that puts local control and privacy first - home-assistant/core">
+  <title>core/sensor.py at dev · home-assistant/core</title>
+    <meta name="description" content=":house_with_garden: Open source home automation that puts local control and privacy first. - core/sensor.py at dev · home-assistant/core">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
   <meta name="apple-itunes-app" content="app-id=1477376905" />
-    <meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/12888993/0f9eb780-655b-11e9-85cb-0d3956096fe5" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="home-assistant/core" /><meta name="twitter:description" content=":house_with_garden: Open source home automation that puts local control and privacy first - home-assistant/core" />
-    <meta property="og:image" content="https://repository-images.githubusercontent.com/12888993/0f9eb780-655b-11e9-85cb-0d3956096fe5" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="home-assistant/core" /><meta property="og:url" content="https://github.com/home-assistant/core" /><meta property="og:description" content=":house_with_garden: Open source home automation that puts local control and privacy first - home-assistant/core" />
+    <meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/12888993/0f9eb780-655b-11e9-85cb-0d3956096fe5" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="core/sensor.py at dev · home-assistant/core" /><meta name="twitter:description" content=":house_with_garden: Open source home automation that puts local control and privacy first. - core/sensor.py at dev · home-assistant/core" />
+    <meta property="og:image" content="https://repository-images.githubusercontent.com/12888993/0f9eb780-655b-11e9-85cb-0d3956096fe5" /><meta property="og:image:alt" content=":house_with_garden: Open source home automation that puts local control and privacy first. - core/sensor.py at dev · home-assistant/core" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="core/sensor.py at dev · home-assistant/core" /><meta property="og:url" content="https://github.com/home-assistant/core" /><meta property="og:description" content=":house_with_garden: Open source home automation that puts local control and privacy first. - core/sensor.py at dev · home-assistant/core" />
+    
 
 
 
     
 
   <link rel="assets" href="https://github.githubassets.com/">
-  
+    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/67979015/ws?session=eyJ2IjoiVjMiLCJ1Ijo2Nzk3OTAxNSwicyI6Nzc5NjkzNDk0LCJjIjoxNjUzODc1Mzg0LCJ0IjoxNjM4NDI2MDc3fQ==--6ed518d524a94fa0e4bb6c99d61c4e8c071460a90c01816a8ef13262393e1d94" data-refresh-url="/_alive" data-session-id="6e15edc00cc8653ddb98057d658cdcf6a4c97701ec62da1cc9ad4d64ed49d1b2">
+    <link rel="shared-web-socket-src" href="/assets-cdn/worker/socket-worker-5ba606f2.js">
+  <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="2703:4350:17798D:1D2329:601BB832" data-pjax-transient="true"/><meta name="html-safe-nonce" content="5b4936a1d2107a1534a489ffbdc6fd6384f5f7be0cf73ca38475e847572e652d" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9ob21lLWFzc2lzdGFudC9jb3JlL3RyZWUvZGV2L2hvbWVhc3Npc3RhbnQvY29tcG9uZW50cy9zZXZlbnRlZW50cmFjayIsInJlcXVlc3RfaWQiOiIyNzAzOjQzNTA6MTc3OThEOjFEMjMyOTo2MDFCQjgzMiIsInZpc2l0b3JfaWQiOiI4NDcyOTkwMTM3NDM4NTcxNDc2IiwicmVnaW9uX2VkZ2UiOiJmcmEiLCJyZWdpb25fcmVuZGVyIjoiZnJhIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="ba0fa9d6f76959c9cea66ef96d19ac207e86a3ff497ddc44262f0f78893f67da" data-pjax-transient="true"/>
+  <meta name="request-id" content="B4D1:15BC:334F9E:39391E:61A865D3" data-pjax-transient="true" /><meta name="html-safe-nonce" content="62d7abe659c171558ac7f5440a7483a572d49c040681c6d4ae61a14126ad5266" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9ob21lLWFzc2lzdGFudC9jb3JlL3RyZWUvZGV2L2hvbWVhc3Npc3RhbnQvY29tcG9uZW50cy9zZXZlbnRlZW50cmFjayIsInJlcXVlc3RfaWQiOiJCNEQxOjE1QkM6MzM0RjlFOjM5MzkxRTo2MUE4NjVEMyIsInZpc2l0b3JfaWQiOiI2Mjg1NzUxMTk4NDI5Mzg3MzQ3IiwicmVnaW9uX2VkZ2UiOiJmcmEiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true" /><meta name="visitor-hmac" content="b88c2e5d14fa7d226eb8f64aeb03ba904c16ce8e1db67675a2d0a66e9704fbc6" data-pjax-transient="true" />
 
     <meta name="hovercard-subject-tag" content="repository:12888993" data-pjax-transient>
 
@@ -78,7 +137,7 @@
   <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
   <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" />
+<meta name="octolytics-url" content="https://collector.githubapp.com/github/collect" /><meta name="octolytics-actor-id" content="67979015" /><meta name="octolytics-actor-login" content="shlomifgm" /><meta name="octolytics-actor-hash" content="eea3db79bf3a75fdf0fef74af15d5aea25f4951296dea7bcf0b347042e999ca4" />
 
   <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
@@ -86,29 +145,34 @@
 
 
 
-  <meta name="optimizely-datafile" content="{&quot;version&quot;: &quot;4&quot;, &quot;rollouts&quot;: [], &quot;typedAudiences&quot;: [], &quot;anonymizeIP&quot;: true, &quot;projectId&quot;: &quot;16737760170&quot;, &quot;variables&quot;: [], &quot;featureFlags&quot;: [], &quot;experiments&quot;: [], &quot;audiences&quot;: [{&quot;conditions&quot;: &quot;[\&quot;or\&quot;, {\&quot;match\&quot;: \&quot;exact\&quot;, \&quot;name\&quot;: \&quot;$opt_dummy_attribute\&quot;, \&quot;type\&quot;: \&quot;custom_attribute\&quot;, \&quot;value\&quot;: \&quot;$opt_dummy_value\&quot;}]&quot;, &quot;id&quot;: &quot;$opt_dummy_audience&quot;, &quot;name&quot;: &quot;Optimizely-Generated Audience for Backwards Compatibility&quot;}], &quot;groups&quot;: [], &quot;attributes&quot;: [{&quot;id&quot;: &quot;16822470375&quot;, &quot;key&quot;: &quot;user_id&quot;}, {&quot;id&quot;: &quot;17143601254&quot;, &quot;key&quot;: &quot;spammy&quot;}, {&quot;id&quot;: &quot;18175660309&quot;, &quot;key&quot;: &quot;organization_plan&quot;}, {&quot;id&quot;: &quot;18813001570&quot;, &quot;key&quot;: &quot;is_logged_in&quot;}, {&quot;id&quot;: &quot;19073851829&quot;, &quot;key&quot;: &quot;geo&quot;}], &quot;botFiltering&quot;: false, &quot;accountId&quot;: &quot;16737760170&quot;, &quot;events&quot;: [{&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;17911811441&quot;, &quot;key&quot;: &quot;hydro_click.dashboard.teacher_toolbox_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18124116703&quot;, &quot;key&quot;: &quot;submit.organizations.complete_sign_up&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18145892387&quot;, &quot;key&quot;: &quot;no_metric.tracked_outside_of_optimizely&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18178755568&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.add_repo&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18180553241&quot;, &quot;key&quot;: &quot;submit.repository_imports.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18186103728&quot;, &quot;key&quot;: &quot;click.help.learn_more_about_repository_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18188530140&quot;, &quot;key&quot;: &quot;test_event.do_not_use_in_production&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18191963644&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.transfer_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18195612788&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.import_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18210945499&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.invite_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18211063248&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.create_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18215721889&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.update_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18224360785&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.dismiss&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18234832286&quot;, &quot;key&quot;: &quot;submit.organization_activation.complete&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18252392383&quot;, &quot;key&quot;: &quot;submit.org_repository.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18257551537&quot;, &quot;key&quot;: &quot;submit.org_member_invitation.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18259522260&quot;, &quot;key&quot;: &quot;submit.organization_profile.update&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18564603625&quot;, &quot;key&quot;: &quot;view.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18568612016&quot;, &quot;key&quot;: &quot;click.classroom_sign_in_click&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18572592540&quot;, &quot;key&quot;: &quot;view.classroom_name&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18574203855&quot;, &quot;key&quot;: &quot;click.classroom_create_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18582053415&quot;, &quot;key&quot;: &quot;click.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18589463420&quot;, &quot;key&quot;: &quot;click.classroom_create_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591323364&quot;, &quot;key&quot;: &quot;click.classroom_create_first_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591652321&quot;, &quot;key&quot;: &quot;click.classroom_grant_access&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18607131425&quot;, &quot;key&quot;: &quot;view.classroom_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18831680583&quot;, &quot;key&quot;: &quot;upgrade_account_plan&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19064064515&quot;, &quot;key&quot;: &quot;click.signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19075373687&quot;, &quot;key&quot;: &quot;click.view_account_billing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19077355841&quot;, &quot;key&quot;: &quot;click.dismiss_signup_prompt&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19079713938&quot;, &quot;key&quot;: &quot;click.contact_sales&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19120963070&quot;, &quot;key&quot;: &quot;click.compare_account_plans&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19151690317&quot;, &quot;key&quot;: &quot;click.upgrade_account_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19424193129&quot;, &quot;key&quot;: &quot;click.open_account_switcher&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19520330825&quot;, &quot;key&quot;: &quot;click.visit_account_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19540970635&quot;, &quot;key&quot;: &quot;click.switch_account_context&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19730198868&quot;, &quot;key&quot;: &quot;submit.homepage_signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19820830627&quot;, &quot;key&quot;: &quot;click.homepage_signup&quot;}], &quot;revision&quot;: &quot;407&quot;}" />
+  <meta name="optimizely-datafile" content="{&quot;version&quot;: &quot;4&quot;, &quot;rollouts&quot;: [], &quot;typedAudiences&quot;: [], &quot;anonymizeIP&quot;: true, &quot;projectId&quot;: &quot;16737760170&quot;, &quot;variables&quot;: [], &quot;featureFlags&quot;: [], &quot;experiments&quot;: [{&quot;status&quot;: &quot;Running&quot;, &quot;audienceIds&quot;: [], &quot;variations&quot;: [{&quot;variables&quot;: [], &quot;id&quot;: &quot;20438636352&quot;, &quot;key&quot;: &quot;control&quot;}, {&quot;variables&quot;: [], &quot;id&quot;: &quot;20484957397&quot;, &quot;key&quot;: &quot;treatment&quot;}], &quot;id&quot;: &quot;20479227424&quot;, &quot;key&quot;: &quot;growth_ghec_onboarding_experience&quot;, &quot;layerId&quot;: &quot;20467848595&quot;, &quot;trafficAllocation&quot;: [{&quot;entityId&quot;: &quot;20484957397&quot;, &quot;endOfRange&quot;: 1000}, {&quot;entityId&quot;: &quot;20484957397&quot;, &quot;endOfRange&quot;: 3000}, {&quot;entityId&quot;: &quot;20484957397&quot;, &quot;endOfRange&quot;: 5000}, {&quot;entityId&quot;: &quot;20484957397&quot;, &quot;endOfRange&quot;: 6000}, {&quot;entityId&quot;: &quot;20484957397&quot;, &quot;endOfRange&quot;: 8000}, {&quot;entityId&quot;: &quot;20484957397&quot;, &quot;endOfRange&quot;: 10000}], &quot;forcedVariations&quot;: {&quot;85e2238ce2b9074907d7a3d91d6feeae&quot;: &quot;control&quot;}}, {&quot;status&quot;: &quot;Running&quot;, &quot;audienceIds&quot;: [], &quot;variations&quot;: [{&quot;variables&quot;: [], &quot;id&quot;: &quot;20667381018&quot;, &quot;key&quot;: &quot;control&quot;}, {&quot;variables&quot;: [], &quot;id&quot;: &quot;20680930759&quot;, &quot;key&quot;: &quot;treatment&quot;}], &quot;id&quot;: &quot;20652570897&quot;, &quot;key&quot;: &quot;project_genesis&quot;, &quot;layerId&quot;: &quot;20672300363&quot;, &quot;trafficAllocation&quot;: [{&quot;entityId&quot;: &quot;20667381018&quot;, &quot;endOfRange&quot;: 5000}, {&quot;entityId&quot;: &quot;20680930759&quot;, &quot;endOfRange&quot;: 10000}], &quot;forcedVariations&quot;: {&quot;83356e17066d336d1803024138ecb683&quot;: &quot;treatment&quot;, &quot;18e31c8a9b2271332466133162a4aa0d&quot;: &quot;treatment&quot;, &quot;10f8ab3fbc5ebe989a36a05f79d48f32&quot;: &quot;treatment&quot;, &quot;1686089f6d540cd2deeaec60ee43ecf7&quot;: &quot;treatment&quot;}}], &quot;audiences&quot;: [{&quot;conditions&quot;: &quot;[\&quot;or\&quot;, {\&quot;match\&quot;: \&quot;exact\&quot;, \&quot;name\&quot;: \&quot;$opt_dummy_attribute\&quot;, \&quot;type\&quot;: \&quot;custom_attribute\&quot;, \&quot;value\&quot;: \&quot;$opt_dummy_value\&quot;}]&quot;, &quot;id&quot;: &quot;$opt_dummy_audience&quot;, &quot;name&quot;: &quot;Optimizely-Generated Audience for Backwards Compatibility&quot;}], &quot;groups&quot;: [], &quot;sdkKey&quot;: &quot;WTc6awnGuYDdG98CYRban&quot;, &quot;environmentKey&quot;: &quot;production&quot;, &quot;attributes&quot;: [{&quot;id&quot;: &quot;16822470375&quot;, &quot;key&quot;: &quot;user_id&quot;}, {&quot;id&quot;: &quot;17143601254&quot;, &quot;key&quot;: &quot;spammy&quot;}, {&quot;id&quot;: &quot;18175660309&quot;, &quot;key&quot;: &quot;organization_plan&quot;}, {&quot;id&quot;: &quot;18813001570&quot;, &quot;key&quot;: &quot;is_logged_in&quot;}, {&quot;id&quot;: &quot;19073851829&quot;, &quot;key&quot;: &quot;geo&quot;}, {&quot;id&quot;: &quot;20175462351&quot;, &quot;key&quot;: &quot;requestedCurrency&quot;}, {&quot;id&quot;: &quot;20785470195&quot;, &quot;key&quot;: &quot;country_code&quot;}], &quot;botFiltering&quot;: false, &quot;accountId&quot;: &quot;16737760170&quot;, &quot;events&quot;: [{&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;17911811441&quot;, &quot;key&quot;: &quot;hydro_click.dashboard.teacher_toolbox_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18124116703&quot;, &quot;key&quot;: &quot;submit.organizations.complete_sign_up&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18145892387&quot;, &quot;key&quot;: &quot;no_metric.tracked_outside_of_optimizely&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18178755568&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.add_repo&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18180553241&quot;, &quot;key&quot;: &quot;submit.repository_imports.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18186103728&quot;, &quot;key&quot;: &quot;click.help.learn_more_about_repository_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18188530140&quot;, &quot;key&quot;: &quot;test_event.do_not_use_in_production&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18191963644&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.transfer_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18195612788&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.import_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18210945499&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.invite_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18211063248&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.create_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18215721889&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.update_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18224360785&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.dismiss&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18234832286&quot;, &quot;key&quot;: &quot;submit.organization_activation.complete&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18252392383&quot;, &quot;key&quot;: &quot;submit.org_repository.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18257551537&quot;, &quot;key&quot;: &quot;submit.org_member_invitation.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18259522260&quot;, &quot;key&quot;: &quot;submit.organization_profile.update&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18564603625&quot;, &quot;key&quot;: &quot;view.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18568612016&quot;, &quot;key&quot;: &quot;click.classroom_sign_in_click&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18572592540&quot;, &quot;key&quot;: &quot;view.classroom_name&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18574203855&quot;, &quot;key&quot;: &quot;click.classroom_create_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18582053415&quot;, &quot;key&quot;: &quot;click.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18589463420&quot;, &quot;key&quot;: &quot;click.classroom_create_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591323364&quot;, &quot;key&quot;: &quot;click.classroom_create_first_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591652321&quot;, &quot;key&quot;: &quot;click.classroom_grant_access&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18607131425&quot;, &quot;key&quot;: &quot;view.classroom_creation&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;18831680583&quot;, &quot;key&quot;: &quot;upgrade_account_plan&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19064064515&quot;, &quot;key&quot;: &quot;click.signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19075373687&quot;, &quot;key&quot;: &quot;click.view_account_billing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19077355841&quot;, &quot;key&quot;: &quot;click.dismiss_signup_prompt&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19079713938&quot;, &quot;key&quot;: &quot;click.contact_sales&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19120963070&quot;, &quot;key&quot;: &quot;click.compare_account_plans&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19151690317&quot;, &quot;key&quot;: &quot;click.upgrade_account_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19424193129&quot;, &quot;key&quot;: &quot;click.open_account_switcher&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19520330825&quot;, &quot;key&quot;: &quot;click.visit_account_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19540970635&quot;, &quot;key&quot;: &quot;click.switch_account_context&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19730198868&quot;, &quot;key&quot;: &quot;submit.homepage_signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19820830627&quot;, &quot;key&quot;: &quot;click.homepage_signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19988571001&quot;, &quot;key&quot;: &quot;click.create_enterprise_trial&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20036538294&quot;, &quot;key&quot;: &quot;click.create_organization_team&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20040653299&quot;, &quot;key&quot;: &quot;click.input_enterprise_trial_form&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20062030003&quot;, &quot;key&quot;: &quot;click.continue_with_team&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20068947153&quot;, &quot;key&quot;: &quot;click.create_organization_free&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20086636658&quot;, &quot;key&quot;: &quot;click.signup_continue.username&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20091648988&quot;, &quot;key&quot;: &quot;click.signup_continue.create_account&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20103637615&quot;, &quot;key&quot;: &quot;click.signup_continue.email&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20111574253&quot;, &quot;key&quot;: &quot;click.signup_continue.password&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20120044111&quot;, &quot;key&quot;: &quot;view.pricing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20152062109&quot;, &quot;key&quot;: &quot;submit.create_account&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20165800992&quot;, &quot;key&quot;: &quot;submit.upgrade_payment_form&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20171520319&quot;, &quot;key&quot;: &quot;submit.create_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20222645674&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.discuss_your_needs&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20227443657&quot;, &quot;key&quot;: &quot;submit.verify_primary_user_email&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20234607160&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.try_enterprise&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20238175784&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.team&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20239847212&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.continue_free&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20251097193&quot;, &quot;key&quot;: &quot;recommended_plan&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20438619534&quot;, &quot;key&quot;: &quot;click.pricing_calculator.1_member&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20456699683&quot;, &quot;key&quot;: &quot;click.pricing_calculator.15_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20467868331&quot;, &quot;key&quot;: &quot;click.pricing_calculator.10_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20476267432&quot;, &quot;key&quot;: &quot;click.trial_days_remaining&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20476357660&quot;, &quot;key&quot;: &quot;click.discover_feature&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20479287901&quot;, &quot;key&quot;: &quot;click.pricing_calculator.custom_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20481107083&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.apply_teacher_benefits&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20483089392&quot;, &quot;key&quot;: &quot;click.pricing_calculator.5_members&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;, &quot;20652570897&quot;], &quot;id&quot;: &quot;20484283944&quot;, &quot;key&quot;: &quot;click.onboarding_task&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20484996281&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.apply_student_benefits&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20486713726&quot;, &quot;key&quot;: &quot;click.onboarding_task_breadcrumb&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20490791319&quot;, &quot;key&quot;: &quot;click.upgrade_to_enterprise&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20491786766&quot;, &quot;key&quot;: &quot;click.talk_to_us&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20494144087&quot;, &quot;key&quot;: &quot;click.dismiss_enterprise_trial&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;, &quot;20652570897&quot;], &quot;id&quot;: &quot;20499722759&quot;, &quot;key&quot;: &quot;completed_all_tasks&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;, &quot;20652570897&quot;], &quot;id&quot;: &quot;20500710104&quot;, &quot;key&quot;: &quot;completed_onboarding_tasks&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20513160672&quot;, &quot;key&quot;: &quot;click.read_doc&quot;}, {&quot;experimentIds&quot;: [&quot;20652570897&quot;], &quot;id&quot;: &quot;20516196762&quot;, &quot;key&quot;: &quot;actions_enabled&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20518980986&quot;, &quot;key&quot;: &quot;click.dismiss_trial_banner&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20535446721&quot;, &quot;key&quot;: &quot;click.issue_actions_prompt.dismiss_prompt&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20557002247&quot;, &quot;key&quot;: &quot;click.issue_actions_prompt.setup_workflow&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20595070227&quot;, &quot;key&quot;: &quot;click.pull_request_setup_workflow&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20626600314&quot;, &quot;key&quot;: &quot;click.seats_input&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20642310305&quot;, &quot;key&quot;: &quot;click.decrease_seats_number&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20662990045&quot;, &quot;key&quot;: &quot;click.increase_seats_number&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20679620969&quot;, &quot;key&quot;: &quot;click.public_product_roadmap&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20761240940&quot;, &quot;key&quot;: &quot;click.dismiss_survey_banner&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20767210721&quot;, &quot;key&quot;: &quot;click.take_survey&quot;}, {&quot;experimentIds&quot;: [&quot;20652570897&quot;], &quot;id&quot;: &quot;20795281201&quot;, &quot;key&quot;: &quot;click.archive_list&quot;}], &quot;revision&quot;: &quot;976&quot;}" />
   <!-- To prevent page flashing, the optimizely JS needs to be loaded in the
     <head> tag before the DOM renders -->
-  <script crossorigin="anonymous" defer="defer" integrity="sha512-VJrqSK702Mzl9EQxm2OvFxKaumGptgVdeJS2rsaLvVlOdR4HEu3ZFjtV83kMKdYRelUnxxaAFw0wthkpdEUafw==" type="application/javascript" src="https://github.githubassets.com/assets/optimizely-549aea48.js"></script>
+  <script crossorigin="anonymous" defer="defer" integrity="sha512-stPGyO+GUOomTBqs1Y5EJnkYCf8cb/wFveUz/ncDr9XaP9olIwZerGQr4wFA3nBNqhbaqHsYbf0NfWJZ6XHjrg==" type="application/javascript" src="https://github.githubassets.com/assets/optimizely-b2d3c6c8.js"></script>
 
 
 
   
 
       <meta name="hostname" content="github.com">
-    <meta name="user-login" content="">
+    <meta name="user-login" content="shlomifgm">
 
 
       <meta name="expected-hostname" content="github.com">
 
+      <meta name="js-proxy-site-detection-payload" content="Y2JmMjU0Y2Q2Y2Y3NDIyYzVmYjU3Y2Q4NjMzYTIwYTRiNzg0OGIyOTk3N2E5NzVlZWMxOTZmYTk3Zjg3MGYxY3x7InJlbW90ZV9hZGRyZXNzIjoiNzkuMTc5LjMxLjIzNyIsInJlcXVlc3RfaWQiOiJCNEQxOjE1QkM6MzM0RjlFOjM5MzkxRTo2MUE4NjVEMyIsInRpbWVzdGFtcCI6MTYzODQyNjA3NywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+      <meta name="keyboard-shortcuts-preference" content="all">
+      <script type="application/json" id="memex_keyboard_shortcuts_preference">"all"</script>
 
-    <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,ACTIONS_SHORT_SHA_WARNING">
+    <meta name="enabled-features" content="ACTIONS_CALLABLE_WORKFLOWS,ACTIONS_TYPED_INPUTS,MARKETPLACE_PENDING_INSTALLATIONS,FILE_UPLOAD_CURSOR_POSITION,LINKIFY_SELECTED_TEXT_ON_URL_PASTE,PRESENCE_IDLE">
 
-  <meta http-equiv="x-pjax-version" content="5b7880630b993faf269b25a1dfb27d599bdf3a8d69d8eb933b6350231de19d57">
+  <meta http-equiv="x-pjax-version" content="a35e18108302a3ab24d5766384cd6e4c3c1ec6ac8a9365d9c3626034e71dcb19">
+  <meta http-equiv="x-pjax-csp-version" content="9ea82e8060ac9d44365bfa193918b70ed58abd9413362ba412abb161b3a8d1b6">
+  <meta http-equiv="x-pjax-css-version" content="a525d4aa18a37873bd3b8f308d4428dacb2ba257def89b772f594bdddeab567a">
+  <meta http-equiv="x-pjax-js-version" content="83be1601fa0a1dd7c9d4eef7b1aa64e4ded6c6e9ac3dba5f61cda22621399079">
   
 
-        <link href="https://github.com/home-assistant/core/commits/dev.atom" rel="alternate" title="Recent Commits to core:dev" type="application/atom+xml">
-
+    
   <meta name="go-import" content="github.com/home-assistant/core git https://github.com/home-assistant/core.git">
 
   <meta name="octolytics-dimension-user_id" content="13844975" /><meta name="octolytics-dimension-user_login" content="home-assistant" /><meta name="octolytics-dimension-repository_id" content="12888993" /><meta name="octolytics-dimension-repository_nwo" content="home-assistant/core" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="12888993" /><meta name="octolytics-dimension-repository_network_root_nwo" content="home-assistant/core" />
@@ -129,203 +193,105 @@
   <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
 
 <meta name="theme-color" content="#1e2327">
+<meta name="color-scheme" content="light dark" />
 
 
   <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
 
   </head>
 
-  <body class="logged-out env-production page-responsive page-blob">
+  <body class="logged-in env-production page-responsive page-blob" style="word-wrap: break-word;">
     
 
     <div class="position-relative js-header-wrapper ">
-      <a href="#start-of-content" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
-      <span class="progress-pjax-loader width-full js-pjax-loader-bar Progress position-fixed">
-    <span style="background-color: #79b8ff;width: 0%;" class="Progress-item progress-pjax-loader-bar "></span>
+      <a href="#start-of-content" class="p-3 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
+      <span data-view-component="true" class="progress-pjax-loader js-pjax-loader-bar Progress position-fixed width-full">
+    <span style="width: 0%;" data-view-component="true" class="Progress-item progress-pjax-loader-bar color-bg-accent-emphasis"></span>
 </span>      
       
 
 
-            <header class="Header-old header-logged-out js-details-container Details position-relative f4 py-2" role="banner">
-  <div class="container-xl d-lg-flex flex-items-center p-responsive">
-    <div class="d-flex flex-justify-between flex-items-center">
-        <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
-          <svg height="32" class="octicon octicon-mark-github text-white" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
-        </a>
+        <script crossorigin="anonymous" defer="defer" integrity="sha512-Ug4OQabRo9CZTTZY3kZVbvIAneB0MK0SRwhQ5XLisJzQ9+0unyOuc+WL8EG42uHQyviyQACB1CGqB0+vThkacg==" type="application/javascript" src="https://github.githubassets.com/assets/command-palette-520e0e41.js"></script>
 
-          <div class="d-lg-none css-truncate css-truncate-target width-fit p-2">
-            
+            <header class="Header js-details-container Details px-3 px-md-4 px-lg-5 flex-wrap flex-md-nowrap" role="banner" >
+    <div class="Header-item mt-n1 mb-n1  d-none d-md-flex">
+      <a
+  class="Header-link "
+  href="https://github.com/"
+  data-hotkey="g d"
+  aria-label="Homepage "
+  data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="debf53e858cfd85fe129d905c8fb6982fa84e6bfbc0f52cae0c8b2f1c95be49c" data-analytics-event="{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;}"
+>
+  <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
+    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+</svg>
+</a>
 
-          </div>
-
-        <div class="d-flex flex-items-center">
-              <a href="/join?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo"
-                class="d-inline-block d-lg-none f5 text-white no-underline border border-gray-dark rounded-2 px-2 py-1 mr-3 mr-sm-5"
-                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c41df03d1dff551b8911df04c147d85d83c1c288365ea2621c0026afd4d5df2f"
-                data-ga-click="Sign up, click to sign up for account, ref_page:/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show;ref_cta:Sign up;ref_loc:header logged out">
-                Sign&nbsp;up
-              </a>
-
-          <button class="btn-link d-lg-none mt-1 js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
-            <svg height="24" class="octicon octicon-three-bars text-white" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path></svg>
-          </button>
-        </div>
     </div>
 
-    <div class="HeaderMenu HeaderMenu--logged-out position-fixed top-0 right-0 bottom-0 height-fit position-lg-relative d-lg-flex flex-justify-between flex-items-center flex-auto">
-      <div class="d-flex d-lg-none flex-justify-end border-bottom bg-gray-light p-3">
-        <button class="btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
-          <svg height="24" class="octicon octicon-x text-gray" viewBox="0 0 24 24" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M5.72 5.72a.75.75 0 011.06 0L12 10.94l5.22-5.22a.75.75 0 111.06 1.06L13.06 12l5.22 5.22a.75.75 0 11-1.06 1.06L12 13.06l-5.22 5.22a.75.75 0 01-1.06-1.06L10.94 12 5.72 6.78a.75.75 0 010-1.06z"></path></svg>
-        </button>
-      </div>
+    <div class="Header-item d-md-none">
+      <button aria-label="Toggle navigation" aria-expanded="false" type="button" data-view-component="true" class="Header-link js-details-target btn-link">
+  
+  
+        <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true" class="octicon octicon-three-bars">
+    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+</svg>
 
-        <nav class="mt-0 px-3 px-lg-0 mb-5 mb-lg-0" aria-label="Global">
-          <ul class="d-lg-flex list-style-none">
-              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
-                <details class="HeaderMenu-details details-overlay details-reset width-full">
-                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
-                    Why GitHub?
-                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
-                      <path d="M1,1l6.2,6L13,1"></path>
-                    </svg>
-                  </summary>
-                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
-                    <a href="/features" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a>
-                    <ul class="list-style-none f5 pb-3">
-                        <li class="edge-item-fix"><a href="/mobile" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover">Mobile <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                        <li class="edge-item-fix"><a href="/features/actions" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover">Actions <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                        <li class="edge-item-fix"><a href="/features/codespaces" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover">Codespaces <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                        <li class="edge-item-fix"><a href="/features/packages" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover">Packages <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                        <li class="edge-item-fix"><a href="/features/security" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover">Security <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                        <li class="edge-item-fix"><a href="/features/code-review/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover">Code review <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                        <li class="edge-item-fix"><a href="/features/project-management/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover">Project management <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                        <li class="edge-item-fix"><a href="/features/integrations" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover">Integrations <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                    </ul>
+  
 
-                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
-                      <li class="edge-item-fix"><a href="/sponsors" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Sponsors">GitHub Sponsors <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                      <li class="edge-item-fix"><a href="/customer-stories" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Customer stories">Customer stories <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                      <li class="edge-item-fix"><a href="/security" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                    </ul>
-                  </div>
-                </details>
-              </li>
-              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
-                <a href="/team" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Team">Team</a>
-              </li>
-              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
-                <a href="/enterprise" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Enterprise">Enterprise</a>
-              </li>
+</button>    </div>
 
-              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
-                <details class="HeaderMenu-details details-overlay details-reset width-full">
-                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
-                    Explore
-                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
-                      <path d="M1,1l6.2,6L13,1"></path>
-                    </svg>
-                  </summary>
+    <div class="Header-item Header-item--full flex-column flex-md-row width-full flex-order-2 flex-md-order-none mr-0 mr-md-3 mt-3 mt-md-0 Details-content--hidden-not-important d-md-flex">
+          
 
-                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
-                    <ul class="list-style-none mb-3">
-                      <li class="edge-item-fix"><a href="/explore" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Explore">Explore GitHub <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                    </ul>
 
-                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Learn &amp; contribute</h4>
-                    <ul class="list-style-none mb-3">
-                      <li class="edge-item-fix"><a href="/topics" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Topics">Topics <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                        <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Collections">Collections <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                      <li class="edge-item-fix"><a href="/trending" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Trending">Trending <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                      <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                      <li class="edge-item-fix"><a href="https://opensource.guide" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                    </ul>
 
-                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Connect with others</h4>
-                    <ul class="list-style-none mb-0">
-                      <li class="edge-item-fix"><a href="https://github.com/readme" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover">The ReadME Project <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                      <li class="edge-item-fix"><a href="https://github.com/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Events">Events <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                      <li class="edge-item-fix"><a href="https://github.community" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Community forum">Community forum <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                      <li class="edge-item-fix"><a href="https://stars.github.com" class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to GitHub Stars Program">GitHub Stars program <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                    </ul>
-                  </div>
-                </details>
-              </li>
-
-              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
-                <a href="/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace">Marketplace</a>
-              </li>
-
-              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
-                <details class="HeaderMenu-details details-overlay details-reset width-full">
-                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
-                    Pricing
-                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
-                       <path d="M1,1l6.2,6L13,1"></path>
-                    </svg>
-                  </summary>
-
-                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-4 mt-0 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
-                    <a href="/pricing" class="pb-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a>
-
-                    <ul class="list-style-none mb-3">
-                      <li class="edge-item-fix"><a href="/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Compare plans">Compare plans <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                      <li class="edge-item-fix"><a href="https://enterprise.github.com/contact" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Contact Sales">Contact Sales <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                    </ul>
-
-                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
-                      <li class="edge-item-fix"><a href="/nonprofit" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Nonprofits">Nonprofit <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover"  data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal text-gray-light pr-3">&rarr;</span></a></li>
-                    </ul>
-                  </div>
-                </details>
-              </li>
-          </ul>
-        </nav>
-
-      <div class="d-lg-flex flex-items-center px-3 px-lg-0 text-center text-lg-left">
-          <div class="d-lg-flex mb-3 mb-lg-0">
-            <div class="header-search flex-auto js-site-search position-relative flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 scoped-search site-scoped-search js-jump-to"
-  role="combobox"
-  aria-owns="jump-to-results"
-  aria-label="Search or jump to"
-  aria-haspopup="listbox"
-  aria-expanded="false"
+<div class="header-search flex-auto js-site-search position-relative flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 scoped-search site-scoped-search js-jump-to"
 >
   <div class="position-relative">
     <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="12888993" data-scoped-search-url="/home-assistant/core/search" data-owner-scoped-search-url="/orgs/home-assistant/search" data-unscoped-search-url="/search" action="/home-assistant/core/search" accept-charset="UTF-8" method="get">
       <label class="form-control input-sm header-search-wrapper p-0 js-chromeless-input-container header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center">
         <input type="text"
           class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
-          data-hotkey="s,/"
+          data-hotkey=s,/
           name="q"
-          value=""
-          placeholder="Search"
-          data-unscoped-placeholder="Search GitHub"
-          data-scoped-placeholder="Search"
+          data-test-selector="nav-search-input"
+          placeholder="Search or jump to…"
+          data-unscoped-placeholder="Search or jump to…"
+          data-scoped-placeholder="Search or jump to…"
           autocapitalize="off"
+          role="combobox"
+          aria-haspopup="listbox"
+          aria-expanded="false"
           aria-autocomplete="list"
           aria-controls="jump-to-results"
-          aria-label="Search"
+          aria-label="Search or jump to…"
           data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations"
           spellcheck="false"
           autocomplete="off"
-          >
-          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="8kTFrakt6NuH5daY6OyiACAfXdfqr77CrY228/bxDJtJCw9zJM1Np+QpAAwu+fZW7tvq6sMtxACIOSXYyRzVoQ==" />
-          <input type="hidden" class="js-site-search-type-field" name="type" >
-            <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
+        >
+        <input type="hidden" value="CFvQ9lWd6luiRikjOSvf8IfYPm7NxDoAWi7OtuIOIWVVL8svWQCp4o6vCD8eH2POVvH7pkMe5fEhg/hUwWTDAQ==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
-            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
-              
+
+          <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+            
 <ul class="d-none js-jump-to-suggestions-template-container">
   
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="suggestion">
     <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
-      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
-      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
-      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+      <svg title="Repository" aria-label="Repository" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo js-jump-to-octicon-repo d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
+</svg>
+      <svg title="Project" aria-label="Project" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project js-jump-to-octicon-project d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path>
+</svg>
+      <svg title="Search" aria-label="Search" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search js-jump-to-octicon-search d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path>
+</svg>
     </div>
 
     <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
@@ -333,7 +299,7 @@
     <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
     </div>
 
-    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+    <div class="border rounded-1 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none js-jump-to-badge-search">
       <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
         In this repository
       </span>
@@ -343,7 +309,7 @@
       <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
     </div>
 
-    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
       Jump to
       <span class="d-inline-block ml-1 v-align-middle">↵</span>
     </div>
@@ -354,7 +320,7 @@
 
 <ul class="d-none js-jump-to-no-results-template-container">
   <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
-    <span class="text-gray">No suggested jump to results</span>
+    <span class="color-fg-muted">No suggested jump to results</span>
   </li>
 </ul>
 
@@ -364,9 +330,15 @@
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="scoped_search">
     <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
-      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
-      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
-      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+      <svg title="Repository" aria-label="Repository" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo js-jump-to-octicon-repo d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
+</svg>
+      <svg title="Project" aria-label="Project" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project js-jump-to-octicon-project d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path>
+</svg>
+      <svg title="Search" aria-label="Search" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search js-jump-to-octicon-search d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path>
+</svg>
     </div>
 
     <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
@@ -374,7 +346,7 @@
     <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
     </div>
 
-    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+    <div class="border rounded-1 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none js-jump-to-badge-search">
       <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
         In this repository
       </span>
@@ -384,7 +356,7 @@
       <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
     </div>
 
-    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
       Jump to
       <span class="d-inline-block ml-1 v-align-middle">↵</span>
     </div>
@@ -396,9 +368,15 @@
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-owner-scoped-search d-none" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="owner_scoped_search">
     <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
-      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
-      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
-      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+      <svg title="Repository" aria-label="Repository" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo js-jump-to-octicon-repo d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
+</svg>
+      <svg title="Project" aria-label="Project" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project js-jump-to-octicon-project d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path>
+</svg>
+      <svg title="Search" aria-label="Search" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search js-jump-to-octicon-search d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path>
+</svg>
     </div>
 
     <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
@@ -406,7 +384,7 @@
     <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
     </div>
 
-    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+    <div class="border rounded-1 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none js-jump-to-badge-search">
       <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this organization">
         In this organization
       </span>
@@ -416,7 +394,7 @@
       <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
     </div>
 
-    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
       Jump to
       <span class="d-inline-block ml-1 v-align-middle">↵</span>
     </div>
@@ -428,9 +406,15 @@
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="global_search">
     <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
-      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
-      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
-      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+      <svg title="Repository" aria-label="Repository" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo js-jump-to-octicon-repo d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
+</svg>
+      <svg title="Project" aria-label="Project" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project js-jump-to-octicon-project d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path>
+</svg>
+      <svg title="Search" aria-label="Search" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search js-jump-to-octicon-search d-none flex-shrink-0">
+    <path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path>
+</svg>
     </div>
 
     <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
@@ -438,7 +422,7 @@
     <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
     </div>
 
-    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+    <div class="border rounded-1 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none js-jump-to-badge-search">
       <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
         In this repository
       </span>
@@ -448,7 +432,7 @@
       <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
     </div>
 
-    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
       Jump to
       <span class="d-inline-block ml-1 v-align-middle">↵</span>
     </div>
@@ -456,35 +440,187 @@
 </li>
 
 
+    <li class="d-flex flex-justify-center flex-items-center p-0 f5 js-jump-to-suggestion">
+      <span role="status">
+  <span class="sr-only">Loading</span>
+  <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="m-3 anim-rotate">
+    <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+    <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg></span>
+
+    </li>
 </ul>
 
-            </div>
+          </div>
       </label>
 </form>  </div>
 </div>
 
-          </div>
+        <nav class="d-flex flex-column flex-md-row flex-self-stretch flex-md-self-auto" aria-label="Global">
+      <a class="Header-link py-md-3 d-block d-md-none py-2 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:dashboard:user" aria-label="Dashboard" href="/dashboard">
+        Dashboard
+</a>
+    <a class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade" data-hotkey="g p" data-ga-click="Header, click, Nav menu - item:pulls context:user" aria-label="Pull requests you created" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls" href="/pulls">
+        Pull<span class="d-inline d-md-none d-lg-inline"> request</span>s
+</a>
+    <a class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade" data-hotkey="g i" data-ga-click="Header, click, Nav menu - item:issues context:user" aria-label="Issues you created" data-selected-links="/issues /issues/assigned /issues/mentioned /issues" href="/issues">
+      Issues
+</a>
+      <div class="d-flex position-relative">
+        <a class="js-selected-navigation-item Header-link flex-auto mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-octo-click="marketplace_click" data-octo-dimensions="location:nav_bar" data-selected-links=" /marketplace" href="/marketplace">
+          Marketplace
+</a>      </div>
 
-        <a href="/login?return_to=%2Fhome-assistant%2Fcore%2Fblob%2Fdev%2Fhomeassistant%2Fcomponents%2Fseventeentrack%2Fsensor.py"
-          class="HeaderMenu-link no-underline mr-3"
-          data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="3c03ec32c0435b0e868fb4f091e6d05d4791c1f77d8f334b436c4f6e96846792"
-          data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
-          Sign&nbsp;in
-        </a>
-            <a href="/join?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo&amp;source_repo=home-assistant%2Fcore"
-              class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1"
-              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="3c03ec32c0435b0e868fb4f091e6d05d4791c1f77d8f334b436c4f6e96846792"
-              data-ga-click="Sign up, click to sign up for account, ref_page:/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show;ref_cta:Sign up;ref_loc:header logged out">
-              Sign&nbsp;up
-            </a>
-      </div>
+    <a class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+      Explore
+</a>
+    <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:workspaces context:user" data-selected-links="/codespaces /codespaces" href="/codespaces">
+      Codespaces
+</a>
+      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;shlomifgm&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="342f2d51898af64a133c2040e714268c53db04d20c2f39aec36b7b1c21110438" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
+
+    <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade" href="/settings/profile">
+      Settings
+</a>
+    <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade" href="/shlomifgm">
+      <img class="avatar avatar-user" loading="lazy" decoding="async" src="https://avatars.githubusercontent.com/u/67979015?s=40&amp;v=4" width="20" height="20" alt="@shlomifgm" />
+      shlomifgm
+</a>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="fIGbUIePQg8cEtTrow74pjeXLdt1bICk80ekjCboLU41rmOZCD4WoHWV0biuJL5t+RADdlNcVgSLcCmjxmiYxQ==" />
+      <button
+        type="submit"
+        class="Header-link mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade d-md-none btn-link d-block width-full text-left"
+        style="padding-left: 2px;"
+        data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;sign out&quot;,&quot;label&quot;:&quot;icon:logout&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="516ea33a8ca82626b9c48a1b978f3596c44d3fcc5b6c0c9842e750b9b48a105a" data-analytics-event="{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;sign out&quot;,&quot;label&quot;:&quot;icon:logout&quot;}"
+      >
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sign-out v-align-middle">
+    <path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"></path>
+</svg>
+        Sign out
+      </button>
+</form></nav>
+
     </div>
-  </div>
+
+    <div class="Header-item Header-item--full flex-justify-center d-md-none position-relative">
+        <a
+  class="Header-link "
+  href="https://github.com/"
+  data-hotkey="g d"
+  aria-label="Homepage "
+  data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="debf53e858cfd85fe129d905c8fb6982fa84e6bfbc0f52cae0c8b2f1c95be49c" data-analytics-event="{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;}"
+>
+  <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
+    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+</svg>
+</a>
+
+    </div>
+
+    <div class="Header-item mr-0 mr-md-3 flex-order-1 flex-md-order-none">
+        
+
+
+      <notification-indicator
+        class="js-socket-channel"
+        data-test-selector="notifications-indicator"
+        data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6Njc5NzkwMTUiLCJ0IjoxNjM4NDI2MDc3fQ==--2dc97906b55be3605ce49b7c7f6ec79acbf0d98cc79bfab0696280d3bb13eaa8">
+        <a href="/notifications"
+          class="Header-link notification-indicator position-relative tooltipped tooltipped-sw"
+          
+          aria-label="You have no unread notifications"
+          data-hotkey="g n"
+          data-ga-click="Header, go to notifications, icon:read"
+          data-target="notification-indicator.link">
+          <span class="mail-status  " data-target="notification-indicator.modifier"></span>
+          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell">
+    <path d="M8 16a2 2 0 001.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 008 16z"></path><path fill-rule="evenodd" d="M8 1.5A3.5 3.5 0 004.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.018.018 0 00-.003.01l.001.006c0 .002.002.004.004.006a.017.017 0 00.006.004l.007.001h10.964l.007-.001a.016.016 0 00.006-.004.016.016 0 00.004-.006l.001-.007a.017.017 0 00-.003-.01l-1.703-2.554a1.75 1.75 0 01-.294-.97V5A3.5 3.5 0 008 1.5zM3 5a5 5 0 0110 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.518 1.518 0 0113.482 13H2.518a1.518 1.518 0 01-1.263-2.36l1.703-2.554A.25.25 0 003 7.947V5z"></path>
+</svg>
+        </a>
+      </notification-indicator>
+
+    </div>
+
+
+    <div class="Header-item position-relative d-none d-md-flex">
+        <details class="details-overlay details-reset">
+  <summary
+    class="Header-link"
+    aria-label="Create new…"
+    data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;create new&quot;,&quot;label&quot;:&quot;icon:add&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="107641966bb62de6cd50844e4b480bcfb2be0724eaf82c59039d1dda682ea7f5" data-analytics-event="{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;create new&quot;,&quot;label&quot;:&quot;icon:add&quot;}"
+  >
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+    <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+</svg> <span class="dropdown-caret"></span>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw">
+    
+<a role="menuitem" class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a role="menuitem" class="dropdown-item" href="/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+<a role="menuitem" class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+  New gist
+</a>
+
+  <a role="menuitem" class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+
+  </details-menu>
+</details>
+
+    </div>
+
+    <div class="Header-item position-relative mr-0 d-none d-md-flex">
+        
+  <details class="details-overlay details-reset js-feature-preview-indicator-container" data-feature-preview-indicator-src="/users/shlomifgm/feature_preview/indicator_check">
+
+  <summary
+    class="Header-link"
+    aria-label="View profile and more"
+    data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;show menu&quot;,&quot;label&quot;:&quot;icon:avatar&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="fb947387c48cc14f2b48601c8b596188236536408990d433cefc0b37e2be73b6" data-analytics-event="{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;show menu&quot;,&quot;label&quot;:&quot;icon:avatar&quot;}"
+  >
+    <img src="https://avatars.githubusercontent.com/u/67979015?s=40&amp;v=4" alt="@shlomifgm" size="20" height="20" width="20" data-view-component="true" class="avatar avatar-small circle" />
+      <span class="feature-preview-indicator js-feature-preview-indicator" style="top: 1px;" hidden></span>
+    <span class="dropdown-caret"></span>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw" style="width: 180px" 
+      src="/users/67979015/menu" preload>
+      <include-fragment>
+        <p class="text-center mt-3" data-hide-on-error>
+          <span role="status">
+  <span class="sr-only">Loading</span>
+  <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
+    <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+    <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg></span>
+
+        </p>
+        <p class="ml-1 mb-2 mt-2 color-fg-default" data-show-on-error>
+          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+          Sorry, something went wrong.
+        </p>
+      </include-fragment>
+  </details-menu>
+</details>
+
+    </div>
 </header>
 
+            
     </div>
 
   <div id="start-of-content" class="show-on-focus"></div>
+
 
 
 
@@ -497,7 +633,9 @@
     <div class="flash flash-full  {{ className }}">
   <div class=" px-2" >
     <button class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
-      <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
     </button>
     
       <div>{{ message }}</div>
@@ -515,6 +653,635 @@
 
 
 
+      <details class="details-reset details-overlay details-overlay-dark js-command-palette-dialog">
+  <summary class="command-palette-details-summary" aria-label="command palette trigger">
+  </summary>
+  <details-dialog class="command-palette-details-dialog d-flex flex-column flex-justify-center height-fit">
+    <command-palette
+      class="command-palette color-bg-default rounded-3"
+      data-return-to=/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py
+      data-user-id="67979015"
+      >
+      <input type="hidden" value="I8HQ+fROgdii5YThJkGFR8B+KyDUZtTokVYt1uYEZuhRBDDXpDKEEkUniMs9W5LCoSqKCDIO6TL+PkdvqbWN2A==" data-csrf="true" class="js-graphql-csrf" />
+      <iframe class="d-none js-command-palette-commands" sandbox="allow-scripts allow-same-origin" srcdoc="<script crossorigin=&quot;anonymous&quot; defer=&quot;defer&quot; integrity=&quot;sha512-2Jz3lq/Gk0f8RePMFf+bUCfw6LwZ3nXfh3AQmMFOUj5cIW/rCeZcWRFO/q0l00bbLMcdXkpDj6KvP9Ny2qh8QA==&quot; type=&quot;application/javascript&quot; src=&quot;https://github.githubassets.com/assets/command-runner-d89cf796.js&quot;></script>
+" aria-hidden="true" data-url="https://github.com"></iframe>
+      <input type="hidden" name="color-mode-path" id="color-mode-path" value="/settings/appearance/color_mode" class="js-color-mode-path" autocomplete="off" />
+      <input type="hidden" value="kuRyATxV2PfmS9tk2oenTmaXyX2itjZN9zm1mxAjhYNQmQ8Unh7ou+V9deKP4XaJBYcq2jltbpr3p8MI1rdO1Q==" data-csrf="true" class="js-color-mode-csrf" />
+
+        <command-palette-mode
+          data-char="#"
+            data-scope-types="[&quot;&quot;]"
+            data-placeholder="Search issues and pull requests"
+        ></command-palette-mode>
+        <command-palette-mode
+          data-char="#"
+            data-scope-types="[&quot;owner&quot;,&quot;repository&quot;]"
+            data-placeholder="Search issues, pull requests, discussions, and projects"
+        ></command-palette-mode>
+        <command-palette-mode
+          data-char="!"
+            data-scope-types="[&quot;owner&quot;,&quot;repository&quot;]"
+            data-placeholder="Search projects"
+        ></command-palette-mode>
+        <command-palette-mode
+          data-char="@"
+            data-scope-types="[&quot;&quot;]"
+            data-placeholder="Search or jump to a user, organization, or repository"
+        ></command-palette-mode>
+        <command-palette-mode
+          data-char="@"
+            data-scope-types="[&quot;owner&quot;]"
+            data-placeholder="Search or jump to a repository"
+        ></command-palette-mode>
+        <command-palette-mode
+          data-char="/"
+            data-scope-types="[&quot;repository&quot;]"
+            data-placeholder="Search files"
+        ></command-palette-mode>
+        <command-palette-mode
+          data-char="?"
+        ></command-palette-mode>
+        <command-palette-mode
+          data-char="&gt;"
+            data-placeholder="Run a command"
+        ></command-palette-mode>
+        <command-palette-mode
+          data-char=""
+            data-scope-types="[&quot;owner&quot;]"
+            data-placeholder="Search or jump to..."
+        ></command-palette-mode>
+      <command-palette-mode
+        class="js-command-palette-default-mode"
+        data-char=""
+        data-placeholder="Search or jump to..."
+      ></command-palette-mode>
+
+      <command-palette-input placeholder="Search or jump to..."
+      >
+          <command-palette-scope>
+              <command-palette-token
+                data-text="home-assistant"
+                data-id="MDEyOk9yZ2FuaXphdGlvbjEzODQ0OTc1"
+                data-type="owner"
+                data-value="home-assistant"
+                data-targets="command-palette-scope.tokens"
+                >home-assistant</command-palette-token>
+              <command-palette-token
+                data-text="/core"
+                data-id="MDEwOlJlcG9zaXRvcnkxMjg4ODk5Mw=="
+                data-type="repository"
+                data-value="core"
+                data-targets="command-palette-scope.tokens"
+                >/core</command-palette-token>
+          </command-palette-scope>
+      </command-palette-input>
+
+        <command-palette-item-stack id="command-palette-item-stack" class="item-stack-transition-height"  role="listbox" aria-label="Command palette results">
+          <command-palette-tip class="color-fg-muted f6 px-3 py-1 my-2" data-type="" data-mode="" data-value="">
+            Type <code class="p-1 color-bg-subtle rounded-1">#</code> for issues and pull requests, <code class="p-1 color-bg-subtle rounded-1">></code> for commands, and <code class="p-1 color-bg-subtle rounded-1">?</code> for help
+          </command-palette-tip>
+          <command-palette-tip class="color-fg-muted f6 px-3 py-1 my-2" data-type="owner" data-mode="" data-value="">
+            Type <code class="p-1 color-bg-subtle rounded-1">#</code> for issues, pull requests, and projects, <code class="p-1 color-bg-subtle rounded-1">></code> for commands, and <code class="p-1 color-bg-subtle rounded-1">?</code> for help
+          </command-palette-tip>
+          <command-palette-tip class="color-fg-muted f6 px-3 py-1 my-2" data-type="repository" data-mode="" data-value="">
+            Type <code class="p-1 color-bg-subtle rounded-1">#</code> for issues, pull requests, and projects, <code class="p-1 color-bg-subtle rounded-1">/</code> for files, and <code class="p-1 color-bg-subtle rounded-1">></code> for commands
+          </command-palette-tip>
+          <command-palette-tip class="mx-3 my-2 flash flash-error d-flex flex-items-center" data-on-error>
+            <div>
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+            </div>
+            <div class="px-2">
+              We’ve encountered an error and some results aren't available at this time. Type a new search or try again later.
+            </div>
+          </command-palette-tip>
+          <command-palette-tip class="h4 color-fg-default pl-3 pb-2 pt-3" data-on-empty data-match-mode="[^?]|^$">
+            No results matched your search
+          </command-palette-tip>
+
+            <command-palette-item-group
+              data-group-id="top"
+              data-group-title="Top result"
+              data-group-hint=""
+              data-group-limits="{}"
+              data-targets="command-palette-item-stack.groups"
+            >
+            </command-palette-item-group>
+            <command-palette-item-group
+              data-group-id="commands"
+              data-group-title="Commands"
+              data-group-hint="Type &gt; to filter"
+              data-group-limits="{}"
+              data-targets="command-palette-item-stack.groups"
+            >
+            </command-palette-item-group>
+            <command-palette-item-group
+              data-group-id="files"
+              data-group-title="Files"
+              data-group-hint=""
+              data-group-limits="{}"
+              data-targets="command-palette-item-stack.groups"
+            >
+            </command-palette-item-group>
+            <command-palette-item-group
+              data-group-id="pages"
+              data-group-title="Pages"
+              data-group-hint=""
+              data-group-limits="{&quot;repository&quot;:10}"
+              data-targets="command-palette-item-stack.groups"
+            >
+            </command-palette-item-group>
+            <command-palette-item-group
+              data-group-id="access_policies"
+              data-group-title="Access Policies"
+              data-group-hint=""
+              data-group-limits="{}"
+              data-targets="command-palette-item-stack.groups"
+            >
+            </command-palette-item-group>
+            <command-palette-item-group
+              data-group-id="organizations"
+              data-group-title="Organizations"
+              data-group-hint=""
+              data-group-limits="{}"
+              data-targets="command-palette-item-stack.groups"
+            >
+            </command-palette-item-group>
+            <command-palette-item-group
+              data-group-id="repositories"
+              data-group-title="Repositories"
+              data-group-hint=""
+              data-group-limits="{}"
+              data-targets="command-palette-item-stack.groups"
+            >
+            </command-palette-item-group>
+            <command-palette-item-group
+              data-group-id="references"
+              data-group-title="Issues, pull requests, and discussions"
+              data-group-hint="Type # to filter"
+              data-group-limits="{}"
+              data-targets="command-palette-item-stack.groups"
+            >
+            </command-palette-item-group>
+            <command-palette-item-group
+              data-group-id="teams"
+              data-group-title="Teams"
+              data-group-hint=""
+              data-group-limits="{}"
+              data-targets="command-palette-item-stack.groups"
+            >
+            </command-palette-item-group>
+            <command-palette-item-group
+              data-group-id="users"
+              data-group-title="Users"
+              data-group-hint=""
+              data-group-limits="{}"
+              data-targets="command-palette-item-stack.groups"
+            >
+            </command-palette-item-group>
+            <command-palette-item-group
+              data-group-id="projects"
+              data-group-title="Projects"
+              data-group-hint=""
+              data-group-limits="{}"
+              data-targets="command-palette-item-stack.groups"
+            >
+            </command-palette-item-group>
+            <command-palette-item-group
+              data-group-id="footer"
+              data-group-title="Footer"
+              data-group-hint=""
+              data-group-limits="{}"
+              data-targets="command-palette-item-stack.groups"
+            >
+            </command-palette-item-group>
+            <command-palette-item-group
+              data-group-id="modes_help"
+              data-group-title="Modes"
+              data-group-hint=""
+              data-group-limits="{}"
+              data-targets="command-palette-item-stack.groups"
+            >
+            </command-palette-item-group>
+            <command-palette-item-group
+              data-group-id="filters_help"
+              data-group-title="Use filters in issues, pull requests, discussions, and projects"
+              data-group-hint=""
+              data-group-limits="{}"
+              data-targets="command-palette-item-stack.groups"
+            >
+            </command-palette-item-group>
+        </command-palette-item-stack>
+
+      <div class="js-command-local-provider-octicons" hidden>
+          <div data-local-provider-octicon-id="arrow-right-color-fg-muted">
+            <svg height="16" class="octicon octicon-arrow-right color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 2.97a.75.75 0 011.06 0l4.25 4.25a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06-1.06l2.97-2.97H3.75a.75.75 0 010-1.5h7.44L8.22 4.03a.75.75 0 010-1.06z"></path></svg>
+          </div>
+          <div data-local-provider-octicon-id="arrow-right-color-fg-default">
+            <svg height="16" class="octicon octicon-arrow-right color-fg-default" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 2.97a.75.75 0 011.06 0l4.25 4.25a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06-1.06l2.97-2.97H3.75a.75.75 0 010-1.5h7.44L8.22 4.03a.75.75 0 010-1.06z"></path></svg>
+          </div>
+          <div data-local-provider-octicon-id="codespaces-color-fg-muted">
+            <svg height="16" class="octicon octicon-codespaces color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 1.75C2 .784 2.784 0 3.75 0h8.5C13.216 0 14 .784 14 1.75v5a1.75 1.75 0 01-1.75 1.75h-8.5A1.75 1.75 0 012 6.75v-5zm1.75-.25a.25.25 0 00-.25.25v5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25v-5a.25.25 0 00-.25-.25h-8.5zM0 11.25c0-.966.784-1.75 1.75-1.75h12.5c.966 0 1.75.784 1.75 1.75v3A1.75 1.75 0 0114.25 16H1.75A1.75 1.75 0 010 14.25v-3zM1.75 11a.25.25 0 00-.25.25v3c0 .138.112.25.25.25h12.5a.25.25 0 00.25-.25v-3a.25.25 0 00-.25-.25H1.75z"></path><path fill-rule="evenodd" d="M3 12.75a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5a.75.75 0 01-.75-.75zm4 0a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"></path></svg>
+          </div>
+          <div data-local-provider-octicon-id="copy-color-fg-muted">
+            <svg height="16" class="octicon octicon-copy color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg>
+          </div>
+          <div data-local-provider-octicon-id="dash-color-fg-muted">
+            <svg height="16" class="octicon octicon-dash color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 7.75A.75.75 0 012.75 7h10a.75.75 0 010 1.5h-10A.75.75 0 012 7.75z"></path></svg>
+          </div>
+          <div data-local-provider-octicon-id="file-color-fg-muted">
+            <svg height="16" class="octicon octicon-file color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
+          </div>
+          <div data-local-provider-octicon-id="lock-color-fg-muted">
+            <svg height="16" class="octicon octicon-lock color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 4v2h-.25A1.75 1.75 0 002 7.75v5.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 13.25v-5.5A1.75 1.75 0 0012.25 6H12V4a4 4 0 10-8 0zm6.5 2V4a2.5 2.5 0 00-5 0v2h5zM12 7.5h.25a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-5.5a.25.25 0 01.25-.25H12z"></path></svg>
+          </div>
+          <div data-local-provider-octicon-id="moon-color-fg-muted">
+            <svg height="16" class="octicon octicon-moon color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z"></path></svg>
+          </div>
+          <div data-local-provider-octicon-id="person-color-fg-muted">
+            <svg height="16" class="octicon octicon-person color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M10.5 5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm.061 3.073a4 4 0 10-5.123 0 6.004 6.004 0 00-3.431 5.142.75.75 0 001.498.07 4.5 4.5 0 018.99 0 .75.75 0 101.498-.07 6.005 6.005 0 00-3.432-5.142z"></path></svg>
+          </div>
+          <div data-local-provider-octicon-id="pencil-color-fg-muted">
+            <svg height="16" class="octicon octicon-pencil color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path></svg>
+          </div>
+          <div data-local-provider-octicon-id="issue-opened-open">
+            <svg height="16" class="octicon octicon-issue-opened open" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path><path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"></path></svg>
+          </div>
+          <div data-local-provider-octicon-id="git-pull-request-draft-color-fg-muted">
+            <svg height="16" class="octicon octicon-git-pull-request-draft color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M2.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.25 1a2.25 2.25 0 00-.75 4.372v5.256a2.251 2.251 0 101.5 0V5.372A2.25 2.25 0 003.25 1zm0 11a.75.75 0 100 1.5.75.75 0 000-1.5zm9.5 3a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5zm0-3a.75.75 0 100 1.5.75.75 0 000-1.5z"></path><path d="M14 7.5a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0zm0-4.25a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0z"></path></svg>
+          </div>
+          <div data-local-provider-octicon-id="search-color-fg-muted">
+            <svg height="16" class="octicon octicon-search color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+          </div>
+          <div data-local-provider-octicon-id="sun-color-fg-muted">
+            <svg height="16" class="octicon octicon-sun color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z"></path></svg>
+          </div>
+          <div data-local-provider-octicon-id="sync-color-fg-muted">
+            <svg height="16" class="octicon octicon-sync color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 2.5a5.487 5.487 0 00-4.131 1.869l1.204 1.204A.25.25 0 014.896 6H1.25A.25.25 0 011 5.75V2.104a.25.25 0 01.427-.177l1.38 1.38A7.001 7.001 0 0114.95 7.16a.75.75 0 11-1.49.178A5.501 5.501 0 008 2.5zM1.705 8.005a.75.75 0 01.834.656 5.501 5.501 0 009.592 2.97l-1.204-1.204a.25.25 0 01.177-.427h3.646a.25.25 0 01.25.25v3.646a.25.25 0 01-.427.177l-1.38-1.38A7.001 7.001 0 011.05 8.84a.75.75 0 01.656-.834z"></path></svg>
+          </div>
+          <div data-local-provider-octicon-id="trash-color-fg-muted">
+            <svg height="16" class="octicon octicon-trash color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path></svg>
+          </div>
+          <div data-local-provider-octicon-id="key-color-fg-muted">
+            <svg height="16" class="octicon octicon-key color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 5.5a4 4 0 112.731 3.795.75.75 0 00-.768.18L7.44 10.5H6.25a.75.75 0 00-.75.75v1.19l-.06.06H4.25a.75.75 0 00-.75.75v1.19l-.06.06H1.75a.25.25 0 01-.25-.25v-1.69l5.024-5.023a.75.75 0 00.181-.768A3.995 3.995 0 016.5 5.5zm4-5.5a5.5 5.5 0 00-5.348 6.788L.22 11.72a.75.75 0 00-.22.53v2C0 15.216.784 16 1.75 16h2a.75.75 0 00.53-.22l.5-.5a.75.75 0 00.22-.53V14h.75a.75.75 0 00.53-.22l.5-.5a.75.75 0 00.22-.53V12h.75a.75.75 0 00.53-.22l.932-.932A5.5 5.5 0 1010.5 0zm.5 6a1 1 0 100-2 1 1 0 000 2z"></path></svg>
+          </div>
+          <div data-local-provider-octicon-id="comment-discussion-color-fg-muted">
+            <svg height="16" class="octicon octicon-comment-discussion color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path></svg>
+          </div>
+          <div data-local-provider-octicon-id="bell-color-fg-muted">
+            <svg height="16" class="octicon octicon-bell color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path d="M8 16a2 2 0 001.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 008 16z"></path><path fill-rule="evenodd" d="M8 1.5A3.5 3.5 0 004.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.018.018 0 00-.003.01l.001.006c0 .002.002.004.004.006a.017.017 0 00.006.004l.007.001h10.964l.007-.001a.016.016 0 00.006-.004.016.016 0 00.004-.006l.001-.007a.017.017 0 00-.003-.01l-1.703-2.554a1.75 1.75 0 01-.294-.97V5A3.5 3.5 0 008 1.5zM3 5a5 5 0 0110 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.518 1.518 0 0113.482 13H2.518a1.518 1.518 0 01-1.263-2.36l1.703-2.554A.25.25 0 003 7.947V5z"></path></svg>
+          </div>
+          <div data-local-provider-octicon-id="bell-slash-color-fg-muted">
+            <svg height="16" class="octicon octicon-bell-slash color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5c-.997 0-1.895.416-2.534 1.086A.75.75 0 014.38 1.55 5 5 0 0113 5v2.373a.75.75 0 01-1.5 0V5A3.5 3.5 0 008 1.5zM4.182 4.31L1.19 2.143a.75.75 0 10-.88 1.214L3 5.305v2.642a.25.25 0 01-.042.139L1.255 10.64A1.518 1.518 0 002.518 13h11.108l1.184.857a.75.75 0 10.88-1.214l-1.375-.996a1.196 1.196 0 00-.013-.01L4.198 4.321a.733.733 0 00-.016-.011zm7.373 7.19L4.5 6.391v1.556c0 .346-.102.683-.294.97l-1.703 2.556a.018.018 0 00-.003.01.015.015 0 00.005.012.017.017 0 00.006.004l.007.001h9.037zM8 16a2 2 0 001.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 008 16z"></path></svg>
+          </div>
+      </div>
+
+      <command-palette-provider data-type="search-links" data-mode="*"></command-palette-provider>
+      <command-palette-provider data-type="help" data-mode="*">
+          <command-palette-help
+            data-group="modes_help"
+              data-prefix="#"
+              data-scope-types="[&quot;&quot;]"
+          >
+            <span data-target="command-palette-help.titleElement">Search for <strong>issues</strong> and <strong>pull requests</strong></span>
+              <span data-target="command-palette-help.hintElement">
+                <kbd class="hx_kbd">#</kbd>
+              </span>
+          </command-palette-help>
+          <command-palette-help
+            data-group="modes_help"
+              data-prefix="#"
+              data-scope-types="[&quot;owner&quot;,&quot;repository&quot;]"
+          >
+            <span data-target="command-palette-help.titleElement">Search for <strong>issues, pull requests, discussions,</strong> and <strong>projects</strong></span>
+              <span data-target="command-palette-help.hintElement">
+                <kbd class="hx_kbd">#</kbd>
+              </span>
+          </command-palette-help>
+          <command-palette-help
+            data-group="modes_help"
+              data-prefix="@"
+              data-scope-types="[&quot;&quot;]"
+          >
+            <span data-target="command-palette-help.titleElement">Search for <strong>organizations, repositories,</strong> and <strong>users</strong></span>
+              <span data-target="command-palette-help.hintElement">
+                <kbd class="hx_kbd">@</kbd>
+              </span>
+          </command-palette-help>
+          <command-palette-help
+            data-group="modes_help"
+              data-prefix="!"
+              data-scope-types="[&quot;owner&quot;,&quot;repository&quot;]"
+          >
+            <span data-target="command-palette-help.titleElement">Search for <strong>projects</strong></span>
+              <span data-target="command-palette-help.hintElement">
+                <kbd class="hx_kbd">!</kbd>
+              </span>
+          </command-palette-help>
+          <command-palette-help
+            data-group="modes_help"
+              data-prefix="/"
+              data-scope-types="[&quot;repository&quot;]"
+          >
+            <span data-target="command-palette-help.titleElement">Search for <strong>files</strong></span>
+              <span data-target="command-palette-help.hintElement">
+                <kbd class="hx_kbd">/</kbd>
+              </span>
+          </command-palette-help>
+          <command-palette-help
+            data-group="modes_help"
+              data-prefix="&gt;"
+          >
+            <span data-target="command-palette-help.titleElement">Activate <strong>command mode</strong></span>
+              <span data-target="command-palette-help.hintElement">
+                <kbd class="hx_kbd">&gt;</kbd>
+              </span>
+          </command-palette-help>
+          <command-palette-help
+            data-group="filters_help"
+              data-prefix="# author:@me"
+          >
+            <span data-target="command-palette-help.titleElement">Search your issues, pull requests, and discussions</span>
+              <span data-target="command-palette-help.hintElement">
+                <kbd class="hx_kbd"># author:@me</kbd>
+              </span>
+          </command-palette-help>
+          <command-palette-help
+            data-group="filters_help"
+              data-prefix="# author:@me"
+          >
+            <span data-target="command-palette-help.titleElement">Search your issues, pull requests, and discussions</span>
+              <span data-target="command-palette-help.hintElement">
+                <kbd class="hx_kbd"># author:@me</kbd>
+              </span>
+          </command-palette-help>
+          <command-palette-help
+            data-group="filters_help"
+              data-prefix="# is:pr"
+          >
+            <span data-target="command-palette-help.titleElement">Filter to pull requests</span>
+              <span data-target="command-palette-help.hintElement">
+                <kbd class="hx_kbd"># is:pr</kbd>
+              </span>
+          </command-palette-help>
+          <command-palette-help
+            data-group="filters_help"
+              data-prefix="# is:issue"
+          >
+            <span data-target="command-palette-help.titleElement">Filter to issues</span>
+              <span data-target="command-palette-help.hintElement">
+                <kbd class="hx_kbd"># is:issue</kbd>
+              </span>
+          </command-palette-help>
+          <command-palette-help
+            data-group="filters_help"
+              data-prefix="# is:discussion"
+              data-scope-types="[&quot;owner&quot;,&quot;repository&quot;]"
+          >
+            <span data-target="command-palette-help.titleElement">Filter to discussions</span>
+              <span data-target="command-palette-help.hintElement">
+                <kbd class="hx_kbd"># is:discussion</kbd>
+              </span>
+          </command-palette-help>
+          <command-palette-help
+            data-group="filters_help"
+              data-prefix="# is:project"
+              data-scope-types="[&quot;owner&quot;,&quot;repository&quot;]"
+          >
+            <span data-target="command-palette-help.titleElement">Filter to projects</span>
+              <span data-target="command-palette-help.hintElement">
+                <kbd class="hx_kbd"># is:project</kbd>
+              </span>
+          </command-palette-help>
+          <command-palette-help
+            data-group="filters_help"
+              data-prefix="# is:open"
+          >
+            <span data-target="command-palette-help.titleElement">Filter to open issues, pull requests, and discussions</span>
+              <span data-target="command-palette-help.hintElement">
+                <kbd class="hx_kbd"># is:open</kbd>
+              </span>
+          </command-palette-help>
+      </command-palette-provider>
+          <command-palette-provider
+            data-type="prefetched"
+              data-src="/command_palette/commands"
+            data-debounce="0"
+            data-mode="&gt;"
+              data-has-commands
+            
+            ></command-palette-provider>
+          <command-palette-provider
+            data-type="prefetched"
+              data-src="/command_palette/jump_to_page_navigation"
+            data-debounce="0"
+            data-mode=""
+            
+            ></command-palette-provider>
+          <command-palette-provider
+            data-type="remote"
+              data-src="/command_palette/issues"
+            data-debounce="200"
+            data-mode="#"
+              data-scope-types="[&quot;owner&quot;,&quot;repository&quot;]"
+            
+            ></command-palette-provider>
+          <command-palette-provider
+            data-type="remote"
+              data-src="/command_palette/issues"
+            data-debounce="200"
+            data-mode="#"
+              data-scope-types="[&quot;&quot;]"
+            
+            ></command-palette-provider>
+          <command-palette-provider
+            data-type="remote"
+              data-src="/command_palette/jump_to"
+            data-debounce="200"
+            data-mode="@"
+              data-scope-types="[&quot;&quot;]"
+            
+            ></command-palette-provider>
+          <command-palette-provider
+            data-type="remote"
+              data-src="/command_palette/jump_to"
+            data-debounce="200"
+            data-mode="@"
+              data-scope-types="[&quot;owner&quot;]"
+            
+            ></command-palette-provider>
+          <command-palette-provider
+            data-type="remote"
+              data-src="/command_palette/jump_to_members_only"
+            data-debounce="200"
+            data-mode=""
+            
+            ></command-palette-provider>
+          <command-palette-provider
+            data-type="prefetched"
+              data-src="/command_palette/jump_to_members_only_prefetched"
+            data-debounce="0"
+            data-mode="@"
+              data-scope-types="[&quot;&quot;]"
+            
+            ></command-palette-provider>
+          <command-palette-provider
+            data-type="prefetched"
+              data-src="/command_palette/jump_to_members_only_prefetched"
+            data-debounce="0"
+            data-mode="@"
+              data-scope-types="[&quot;owner&quot;]"
+            
+            ></command-palette-provider>
+          <command-palette-provider
+            data-type="prefetched"
+              data-src="/command_palette/jump_to_members_only_prefetched"
+            data-debounce="0"
+            data-mode=""
+            
+            ></command-palette-provider>
+          <command-palette-provider
+            data-type="files"
+              data-src="/command_palette/files"
+            data-debounce="0"
+            data-mode="/"
+              data-scope-types="[&quot;repository&quot;]"
+            
+            ></command-palette-provider>
+          <command-palette-provider
+            data-type="remote"
+              data-src="/command_palette/discussions"
+            data-debounce="200"
+            data-mode="#"
+              data-scope-types="[&quot;owner&quot;,&quot;repository&quot;]"
+            
+            ></command-palette-provider>
+          <command-palette-provider
+            data-type="remote"
+              data-src="/command_palette/projects"
+            data-debounce="200"
+            data-mode="#"
+              data-scope-types="[&quot;owner&quot;,&quot;repository&quot;]"
+            
+            ></command-palette-provider>
+          <command-palette-provider
+            data-type="remote"
+              data-src="/command_palette/projects"
+            data-debounce="200"
+            data-mode="!"
+              data-scope-types="[&quot;owner&quot;,&quot;repository&quot;]"
+            
+            ></command-palette-provider>
+          <command-palette-provider
+            data-type="prefetched"
+              data-src="/command_palette/recent_issues"
+            data-debounce="0"
+            data-mode="#"
+              data-scope-types="[&quot;owner&quot;,&quot;repository&quot;]"
+            
+            ></command-palette-provider>
+          <command-palette-provider
+            data-type="prefetched"
+              data-src="/command_palette/recent_issues"
+            data-debounce="0"
+            data-mode="#"
+              data-scope-types="[&quot;&quot;]"
+            
+            ></command-palette-provider>
+          <command-palette-provider
+            data-type="remote"
+              data-src="/command_palette/teams"
+            data-debounce="200"
+            data-mode="@"
+              data-scope-types="[&quot;owner&quot;]"
+            
+            ></command-palette-provider>
+          <command-palette-provider
+            data-type="remote"
+              data-src="/command_palette/teams"
+            data-debounce="200"
+            data-mode=""
+              data-scope-types="[&quot;owner&quot;]"
+            
+            ></command-palette-provider>
+          <command-palette-provider
+            data-type="remote"
+              data-src="/command_palette/name_with_owner_repository"
+            data-debounce="200"
+            data-mode=""
+            
+            ></command-palette-provider>
+          <command-palette-provider
+            data-type="main-window-commands"
+            data-debounce="0"
+            data-mode="&gt;"
+              data-has-commands
+            
+            ></command-palette-provider>
+    </command-palette>
+  </details-dialog>
+</details>
+
+<div class="position-fixed bottom-0 left-0 ml-5 mb-5 js-command-palette-toasts" style="z-index: 1000">
+  <div hidden class="Toast Toast--loading">
+    <span class="Toast-icon">
+      <svg class="Toast--spinner" viewBox="0 0 32 32" width="18" height="18" aria-hidden="true">
+        <path
+          fill="#959da5"
+          d="M16 0 A16 16 0 0 0 16 32 A16 16 0 0 0 16 0 M16 4 A12 12 0 0 1 16 28 A12 12 0 0 1 16 4"
+        />
+        <path fill="#ffffff" d="M16 0 A16 16 0 0 1 32 16 L28 16 A12 12 0 0 0 16 4z"></path>
+      </svg>
+    </span>
+    <span class="Toast-content"></span>
+  </div>
+
+  <div hidden class="anim-fade-in fast Toast Toast--error">
+    <span class="Toast-icon">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-stop">
+    <path fill-rule="evenodd" d="M4.47.22A.75.75 0 015 0h6a.75.75 0 01.53.22l4.25 4.25c.141.14.22.331.22.53v6a.75.75 0 01-.22.53l-4.25 4.25A.75.75 0 0111 16H5a.75.75 0 01-.53-.22L.22 11.53A.75.75 0 010 11V5a.75.75 0 01.22-.53L4.47.22zm.84 1.28L1.5 5.31v5.38l3.81 3.81h5.38l3.81-3.81V5.31L10.69 1.5H5.31zM8 4a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 018 4zm0 8a1 1 0 100-2 1 1 0 000 2z"></path>
+</svg>
+    </span>
+    <span class="Toast-content"></span>
+  </div>
+
+  <div hidden class="anim-fade-in fast Toast Toast--warning">
+    <span class="Toast-icon">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+    </span>
+    <span class="Toast-content"></span>
+  </div>
+
+
+  <div hidden class="anim-fade-in fast Toast Toast--success">
+    <span class="Toast-icon">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+    </span>
+    <span class="Toast-content"></span>
+  </div>
+
+  <div hidden class="anim-fade-in fast Toast">
+    <span class="Toast-icon">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-info">
+    <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path>
+</svg>
+    </span>
+    <span class="Toast-content"></span>
+  </div>
+</div>
+
+      <div hidden class="js-command-palette-pjax-meta-data" data-pjax-replace id="command-palette-pjax-meta-data"
+    data-subject-id="MDEwOlJlcG9zaXRvcnkxMjg4ODk5Mw=="
+    data-subject-type="Repository"
+>
+</div>
+
+
   <div
     class="application-main "
     data-commit-hovercards-enabled
@@ -525,9 +1292,7 @@
     <main id="js-repo-pjax-container" data-pjax-container >
       
 
-      
-
-
+    
     
 
 
@@ -535,190 +1300,610 @@
 
 
 
-  
+      <include-fragment src="/orgs/home-assistant/survey_banner" data-test-selector="survey-banner-selector">
+  </include-fragment>
 
 
-  <div class="bg-gray-light pt-3 hide-full-screen mb-5">
+
+  <div id="repository-container-header" class="pt-3 hide-full-screen mb-5" style="background-color: var(--color-page-header-bg);" data-pjax-replace>
 
       <div class="d-flex mb-3 px-3 px-md-4 px-lg-5">
 
         <div class="flex-auto min-width-0 width-fit mr-3">
-            <h1 class=" d-flex flex-wrap flex-items-center break-word f3 text-normal">
-    <svg class="octicon octicon-repo text-gray mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
-    <span class="author flex-self-stretch" itemprop="author">
-      <a class="url fn" rel="author" data-hovercard-type="organization" data-hovercard-url="/orgs/home-assistant/hovercard" href="/home-assistant">home-assistant</a>
-    </span>
-    <span class="mx-1 flex-self-stretch color-text-secondary">/</span>
+            <h1 class=" d-flex flex-wrap flex-items-center wb-break-word f3 text-normal">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo color-fg-muted mr-2">
+    <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
+</svg>
+  <span class="author flex-self-stretch" itemprop="author">
+    <a class="url fn" rel="author" data-hovercard-type="organization" data-hovercard-url="/orgs/home-assistant/hovercard" href="/home-assistant">home-assistant</a>
+  </span>
+  <span class="mx-1 flex-self-stretch color-fg-muted">/</span>
   <strong itemprop="name" class="mr-2 flex-self-stretch">
-    <a data-pjax="#js-repo-pjax-container" class="" href="/home-assistant/core">core</a>
+    <a data-pjax="#repo-content-pjax-container" href="/home-assistant/core">core</a>
   </strong>
-  
-</h1>
 
+  <span></span><span class="Label Label--secondary v-align-middle mr-1">Public</span>
+</h1>
 
         </div>
 
           <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
+      <li>
+        <include-fragment src="/home-assistant/core/sponsor_button"></include-fragment>
+      </li>
 
   <li>
-          <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="fe08df1b0244f0dadb2250eda23cfd012fc0b46b6aed0bc763c2c288c745a156" href="/login?return_to=%2Fhome-assistant%2Fcore">
-    <svg class="octicon octicon-eye" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
-    Watch
-</a>    <a class="social-count" href="/home-assistant/core/watchers"
-       aria-label="1319 users are watching this repository">
-      1.3k
-    </a>
+        <notifications-list-subscription-form class="f5 position-relative d-flex">
+      <details
+        class="details-reset details-overlay f5 position-relative"
+        data-target="notifications-list-subscription-form.details"
+        data-action="toggle:notifications-list-subscription-form#detailsToggled"
+      >
+
+      <summary data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:12888993,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="369682b36c4d7d3c9aad438fe56eb01fe1f166c22a1e81f31faf17cd16633dfe" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notification settings" data-view-component="true" class="rounded-right-0 btn-sm btn">
+  
+  
+          <span data-menu-button>
+            <span
+              hidden
+              
+              data-target="notifications-list-subscription-form.unwatchButtonCopy"
+            >
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-eye">
+    <path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path>
+</svg>
+              Unwatch
+            </span>
+            <span
+              hidden
+              
+              data-target="notifications-list-subscription-form.stopIgnoringButtonCopy"
+            >
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell-slash">
+    <path fill-rule="evenodd" d="M8 1.5c-.997 0-1.895.416-2.534 1.086A.75.75 0 014.38 1.55 5 5 0 0113 5v2.373a.75.75 0 01-1.5 0V5A3.5 3.5 0 008 1.5zM4.182 4.31L1.19 2.143a.75.75 0 10-.88 1.214L3 5.305v2.642a.25.25 0 01-.042.139L1.255 10.64A1.518 1.518 0 002.518 13h11.108l1.184.857a.75.75 0 10.88-1.214l-1.375-.996a1.196 1.196 0 00-.013-.01L4.198 4.321a.733.733 0 00-.016-.011zm7.373 7.19L4.5 6.391v1.556c0 .346-.102.683-.294.97l-1.703 2.556a.018.018 0 00-.003.01.015.015 0 00.005.012.017.017 0 00.006.004l.007.001h9.037zM8 16a2 2 0 001.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 008 16z"></path>
+</svg>
+              Stop ignoring
+            </span>
+            <span
+              
+              
+              data-target="notifications-list-subscription-form.watchButtonCopy"
+            >
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-eye">
+    <path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path>
+</svg>
+              Watch
+            </span>
+          </span>
+          <span class="dropdown-caret"></span>
+
+  
+
+</summary>
+        <details-menu
+          class="SelectMenu  "
+          role="menu"
+          data-target="notifications-list-subscription-form.menu"
+          
+        >
+          <div class="SelectMenu-modal notifications-component-menu-modal">
+            <header class="SelectMenu-header">
+              <h3 class="SelectMenu-title">Notifications</h3>
+              <button class="SelectMenu-closeButton" type="button" aria-label="Close menu" data-action="click:notifications-list-subscription-form#closeMenu">
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+              </button>
+            </header>
+
+            <div class="SelectMenu-list">
+              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Y6/zQb6inLtLIQfmNpF2cluXRkfrCygfDVz+H3VV0BFKo+wmj2gJ3LFoiNrVQHLqfRBX6LvboweCFLG+EzgeJw==" autocomplete="off" />
+
+                <input type="hidden" name="repository_id" value="12888993">
+
+                <button
+                  type="submit"
+                  name="do"
+                  value="included"
+                  class="SelectMenu-item flex-items-start"
+                  role="menuitemradio"
+                  aria-checked="true"
+                  data-targets="notifications-list-subscription-form.subscriptionButtons"
+                  
+                >
+                  <span class="f5">
+                    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+                  </span>
+                  <div>
+                    <div class="f5 text-bold">
+                      Participating and @mentions
+                    </div>
+                    <div class="text-small color-fg-muted text-normal pb-1">
+                      Only receive notifications from this repository when participating or @mentioned.
+                    </div>
+                  </div>
+                </button>
+
+                <button
+                  type="submit"
+                  name="do"
+                  value="subscribed"
+                  class="SelectMenu-item flex-items-start"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  data-targets="notifications-list-subscription-form.subscriptionButtons"
+                >
+                  <span class="f5">
+                    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+                  </span>
+                  <div>
+                    <div class="f5 text-bold">
+                      All Activity
+                    </div>
+                    <div class="text-small color-fg-muted text-normal pb-1">
+                      Notified of all notifications on this repository.
+                    </div>
+                  </div>
+                </button>
+
+                <button
+                  type="submit"
+                  name="do"
+                  value="ignore"
+                  class="SelectMenu-item flex-items-start"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  data-targets="notifications-list-subscription-form.subscriptionButtons"
+                >
+                  <span class="f5">
+                    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+                  </span>
+                  <div>
+                    <div class="f5 text-bold">
+                      Ignore
+                    </div>
+                    <div class="text-small color-fg-muted text-normal pb-1">
+                      Never be notified.
+                    </div>
+                  </div>
+                </button>
+</form>
+              <button
+                class="SelectMenu-item flex-items-start pr-3"
+                type="button"
+                role="menuitemradio"
+                data-target="notifications-list-subscription-form.customButton"
+                data-action="click:notifications-list-subscription-form#openCustomDialog"
+                aria-haspopup="true"
+                aria-checked="false"
+                
+              >
+                <span class="f5">
+                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+                </span>
+                <div>
+                  <div class="d-flex flex-items-start flex-justify-between">
+                    <div class="f5 text-bold">Custom</div>
+                    <div class="f5 pr-1">
+                      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-arrow-right">
+    <path fill-rule="evenodd" d="M8.22 2.97a.75.75 0 011.06 0l4.25 4.25a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06-1.06l2.97-2.97H3.75a.75.75 0 010-1.5h7.44L8.22 4.03a.75.75 0 010-1.06z"></path>
+</svg>
+                    </div>
+                  </div>
+                  <div class="text-small color-fg-muted text-normal pb-1">
+                    Select events you want to be notified of in addition to participating and @mentions.
+                  </div>
+                </div>
+              </button>
+
+            </div>
+          </div>
+        </details-menu>
+
+        <details-dialog class="notifications-component-dialog " data-target="notifications-list-subscription-form.customDialog" hidden>
+          <div class="SelectMenu-modal notifications-component-dialog-modal overflow-visible">
+            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="J/6SJ5qLd5FmAhu5DOHItNW/ejKRWREZy9YQWaVdWo4O8o1Aq0Hi9pxLlIXvMMws8zhrncGJmgFEnl/4wzCUuA==" autocomplete="off" />
+
+              <input type="hidden" name="repository_id" value="12888993">
+
+              <header class="d-sm-none SelectMenu-header pb-0 border-bottom-0 px-2 px-sm-3">
+                <h1 class="f3 SelectMenu-title d-inline-flex">
+                  <button
+                    class="color-bg-default border-0 px-2 py-0 m-0 Link--secondary f5"
+                    aria-label="Return to menu"
+                    type="button"
+                    data-action="click:notifications-list-subscription-form#closeCustomDialog"
+                  >
+                    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-arrow-left">
+    <path fill-rule="evenodd" d="M7.78 12.53a.75.75 0 01-1.06 0L2.47 8.28a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 1.06L4.81 7h7.44a.75.75 0 010 1.5H4.81l2.97 2.97a.75.75 0 010 1.06z"></path>
+</svg>
+                  </button>
+                  Custom
+                </h1>
+              </header>
+
+              <header class="d-none d-sm-flex flex-items-start pt-1">
+                <button
+                  class="border-0 px-2 pt-1 m-0 Link--secondary f5"
+                  style="background-color: transparent;"
+                  aria-label="Return to menu"
+                  type="button"
+                  data-action="click:notifications-list-subscription-form#closeCustomDialog"
+                >
+                  <svg style="position: relative; left: 2px; top: 1px" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-arrow-left">
+    <path fill-rule="evenodd" d="M7.78 12.53a.75.75 0 01-1.06 0L2.47 8.28a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 1.06L4.81 7h7.44a.75.75 0 010 1.5H4.81l2.97 2.97a.75.75 0 010 1.06z"></path>
+</svg>
+                </button>
+
+                <h1 class="pt-1 pr-4 pb-0 pl-0 f5 text-bold">
+                  Custom
+                </h1>
+              </header>
+
+              <fieldset>
+                <legend>
+                  <div class="text-small color-fg-muted pt-0 pr-3 pb-3 pl-6 pl-sm-5 border-bottom mb-3">
+                    Select events you want to be notified of in addition to participating and @mentions.
+                  </div>
+                </legend>
+                  <div class="form-checkbox mr-3 ml-6 ml-sm-5 mb-2 mt-0">
+                    <label class="f5 text-normal">
+                      <input
+                        type="checkbox"
+                        name="thread_types[]"
+                        value="Issue"
+                        data-targets="notifications-list-subscription-form.threadTypeCheckboxes"
+                        data-action="change:notifications-list-subscription-form#threadTypeCheckboxesUpdated"
+                        
+                      >
+                      Issues
+                    </label>
+
+                  </div>
+                  <div class="form-checkbox mr-3 ml-6 ml-sm-5 mb-2 mt-0">
+                    <label class="f5 text-normal">
+                      <input
+                        type="checkbox"
+                        name="thread_types[]"
+                        value="PullRequest"
+                        data-targets="notifications-list-subscription-form.threadTypeCheckboxes"
+                        data-action="change:notifications-list-subscription-form#threadTypeCheckboxesUpdated"
+                        
+                      >
+                      Pull requests
+                    </label>
+
+                  </div>
+                  <div class="form-checkbox mr-3 ml-6 ml-sm-5 mb-2 mt-0">
+                    <label class="f5 text-normal">
+                      <input
+                        type="checkbox"
+                        name="thread_types[]"
+                        value="Release"
+                        data-targets="notifications-list-subscription-form.threadTypeCheckboxes"
+                        data-action="change:notifications-list-subscription-form#threadTypeCheckboxesUpdated"
+                        
+                      >
+                      Releases
+                    </label>
+
+                  </div>
+                  <div class="form-checkbox mr-3 ml-6 ml-sm-5 mb-2 mt-0">
+                    <label class="f5 text-normal">
+                      <input
+                        type="checkbox"
+                        name="thread_types[]"
+                        value="Discussion"
+                        data-targets="notifications-list-subscription-form.threadTypeCheckboxes"
+                        data-action="change:notifications-list-subscription-form#threadTypeCheckboxesUpdated"
+                        
+                      >
+                      Discussions
+                    </label>
+
+                      <span
+                        class="tooltipped tooltipped-nw mr-2 p-1 float-right"
+                        
+                        aria-label="Discussions are not enabled for this repo">
+                        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-info color-fg-muted">
+    <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path>
+</svg>
+                      </span>
+                  </div>
+                  <div class="form-checkbox mr-3 ml-6 ml-sm-5 mb-2 mt-0">
+                    <label class="f5 text-normal">
+                      <input
+                        type="checkbox"
+                        name="thread_types[]"
+                        value="SecurityAlert"
+                        data-targets="notifications-list-subscription-form.threadTypeCheckboxes"
+                        data-action="change:notifications-list-subscription-form#threadTypeCheckboxesUpdated"
+                        
+                      >
+                      Security alerts
+                    </label>
+
+                  </div>
+              </fieldset>
+              <div class="pt-2 pb-3 px-3 d-flex flex-justify-start flex-row-reverse">
+                <button name="do" value="custom" data-target="notifications-list-subscription-form.customSubmit" disabled="disabled" type="submit" data-view-component="true" class="btn-primary btn-sm btn ml-2">
+  
+  Apply
+  
+
+</button>
+
+                <button data-action="click:notifications-list-subscription-form#resetForm" data-close-dialog="" type="button" data-view-component="true" class="btn-sm btn">
+  
+  Cancel
+  
+
+</button>
+              </div>
+</form>          </div>
+        </details-dialog>
+        <div class="notifications-component-dialog-overlay"></div>
+      </details>
+        <a class="social-count"
+          href="/home-assistant/core/watchers"
+          aria-label="1344 users are watching this repository"
+          data-target="notifications-list-subscription-form.socialCount"
+        >
+          1.3k
+        </a>
+    </notifications-list-subscription-form>
+
+
 
   </li>
 
-  <li>
-          <a class="btn btn-sm btn-with-count  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:12888993,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="bab8efe7d0eb85c0d4d4372c8131c3d599ca1fb198f751d5246e63377cae1aca" href="/login?return_to=%2Fhome-assistant%2Fcore">
-      <svg class="octicon octicon-star v-align-text-bottom mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
-      <span>
-        Star
-</span></a>
-    <a class="social-count js-social-count" href="/home-assistant/core/stargazers"
-      aria-label="40110 users starred this repository">
-      40.1k
-    </a>
 
-  </li>
+    <li>
+          <div data-view-component="true" class="js-toggler-container js-social-container starring-container d-block">
+    <form class="starred js-social-form" action="/home-assistant/core/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="/t1GVzXWvUX5oF1oHxY1fBhIa0hsR8mJYOMUUBhM5JN/Ov3CnVcP3Y4VActO+bm2SpAgt0Z/SycV0Kdy/gcD8A==" autocomplete="off" />
+      <input type="hidden" name="context" value="repository">
+      <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:12888993,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="af93f1b246d9632f0bf372e77dcdce95a4fe8a5d3993ad7ebe164cead95f3242" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar" aria-label="Unstar this repository" type="submit" data-view-component="true" class="js-toggler-target btn-with-count btn-sm btn">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill mr-1">
+    <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path>
+</svg>
+  
+        <span data-view-component="true">
+          Unstar
+</span>
+  
 
-  <li>
-        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:12888993,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2b0c046dfdddd669f31feafbba353dd87af30e68d01aa2d26817b87bc4b19230" href="/login?return_to=%2Fhome-assistant%2Fcore">
-          <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
+</button>        <a
+          class="social-count js-social-count"
+          href="/home-assistant/core/stargazers"
+          aria-label="47896 users starred this repository"
+          data-singular-suffix="user starred this repository"
+          data-plural-suffix="users starred this repository"
+        >
+          47.9k
+        </a>
+</form>
+    <form class="unstarred js-social-form" action="/home-assistant/core/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="3sWa0UPVaz4NXFJMcc4wt7bJwd/piJPb+r34xougjk/BR9SqYH9n0RLiyAwN2ypfGOVHrpUjmWUo0gxg2kDA2A==" autocomplete="off" />
+      <input type="hidden" name="context" value="repository">
+      <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:12888993,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="d3f6abb1cad236872e9f7179fa48a44f60da475fa64ad36d373a1ea927b14a32" data-ga-click="Repository, click star button, action:blob#show; text:Star" aria-label="Star this repository" type="submit" data-view-component="true" class="js-toggler-target btn-with-count btn-sm btn">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star mr-1">
+    <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
+</svg>
+  
+        <span data-view-component="true">
+          Star
+</span>
+  
+
+</button>        <a
+          class="social-count js-social-count"
+          href="/home-assistant/core/stargazers"
+          aria-label="47896 users starred this repository"
+          data-singular-suffix="user starred this repository"
+          data-plural-suffix="users starred this repository"
+        >
+          47.9k
+        </a>
+</form>
+</div>
+    </li>
+
+    <li>
+              <form class="btn-with-count" action="/home-assistant/core/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="zlI+IKuIRMWCWkd+CKzY78RjCeX3ONQs4fWDeKJ784fsbWQ9/ORrZZipuUNCR0eCxC8g776+hATANDT6PTY2bA==" autocomplete="off" />
+        <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:12888993,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="96f7e13f8249a3e55653f444c6596ffa81d8c59fd1d025e6c52ff41b9e26c1a8" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" aria-label="Fork your own copy of home-assistant/core to your account" type="submit" data-view-component="true" class="btn-with-count btn-sm btn">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked">
+    <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
+</svg>
+  
           Fork
-</a>
-      <a href="/home-assistant/core/network/members" class="social-count"
-         aria-label="13156 users forked this repository">
-        13.2k
-      </a>
+
+  
+
+</button></form>
+  <a
+    href="/home-assistant/core/network/members"
+    class="social-count"
+    aria-label="15982 users forked this repository"
+  >
+    16k
+  </a>
+
+    </li>
+
+
+  <li>
+    
+
   </li>
 </ul>
 
       </div>
+
+      <div id="responsive-meta-container" data-pjax-replace>
+</div>
+
+
         
-<nav aria-label="Repository" data-pjax="#js-repo-pjax-container" class="js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 px-md-4 px-lg-5 bg-gray-light">
-  <ul class="UnderlineNav-body list-style-none ">
-          <li class="d-flex">
-        <a class="js-selected-navigation-item selected UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="i0code-tab" data-hotkey="g c" data-ga-click="Repository, Navigation click, Code tab" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /home-assistant/core" href="/home-assistant/core">
-              <svg class="octicon octicon-code UnderlineNav-octicon d-none d-sm-inline" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path></svg>
-            <span data-content="Code">Code</span>
-              <span title="Not available" class="Counter "></span>
-</a>
+<nav data-pjax="#js-repo-pjax-container" aria-label="Repository" data-view-component="true" class="js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 px-md-4 px-lg-5">
 
-      </li>
-      <li class="d-flex">
-        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="i1issues-tab" data-hotkey="g i" data-ga-click="Repository, Navigation click, Issues tab" data-selected-links="repo_issues repo_labels repo_milestones /home-assistant/core/issues" href="/home-assistant/core/issues">
-              <svg class="octicon octicon-issue-opened UnderlineNav-octicon d-none d-sm-inline" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg>
-            <span data-content="Issues">Issues</span>
-              <span title="1,182" class="Counter ">1.2k</span>
-</a>
+  <ul data-view-component="true" class="UnderlineNav-body list-style-none">
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="code-tab" href="/home-assistant/core" data-tab-item="i0code-tab" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /home-assistant/core" data-pjax="#repo-content-pjax-container" data-hotkey="g c" data-ga-click="Repository, Navigation click, Code tab" aria-current="page" data-view-component="true" class="UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected">
+    
+                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code UnderlineNav-octicon d-none d-sm-inline">
+    <path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path>
+</svg>
+          <span data-content="Code">Code</span>
+            <span id="code-repo-tab-count" data-pjax-replace="" title="Not available" data-view-component="true" class="Counter"></span>
 
-      </li>
-      <li class="d-flex">
-        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="i2pull-requests-tab" data-hotkey="g p" data-ga-click="Repository, Navigation click, Pull requests tab" data-selected-links="repo_pulls checks /home-assistant/core/pulls" href="/home-assistant/core/pulls">
-              <svg class="octicon octicon-git-pull-request UnderlineNav-octicon d-none d-sm-inline" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path></svg>
-            <span data-content="Pull requests">Pull requests</span>
-              <span title="299" class="Counter ">299</span>
-</a>
 
-      </li>
-      <li class="d-flex">
-        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="i3actions-tab" data-hotkey="g a" data-ga-click="Repository, Navigation click, Actions tab" data-selected-links="repo_actions /home-assistant/core/actions" href="/home-assistant/core/actions">
-              <svg class="octicon octicon-play UnderlineNav-octicon d-none d-sm-inline" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM6.379 5.227A.25.25 0 006 5.442v5.117a.25.25 0 00.379.214l4.264-2.559a.25.25 0 000-.428L6.379 5.227z"></path></svg>
-            <span data-content="Actions">Actions</span>
-              <span title="Not available" class="Counter "></span>
-</a>
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="issues-tab" href="/home-assistant/core/issues" data-tab-item="i1issues-tab" data-selected-links="repo_issues repo_labels repo_milestones /home-assistant/core/issues" data-pjax="#repo-content-pjax-container" data-hotkey="g i" data-ga-click="Repository, Navigation click, Issues tab" data-view-component="true" class="UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened UnderlineNav-octicon d-none d-sm-inline">
+    <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path><path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"></path>
+</svg>
+          <span data-content="Issues">Issues</span>
+            <span id="issues-repo-tab-count" data-pjax-replace="" title="1,024" data-view-component="true" class="Counter">1k</span>
 
-      </li>
-      <li class="d-flex">
-        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="i4projects-tab" data-hotkey="g b" data-ga-click="Repository, Navigation click, Projects tab" data-selected-links="repo_projects new_repo_project repo_project /home-assistant/core/projects" href="/home-assistant/core/projects">
-              <svg class="octicon octicon-project UnderlineNav-octicon d-none d-sm-inline" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
-            <span data-content="Projects">Projects</span>
-              <span title="2" class="Counter ">2</span>
-</a>
 
-      </li>
-      <li class="d-flex">
-        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="i5security-tab" data-hotkey="g s" data-ga-click="Repository, Navigation click, Security tab" data-selected-links="security overview alerts policy token_scanning code_scanning /home-assistant/core/security" href="/home-assistant/core/security">
-              <svg class="octicon octicon-shield UnderlineNav-octicon d-none d-sm-inline" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.467.133a1.75 1.75 0 011.066 0l5.25 1.68A1.75 1.75 0 0115 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.7 1.7 0 01-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 011.217-1.667l5.25-1.68zm.61 1.429a.25.25 0 00-.153 0l-5.25 1.68a.25.25 0 00-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.2.2 0 00.154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.25.25 0 00-.174-.237l-5.25-1.68zM9 10.5a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.75a.75.75 0 10-1.5 0v3a.75.75 0 001.5 0v-3z"></path></svg>
-            <span data-content="Security">Security</span>
-              <include-fragment src="/home-assistant/core/security/overall-count" accept="text/fragment+html"></include-fragment>
-</a>
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="pull-requests-tab" href="/home-assistant/core/pulls" data-tab-item="i2pull-requests-tab" data-selected-links="repo_pulls checks /home-assistant/core/pulls" data-pjax="#repo-content-pjax-container" data-hotkey="g p" data-ga-click="Repository, Navigation click, Pull requests tab" data-view-component="true" class="UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request UnderlineNav-octicon d-none d-sm-inline">
+    <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path>
+</svg>
+          <span data-content="Pull requests">Pull requests</span>
+            <span id="pull-requests-repo-tab-count" data-pjax-replace="" title="378" data-view-component="true" class="Counter">378</span>
 
-      </li>
-      <li class="d-flex">
-        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="i6insights-tab" data-ga-click="Repository, Navigation click, Insights tab" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people /home-assistant/core/pulse" href="/home-assistant/core/pulse">
-              <svg class="octicon octicon-graph UnderlineNav-octicon d-none d-sm-inline" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path></svg>
-            <span data-content="Insights">Insights</span>
-              <span title="Not available" class="Counter "></span>
-</a>
 
-      </li>
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="actions-tab" href="/home-assistant/core/actions" data-tab-item="i3actions-tab" data-selected-links="repo_actions /home-assistant/core/actions" data-pjax="#repo-content-pjax-container" data-hotkey="g a" data-ga-click="Repository, Navigation click, Actions tab" data-view-component="true" class="UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play UnderlineNav-octicon d-none d-sm-inline">
+    <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM6.379 5.227A.25.25 0 006 5.442v5.117a.25.25 0 00.379.214l4.264-2.559a.25.25 0 000-.428L6.379 5.227z"></path>
+</svg>
+          <span data-content="Actions">Actions</span>
+            <span id="actions-repo-tab-count" data-pjax-replace="" title="Not available" data-view-component="true" class="Counter"></span>
 
-</ul>        <div class="position-absolute right-0 pr-3 pr-md-4 pr-lg-5 js-responsive-underlinenav-overflow" style="visibility:hidden;">
-      <details class="details-overlay details-reset position-relative">
-  <summary role="button">
-    <div class="UnderlineNav-item mr-0 border-0">
-            <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
+
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="projects-tab" href="/home-assistant/core/projects" data-tab-item="i4projects-tab" data-selected-links="repo_projects new_repo_project repo_project /home-assistant/core/projects" data-pjax="#repo-content-pjax-container" data-hotkey="g b" data-ga-click="Repository, Navigation click, Projects tab" data-view-component="true" class="UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project UnderlineNav-octicon d-none d-sm-inline">
+    <path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path>
+</svg>
+          <span data-content="Projects">Projects</span>
+            <span id="projects-repo-tab-count" data-pjax-replace="" title="2" data-view-component="true" class="Counter">2</span>
+
+
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="security-tab" href="/home-assistant/core/security" data-tab-item="i5security-tab" data-selected-links="security overview alerts policy token_scanning code_scanning /home-assistant/core/security" data-pjax="#repo-content-pjax-container" data-hotkey="g s" data-ga-click="Repository, Navigation click, Security tab" data-view-component="true" class="UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield UnderlineNav-octicon d-none d-sm-inline">
+    <path fill-rule="evenodd" d="M7.467.133a1.75 1.75 0 011.066 0l5.25 1.68A1.75 1.75 0 0115 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.7 1.7 0 01-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 011.217-1.667l5.25-1.68zm.61 1.429a.25.25 0 00-.153 0l-5.25 1.68a.25.25 0 00-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.2.2 0 00.154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.25.25 0 00-.174-.237l-5.25-1.68zM9 10.5a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.75a.75.75 0 10-1.5 0v3a.75.75 0 001.5 0v-3z"></path>
+</svg>
+          <span data-content="Security">Security</span>
+            <include-fragment src="/home-assistant/core/security/overall-count" accept="text/fragment+html"></include-fragment>
+
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="insights-tab" href="/home-assistant/core/pulse" data-tab-item="i6insights-tab" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /home-assistant/core/pulse" data-pjax="#repo-content-pjax-container" data-ga-click="Repository, Navigation click, Insights tab" data-view-component="true" class="UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-graph UnderlineNav-octicon d-none d-sm-inline">
+    <path fill-rule="evenodd" d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path>
+</svg>
+          <span data-content="Insights">Insights</span>
+            <span id="insights-repo-tab-count" data-pjax-replace="" title="Not available" data-view-component="true" class="Counter"></span>
+
+
+    
+</a></li>
+</ul>
+    <div style="visibility:hidden;" data-view-component="true" class="UnderlineNav-actions js-responsive-underlinenav-overflow position-absolute pr-3 pr-md-4 pr-lg-5 right-0">      <details data-view-component="true" class="details-overlay details-reset position-relative">
+  <summary role="button" data-view-component="true">          <div class="UnderlineNav-item mr-0 border-0">
+            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
+    <path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+</svg>
             <span class="sr-only">More</span>
           </div>
-</summary>  <div>
-    <details-menu role="menu" class="dropdown-menu dropdown-menu-sw ">
+</summary>
+  <div data-view-component="true">          <details-menu role="menu" data-view-component="true" class="dropdown-menu dropdown-menu-sw">
   
             <ul>
                 <li data-menu-item="i0code-tab" hidden>
-                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /home-assistant/core" href="/home-assistant/core">
+                  <a role="menuitem" class="js-selected-navigation-item selected dropdown-item" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /home-assistant/core" href="/home-assistant/core">
                     Code
 </a>                </li>
                 <li data-menu-item="i1issues-tab" hidden>
-                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /home-assistant/core/issues" href="/home-assistant/core/issues">
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_issues repo_labels repo_milestones /home-assistant/core/issues" href="/home-assistant/core/issues">
                     Issues
 </a>                </li>
                 <li data-menu-item="i2pull-requests-tab" hidden>
-                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /home-assistant/core/pulls" href="/home-assistant/core/pulls">
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_pulls checks /home-assistant/core/pulls" href="/home-assistant/core/pulls">
                     Pull requests
 </a>                </li>
                 <li data-menu-item="i3actions-tab" hidden>
-                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /home-assistant/core/actions" href="/home-assistant/core/actions">
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_actions /home-assistant/core/actions" href="/home-assistant/core/actions">
                     Actions
 </a>                </li>
                 <li data-menu-item="i4projects-tab" hidden>
-                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /home-assistant/core/projects" href="/home-assistant/core/projects">
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_projects new_repo_project repo_project /home-assistant/core/projects" href="/home-assistant/core/projects">
                     Projects
 </a>                </li>
                 <li data-menu-item="i5security-tab" hidden>
-                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /home-assistant/core/security" href="/home-assistant/core/security">
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="security overview alerts policy token_scanning code_scanning /home-assistant/core/security" href="/home-assistant/core/security">
                     Security
 </a>                </li>
                 <li data-menu-item="i6insights-tab" hidden>
-                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /home-assistant/core/pulse" href="/home-assistant/core/pulse">
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /home-assistant/core/pulse" href="/home-assistant/core/pulse">
                     Insights
 </a>                </li>
             </ul>
 
-</details-menu>
-</div></details>    </div>
-
+</details-menu></div>
+</details></div>
 </nav>
   </div>
 
 
-<div class="container-xl clearfix new-discussion-timeline px-3 px-md-4 px-lg-5">
+
+<div class="clearfix new-discussion-timeline container-xl px-3 px-md-4 px-lg-5">
   <div id="repo-content-pjax-container" class="repository-content " >
+
+      <a href="https://github.dev/" class="d-none js-github-dev-shortcut" data-hotkey=".">Open in github.dev</a>
+
+
 
     
       
-    
-
+  
+  
 <div>
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/home-assistant/core/blob/06e6005fbba2420f708bcf4046e21dbcb6dcd8fc/homeassistant/components/seventeentrack/sensor.py">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:0ceb8c811562387bb4f2bf5c554d1becc3a929a9134cf8778c1a4a205098d37e -->
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/home-assistant/core/blob/caa04c186699fef953e8fb5840f5cac8e7bb016e/homeassistant/components/seventeentrack/sensor.py">Permalink</a>
+
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
       
@@ -727,36 +1912,180 @@
     <summary class="btn css-truncate"
             data-hotkey="w"
             title="Switch branches or tags">
-      <svg class="octicon octicon-git-branch text-gray" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"></path></svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-branch">
+    <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"></path>
+</svg>
       <span class="css-truncate-target" data-menu-button>dev</span>
       <span class="dropdown-caret"></span>
     </summary>
 
-    <details-menu class="SelectMenu SelectMenu--hasFilter" src="/home-assistant/core/refs/dev/homeassistant/components/seventeentrack/sensor.py?source_action=show&amp;source_controller=blob" preload>
-      <div class="SelectMenu-modal">
-        <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
-          <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 24 24" version="1.1" width="32" aria-hidden="true"><path d="M7.75 11c-.69 0-1.25.56-1.25 1.25v1.5a1.25 1.25 0 102.5 0v-1.5C9 11.56 8.44 11 7.75 11zm1.27 4.5a.469.469 0 01.48-.5h5a.47.47 0 01.48.5c-.116 1.316-.759 2.5-2.98 2.5s-2.864-1.184-2.98-2.5zm7.23-4.5c-.69 0-1.25.56-1.25 1.25v1.5a1.25 1.25 0 102.5 0v-1.5c0-.69-.56-1.25-1.25-1.25z"></path><path fill-rule="evenodd" d="M21.255 3.82a1.725 1.725 0 00-2.141-1.195c-.557.16-1.406.44-2.264.866-.78.386-1.647.93-2.293 1.677A18.442 18.442 0 0012 5c-.93 0-1.784.059-2.569.17-.645-.74-1.505-1.28-2.28-1.664a13.876 13.876 0 00-2.265-.866 1.725 1.725 0 00-2.141 1.196 23.645 23.645 0 00-.69 3.292c-.125.97-.191 2.07-.066 3.112C1.254 11.882 1 13.734 1 15.527 1 19.915 3.13 23 12 23c8.87 0 11-3.053 11-7.473 0-1.794-.255-3.647-.99-5.29.127-1.046.06-2.15-.066-3.125a23.652 23.652 0 00-.689-3.292zM20.5 14c.5 3.5-1.5 6.5-8.5 6.5s-9-3-8.5-6.5c.583-4 3-6 8.5-6s7.928 2 8.5 6z"></path></svg>
-        </include-fragment>
-      </div>
-    </details-menu>
+      
+<div class="SelectMenu">
+  <div class="SelectMenu-modal">
+    <header class="SelectMenu-header">
+      <span class="SelectMenu-title">Switch branches/tags</span>
+      <button class="SelectMenu-closeButton" type="button" data-toggle-for="branch-select-menu"><svg aria-label="Close menu" aria-hidden="false" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg></button>
+    </header>
+
+    <input-demux data-action="tab-container-change:input-demux#storeInput tab-container-changed:input-demux#updateInput">
+      <tab-container class="d-flex flex-column js-branches-tags-tabs" style="min-height: 0;">
+        <div class="SelectMenu-filter">
+          <input data-target="input-demux.source"
+                 id="context-commitish-filter-field"
+                 class="SelectMenu-input form-control"
+                 aria-owns="ref-list-branches"
+                 data-controls-ref-menu-id="ref-list-branches"
+                 autofocus
+                 autocomplete="off"
+                 aria-label="Filter branches/tags"
+                 placeholder="Filter branches/tags"
+                 type="text"
+          >
+        </div>
+
+        <div class="SelectMenu-tabs" role="tablist" data-target="input-demux.control" >
+          <button class="SelectMenu-tab" type="button" role="tab" aria-selected="true">Branches</button>
+          <button class="SelectMenu-tab" type="button" role="tab">Tags</button>
+        </div>
+
+        <div role="tabpanel" id="ref-list-branches" data-filter-placeholder="Filter branches/tags" class="d-flex flex-column flex-auto overflow-auto" tabindex="">
+          <ref-selector
+            type="branch"
+            data-targets="input-demux.sinks"
+            data-action="
+              input-entered:ref-selector#inputEntered
+              tab-selected:ref-selector#tabSelected
+              focus-list:ref-selector#focusFirstListMember
+            "
+            query-endpoint="/home-assistant/core/refs"
+            
+            cache-key="v0:1638414970.2597919"
+            current-committish="ZGV2"
+            default-branch="ZGV2"
+            name-with-owner="aG9tZS1hc3Npc3RhbnQvY29yZQ=="
+            prefetch-on-mouseover
+          >
+
+            <template data-target="ref-selector.fetchFailedTemplate">
+              <div class="SelectMenu-message" data-index="{{ index }}">Could not load branches</div>
+            </template>
+
+              <template data-target="ref-selector.noMatchTemplate">
+    <div class="SelectMenu-message">Nothing to show</div>
+</template>
+
+
+            <!-- TODO: this max-height is necessary or else the branch list won't scroll.  why? -->
+            <div data-target="ref-selector.listContainer" role="menu" class="SelectMenu-list " style="max-height: 330px" data-pjax="#repo-content-pjax-container">
+              <div class="SelectMenu-loading pt-3 pb-0" aria-label="Menu is loading">
+                <span role="status">
+  <span class="sr-only">Loading</span>
+  <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
+    <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+    <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg></span>
+
+              </div>
+            </div>
+
+              <template data-target="ref-selector.itemTemplate">
+  <a href="https://github.com/home-assistant/core/blob/{{ urlEncodedRefName }}/homeassistant/components/seventeentrack/sensor.py" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+    <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
+    <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
+  </a>
+</template>
+
+
+              <footer class="SelectMenu-footer"><a href="/home-assistant/core/branches">View all branches</a></footer>
+          </ref-selector>
+
+        </div>
+
+        <div role="tabpanel" id="tags-menu" data-filter-placeholder="Find a tag" class="d-flex flex-column flex-auto overflow-auto" tabindex="" hidden>
+          <ref-selector
+            type="tag"
+            data-action="
+              input-entered:ref-selector#inputEntered
+              tab-selected:ref-selector#tabSelected
+              focus-list:ref-selector#focusFirstListMember
+            "
+            data-targets="input-demux.sinks"
+            query-endpoint="/home-assistant/core/refs"
+            cache-key="v0:1638414970.2597919"
+            current-committish="ZGV2"
+            default-branch="ZGV2"
+            name-with-owner="aG9tZS1hc3Npc3RhbnQvY29yZQ=="
+          >
+
+            <template data-target="ref-selector.fetchFailedTemplate">
+              <div class="SelectMenu-message" data-index="{{ index }}">Could not load tags</div>
+            </template>
+
+            <template data-target="ref-selector.noMatchTemplate">
+              <div class="SelectMenu-message" data-index="{{ index }}">Nothing to show</div>
+            </template>
+
+              <template data-target="ref-selector.itemTemplate">
+  <a href="https://github.com/home-assistant/core/blob/{{ urlEncodedRefName }}/homeassistant/components/seventeentrack/sensor.py" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+    <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
+    <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
+  </a>
+</template>
+
+
+            <div data-target="ref-selector.listContainer" role="menu" class="SelectMenu-list" style="max-height: 330px" data-pjax="#repo-content-pjax-container">
+              <div class="SelectMenu-loading pt-3 pb-0" aria-label="Menu is loading">
+                <span role="status">
+  <span class="sr-only">Loading</span>
+  <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
+    <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+    <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg></span>
+
+              </div>
+            </div>
+              <footer class="SelectMenu-footer"><a href="/home-assistant/core/tags">View all tags</a></footer>
+          </ref-selector>
+        </div>
+      </tab-container>
+    </input-demux>
+  </div>
+</div>
+
   </details>
 
 </div>
 
-      <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal mx-0 mx-md-3 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/home-assistant/core"><span>core</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/home-assistant/core/tree/dev/homeassistant"><span>homeassistant</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/home-assistant/core/tree/dev/homeassistant/components"><span>components</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/home-assistant/core/tree/dev/homeassistant/components/seventeentrack"><span>seventeentrack</span></a></span><span class="separator">/</span><strong class="final-path">sensor.py</strong>
+      <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/home-assistant/core"><span>core</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/home-assistant/core/tree/dev/homeassistant"><span>homeassistant</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/home-assistant/core/tree/dev/homeassistant/components"><span>components</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/home-assistant/core/tree/dev/homeassistant/components/seventeentrack"><span>seventeentrack</span></a></span><span class="separator">/</span><strong class="final-path">sensor.py</strong>
           <span class="separator">/</span><details class="details-reset details-overlay d-inline" id="jumpto-symbol-select-menu">
-  <summary class="btn-link link-gray css-truncate" aria-haspopup="true" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ac23741aeed69366013bb158ccf08ad3c635753ec84dc120f95e869571ec89c6">
-      <svg class="octicon octicon-code" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path></svg>
+  <summary aria-haspopup="true" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="45bbc23f69ed898103659f9f60447160fcac367fc5172a15af741aeb6334f25f" data-view-component="true" class="Link--secondary css-truncate btn-link">
+  
+  
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
+    <path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path>
+</svg>
     <span data-menu-button>Jump to</span>
     <span class="dropdown-caret"></span>
-  </summary>
-  <details-menu class="SelectMenu SelectMenu--hasFilter" role="menu">
+
+  
+
+</summary>  <details-menu class="SelectMenu SelectMenu--hasFilter" role="menu">
     <div class="SelectMenu-modal">
       <header class="SelectMenu-header">
         <span class="SelectMenu-title">Code definitions</span>
         <button class="SelectMenu-closeButton" type="button" data-toggle-for="jumpto-symbol-select-menu">
-          <svg aria-label="Close menu" class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+          <svg aria-label="Close menu" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
         </button>
       </header>
         <div class="SelectMenu-filter">
@@ -772,104 +2101,106 @@
         </div>
       <div class="SelectMenu-list">
         <div data-filterable-for="jumpto-symbols-filter-field" data-filterable-type="substring">
-            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L65">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="0da1121eac6b02a699f65255b06e0f171552e16c08ac36193e184e2cbcaec21b" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L65">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>async_setup_platform</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L96">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="0da1121eac6b02a699f65255b06e0f171552e16c08ac36193e184e2cbcaec21b" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L97">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>SeventeenTrackSummarySensor</span>
               <span class="flex-auto d-flex flex-justify-end">Class</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L99">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="0da1121eac6b02a699f65255b06e0f171552e16c08ac36193e184e2cbcaec21b" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L103">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>__init__</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L107">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="0da1121eac6b02a699f65255b06e0f171552e16c08ac36193e184e2cbcaec21b" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L113">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>available</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L112">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>device_state_attributes</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="0da1121eac6b02a699f65255b06e0f171552e16c08ac36193e184e2cbcaec21b" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L118">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>native_value</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L117">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>icon</span>
-              <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L122">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>name</span>
-              <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L127">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>state</span>
-              <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L132">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>unique_id</span>
-              <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L137">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>unit_of_measurement</span>
-              <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L141">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="0da1121eac6b02a699f65255b06e0f171552e16c08ac36193e184e2cbcaec21b" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L122">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>async_update</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L166">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="0da1121eac6b02a699f65255b06e0f171552e16c08ac36193e184e2cbcaec21b" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L148">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>SeventeenTrackPackageSensor</span>
               <span class="flex-auto d-flex flex-justify-end">Class</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L169">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="0da1121eac6b02a699f65255b06e0f171552e16c08ac36193e184e2cbcaec21b" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L153">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>__init__</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L188">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="0da1121eac6b02a699f65255b06e0f171552e16c08ac36193e184e2cbcaec21b" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L176">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>available</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L193">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>device_state_attributes</span>
-              <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L198">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>icon</span>
-              <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L203">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="0da1121eac6b02a699f65255b06e0f171552e16c08ac36193e184e2cbcaec21b" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L181">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>name</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L211">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>state</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="0da1121eac6b02a699f65255b06e0f171552e16c08ac36193e184e2cbcaec21b" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L188">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>native_value</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L216">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>unique_id</span>
-              <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L220">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="0da1121eac6b02a699f65255b06e0f171552e16c08ac36193e184e2cbcaec21b" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L192">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>async_update</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L245">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="0da1121eac6b02a699f65255b06e0f171552e16c08ac36193e184e2cbcaec21b" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L221">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>_remove</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L258">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="0da1121eac6b02a699f65255b06e0f171552e16c08ac36193e184e2cbcaec21b" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L234">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>_notify_delivered</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L276">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="0da1121eac6b02a699f65255b06e0f171552e16c08ac36193e184e2cbcaec21b" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L252">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>SeventeenTrackData</span>
               <span class="flex-auto d-flex flex-justify-end">Class</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L279">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="0da1121eac6b02a699f65255b06e0f171552e16c08ac36193e184e2cbcaec21b" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L255">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>__init__</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="733c41f22834b89e12dd770046a1ca8003d117a0ad7abe1f94c7e77b4f82fd01" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L295">
-              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="0da1121eac6b02a699f65255b06e0f171552e16c08ac36193e184e2cbcaec21b" href="/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py#L278">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
               <span class="flex-auto css-truncate-target" data-menu-button-text>_async_update</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
 </a>        </div>
@@ -892,1560 +2223,1673 @@
         Go to file
       </a>
 
-      <details id="blob-more-options-details" class="details-overlay details-reset position-relative">
-  <summary role="button" type="button" class="btn ">
-    <svg aria-label="More options" class="octicon octicon-kebab-horizontal" height="16" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
-</summary>  <div>
-    <ul class="dropdown-menu dropdown-menu-sw">
+      <details id="blob-more-options-details" data-view-component="true" class="details-overlay details-reset position-relative">
+  <summary role="button" data-view-component="true" class="btn">
+  
+            <svg aria-label="More options" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
+    <path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+</svg>
+
+  
+
+</summary>
+  <div data-view-component="true">          <ul class="dropdown-menu dropdown-menu-sw">
             <li class="d-block d-md-none">
-              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:12888993,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="b4c04b83002fc69fb6de20c4f5f46f246aaabdb568d72648ccf5c1b34c30843f" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/home-assistant/core/find/dev">
+              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:12888993,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="16485fe684dde7c64819b5116d833ad383d7dea29fca551ba6588df27782a368" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/home-assistant/core/find/dev">
                 <span class="flex-auto">Go to file</span>
-                <span class="text-small text-gray" aria-hidden="true">T</span>
+                <span class="text-small color-fg-muted" aria-hidden="true">T</span>
 </a>            </li>
             <li data-toggle-for="blob-more-options-details">
-              <button type="button" data-toggle-for="jumpto-line-details-dialog" class="btn-link dropdown-item">
+              <button data-toggle-for="jumpto-line-details-dialog" type="button" data-view-component="true" class="dropdown-item btn-link">
+  
+  
                 <span class="d-flex flex-items-baseline">
                   <span class="flex-auto">Go to line</span>
-                  <span class="text-small text-gray" aria-hidden="true">L</span>
+                  <span class="text-small color-fg-muted" aria-hidden="true">L</span>
                 </span>
-              </button>
-            </li>
+
+  
+
+</button>            </li>
             <li data-toggle-for="blob-more-options-details">
-              <button type="button" data-toggle-for="jumpto-symbol-select-menu" class="btn-link dropdown-item">
+              <button data-toggle-for="jumpto-symbol-select-menu" type="button" data-view-component="true" class="dropdown-item btn-link">
+  
+  
                 <span class="d-flex flex-items-baseline">
                   <span class="flex-auto">Go to definition</span>
-                  <span class="text-small text-gray" aria-hidden="true">R</span>
+                  <span class="text-small color-fg-muted" aria-hidden="true">R</span>
                 </span>
-              </button>
-            </li>
+
+  
+
+</button>            </li>
             <li class="dropdown-divider" role="none"></li>
             <li>
-              <clipboard-copy value="homeassistant/components/seventeentrack/sensor.py" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
+              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="homeassistant/components/seventeentrack/sensor.py" data-view-component="true" class="dropdown-item cursor-pointer">
+    
                 Copy path
-              </clipboard-copy>
-            </li>
+
+</clipboard-copy>            </li>
+            <li>
+              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/home-assistant/core/blob/caa04c186699fef953e8fb5840f5cac8e7bb016e/homeassistant/components/seventeentrack/sensor.py" data-view-component="true" class="dropdown-item cursor-pointer">
+    
+                <span class="d-flex flex-items-baseline">
+                  <span class="flex-auto">Copy permalink</span>
+                </span>
+
+</clipboard-copy>            </li>
           </ul>
-</div></details>    </div>
+</div>
+</details>    </div>
+
 
 
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
       <include-fragment src="/home-assistant/core/contributors/dev/homeassistant/components/seventeentrack/sensor.py" class="commit-loader">
-        <div class="Box-header Box-header--blue d-flex flex-items-center">
+        <div class="Box-header d-flex flex-items-center">
           <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
           <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
         </div>
 
         <div class="Box-body d-flex flex-items-center" >
           <div class="Skeleton Skeleton--text col-1">&nbsp;</div>
-          <span class="text-red h6 loader-error">Cannot retrieve contributors at this time</span>
+          <span class="color-fg-danger h6 loader-error">Cannot retrieve contributors at this time</span>
         </div>
 </include-fragment>    </div>
 
 
-
-
-
-
-    <div class="Box mt-3 position-relative
-      ">
       
-<div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
-  <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
+
+
+
+
+
+
+
+  
+    <div data-target="readme-toc.content" class="Box mt-3 position-relative">
+      
+  <div
+    class="Box-header py-2 pr-2 d-flex flex-shrink-0 flex-md-row flex-items-center"
+    
+  >
+
+
+  <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1">
       <include-fragment src="/home-assistant/core/codeowners/dev/homeassistant/components/seventeentrack/sensor.py"></include-fragment>
 
-      342 lines (275 sloc)
+      325 lines (264 sloc)
       <span class="file-info-divider"></span>
-    10.8 KB
+    10.5 KB
   </div>
 
-  <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
+  <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
+      
 
     <div class="BtnGroup">
-      <a href="/home-assistant/core/raw/dev/homeassistant/components/seventeentrack/sensor.py" id="raw-url" role="button" class="btn btn-sm BtnGroup-item ">Raw</a>
-        <a href="/home-assistant/core/blame/dev/homeassistant/components/seventeentrack/sensor.py" data-hotkey="b" role="button" class="btn js-update-url-with-hash btn-sm BtnGroup-item ">Blame</a>
+      <a href="/home-assistant/core/raw/dev/homeassistant/components/seventeentrack/sensor.py" id="raw-url" data-view-component="true" class="btn-sm btn BtnGroup-item">
+  
+  Raw
+  
+
+</a>
+        <a href="/home-assistant/core/blame/dev/homeassistant/components/seventeentrack/sensor.py" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash btn-sm btn BtnGroup-item">
+  
+  Blame
+  
+
+</a>
     </div>
 
     <div>
           <a class="btn-octicon tooltipped tooltipped-nw js-remove-unless-platform"
              data-platforms="windows,mac"
-             href="https://desktop.github.com"
+             href="x-github-client://openRepo/https://github.com/home-assistant/core?branch=dev&amp;filepath=homeassistant%2Fcomponents%2Fseventeentrack%2Fsensor.py"
              aria-label="Open this file in GitHub Desktop"
              data-ga-click="Repository, open with desktop">
-              <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-device-desktop">
+    <path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path>
+</svg>
           </a>
 
-          <a href="/login?return_to=%2Fhome-assistant%2Fcore%2Fblob%2Fdev%2Fhomeassistant%2Fcomponents%2Fseventeentrack%2Fsensor.py" class="btn-octicon disabled tooltipped tooltipped-nw"
-            aria-label="You must be signed in to make or propose changes">
-            <svg class="octicon octicon-pencil" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path></svg>
-          </a>
-          <a href="/login?return_to=%2Fhome-assistant%2Fcore%2Fblob%2Fdev%2Fhomeassistant%2Fcomponents%2Fseventeentrack%2Fsensor.py" class="btn-octicon btn-octicon-danger disabled tooltipped tooltipped-nw"
-            aria-label="You must be signed in to make or propose changes">
-            <svg class="octicon octicon-trashcan" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path></svg>
-          </a>
-    </div>
+        <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/home-assistant/core/raw/dev/homeassistant/components/seventeentrack/sensor.py" data-action="click:remote-clipboard-copy#remoteCopy">
+  
+
+
+  <span data-target="remote-clipboard-copy.idle">            <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:12888993,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="983608c179f2f9a563353f672779f1e72a6db44421ba22af77635d467d3b9dcf" aria-label="Copy raw contents">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy">
+    <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+</svg>
+</span></span>
+  <span data-target="remote-clipboard-copy.fetching" hidden="hidden">            <span role="status">
+  <span class="sr-only">Loading</span>
+  <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="16" height="16" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
+    <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+    <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg></span>
+
+</span>
+  <span data-target="remote-clipboard-copy.success" hidden="hidden">            <span class="tooltipped tooltipped-nw" aria-label="Copied!">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check color-fg-success">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+            </span>
+</span>
+  <span data-target="remote-clipboard-copy.error" hidden="hidden">            <span class="tooltipped tooltipped-nw" aria-label="Something went wrong. Try again.">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert color-fg-attention">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+            </span>
+</span>
+</remote-clipboard-copy>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/home-assistant/core/edit/dev/homeassistant/components/seventeentrack/sensor.py" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="90B/ted4uWMKNAU9+Z/L1E1ixNbqXRgKC8P2tQYBwYCAly7qVL790h7SwrZB7hPswY/3Q0EjuLOo4oRUVv8RDA==" />
+            <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
+              aria-label="Edit the file in your fork of this project" data-hotkey="e" data-disable-with>
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
+    <path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path>
+</svg>
+            </button>
+</form>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/home-assistant/core/delete/dev/homeassistant/components/seventeentrack/sensor.py" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="wcQaPoLQGmO5mRGGAz2gKkfg95Z0Bnz3wEdfYzY+6pvjmkJYMfpZVp4PGGH5gVoumg36dIqe4IYaubh3Km3e+Q==" />
+            <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
+              aria-label="Delete the file in your fork of this project" data-disable-with>
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
+    <path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path>
+</svg>
+            </button>
+</form>    </div>
   </div>
+
+    <div class="d-flex hide-lg hide-xl flex-order-2 flex-grow-0">
+      <details class="dropdown details-reset details-overlay d-inline-block">
+        <summary class="btn-octicon" aria-haspopup="true" aria-label="possible actions">
+          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
+    <path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+</svg>
+        </summary>
+
+        <ul class="dropdown-menu dropdown-menu-sw" style="width: 175px">
+            <li>
+                <a class="dropdown-item tooltipped tooltipped-nw js-remove-unless-platform"
+                   data-platforms="windows,mac"
+                   href="x-github-client://openRepo/https://github.com/home-assistant/core?branch=dev&amp;filepath=homeassistant%2Fcomponents%2Fseventeentrack%2Fsensor.py"
+                   data-ga-click="Repository, open with desktop">
+                  Open with Desktop
+                </a>
+            </li>
+          <li>
+            <a class="dropdown-item" href="/home-assistant/core/raw/dev/homeassistant/components/seventeentrack/sensor.py">
+              View raw
+            </a>
+          </li>
+            <li>
+              <remote-clipboard-copy class="dropdown-item" data-src="/home-assistant/core/raw/dev/homeassistant/components/seventeentrack/sensor.py" data-action="click:remote-clipboard-copy#remoteCopy">
+  
+
+  <span data-target="remote-clipboard-copy.idle">                  <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:12888993,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="983608c179f2f9a563353f672779f1e72a6db44421ba22af77635d467d3b9dcf">
+                    Copy raw contents
+</span></span>
+  <span data-target="remote-clipboard-copy.fetching" hidden="hidden">                  Copy raw contents
+                  <span class="d-inline-block position-relative" style="top: 3px">
+                    <span role="status">
+  <span class="sr-only">Loading</span>
+  <svg aria-label="fetching contents…" style="box-sizing: content-box; color: var(--color-icon-primary);" width="16" height="16" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
+    <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+    <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg></span>
+
+                  </span>
+</span>
+  <span data-target="remote-clipboard-copy.success" hidden="hidden">                  Copy raw contents
+                  <svg aria-label="Copied!" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check color-fg-success">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+</span>
+  <span data-target="remote-clipboard-copy.error" hidden="hidden">                  Copy raw contents
+                  <svg aria-label="Something went wrong. Try again." role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert color-fg-attention">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+</span>
+</remote-clipboard-copy>            </li>
+            <li>
+              <a class="dropdown-item" href="/home-assistant/core/blame/dev/homeassistant/components/seventeentrack/sensor.py">
+                View blame
+              </a>
+            </li>
+
+              <li class="dropdown-divider" role="none"></li>
+              <li>
+                <a class="dropdown-item" href="/home-assistant/core/edit/dev/homeassistant/components/seventeentrack/sensor.py">Edit file</a>
+              </li>
+              <li>
+                <a class="dropdown-item menu-item-danger" href="/home-assistant/core/delete/dev/homeassistant/components/seventeentrack/sensor.py">Delete file</a>
+              </li>
+        </ul>
+      </details>
+    </div>
 </div>
 
-      
 
-  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-python  gist-border-0">
       
-<table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
-      <tr>
-        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-s>&quot;&quot;&quot;Support for package tracking sensors from 17track.net.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>datetime</span> <span class=pl-k>import</span> <span class=pl-s1>timedelta</span></td>
-      </tr>
-      <tr>
-        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>logging</span></td>
-      </tr>
-      <tr>
-        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>py17track</span> <span class=pl-k>import</span> <span class=pl-v>Client</span> <span class=pl-k>as</span> <span class=pl-v>SeventeenTrackClient</span></td>
-      </tr>
-      <tr>
-        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>py17track</span>.<span class=pl-s1>errors</span> <span class=pl-k>import</span> <span class=pl-v>SeventeenTrackError</span></td>
-      </tr>
-      <tr>
-        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>voluptuous</span> <span class=pl-k>as</span> <span class=pl-s1>vol</span></td>
-      </tr>
-      <tr>
-        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>homeassistant</span>.<span class=pl-s1>components</span>.<span class=pl-s1>sensor</span> <span class=pl-k>import</span> <span class=pl-v>PLATFORM_SCHEMA</span></td>
-      </tr>
-      <tr>
-        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>homeassistant</span>.<span class=pl-s1>const</span> <span class=pl-k>import</span> (</td>
-      </tr>
-      <tr>
-        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">    <span class=pl-v>ATTR_ATTRIBUTION</span>,</td>
-      </tr>
-      <tr>
-        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">    <span class=pl-v>ATTR_LOCATION</span>,</td>
-      </tr>
-      <tr>
-        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">    <span class=pl-v>CONF_PASSWORD</span>,</td>
-      </tr>
-      <tr>
-        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">    <span class=pl-v>CONF_SCAN_INTERVAL</span>,</td>
-      </tr>
-      <tr>
-        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">    <span class=pl-v>CONF_USERNAME</span>,</td>
-      </tr>
-      <tr>
-        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">)</td>
-      </tr>
-      <tr>
-        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>homeassistant</span>.<span class=pl-s1>helpers</span> <span class=pl-k>import</span> <span class=pl-s1>aiohttp_client</span>, <span class=pl-s1>config_validation</span> <span class=pl-k>as</span> <span class=pl-s1>cv</span></td>
-      </tr>
-      <tr>
-        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>homeassistant</span>.<span class=pl-s1>helpers</span>.<span class=pl-s1>entity</span> <span class=pl-k>import</span> <span class=pl-v>Entity</span></td>
-      </tr>
-      <tr>
-        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>homeassistant</span>.<span class=pl-s1>helpers</span>.<span class=pl-s1>event</span> <span class=pl-k>import</span> <span class=pl-s1>async_call_later</span></td>
-      </tr>
-      <tr>
-        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>homeassistant</span>.<span class=pl-s1>util</span> <span class=pl-k>import</span> <span class=pl-v>Throttle</span>, <span class=pl-s1>slugify</span></td>
-      </tr>
-      <tr>
-        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class=pl-s1>_LOGGER</span> <span class=pl-c1>=</span> <span class=pl-s1>logging</span>.<span class=pl-en>getLogger</span>(<span class=pl-s1>__name__</span>)</td>
-      </tr>
-      <tr>
-        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ATTR_DESTINATION_COUNTRY</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;destination_country&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ATTR_FRIENDLY_NAME</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;friendly_name&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ATTR_INFO_TEXT</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;info_text&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ATTR_ORIGIN_COUNTRY</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;origin_country&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ATTR_PACKAGES</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;packages&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ATTR_PACKAGE_TYPE</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;package_type&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ATTR_STATUS</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;status&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ATTR_TRACKING_INFO_LANGUAGE</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;tracking_info_language&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ATTR_TRACKING_NUMBER</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;tracking_number&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="LC34" class="blob-code blob-code-inner js-file-line"><span class=pl-v>CONF_SHOW_ARCHIVED</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;show_archived&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line"><span class=pl-v>CONF_SHOW_DELIVERED</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;show_delivered&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="LC36" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code blob-code-inner js-file-line"><span class=pl-v>DATA_PACKAGES</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;package_data&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="LC38" class="blob-code blob-code-inner js-file-line"><span class=pl-v>DATA_SUMMARY</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;summary_data&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="LC40" class="blob-code blob-code-inner js-file-line"><span class=pl-v>DEFAULT_ATTRIBUTION</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;Data provided by 17track.net&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code blob-code-inner js-file-line"><span class=pl-v>DEFAULT_SCAN_INTERVAL</span> <span class=pl-c1>=</span> <span class=pl-en>timedelta</span>(<span class=pl-s1>minutes</span><span class=pl-c1>=</span><span class=pl-c1>10</span>)</td>
-      </tr>
-      <tr>
-        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
-        <td id="LC43" class="blob-code blob-code-inner js-file-line"><span class=pl-v>UNIQUE_ID_TEMPLATE</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;package_{0}_{1}&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
-        <td id="LC44" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ENTITY_ID_TEMPLATE</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;sensor.seventeentrack_package_{0}&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
-        <td id="LC45" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
-        <td id="LC46" class="blob-code blob-code-inner js-file-line"><span class=pl-v>NOTIFICATION_DELIVERED_ID</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;package_delivered_{0}&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
-        <td id="LC47" class="blob-code blob-code-inner js-file-line"><span class=pl-v>NOTIFICATION_DELIVERED_TITLE</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;Package {0} delivered&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
-        <td id="LC48" class="blob-code blob-code-inner js-file-line"><span class=pl-v>NOTIFICATION_DELIVERED_MESSAGE</span> <span class=pl-c1>=</span> (</td>
-      </tr>
-      <tr>
-        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
-        <td id="LC49" class="blob-code blob-code-inner js-file-line">    <span class=pl-s>&quot;Package Delivered: {0}&lt;br /&gt;Visit 17.track for more information: &quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
-        <td id="LC50" class="blob-code blob-code-inner js-file-line">    <span class=pl-s>&quot;https://t.17track.net/track#nums={1}&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
-        <td id="LC51" class="blob-code blob-code-inner js-file-line">)</td>
-      </tr>
-      <tr>
-        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
-        <td id="LC52" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
-        <td id="LC53" class="blob-code blob-code-inner js-file-line"><span class=pl-v>VALUE_DELIVERED</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;Delivered&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
-        <td id="LC54" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
-        <td id="LC55" class="blob-code blob-code-inner js-file-line"><span class=pl-v>PLATFORM_SCHEMA</span> <span class=pl-c1>=</span> <span class=pl-v>PLATFORM_SCHEMA</span>.<span class=pl-en>extend</span>(</td>
-      </tr>
-      <tr>
-        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
-        <td id="LC56" class="blob-code blob-code-inner js-file-line">    {</td>
-      </tr>
-      <tr>
-        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
-        <td id="LC57" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>vol</span>.<span class=pl-v>Required</span>(<span class=pl-v>CONF_USERNAME</span>): <span class=pl-s1>cv</span>.<span class=pl-s1>string</span>,</td>
-      </tr>
-      <tr>
-        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
-        <td id="LC58" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>vol</span>.<span class=pl-v>Required</span>(<span class=pl-v>CONF_PASSWORD</span>): <span class=pl-s1>cv</span>.<span class=pl-s1>string</span>,</td>
-      </tr>
-      <tr>
-        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
-        <td id="LC59" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>vol</span>.<span class=pl-v>Optional</span>(<span class=pl-v>CONF_SHOW_ARCHIVED</span>, <span class=pl-s1>default</span><span class=pl-c1>=</span><span class=pl-c1>False</span>): <span class=pl-s1>cv</span>.<span class=pl-s1>boolean</span>,</td>
-      </tr>
-      <tr>
-        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
-        <td id="LC60" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>vol</span>.<span class=pl-v>Optional</span>(<span class=pl-v>CONF_SHOW_DELIVERED</span>, <span class=pl-s1>default</span><span class=pl-c1>=</span><span class=pl-c1>False</span>): <span class=pl-s1>cv</span>.<span class=pl-s1>boolean</span>,</td>
-      </tr>
-      <tr>
-        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
-        <td id="LC61" class="blob-code blob-code-inner js-file-line">    }</td>
-      </tr>
-      <tr>
-        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
-        <td id="LC62" class="blob-code blob-code-inner js-file-line">)</td>
-      </tr>
-      <tr>
-        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
-        <td id="LC63" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
-        <td id="LC64" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
-        <td id="LC65" class="blob-code blob-code-inner js-file-line"><span class=pl-k>async</span> <span class=pl-k>def</span> <span class=pl-en>async_setup_platform</span>(<span class=pl-s1>hass</span>, <span class=pl-s1>config</span>, <span class=pl-s1>async_add_entities</span>, <span class=pl-s1>discovery_info</span><span class=pl-c1>=</span><span class=pl-c1>None</span>):</td>
-      </tr>
-      <tr>
-        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
-        <td id="LC66" class="blob-code blob-code-inner js-file-line">    <span class=pl-s>&quot;&quot;&quot;Configure the platform and add the sensors.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
-        <td id="LC67" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
-        <td id="LC68" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>websession</span> <span class=pl-c1>=</span> <span class=pl-s1>aiohttp_client</span>.<span class=pl-en>async_get_clientsession</span>(<span class=pl-s1>hass</span>)</td>
-      </tr>
-      <tr>
-        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
-        <td id="LC69" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
-        <td id="LC70" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>client</span> <span class=pl-c1>=</span> <span class=pl-v>SeventeenTrackClient</span>(<span class=pl-s1>websession</span>)</td>
-      </tr>
-      <tr>
-        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
-        <td id="LC71" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
-        <td id="LC72" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>try</span>:</td>
-      </tr>
-      <tr>
-        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
-        <td id="LC73" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>login_result</span> <span class=pl-c1>=</span> <span class=pl-k>await</span> <span class=pl-s1>client</span>.<span class=pl-s1>profile</span>.<span class=pl-en>login</span>(</td>
-      </tr>
-      <tr>
-        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
-        <td id="LC74" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>config</span>[<span class=pl-v>CONF_USERNAME</span>], <span class=pl-s1>config</span>[<span class=pl-v>CONF_PASSWORD</span>]</td>
-      </tr>
-      <tr>
-        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
-        <td id="LC75" class="blob-code blob-code-inner js-file-line">        )</td>
-      </tr>
-      <tr>
-        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
-        <td id="LC76" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
-        <td id="LC77" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-c1>not</span> <span class=pl-s1>login_result</span>:</td>
-      </tr>
-      <tr>
-        <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
-        <td id="LC78" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>_LOGGER</span>.<span class=pl-en>error</span>(<span class=pl-s>&quot;Invalid username and password provided&quot;</span>)</td>
-      </tr>
-      <tr>
-        <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
-        <td id="LC79" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>return</span></td>
-      </tr>
-      <tr>
-        <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
-        <td id="LC80" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>except</span> <span class=pl-v>SeventeenTrackError</span> <span class=pl-k>as</span> <span class=pl-s1>err</span>:</td>
-      </tr>
-      <tr>
-        <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
-        <td id="LC81" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>_LOGGER</span>.<span class=pl-en>error</span>(<span class=pl-s>&quot;There was an error while logging in: %s&quot;</span>, <span class=pl-s1>err</span>)</td>
-      </tr>
-      <tr>
-        <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
-        <td id="LC82" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span></td>
-      </tr>
-      <tr>
-        <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
-        <td id="LC83" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
-        <td id="LC84" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>scan_interval</span> <span class=pl-c1>=</span> <span class=pl-s1>config</span>.<span class=pl-en>get</span>(<span class=pl-v>CONF_SCAN_INTERVAL</span>, <span class=pl-v>DEFAULT_SCAN_INTERVAL</span>)</td>
-      </tr>
-      <tr>
-        <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
-        <td id="LC85" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
-        <td id="LC86" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>data</span> <span class=pl-c1>=</span> <span class=pl-v>SeventeenTrackData</span>(</td>
-      </tr>
-      <tr>
-        <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
-        <td id="LC87" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>client</span>,</td>
-      </tr>
-      <tr>
-        <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
-        <td id="LC88" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>async_add_entities</span>,</td>
-      </tr>
-      <tr>
-        <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
-        <td id="LC89" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>scan_interval</span>,</td>
-      </tr>
-      <tr>
-        <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
-        <td id="LC90" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>config</span>[<span class=pl-v>CONF_SHOW_ARCHIVED</span>],</td>
-      </tr>
-      <tr>
-        <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
-        <td id="LC91" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>config</span>[<span class=pl-v>CONF_SHOW_DELIVERED</span>],</td>
-      </tr>
-      <tr>
-        <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
-        <td id="LC92" class="blob-code blob-code-inner js-file-line">    )</td>
-      </tr>
-      <tr>
-        <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
-        <td id="LC93" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>await</span> <span class=pl-s1>data</span>.<span class=pl-en>async_update</span>()</td>
-      </tr>
-      <tr>
-        <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
-        <td id="LC94" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
-        <td id="LC95" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
-        <td id="LC96" class="blob-code blob-code-inner js-file-line"><span class=pl-k>class</span> <span class=pl-v>SeventeenTrackSummarySensor</span>(<span class=pl-v>Entity</span>):</td>
-      </tr>
-      <tr>
-        <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
-        <td id="LC97" class="blob-code blob-code-inner js-file-line">    <span class=pl-s>&quot;&quot;&quot;Define a summary sensor.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
-        <td id="LC98" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
-        <td id="LC99" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>__init__</span>(<span class=pl-s1>self</span>, <span class=pl-s1>data</span>, <span class=pl-s1>status</span>, <span class=pl-s1>initial_state</span>):</td>
-      </tr>
-      <tr>
-        <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
-        <td id="LC100" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Initialize.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
-        <td id="LC101" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_attrs</span> <span class=pl-c1>=</span> {<span class=pl-v>ATTR_ATTRIBUTION</span>: <span class=pl-v>DEFAULT_ATTRIBUTION</span>}</td>
-      </tr>
-      <tr>
-        <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
-        <td id="LC102" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_data</span> <span class=pl-c1>=</span> <span class=pl-s1>data</span></td>
-      </tr>
-      <tr>
-        <td id="L103" class="blob-num js-line-number" data-line-number="103"></td>
-        <td id="LC103" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_state</span> <span class=pl-c1>=</span> <span class=pl-s1>initial_state</span></td>
-      </tr>
-      <tr>
-        <td id="L104" class="blob-num js-line-number" data-line-number="104"></td>
-        <td id="LC104" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_status</span> <span class=pl-c1>=</span> <span class=pl-s1>status</span></td>
-      </tr>
-      <tr>
-        <td id="L105" class="blob-num js-line-number" data-line-number="105"></td>
-        <td id="LC105" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L106" class="blob-num js-line-number" data-line-number="106"></td>
-        <td id="LC106" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>@<span class=pl-s1>property</span></span></td>
-      </tr>
-      <tr>
-        <td id="L107" class="blob-num js-line-number" data-line-number="107"></td>
-        <td id="LC107" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>available</span>(<span class=pl-s1>self</span>):</td>
-      </tr>
-      <tr>
-        <td id="L108" class="blob-num js-line-number" data-line-number="108"></td>
-        <td id="LC108" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Return whether the entity is available.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L109" class="blob-num js-line-number" data-line-number="109"></td>
-        <td id="LC109" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1>self</span>.<span class=pl-s1>_state</span> <span class=pl-c1>is</span> <span class=pl-c1>not</span> <span class=pl-c1>None</span></td>
-      </tr>
-      <tr>
-        <td id="L110" class="blob-num js-line-number" data-line-number="110"></td>
-        <td id="LC110" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L111" class="blob-num js-line-number" data-line-number="111"></td>
-        <td id="LC111" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>@<span class=pl-s1>property</span></span></td>
-      </tr>
-      <tr>
-        <td id="L112" class="blob-num js-line-number" data-line-number="112"></td>
-        <td id="LC112" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>device_state_attributes</span>(<span class=pl-s1>self</span>):</td>
-      </tr>
-      <tr>
-        <td id="L113" class="blob-num js-line-number" data-line-number="113"></td>
-        <td id="LC113" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Return the device state attributes.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L114" class="blob-num js-line-number" data-line-number="114"></td>
-        <td id="LC114" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1>self</span>.<span class=pl-s1>_attrs</span></td>
-      </tr>
-      <tr>
-        <td id="L115" class="blob-num js-line-number" data-line-number="115"></td>
-        <td id="LC115" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L116" class="blob-num js-line-number" data-line-number="116"></td>
-        <td id="LC116" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>@<span class=pl-s1>property</span></span></td>
-      </tr>
-      <tr>
-        <td id="L117" class="blob-num js-line-number" data-line-number="117"></td>
-        <td id="LC117" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>icon</span>(<span class=pl-s1>self</span>):</td>
-      </tr>
-      <tr>
-        <td id="L118" class="blob-num js-line-number" data-line-number="118"></td>
-        <td id="LC118" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Return the icon.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L119" class="blob-num js-line-number" data-line-number="119"></td>
-        <td id="LC119" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s>&quot;mdi:package&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L120" class="blob-num js-line-number" data-line-number="120"></td>
-        <td id="LC120" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L121" class="blob-num js-line-number" data-line-number="121"></td>
-        <td id="LC121" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>@<span class=pl-s1>property</span></span></td>
-      </tr>
-      <tr>
-        <td id="L122" class="blob-num js-line-number" data-line-number="122"></td>
-        <td id="LC122" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>name</span>(<span class=pl-s1>self</span>):</td>
-      </tr>
-      <tr>
-        <td id="L123" class="blob-num js-line-number" data-line-number="123"></td>
-        <td id="LC123" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Return the name.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L124" class="blob-num js-line-number" data-line-number="124"></td>
-        <td id="LC124" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s>f&quot;Seventeentrack Packages <span class=pl-s1><span class=pl-kos>{</span><span class=pl-s1>self</span>.<span class=pl-s1>_status</span><span class=pl-kos>}</span></span>&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L125" class="blob-num js-line-number" data-line-number="125"></td>
-        <td id="LC125" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L126" class="blob-num js-line-number" data-line-number="126"></td>
-        <td id="LC126" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>@<span class=pl-s1>property</span></span></td>
-      </tr>
-      <tr>
-        <td id="L127" class="blob-num js-line-number" data-line-number="127"></td>
-        <td id="LC127" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>state</span>(<span class=pl-s1>self</span>):</td>
-      </tr>
-      <tr>
-        <td id="L128" class="blob-num js-line-number" data-line-number="128"></td>
-        <td id="LC128" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Return the state.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L129" class="blob-num js-line-number" data-line-number="129"></td>
-        <td id="LC129" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1>self</span>.<span class=pl-s1>_state</span></td>
-      </tr>
-      <tr>
-        <td id="L130" class="blob-num js-line-number" data-line-number="130"></td>
-        <td id="LC130" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L131" class="blob-num js-line-number" data-line-number="131"></td>
-        <td id="LC131" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>@<span class=pl-s1>property</span></span></td>
-      </tr>
-      <tr>
-        <td id="L132" class="blob-num js-line-number" data-line-number="132"></td>
-        <td id="LC132" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>unique_id</span>(<span class=pl-s1>self</span>):</td>
-      </tr>
-      <tr>
-        <td id="L133" class="blob-num js-line-number" data-line-number="133"></td>
-        <td id="LC133" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Return a unique, Home Assistant friendly identifier for this entity.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L134" class="blob-num js-line-number" data-line-number="134"></td>
-        <td id="LC134" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s>&quot;summary_{}_{}&quot;</span>.<span class=pl-en>format</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_data</span>.<span class=pl-s1>account_id</span>, <span class=pl-en>slugify</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_status</span>))</td>
-      </tr>
-      <tr>
-        <td id="L135" class="blob-num js-line-number" data-line-number="135"></td>
-        <td id="LC135" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L136" class="blob-num js-line-number" data-line-number="136"></td>
-        <td id="LC136" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>@<span class=pl-s1>property</span></span></td>
-      </tr>
-      <tr>
-        <td id="L137" class="blob-num js-line-number" data-line-number="137"></td>
-        <td id="LC137" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>unit_of_measurement</span>(<span class=pl-s1>self</span>):</td>
-      </tr>
-      <tr>
-        <td id="L138" class="blob-num js-line-number" data-line-number="138"></td>
-        <td id="LC138" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Return the unit the value is expressed in.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L139" class="blob-num js-line-number" data-line-number="139"></td>
-        <td id="LC139" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s>&quot;packages&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L140" class="blob-num js-line-number" data-line-number="140"></td>
-        <td id="LC140" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L141" class="blob-num js-line-number" data-line-number="141"></td>
-        <td id="LC141" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>async</span> <span class=pl-k>def</span> <span class=pl-en>async_update</span>(<span class=pl-s1>self</span>):</td>
-      </tr>
-      <tr>
-        <td id="L142" class="blob-num js-line-number" data-line-number="142"></td>
-        <td id="LC142" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Update the sensor.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L143" class="blob-num js-line-number" data-line-number="143"></td>
-        <td id="LC143" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>await</span> <span class=pl-s1>self</span>.<span class=pl-s1>_data</span>.<span class=pl-en>async_update</span>()</td>
-      </tr>
-      <tr>
-        <td id="L144" class="blob-num js-line-number" data-line-number="144"></td>
-        <td id="LC144" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L145" class="blob-num js-line-number" data-line-number="145"></td>
-        <td id="LC145" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>package_data</span> <span class=pl-c1>=</span> []</td>
-      </tr>
-      <tr>
-        <td id="L146" class="blob-num js-line-number" data-line-number="146"></td>
-        <td id="LC146" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>for</span> <span class=pl-s1>package</span> <span class=pl-c1>in</span> <span class=pl-s1>self</span>.<span class=pl-s1>_data</span>.<span class=pl-s1>packages</span>.<span class=pl-en>values</span>():</td>
-      </tr>
-      <tr>
-        <td id="L147" class="blob-num js-line-number" data-line-number="147"></td>
-        <td id="LC147" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span> <span class=pl-s1>package</span>.<span class=pl-s1>status</span> <span class=pl-c1>!=</span> <span class=pl-s1>self</span>.<span class=pl-s1>_status</span>:</td>
-      </tr>
-      <tr>
-        <td id="L148" class="blob-num js-line-number" data-line-number="148"></td>
-        <td id="LC148" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>continue</span></td>
-      </tr>
-      <tr>
-        <td id="L149" class="blob-num js-line-number" data-line-number="149"></td>
-        <td id="LC149" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L150" class="blob-num js-line-number" data-line-number="150"></td>
-        <td id="LC150" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>package_data</span>.<span class=pl-en>append</span>(</td>
-      </tr>
-      <tr>
-        <td id="L151" class="blob-num js-line-number" data-line-number="151"></td>
-        <td id="LC151" class="blob-code blob-code-inner js-file-line">                {</td>
-      </tr>
-      <tr>
-        <td id="L152" class="blob-num js-line-number" data-line-number="152"></td>
-        <td id="LC152" class="blob-code blob-code-inner js-file-line">                    <span class=pl-v>ATTR_FRIENDLY_NAME</span>: <span class=pl-s1>package</span>.<span class=pl-s1>friendly_name</span>,</td>
-      </tr>
-      <tr>
-        <td id="L153" class="blob-num js-line-number" data-line-number="153"></td>
-        <td id="LC153" class="blob-code blob-code-inner js-file-line">                    <span class=pl-v>ATTR_INFO_TEXT</span>: <span class=pl-s1>package</span>.<span class=pl-s1>info_text</span>,</td>
-      </tr>
-      <tr>
-        <td id="L154" class="blob-num js-line-number" data-line-number="154"></td>
-        <td id="LC154" class="blob-code blob-code-inner js-file-line">                    <span class=pl-v>ATTR_STATUS</span>: <span class=pl-s1>package</span>.<span class=pl-s1>status</span>,</td>
-      </tr>
-      <tr>
-        <td id="L155" class="blob-num js-line-number" data-line-number="155"></td>
-        <td id="LC155" class="blob-code blob-code-inner js-file-line">                    <span class=pl-v>ATTR_LOCATION</span>: <span class=pl-s1>package</span>.<span class=pl-s1>location</span>,</td>
-      </tr>
-      <tr>
-        <td id="L156" class="blob-num js-line-number" data-line-number="156"></td>
-        <td id="LC156" class="blob-code blob-code-inner js-file-line">                    <span class=pl-v>ATTR_TRACKING_NUMBER</span>: <span class=pl-s1>package</span>.<span class=pl-s1>tracking_number</span>,</td>
-      </tr>
-      <tr>
-        <td id="L157" class="blob-num js-line-number" data-line-number="157"></td>
-        <td id="LC157" class="blob-code blob-code-inner js-file-line">                }</td>
-      </tr>
-      <tr>
-        <td id="L158" class="blob-num js-line-number" data-line-number="158"></td>
-        <td id="LC158" class="blob-code blob-code-inner js-file-line">            )</td>
-      </tr>
-      <tr>
-        <td id="L159" class="blob-num js-line-number" data-line-number="159"></td>
-        <td id="LC159" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L160" class="blob-num js-line-number" data-line-number="160"></td>
-        <td id="LC160" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-s1>package_data</span>:</td>
-      </tr>
-      <tr>
-        <td id="L161" class="blob-num js-line-number" data-line-number="161"></td>
-        <td id="LC161" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>self</span>.<span class=pl-s1>_attrs</span>[<span class=pl-v>ATTR_PACKAGES</span>] <span class=pl-c1>=</span> <span class=pl-s1>package_data</span></td>
-      </tr>
-      <tr>
-        <td id="L162" class="blob-num js-line-number" data-line-number="162"></td>
-        <td id="LC162" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L163" class="blob-num js-line-number" data-line-number="163"></td>
-        <td id="LC163" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_state</span> <span class=pl-c1>=</span> <span class=pl-s1>self</span>.<span class=pl-s1>_data</span>.<span class=pl-s1>summary</span>.<span class=pl-en>get</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_status</span>)</td>
-      </tr>
-      <tr>
-        <td id="L164" class="blob-num js-line-number" data-line-number="164"></td>
-        <td id="LC164" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L165" class="blob-num js-line-number" data-line-number="165"></td>
-        <td id="LC165" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L166" class="blob-num js-line-number" data-line-number="166"></td>
-        <td id="LC166" class="blob-code blob-code-inner js-file-line"><span class=pl-k>class</span> <span class=pl-v>SeventeenTrackPackageSensor</span>(<span class=pl-v>Entity</span>):</td>
-      </tr>
-      <tr>
-        <td id="L167" class="blob-num js-line-number" data-line-number="167"></td>
-        <td id="LC167" class="blob-code blob-code-inner js-file-line">    <span class=pl-s>&quot;&quot;&quot;Define an individual package sensor.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L168" class="blob-num js-line-number" data-line-number="168"></td>
-        <td id="LC168" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L169" class="blob-num js-line-number" data-line-number="169"></td>
-        <td id="LC169" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>__init__</span>(<span class=pl-s1>self</span>, <span class=pl-s1>data</span>, <span class=pl-s1>package</span>):</td>
-      </tr>
-      <tr>
-        <td id="L170" class="blob-num js-line-number" data-line-number="170"></td>
-        <td id="LC170" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Initialize.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L171" class="blob-num js-line-number" data-line-number="171"></td>
-        <td id="LC171" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_attrs</span> <span class=pl-c1>=</span> {</td>
-      </tr>
-      <tr>
-        <td id="L172" class="blob-num js-line-number" data-line-number="172"></td>
-        <td id="LC172" class="blob-code blob-code-inner js-file-line">            <span class=pl-v>ATTR_ATTRIBUTION</span>: <span class=pl-v>DEFAULT_ATTRIBUTION</span>,</td>
-      </tr>
-      <tr>
-        <td id="L173" class="blob-num js-line-number" data-line-number="173"></td>
-        <td id="LC173" class="blob-code blob-code-inner js-file-line">            <span class=pl-v>ATTR_DESTINATION_COUNTRY</span>: <span class=pl-s1>package</span>.<span class=pl-s1>destination_country</span>,</td>
-      </tr>
-      <tr>
-        <td id="L174" class="blob-num js-line-number" data-line-number="174"></td>
-        <td id="LC174" class="blob-code blob-code-inner js-file-line">            <span class=pl-v>ATTR_INFO_TEXT</span>: <span class=pl-s1>package</span>.<span class=pl-s1>info_text</span>,</td>
-      </tr>
-      <tr>
-        <td id="L175" class="blob-num js-line-number" data-line-number="175"></td>
-        <td id="LC175" class="blob-code blob-code-inner js-file-line">            <span class=pl-v>ATTR_LOCATION</span>: <span class=pl-s1>package</span>.<span class=pl-s1>location</span>,</td>
-      </tr>
-      <tr>
-        <td id="L176" class="blob-num js-line-number" data-line-number="176"></td>
-        <td id="LC176" class="blob-code blob-code-inner js-file-line">            <span class=pl-v>ATTR_ORIGIN_COUNTRY</span>: <span class=pl-s1>package</span>.<span class=pl-s1>origin_country</span>,</td>
-      </tr>
-      <tr>
-        <td id="L177" class="blob-num js-line-number" data-line-number="177"></td>
-        <td id="LC177" class="blob-code blob-code-inner js-file-line">            <span class=pl-v>ATTR_PACKAGE_TYPE</span>: <span class=pl-s1>package</span>.<span class=pl-s1>package_type</span>,</td>
-      </tr>
-      <tr>
-        <td id="L178" class="blob-num js-line-number" data-line-number="178"></td>
-        <td id="LC178" class="blob-code blob-code-inner js-file-line">            <span class=pl-v>ATTR_TRACKING_INFO_LANGUAGE</span>: <span class=pl-s1>package</span>.<span class=pl-s1>tracking_info_language</span>,</td>
-      </tr>
-      <tr>
-        <td id="L179" class="blob-num js-line-number" data-line-number="179"></td>
-        <td id="LC179" class="blob-code blob-code-inner js-file-line">            <span class=pl-v>ATTR_TRACKING_NUMBER</span>: <span class=pl-s1>package</span>.<span class=pl-s1>tracking_number</span>,</td>
-      </tr>
-      <tr>
-        <td id="L180" class="blob-num js-line-number" data-line-number="180"></td>
-        <td id="LC180" class="blob-code blob-code-inner js-file-line">        }</td>
-      </tr>
-      <tr>
-        <td id="L181" class="blob-num js-line-number" data-line-number="181"></td>
-        <td id="LC181" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_data</span> <span class=pl-c1>=</span> <span class=pl-s1>data</span></td>
-      </tr>
-      <tr>
-        <td id="L182" class="blob-num js-line-number" data-line-number="182"></td>
-        <td id="LC182" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_friendly_name</span> <span class=pl-c1>=</span> <span class=pl-s1>package</span>.<span class=pl-s1>friendly_name</span></td>
-      </tr>
-      <tr>
-        <td id="L183" class="blob-num js-line-number" data-line-number="183"></td>
-        <td id="LC183" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_state</span> <span class=pl-c1>=</span> <span class=pl-s1>package</span>.<span class=pl-s1>status</span></td>
-      </tr>
-      <tr>
-        <td id="L184" class="blob-num js-line-number" data-line-number="184"></td>
-        <td id="LC184" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span> <span class=pl-c1>=</span> <span class=pl-s1>package</span>.<span class=pl-s1>tracking_number</span></td>
-      </tr>
-      <tr>
-        <td id="L185" class="blob-num js-line-number" data-line-number="185"></td>
-        <td id="LC185" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>entity_id</span> <span class=pl-c1>=</span> <span class=pl-v>ENTITY_ID_TEMPLATE</span>.<span class=pl-en>format</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span>)</td>
-      </tr>
-      <tr>
-        <td id="L186" class="blob-num js-line-number" data-line-number="186"></td>
-        <td id="LC186" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L187" class="blob-num js-line-number" data-line-number="187"></td>
-        <td id="LC187" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>@<span class=pl-s1>property</span></span></td>
-      </tr>
-      <tr>
-        <td id="L188" class="blob-num js-line-number" data-line-number="188"></td>
-        <td id="LC188" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>available</span>(<span class=pl-s1>self</span>):</td>
-      </tr>
-      <tr>
-        <td id="L189" class="blob-num js-line-number" data-line-number="189"></td>
-        <td id="LC189" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Return whether the entity is available.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L190" class="blob-num js-line-number" data-line-number="190"></td>
-        <td id="LC190" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1>self</span>.<span class=pl-s1>_data</span>.<span class=pl-s1>packages</span>.<span class=pl-en>get</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span>) <span class=pl-c1>is</span> <span class=pl-c1>not</span> <span class=pl-c1>None</span></td>
-      </tr>
-      <tr>
-        <td id="L191" class="blob-num js-line-number" data-line-number="191"></td>
-        <td id="LC191" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L192" class="blob-num js-line-number" data-line-number="192"></td>
-        <td id="LC192" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>@<span class=pl-s1>property</span></span></td>
-      </tr>
-      <tr>
-        <td id="L193" class="blob-num js-line-number" data-line-number="193"></td>
-        <td id="LC193" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>device_state_attributes</span>(<span class=pl-s1>self</span>):</td>
-      </tr>
-      <tr>
-        <td id="L194" class="blob-num js-line-number" data-line-number="194"></td>
-        <td id="LC194" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Return the device state attributes.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L195" class="blob-num js-line-number" data-line-number="195"></td>
-        <td id="LC195" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1>self</span>.<span class=pl-s1>_attrs</span></td>
-      </tr>
-      <tr>
-        <td id="L196" class="blob-num js-line-number" data-line-number="196"></td>
-        <td id="LC196" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L197" class="blob-num js-line-number" data-line-number="197"></td>
-        <td id="LC197" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>@<span class=pl-s1>property</span></span></td>
-      </tr>
-      <tr>
-        <td id="L198" class="blob-num js-line-number" data-line-number="198"></td>
-        <td id="LC198" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>icon</span>(<span class=pl-s1>self</span>):</td>
-      </tr>
-      <tr>
-        <td id="L199" class="blob-num js-line-number" data-line-number="199"></td>
-        <td id="LC199" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Return the icon.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L200" class="blob-num js-line-number" data-line-number="200"></td>
-        <td id="LC200" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s>&quot;mdi:package&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L201" class="blob-num js-line-number" data-line-number="201"></td>
-        <td id="LC201" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L202" class="blob-num js-line-number" data-line-number="202"></td>
-        <td id="LC202" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>@<span class=pl-s1>property</span></span></td>
-      </tr>
-      <tr>
-        <td id="L203" class="blob-num js-line-number" data-line-number="203"></td>
-        <td id="LC203" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>name</span>(<span class=pl-s1>self</span>):</td>
-      </tr>
-      <tr>
-        <td id="L204" class="blob-num js-line-number" data-line-number="204"></td>
-        <td id="LC204" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Return the name.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L205" class="blob-num js-line-number" data-line-number="205"></td>
-        <td id="LC205" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>name</span> <span class=pl-c1>=</span> <span class=pl-s1>self</span>.<span class=pl-s1>_friendly_name</span></td>
-      </tr>
-      <tr>
-        <td id="L206" class="blob-num js-line-number" data-line-number="206"></td>
-        <td id="LC206" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-c1>not</span> <span class=pl-s1>name</span>:</td>
-      </tr>
-      <tr>
-        <td id="L207" class="blob-num js-line-number" data-line-number="207"></td>
-        <td id="LC207" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>name</span> <span class=pl-c1>=</span> <span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span></td>
-      </tr>
-      <tr>
-        <td id="L208" class="blob-num js-line-number" data-line-number="208"></td>
-        <td id="LC208" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s>f&quot;Seventeentrack Package: <span class=pl-s1><span class=pl-kos>{</span><span class=pl-s1>name</span><span class=pl-kos>}</span></span>&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L209" class="blob-num js-line-number" data-line-number="209"></td>
-        <td id="LC209" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L210" class="blob-num js-line-number" data-line-number="210"></td>
-        <td id="LC210" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>@<span class=pl-s1>property</span></span></td>
-      </tr>
-      <tr>
-        <td id="L211" class="blob-num js-line-number" data-line-number="211"></td>
-        <td id="LC211" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>state</span>(<span class=pl-s1>self</span>):</td>
-      </tr>
-      <tr>
-        <td id="L212" class="blob-num js-line-number" data-line-number="212"></td>
-        <td id="LC212" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Return the state.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L213" class="blob-num js-line-number" data-line-number="213"></td>
-        <td id="LC213" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1>self</span>.<span class=pl-s1>_state</span></td>
-      </tr>
-      <tr>
-        <td id="L214" class="blob-num js-line-number" data-line-number="214"></td>
-        <td id="LC214" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L215" class="blob-num js-line-number" data-line-number="215"></td>
-        <td id="LC215" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>@<span class=pl-s1>property</span></span></td>
-      </tr>
-      <tr>
-        <td id="L216" class="blob-num js-line-number" data-line-number="216"></td>
-        <td id="LC216" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>unique_id</span>(<span class=pl-s1>self</span>):</td>
-      </tr>
-      <tr>
-        <td id="L217" class="blob-num js-line-number" data-line-number="217"></td>
-        <td id="LC217" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Return a unique, Home Assistant friendly identifier for this entity.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L218" class="blob-num js-line-number" data-line-number="218"></td>
-        <td id="LC218" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-v>UNIQUE_ID_TEMPLATE</span>.<span class=pl-en>format</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_data</span>.<span class=pl-s1>account_id</span>, <span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span>)</td>
-      </tr>
-      <tr>
-        <td id="L219" class="blob-num js-line-number" data-line-number="219"></td>
-        <td id="LC219" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L220" class="blob-num js-line-number" data-line-number="220"></td>
-        <td id="LC220" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>async</span> <span class=pl-k>def</span> <span class=pl-en>async_update</span>(<span class=pl-s1>self</span>):</td>
-      </tr>
-      <tr>
-        <td id="L221" class="blob-num js-line-number" data-line-number="221"></td>
-        <td id="LC221" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Update the sensor.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L222" class="blob-num js-line-number" data-line-number="222"></td>
-        <td id="LC222" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>await</span> <span class=pl-s1>self</span>.<span class=pl-s1>_data</span>.<span class=pl-en>async_update</span>()</td>
-      </tr>
-      <tr>
-        <td id="L223" class="blob-num js-line-number" data-line-number="223"></td>
-        <td id="LC223" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L224" class="blob-num js-line-number" data-line-number="224"></td>
-        <td id="LC224" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-c1>not</span> <span class=pl-s1>self</span>.<span class=pl-s1>available</span>:</td>
-      </tr>
-      <tr>
-        <td id="L225" class="blob-num js-line-number" data-line-number="225"></td>
-        <td id="LC225" class="blob-code blob-code-inner js-file-line">            <span class=pl-c># Entity cannot be removed while its being added</span></td>
-      </tr>
-      <tr>
-        <td id="L226" class="blob-num js-line-number" data-line-number="226"></td>
-        <td id="LC226" class="blob-code blob-code-inner js-file-line">            <span class=pl-en>async_call_later</span>(<span class=pl-s1>self</span>.<span class=pl-s1>hass</span>, <span class=pl-c1>1</span>, <span class=pl-s1>self</span>.<span class=pl-s1>_remove</span>)</td>
-      </tr>
-      <tr>
-        <td id="L227" class="blob-num js-line-number" data-line-number="227"></td>
-        <td id="LC227" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>return</span></td>
-      </tr>
-      <tr>
-        <td id="L228" class="blob-num js-line-number" data-line-number="228"></td>
-        <td id="LC228" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L229" class="blob-num js-line-number" data-line-number="229"></td>
-        <td id="LC229" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>package</span> <span class=pl-c1>=</span> <span class=pl-s1>self</span>.<span class=pl-s1>_data</span>.<span class=pl-s1>packages</span>.<span class=pl-en>get</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span>, <span class=pl-c1>None</span>)</td>
-      </tr>
-      <tr>
-        <td id="L230" class="blob-num js-line-number" data-line-number="230"></td>
-        <td id="LC230" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L231" class="blob-num js-line-number" data-line-number="231"></td>
-        <td id="LC231" class="blob-code blob-code-inner js-file-line">        <span class=pl-c># If the user has elected to not see delivered packages and one gets</span></td>
-      </tr>
-      <tr>
-        <td id="L232" class="blob-num js-line-number" data-line-number="232"></td>
-        <td id="LC232" class="blob-code blob-code-inner js-file-line">        <span class=pl-c># delivered, post a notification:</span></td>
-      </tr>
-      <tr>
-        <td id="L233" class="blob-num js-line-number" data-line-number="233"></td>
-        <td id="LC233" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-s1>package</span>.<span class=pl-s1>status</span> <span class=pl-c1>==</span> <span class=pl-v>VALUE_DELIVERED</span> <span class=pl-c1>and</span> <span class=pl-c1>not</span> <span class=pl-s1>self</span>.<span class=pl-s1>_data</span>.<span class=pl-s1>show_delivered</span>:</td>
-      </tr>
-      <tr>
-        <td id="L234" class="blob-num js-line-number" data-line-number="234"></td>
-        <td id="LC234" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>self</span>.<span class=pl-en>_notify_delivered</span>()</td>
-      </tr>
-      <tr>
-        <td id="L235" class="blob-num js-line-number" data-line-number="235"></td>
-        <td id="LC235" class="blob-code blob-code-inner js-file-line">            <span class=pl-c># Entity cannot be removed while its being added</span></td>
-      </tr>
-      <tr>
-        <td id="L236" class="blob-num js-line-number" data-line-number="236"></td>
-        <td id="LC236" class="blob-code blob-code-inner js-file-line">            <span class=pl-en>async_call_later</span>(<span class=pl-s1>self</span>.<span class=pl-s1>hass</span>, <span class=pl-c1>1</span>, <span class=pl-s1>self</span>.<span class=pl-s1>_remove</span>)</td>
-      </tr>
-      <tr>
-        <td id="L237" class="blob-num js-line-number" data-line-number="237"></td>
-        <td id="LC237" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>return</span></td>
-      </tr>
-      <tr>
-        <td id="L238" class="blob-num js-line-number" data-line-number="238"></td>
-        <td id="LC238" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L239" class="blob-num js-line-number" data-line-number="239"></td>
-        <td id="LC239" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_attrs</span>.<span class=pl-en>update</span>(</td>
-      </tr>
-      <tr>
-        <td id="L240" class="blob-num js-line-number" data-line-number="240"></td>
-        <td id="LC240" class="blob-code blob-code-inner js-file-line">            {<span class=pl-v>ATTR_INFO_TEXT</span>: <span class=pl-s1>package</span>.<span class=pl-s1>info_text</span>, <span class=pl-v>ATTR_LOCATION</span>: <span class=pl-s1>package</span>.<span class=pl-s1>location</span>}</td>
-      </tr>
-      <tr>
-        <td id="L241" class="blob-num js-line-number" data-line-number="241"></td>
-        <td id="LC241" class="blob-code blob-code-inner js-file-line">        )</td>
-      </tr>
-      <tr>
-        <td id="L242" class="blob-num js-line-number" data-line-number="242"></td>
-        <td id="LC242" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_state</span> <span class=pl-c1>=</span> <span class=pl-s1>package</span>.<span class=pl-s1>status</span></td>
-      </tr>
-      <tr>
-        <td id="L243" class="blob-num js-line-number" data-line-number="243"></td>
-        <td id="LC243" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_friendly_name</span> <span class=pl-c1>=</span> <span class=pl-s1>package</span>.<span class=pl-s1>friendly_name</span></td>
-      </tr>
-      <tr>
-        <td id="L244" class="blob-num js-line-number" data-line-number="244"></td>
-        <td id="LC244" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L245" class="blob-num js-line-number" data-line-number="245"></td>
-        <td id="LC245" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>async</span> <span class=pl-k>def</span> <span class=pl-en>_remove</span>(<span class=pl-s1>self</span>, <span class=pl-c1>*</span><span class=pl-s1>_</span>):</td>
-      </tr>
-      <tr>
-        <td id="L246" class="blob-num js-line-number" data-line-number="246"></td>
-        <td id="LC246" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Remove entity itself.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L247" class="blob-num js-line-number" data-line-number="247"></td>
-        <td id="LC247" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>await</span> <span class=pl-s1>self</span>.<span class=pl-en>async_remove</span>()</td>
-      </tr>
-      <tr>
-        <td id="L248" class="blob-num js-line-number" data-line-number="248"></td>
-        <td id="LC248" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L249" class="blob-num js-line-number" data-line-number="249"></td>
-        <td id="LC249" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>reg</span> <span class=pl-c1>=</span> <span class=pl-k>await</span> <span class=pl-s1>self</span>.<span class=pl-s1>hass</span>.<span class=pl-s1>helpers</span>.<span class=pl-s1>entity_registry</span>.<span class=pl-en>async_get_registry</span>()</td>
-      </tr>
-      <tr>
-        <td id="L250" class="blob-num js-line-number" data-line-number="250"></td>
-        <td id="LC250" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>entity_id</span> <span class=pl-c1>=</span> <span class=pl-s1>reg</span>.<span class=pl-en>async_get_entity_id</span>(</td>
-      </tr>
-      <tr>
-        <td id="L251" class="blob-num js-line-number" data-line-number="251"></td>
-        <td id="LC251" class="blob-code blob-code-inner js-file-line">            <span class=pl-s>&quot;sensor&quot;</span>,</td>
-      </tr>
-      <tr>
-        <td id="L252" class="blob-num js-line-number" data-line-number="252"></td>
-        <td id="LC252" class="blob-code blob-code-inner js-file-line">            <span class=pl-s>&quot;seventeentrack&quot;</span>,</td>
-      </tr>
-      <tr>
-        <td id="L253" class="blob-num js-line-number" data-line-number="253"></td>
-        <td id="LC253" class="blob-code blob-code-inner js-file-line">            <span class=pl-v>UNIQUE_ID_TEMPLATE</span>.<span class=pl-en>format</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_data</span>.<span class=pl-s1>account_id</span>, <span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span>),</td>
-      </tr>
-      <tr>
-        <td id="L254" class="blob-num js-line-number" data-line-number="254"></td>
-        <td id="LC254" class="blob-code blob-code-inner js-file-line">        )</td>
-      </tr>
-      <tr>
-        <td id="L255" class="blob-num js-line-number" data-line-number="255"></td>
-        <td id="LC255" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-s1>entity_id</span>:</td>
-      </tr>
-      <tr>
-        <td id="L256" class="blob-num js-line-number" data-line-number="256"></td>
-        <td id="LC256" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>reg</span>.<span class=pl-en>async_remove</span>(<span class=pl-s1>entity_id</span>)</td>
-      </tr>
-      <tr>
-        <td id="L257" class="blob-num js-line-number" data-line-number="257"></td>
-        <td id="LC257" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L258" class="blob-num js-line-number" data-line-number="258"></td>
-        <td id="LC258" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>_notify_delivered</span>(<span class=pl-s1>self</span>):</td>
-      </tr>
-      <tr>
-        <td id="L259" class="blob-num js-line-number" data-line-number="259"></td>
-        <td id="LC259" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Notify when package is delivered.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L260" class="blob-num js-line-number" data-line-number="260"></td>
-        <td id="LC260" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>_LOGGER</span>.<span class=pl-en>info</span>(<span class=pl-s>&quot;Package delivered: %s&quot;</span>, <span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span>)</td>
-      </tr>
-      <tr>
-        <td id="L261" class="blob-num js-line-number" data-line-number="261"></td>
-        <td id="LC261" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L262" class="blob-num js-line-number" data-line-number="262"></td>
-        <td id="LC262" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>identification</span> <span class=pl-c1>=</span> (</td>
-      </tr>
-      <tr>
-        <td id="L263" class="blob-num js-line-number" data-line-number="263"></td>
-        <td id="LC263" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>self</span>.<span class=pl-s1>_friendly_name</span> <span class=pl-k>if</span> <span class=pl-s1>self</span>.<span class=pl-s1>_friendly_name</span> <span class=pl-k>else</span> <span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span></td>
-      </tr>
-      <tr>
-        <td id="L264" class="blob-num js-line-number" data-line-number="264"></td>
-        <td id="LC264" class="blob-code blob-code-inner js-file-line">        )</td>
-      </tr>
-      <tr>
-        <td id="L265" class="blob-num js-line-number" data-line-number="265"></td>
-        <td id="LC265" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>message</span> <span class=pl-c1>=</span> <span class=pl-v>NOTIFICATION_DELIVERED_MESSAGE</span>.<span class=pl-en>format</span>(</td>
-      </tr>
-      <tr>
-        <td id="L266" class="blob-num js-line-number" data-line-number="266"></td>
-        <td id="LC266" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>identification</span>, <span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span></td>
-      </tr>
-      <tr>
-        <td id="L267" class="blob-num js-line-number" data-line-number="267"></td>
-        <td id="LC267" class="blob-code blob-code-inner js-file-line">        )</td>
-      </tr>
-      <tr>
-        <td id="L268" class="blob-num js-line-number" data-line-number="268"></td>
-        <td id="LC268" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>title</span> <span class=pl-c1>=</span> <span class=pl-v>NOTIFICATION_DELIVERED_TITLE</span>.<span class=pl-en>format</span>(<span class=pl-s1>identification</span>)</td>
-      </tr>
-      <tr>
-        <td id="L269" class="blob-num js-line-number" data-line-number="269"></td>
-        <td id="LC269" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>notification_id</span> <span class=pl-c1>=</span> <span class=pl-v>NOTIFICATION_DELIVERED_TITLE</span>.<span class=pl-en>format</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span>)</td>
-      </tr>
-      <tr>
-        <td id="L270" class="blob-num js-line-number" data-line-number="270"></td>
-        <td id="LC270" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L271" class="blob-num js-line-number" data-line-number="271"></td>
-        <td id="LC271" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>hass</span>.<span class=pl-s1>components</span>.<span class=pl-s1>persistent_notification</span>.<span class=pl-en>create</span>(</td>
-      </tr>
-      <tr>
-        <td id="L272" class="blob-num js-line-number" data-line-number="272"></td>
-        <td id="LC272" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>message</span>, <span class=pl-s1>title</span><span class=pl-c1>=</span><span class=pl-s1>title</span>, <span class=pl-s1>notification_id</span><span class=pl-c1>=</span><span class=pl-s1>notification_id</span></td>
-      </tr>
-      <tr>
-        <td id="L273" class="blob-num js-line-number" data-line-number="273"></td>
-        <td id="LC273" class="blob-code blob-code-inner js-file-line">        )</td>
-      </tr>
-      <tr>
-        <td id="L274" class="blob-num js-line-number" data-line-number="274"></td>
-        <td id="LC274" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L275" class="blob-num js-line-number" data-line-number="275"></td>
-        <td id="LC275" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L276" class="blob-num js-line-number" data-line-number="276"></td>
-        <td id="LC276" class="blob-code blob-code-inner js-file-line"><span class=pl-k>class</span> <span class=pl-v>SeventeenTrackData</span>:</td>
-      </tr>
-      <tr>
-        <td id="L277" class="blob-num js-line-number" data-line-number="277"></td>
-        <td id="LC277" class="blob-code blob-code-inner js-file-line">    <span class=pl-s>&quot;&quot;&quot;Define a data handler for 17track.net.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L278" class="blob-num js-line-number" data-line-number="278"></td>
-        <td id="LC278" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L279" class="blob-num js-line-number" data-line-number="279"></td>
-        <td id="LC279" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>__init__</span>(</td>
-      </tr>
-      <tr>
-        <td id="L280" class="blob-num js-line-number" data-line-number="280"></td>
-        <td id="LC280" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>, <span class=pl-s1>client</span>, <span class=pl-s1>async_add_entities</span>, <span class=pl-s1>scan_interval</span>, <span class=pl-s1>show_archived</span>, <span class=pl-s1>show_delivered</span></td>
-      </tr>
-      <tr>
-        <td id="L281" class="blob-num js-line-number" data-line-number="281"></td>
-        <td id="LC281" class="blob-code blob-code-inner js-file-line">    ):</td>
-      </tr>
-      <tr>
-        <td id="L282" class="blob-num js-line-number" data-line-number="282"></td>
-        <td id="LC282" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Initialize.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L283" class="blob-num js-line-number" data-line-number="283"></td>
-        <td id="LC283" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_async_add_entities</span> <span class=pl-c1>=</span> <span class=pl-s1>async_add_entities</span></td>
-      </tr>
-      <tr>
-        <td id="L284" class="blob-num js-line-number" data-line-number="284"></td>
-        <td id="LC284" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_client</span> <span class=pl-c1>=</span> <span class=pl-s1>client</span></td>
-      </tr>
-      <tr>
-        <td id="L285" class="blob-num js-line-number" data-line-number="285"></td>
-        <td id="LC285" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_scan_interval</span> <span class=pl-c1>=</span> <span class=pl-s1>scan_interval</span></td>
-      </tr>
-      <tr>
-        <td id="L286" class="blob-num js-line-number" data-line-number="286"></td>
-        <td id="LC286" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_show_archived</span> <span class=pl-c1>=</span> <span class=pl-s1>show_archived</span></td>
-      </tr>
-      <tr>
-        <td id="L287" class="blob-num js-line-number" data-line-number="287"></td>
-        <td id="LC287" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>account_id</span> <span class=pl-c1>=</span> <span class=pl-s1>client</span>.<span class=pl-s1>profile</span>.<span class=pl-s1>account_id</span></td>
-      </tr>
-      <tr>
-        <td id="L288" class="blob-num js-line-number" data-line-number="288"></td>
-        <td id="LC288" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>packages</span> <span class=pl-c1>=</span> {}</td>
-      </tr>
-      <tr>
-        <td id="L289" class="blob-num js-line-number" data-line-number="289"></td>
-        <td id="LC289" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>show_delivered</span> <span class=pl-c1>=</span> <span class=pl-s1>show_delivered</span></td>
-      </tr>
-      <tr>
-        <td id="L290" class="blob-num js-line-number" data-line-number="290"></td>
-        <td id="LC290" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>summary</span> <span class=pl-c1>=</span> {}</td>
-      </tr>
-      <tr>
-        <td id="L291" class="blob-num js-line-number" data-line-number="291"></td>
-        <td id="LC291" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L292" class="blob-num js-line-number" data-line-number="292"></td>
-        <td id="LC292" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>async_update</span> <span class=pl-c1>=</span> <span class=pl-v>Throttle</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_scan_interval</span>)(<span class=pl-s1>self</span>.<span class=pl-s1>_async_update</span>)</td>
-      </tr>
-      <tr>
-        <td id="L293" class="blob-num js-line-number" data-line-number="293"></td>
-        <td id="LC293" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>first_update</span> <span class=pl-c1>=</span> <span class=pl-c1>True</span></td>
-      </tr>
-      <tr>
-        <td id="L294" class="blob-num js-line-number" data-line-number="294"></td>
-        <td id="LC294" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L295" class="blob-num js-line-number" data-line-number="295"></td>
-        <td id="LC295" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>async</span> <span class=pl-k>def</span> <span class=pl-en>_async_update</span>(<span class=pl-s1>self</span>):</td>
-      </tr>
-      <tr>
-        <td id="L296" class="blob-num js-line-number" data-line-number="296"></td>
-        <td id="LC296" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Get updated data from 17track.net.&quot;&quot;&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L297" class="blob-num js-line-number" data-line-number="297"></td>
-        <td id="LC297" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L298" class="blob-num js-line-number" data-line-number="298"></td>
-        <td id="LC298" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>try</span>:</td>
-      </tr>
-      <tr>
-        <td id="L299" class="blob-num js-line-number" data-line-number="299"></td>
-        <td id="LC299" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>packages</span> <span class=pl-c1>=</span> <span class=pl-k>await</span> <span class=pl-s1>self</span>.<span class=pl-s1>_client</span>.<span class=pl-s1>profile</span>.<span class=pl-en>packages</span>(</td>
-      </tr>
-      <tr>
-        <td id="L300" class="blob-num js-line-number" data-line-number="300"></td>
-        <td id="LC300" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>show_archived</span><span class=pl-c1>=</span><span class=pl-s1>self</span>.<span class=pl-s1>_show_archived</span></td>
-      </tr>
-      <tr>
-        <td id="L301" class="blob-num js-line-number" data-line-number="301"></td>
-        <td id="LC301" class="blob-code blob-code-inner js-file-line">            )</td>
-      </tr>
-      <tr>
-        <td id="L302" class="blob-num js-line-number" data-line-number="302"></td>
-        <td id="LC302" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>_LOGGER</span>.<span class=pl-en>debug</span>(<span class=pl-s>&quot;New package data received: %s&quot;</span>, <span class=pl-s1>packages</span>)</td>
-      </tr>
-      <tr>
-        <td id="L303" class="blob-num js-line-number" data-line-number="303"></td>
-        <td id="LC303" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L304" class="blob-num js-line-number" data-line-number="304"></td>
-        <td id="LC304" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>new_packages</span> <span class=pl-c1>=</span> {<span class=pl-s1>p</span>.<span class=pl-s1>tracking_number</span>: <span class=pl-s1>p</span> <span class=pl-k>for</span> <span class=pl-s1>p</span> <span class=pl-c1>in</span> <span class=pl-s1>packages</span>}</td>
-      </tr>
-      <tr>
-        <td id="L305" class="blob-num js-line-number" data-line-number="305"></td>
-        <td id="LC305" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L306" class="blob-num js-line-number" data-line-number="306"></td>
-        <td id="LC306" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>to_add</span> <span class=pl-c1>=</span> <span class=pl-en>set</span>(<span class=pl-s1>new_packages</span>) <span class=pl-c1>-</span> <span class=pl-en>set</span>(<span class=pl-s1>self</span>.<span class=pl-s1>packages</span>)</td>
-      </tr>
-      <tr>
-        <td id="L307" class="blob-num js-line-number" data-line-number="307"></td>
-        <td id="LC307" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L308" class="blob-num js-line-number" data-line-number="308"></td>
-        <td id="LC308" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>_LOGGER</span>.<span class=pl-en>debug</span>(<span class=pl-s>&quot;Will add new tracking numbers: %s&quot;</span>, <span class=pl-s1>to_add</span>)</td>
-      </tr>
-      <tr>
-        <td id="L309" class="blob-num js-line-number" data-line-number="309"></td>
-        <td id="LC309" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span> <span class=pl-s1>to_add</span>:</td>
-      </tr>
-      <tr>
-        <td id="L310" class="blob-num js-line-number" data-line-number="310"></td>
-        <td id="LC310" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>self</span>.<span class=pl-en>_async_add_entities</span>(</td>
-      </tr>
-      <tr>
-        <td id="L311" class="blob-num js-line-number" data-line-number="311"></td>
-        <td id="LC311" class="blob-code blob-code-inner js-file-line">                    [</td>
-      </tr>
-      <tr>
-        <td id="L312" class="blob-num js-line-number" data-line-number="312"></td>
-        <td id="LC312" class="blob-code blob-code-inner js-file-line">                        <span class=pl-v>SeventeenTrackPackageSensor</span>(<span class=pl-s1>self</span>, <span class=pl-s1>new_packages</span>[<span class=pl-s1>tracking_number</span>])</td>
-      </tr>
-      <tr>
-        <td id="L313" class="blob-num js-line-number" data-line-number="313"></td>
-        <td id="LC313" class="blob-code blob-code-inner js-file-line">                        <span class=pl-k>for</span> <span class=pl-s1>tracking_number</span> <span class=pl-c1>in</span> <span class=pl-s1>to_add</span></td>
-      </tr>
-      <tr>
-        <td id="L314" class="blob-num js-line-number" data-line-number="314"></td>
-        <td id="LC314" class="blob-code blob-code-inner js-file-line">                    ],</td>
-      </tr>
-      <tr>
-        <td id="L315" class="blob-num js-line-number" data-line-number="315"></td>
-        <td id="LC315" class="blob-code blob-code-inner js-file-line">                    <span class=pl-c1>True</span>,</td>
-      </tr>
-      <tr>
-        <td id="L316" class="blob-num js-line-number" data-line-number="316"></td>
-        <td id="LC316" class="blob-code blob-code-inner js-file-line">                )</td>
-      </tr>
-      <tr>
-        <td id="L317" class="blob-num js-line-number" data-line-number="317"></td>
-        <td id="LC317" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L318" class="blob-num js-line-number" data-line-number="318"></td>
-        <td id="LC318" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>self</span>.<span class=pl-s1>packages</span> <span class=pl-c1>=</span> <span class=pl-s1>new_packages</span></td>
-      </tr>
-      <tr>
-        <td id="L319" class="blob-num js-line-number" data-line-number="319"></td>
-        <td id="LC319" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>except</span> <span class=pl-v>SeventeenTrackError</span> <span class=pl-k>as</span> <span class=pl-s1>err</span>:</td>
-      </tr>
-      <tr>
-        <td id="L320" class="blob-num js-line-number" data-line-number="320"></td>
-        <td id="LC320" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>_LOGGER</span>.<span class=pl-en>error</span>(<span class=pl-s>&quot;There was an error retrieving packages: %s&quot;</span>, <span class=pl-s1>err</span>)</td>
-      </tr>
-      <tr>
-        <td id="L321" class="blob-num js-line-number" data-line-number="321"></td>
-        <td id="LC321" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L322" class="blob-num js-line-number" data-line-number="322"></td>
-        <td id="LC322" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>try</span>:</td>
-      </tr>
-      <tr>
-        <td id="L323" class="blob-num js-line-number" data-line-number="323"></td>
-        <td id="LC323" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>self</span>.<span class=pl-s1>summary</span> <span class=pl-c1>=</span> <span class=pl-k>await</span> <span class=pl-s1>self</span>.<span class=pl-s1>_client</span>.<span class=pl-s1>profile</span>.<span class=pl-en>summary</span>(</td>
-      </tr>
-      <tr>
-        <td id="L324" class="blob-num js-line-number" data-line-number="324"></td>
-        <td id="LC324" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>show_archived</span><span class=pl-c1>=</span><span class=pl-s1>self</span>.<span class=pl-s1>_show_archived</span></td>
-      </tr>
-      <tr>
-        <td id="L325" class="blob-num js-line-number" data-line-number="325"></td>
-        <td id="LC325" class="blob-code blob-code-inner js-file-line">            )</td>
-      </tr>
-      <tr>
-        <td id="L326" class="blob-num js-line-number" data-line-number="326"></td>
-        <td id="LC326" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>_LOGGER</span>.<span class=pl-en>debug</span>(<span class=pl-s>&quot;New summary data received: %s&quot;</span>, <span class=pl-s1>self</span>.<span class=pl-s1>summary</span>)</td>
-      </tr>
-      <tr>
-        <td id="L327" class="blob-num js-line-number" data-line-number="327"></td>
-        <td id="LC327" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L328" class="blob-num js-line-number" data-line-number="328"></td>
-        <td id="LC328" class="blob-code blob-code-inner js-file-line">            <span class=pl-c># creating summary sensors on first update</span></td>
-      </tr>
-      <tr>
-        <td id="L329" class="blob-num js-line-number" data-line-number="329"></td>
-        <td id="LC329" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span> <span class=pl-s1>self</span>.<span class=pl-s1>first_update</span>:</td>
-      </tr>
-      <tr>
-        <td id="L330" class="blob-num js-line-number" data-line-number="330"></td>
-        <td id="LC330" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>self</span>.<span class=pl-s1>first_update</span> <span class=pl-c1>=</span> <span class=pl-c1>False</span></td>
-      </tr>
-      <tr>
-        <td id="L331" class="blob-num js-line-number" data-line-number="331"></td>
-        <td id="LC331" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L332" class="blob-num js-line-number" data-line-number="332"></td>
-        <td id="LC332" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>self</span>.<span class=pl-en>_async_add_entities</span>(</td>
-      </tr>
-      <tr>
-        <td id="L333" class="blob-num js-line-number" data-line-number="333"></td>
-        <td id="LC333" class="blob-code blob-code-inner js-file-line">                    [</td>
-      </tr>
-      <tr>
-        <td id="L334" class="blob-num js-line-number" data-line-number="334"></td>
-        <td id="LC334" class="blob-code blob-code-inner js-file-line">                        <span class=pl-v>SeventeenTrackSummarySensor</span>(<span class=pl-s1>self</span>, <span class=pl-s1>status</span>, <span class=pl-s1>quantity</span>)</td>
-      </tr>
-      <tr>
-        <td id="L335" class="blob-num js-line-number" data-line-number="335"></td>
-        <td id="LC335" class="blob-code blob-code-inner js-file-line">                        <span class=pl-k>for</span> <span class=pl-s1>status</span>, <span class=pl-s1>quantity</span> <span class=pl-c1>in</span> <span class=pl-s1>self</span>.<span class=pl-s1>summary</span>.<span class=pl-en>items</span>()</td>
-      </tr>
-      <tr>
-        <td id="L336" class="blob-num js-line-number" data-line-number="336"></td>
-        <td id="LC336" class="blob-code blob-code-inner js-file-line">                    ],</td>
-      </tr>
-      <tr>
-        <td id="L337" class="blob-num js-line-number" data-line-number="337"></td>
-        <td id="LC337" class="blob-code blob-code-inner js-file-line">                    <span class=pl-c1>True</span>,</td>
-      </tr>
-      <tr>
-        <td id="L338" class="blob-num js-line-number" data-line-number="338"></td>
-        <td id="LC338" class="blob-code blob-code-inner js-file-line">                )</td>
-      </tr>
-      <tr>
-        <td id="L339" class="blob-num js-line-number" data-line-number="339"></td>
-        <td id="LC339" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L340" class="blob-num js-line-number" data-line-number="340"></td>
-        <td id="LC340" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>except</span> <span class=pl-v>SeventeenTrackError</span> <span class=pl-k>as</span> <span class=pl-s1>err</span>:</td>
-      </tr>
-      <tr>
-        <td id="L341" class="blob-num js-line-number" data-line-number="341"></td>
-        <td id="LC341" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>_LOGGER</span>.<span class=pl-en>error</span>(<span class=pl-s>&quot;There was an error retrieving the summary: %s&quot;</span>, <span class=pl-s1>err</span>)</td>
-      </tr>
-      <tr>
-        <td id="L342" class="blob-num js-line-number" data-line-number="342"></td>
-        <td id="LC342" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>self</span>.<span class=pl-s1>summary</span> <span class=pl-c1>=</span> {}</td>
-      </tr>
-</table>
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-python  gist-border-0">
+
+      
+<div class="js-check-bidi blob-code-content">
+  <template class="js-file-alert-template">
+  <div data-view-component="true" class="flash flash-warn flash-full d-flex flex-items-center">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+  
+    <span>
+      This file contains bidirectional Unicode text that may be interpreted or compiled differently than what appears below. To review, open the file in an editor that reveals hidden Unicode characters.
+      <a href="https://github.co/hiddenchars" target="_blank">Learn more about bidirectional Unicode characters</a>
+    </span>
+
+
+  <div data-view-component="true" class="flash-action">        <a href="{{ revealButtonHref }}" data-view-component="true" class="btn-sm btn">
+  
+  Show hidden characters
+  
+
+</a>
+</div>
+</div></template>
+<template class="js-line-alert-template">
+  <span aria-label="This line has hidden Unicode characters" data-view-component="true" class="bidi-line-alert tooltipped tooltipped-e">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+</span></template>
+
+  <table class="highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file" data-tab-size="8" data-paste-markdown-skip data-tagsearch-lang="Python" data-tagsearch-path="homeassistant/components/seventeentrack/sensor.py">
+        <tr>
+          <td id="L1" class="blob-num js-line-number js-code-nav-line-number" data-line-number="1"></td>
+          <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-s>&quot;&quot;&quot;Support for package tracking sensors from 17track.net.&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L2" class="blob-num js-line-number js-code-nav-line-number" data-line-number="2"></td>
+          <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>datetime</span> <span class=pl-k>import</span> <span class=pl-s1>timedelta</span></td>
+        </tr>
+        <tr>
+          <td id="L3" class="blob-num js-line-number js-code-nav-line-number" data-line-number="3"></td>
+          <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>logging</span></td>
+        </tr>
+        <tr>
+          <td id="L4" class="blob-num js-line-number js-code-nav-line-number" data-line-number="4"></td>
+          <td id="LC4" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L5" class="blob-num js-line-number js-code-nav-line-number" data-line-number="5"></td>
+          <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>py17track</span> <span class=pl-k>import</span> <span class=pl-v>Client</span> <span class=pl-k>as</span> <span class=pl-v>SeventeenTrackClient</span></td>
+        </tr>
+        <tr>
+          <td id="L6" class="blob-num js-line-number js-code-nav-line-number" data-line-number="6"></td>
+          <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>py17track</span>.<span class=pl-s1>errors</span> <span class=pl-k>import</span> <span class=pl-v>SeventeenTrackError</span></td>
+        </tr>
+        <tr>
+          <td id="L7" class="blob-num js-line-number js-code-nav-line-number" data-line-number="7"></td>
+          <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>voluptuous</span> <span class=pl-k>as</span> <span class=pl-s1>vol</span></td>
+        </tr>
+        <tr>
+          <td id="L8" class="blob-num js-line-number js-code-nav-line-number" data-line-number="8"></td>
+          <td id="LC8" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L9" class="blob-num js-line-number js-code-nav-line-number" data-line-number="9"></td>
+          <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>homeassistant</span>.<span class=pl-s1>components</span>.<span class=pl-s1>sensor</span> <span class=pl-k>import</span> <span class=pl-v>PLATFORM_SCHEMA</span>, <span class=pl-v>SensorEntity</span></td>
+        </tr>
+        <tr>
+          <td id="L10" class="blob-num js-line-number js-code-nav-line-number" data-line-number="10"></td>
+          <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>homeassistant</span>.<span class=pl-s1>const</span> <span class=pl-k>import</span> (</td>
+        </tr>
+        <tr>
+          <td id="L11" class="blob-num js-line-number js-code-nav-line-number" data-line-number="11"></td>
+          <td id="LC11" class="blob-code blob-code-inner js-file-line">    <span class=pl-v>ATTR_ATTRIBUTION</span>,</td>
+        </tr>
+        <tr>
+          <td id="L12" class="blob-num js-line-number js-code-nav-line-number" data-line-number="12"></td>
+          <td id="LC12" class="blob-code blob-code-inner js-file-line">    <span class=pl-v>ATTR_FRIENDLY_NAME</span>,</td>
+        </tr>
+        <tr>
+          <td id="L13" class="blob-num js-line-number js-code-nav-line-number" data-line-number="13"></td>
+          <td id="LC13" class="blob-code blob-code-inner js-file-line">    <span class=pl-v>ATTR_LOCATION</span>,</td>
+        </tr>
+        <tr>
+          <td id="L14" class="blob-num js-line-number js-code-nav-line-number" data-line-number="14"></td>
+          <td id="LC14" class="blob-code blob-code-inner js-file-line">    <span class=pl-v>CONF_PASSWORD</span>,</td>
+        </tr>
+        <tr>
+          <td id="L15" class="blob-num js-line-number js-code-nav-line-number" data-line-number="15"></td>
+          <td id="LC15" class="blob-code blob-code-inner js-file-line">    <span class=pl-v>CONF_SCAN_INTERVAL</span>,</td>
+        </tr>
+        <tr>
+          <td id="L16" class="blob-num js-line-number js-code-nav-line-number" data-line-number="16"></td>
+          <td id="LC16" class="blob-code blob-code-inner js-file-line">    <span class=pl-v>CONF_USERNAME</span>,</td>
+        </tr>
+        <tr>
+          <td id="L17" class="blob-num js-line-number js-code-nav-line-number" data-line-number="17"></td>
+          <td id="LC17" class="blob-code blob-code-inner js-file-line">)</td>
+        </tr>
+        <tr>
+          <td id="L18" class="blob-num js-line-number js-code-nav-line-number" data-line-number="18"></td>
+          <td id="LC18" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>homeassistant</span>.<span class=pl-s1>helpers</span> <span class=pl-k>import</span> <span class=pl-s1>aiohttp_client</span>, <span class=pl-s1>config_validation</span> <span class=pl-k>as</span> <span class=pl-s1>cv</span></td>
+        </tr>
+        <tr>
+          <td id="L19" class="blob-num js-line-number js-code-nav-line-number" data-line-number="19"></td>
+          <td id="LC19" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>homeassistant</span>.<span class=pl-s1>helpers</span>.<span class=pl-s1>event</span> <span class=pl-k>import</span> <span class=pl-s1>async_call_later</span></td>
+        </tr>
+        <tr>
+          <td id="L20" class="blob-num js-line-number js-code-nav-line-number" data-line-number="20"></td>
+          <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>homeassistant</span>.<span class=pl-s1>util</span> <span class=pl-k>import</span> <span class=pl-v>Throttle</span>, <span class=pl-s1>slugify</span></td>
+        </tr>
+        <tr>
+          <td id="L21" class="blob-num js-line-number js-code-nav-line-number" data-line-number="21"></td>
+          <td id="LC21" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L22" class="blob-num js-line-number js-code-nav-line-number" data-line-number="22"></td>
+          <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class=pl-s1>_LOGGER</span> <span class=pl-c1>=</span> <span class=pl-s1>logging</span>.<span class=pl-en>getLogger</span>(<span class=pl-s1>__name__</span>)</td>
+        </tr>
+        <tr>
+          <td id="L23" class="blob-num js-line-number js-code-nav-line-number" data-line-number="23"></td>
+          <td id="LC23" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L24" class="blob-num js-line-number js-code-nav-line-number" data-line-number="24"></td>
+          <td id="LC24" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ATTR_DESTINATION_COUNTRY</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;destination_country&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L25" class="blob-num js-line-number js-code-nav-line-number" data-line-number="25"></td>
+          <td id="LC25" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ATTR_INFO_TEXT</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;info_text&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L26" class="blob-num js-line-number js-code-nav-line-number" data-line-number="26"></td>
+          <td id="LC26" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ATTR_TIMESTAMP</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;timestamp&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L27" class="blob-num js-line-number js-code-nav-line-number" data-line-number="27"></td>
+          <td id="LC27" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ATTR_ORIGIN_COUNTRY</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;origin_country&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L28" class="blob-num js-line-number js-code-nav-line-number" data-line-number="28"></td>
+          <td id="LC28" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ATTR_PACKAGES</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;packages&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L29" class="blob-num js-line-number js-code-nav-line-number" data-line-number="29"></td>
+          <td id="LC29" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ATTR_PACKAGE_TYPE</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;package_type&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L30" class="blob-num js-line-number js-code-nav-line-number" data-line-number="30"></td>
+          <td id="LC30" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ATTR_STATUS</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;status&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L31" class="blob-num js-line-number js-code-nav-line-number" data-line-number="31"></td>
+          <td id="LC31" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ATTR_TRACKING_INFO_LANGUAGE</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;tracking_info_language&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L32" class="blob-num js-line-number js-code-nav-line-number" data-line-number="32"></td>
+          <td id="LC32" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ATTR_TRACKING_NUMBER</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;tracking_number&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L33" class="blob-num js-line-number js-code-nav-line-number" data-line-number="33"></td>
+          <td id="LC33" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L34" class="blob-num js-line-number js-code-nav-line-number" data-line-number="34"></td>
+          <td id="LC34" class="blob-code blob-code-inner js-file-line"><span class=pl-v>CONF_SHOW_ARCHIVED</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;show_archived&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L35" class="blob-num js-line-number js-code-nav-line-number" data-line-number="35"></td>
+          <td id="LC35" class="blob-code blob-code-inner js-file-line"><span class=pl-v>CONF_SHOW_DELIVERED</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;show_delivered&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L36" class="blob-num js-line-number js-code-nav-line-number" data-line-number="36"></td>
+          <td id="LC36" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L37" class="blob-num js-line-number js-code-nav-line-number" data-line-number="37"></td>
+          <td id="LC37" class="blob-code blob-code-inner js-file-line"><span class=pl-v>DATA_PACKAGES</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;package_data&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L38" class="blob-num js-line-number js-code-nav-line-number" data-line-number="38"></td>
+          <td id="LC38" class="blob-code blob-code-inner js-file-line"><span class=pl-v>DATA_SUMMARY</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;summary_data&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L39" class="blob-num js-line-number js-code-nav-line-number" data-line-number="39"></td>
+          <td id="LC39" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L40" class="blob-num js-line-number js-code-nav-line-number" data-line-number="40"></td>
+          <td id="LC40" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ATTRIBUTION</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;Data provided by 17track.net&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L41" class="blob-num js-line-number js-code-nav-line-number" data-line-number="41"></td>
+          <td id="LC41" class="blob-code blob-code-inner js-file-line"><span class=pl-v>DEFAULT_SCAN_INTERVAL</span> <span class=pl-c1>=</span> <span class=pl-en>timedelta</span>(<span class=pl-s1>minutes</span><span class=pl-c1>=</span><span class=pl-c1>10</span>)</td>
+        </tr>
+        <tr>
+          <td id="L42" class="blob-num js-line-number js-code-nav-line-number" data-line-number="42"></td>
+          <td id="LC42" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L43" class="blob-num js-line-number js-code-nav-line-number" data-line-number="43"></td>
+          <td id="LC43" class="blob-code blob-code-inner js-file-line"><span class=pl-v>UNIQUE_ID_TEMPLATE</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;package_{0}_{1}&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L44" class="blob-num js-line-number js-code-nav-line-number" data-line-number="44"></td>
+          <td id="LC44" class="blob-code blob-code-inner js-file-line"><span class=pl-v>ENTITY_ID_TEMPLATE</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;sensor.seventeentrack_package_{0}&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L45" class="blob-num js-line-number js-code-nav-line-number" data-line-number="45"></td>
+          <td id="LC45" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L46" class="blob-num js-line-number js-code-nav-line-number" data-line-number="46"></td>
+          <td id="LC46" class="blob-code blob-code-inner js-file-line"><span class=pl-v>NOTIFICATION_DELIVERED_ID</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;package_delivered_{0}&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L47" class="blob-num js-line-number js-code-nav-line-number" data-line-number="47"></td>
+          <td id="LC47" class="blob-code blob-code-inner js-file-line"><span class=pl-v>NOTIFICATION_DELIVERED_TITLE</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;Package {0} delivered&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L48" class="blob-num js-line-number js-code-nav-line-number" data-line-number="48"></td>
+          <td id="LC48" class="blob-code blob-code-inner js-file-line"><span class=pl-v>NOTIFICATION_DELIVERED_MESSAGE</span> <span class=pl-c1>=</span> (</td>
+        </tr>
+        <tr>
+          <td id="L49" class="blob-num js-line-number js-code-nav-line-number" data-line-number="49"></td>
+          <td id="LC49" class="blob-code blob-code-inner js-file-line">    <span class=pl-s>&quot;Package Delivered: {0}&lt;br /&gt;Visit 17.track for more information: &quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L50" class="blob-num js-line-number js-code-nav-line-number" data-line-number="50"></td>
+          <td id="LC50" class="blob-code blob-code-inner js-file-line">    <span class=pl-s>&quot;https://t.17track.net/track#nums={1}&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L51" class="blob-num js-line-number js-code-nav-line-number" data-line-number="51"></td>
+          <td id="LC51" class="blob-code blob-code-inner js-file-line">)</td>
+        </tr>
+        <tr>
+          <td id="L52" class="blob-num js-line-number js-code-nav-line-number" data-line-number="52"></td>
+          <td id="LC52" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L53" class="blob-num js-line-number js-code-nav-line-number" data-line-number="53"></td>
+          <td id="LC53" class="blob-code blob-code-inner js-file-line"><span class=pl-v>VALUE_DELIVERED</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;Delivered&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L54" class="blob-num js-line-number js-code-nav-line-number" data-line-number="54"></td>
+          <td id="LC54" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L55" class="blob-num js-line-number js-code-nav-line-number" data-line-number="55"></td>
+          <td id="LC55" class="blob-code blob-code-inner js-file-line"><span class=pl-v>PLATFORM_SCHEMA</span> <span class=pl-c1>=</span> <span class=pl-v>PLATFORM_SCHEMA</span>.<span class=pl-en>extend</span>(</td>
+        </tr>
+        <tr>
+          <td id="L56" class="blob-num js-line-number js-code-nav-line-number" data-line-number="56"></td>
+          <td id="LC56" class="blob-code blob-code-inner js-file-line">    {</td>
+        </tr>
+        <tr>
+          <td id="L57" class="blob-num js-line-number js-code-nav-line-number" data-line-number="57"></td>
+          <td id="LC57" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>vol</span>.<span class=pl-v>Required</span>(<span class=pl-v>CONF_USERNAME</span>): <span class=pl-s1>cv</span>.<span class=pl-s1>string</span>,</td>
+        </tr>
+        <tr>
+          <td id="L58" class="blob-num js-line-number js-code-nav-line-number" data-line-number="58"></td>
+          <td id="LC58" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>vol</span>.<span class=pl-v>Required</span>(<span class=pl-v>CONF_PASSWORD</span>): <span class=pl-s1>cv</span>.<span class=pl-s1>string</span>,</td>
+        </tr>
+        <tr>
+          <td id="L59" class="blob-num js-line-number js-code-nav-line-number" data-line-number="59"></td>
+          <td id="LC59" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>vol</span>.<span class=pl-v>Optional</span>(<span class=pl-v>CONF_SHOW_ARCHIVED</span>, <span class=pl-s1>default</span><span class=pl-c1>=</span><span class=pl-c1>False</span>): <span class=pl-s1>cv</span>.<span class=pl-s1>boolean</span>,</td>
+        </tr>
+        <tr>
+          <td id="L60" class="blob-num js-line-number js-code-nav-line-number" data-line-number="60"></td>
+          <td id="LC60" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>vol</span>.<span class=pl-v>Optional</span>(<span class=pl-v>CONF_SHOW_DELIVERED</span>, <span class=pl-s1>default</span><span class=pl-c1>=</span><span class=pl-c1>False</span>): <span class=pl-s1>cv</span>.<span class=pl-s1>boolean</span>,</td>
+        </tr>
+        <tr>
+          <td id="L61" class="blob-num js-line-number js-code-nav-line-number" data-line-number="61"></td>
+          <td id="LC61" class="blob-code blob-code-inner js-file-line">    }</td>
+        </tr>
+        <tr>
+          <td id="L62" class="blob-num js-line-number js-code-nav-line-number" data-line-number="62"></td>
+          <td id="LC62" class="blob-code blob-code-inner js-file-line">)</td>
+        </tr>
+        <tr>
+          <td id="L63" class="blob-num js-line-number js-code-nav-line-number" data-line-number="63"></td>
+          <td id="LC63" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L64" class="blob-num js-line-number js-code-nav-line-number" data-line-number="64"></td>
+          <td id="LC64" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L65" class="blob-num js-line-number js-code-nav-line-number" data-line-number="65"></td>
+          <td id="LC65" class="blob-code blob-code-inner js-file-line"><span class=pl-k>async</span> <span class=pl-k>def</span> <span class=pl-en>async_setup_platform</span>(<span class=pl-s1>hass</span>, <span class=pl-s1>config</span>, <span class=pl-s1>async_add_entities</span>, <span class=pl-s1>discovery_info</span><span class=pl-c1>=</span><span class=pl-c1>None</span>):</td>
+        </tr>
+        <tr>
+          <td id="L66" class="blob-num js-line-number js-code-nav-line-number" data-line-number="66"></td>
+          <td id="LC66" class="blob-code blob-code-inner js-file-line">    <span class=pl-s>&quot;&quot;&quot;Configure the platform and add the sensors.&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L67" class="blob-num js-line-number js-code-nav-line-number" data-line-number="67"></td>
+          <td id="LC67" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L68" class="blob-num js-line-number js-code-nav-line-number" data-line-number="68"></td>
+          <td id="LC68" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>session</span> <span class=pl-c1>=</span> <span class=pl-s1>aiohttp_client</span>.<span class=pl-en>async_get_clientsession</span>(<span class=pl-s1>hass</span>)</td>
+        </tr>
+        <tr>
+          <td id="L69" class="blob-num js-line-number js-code-nav-line-number" data-line-number="69"></td>
+          <td id="LC69" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L70" class="blob-num js-line-number js-code-nav-line-number" data-line-number="70"></td>
+          <td id="LC70" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>client</span> <span class=pl-c1>=</span> <span class=pl-v>SeventeenTrackClient</span>(<span class=pl-s1>session</span><span class=pl-c1>=</span><span class=pl-s1>session</span>)</td>
+        </tr>
+        <tr>
+          <td id="L71" class="blob-num js-line-number js-code-nav-line-number" data-line-number="71"></td>
+          <td id="LC71" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L72" class="blob-num js-line-number js-code-nav-line-number" data-line-number="72"></td>
+          <td id="LC72" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>try</span>:</td>
+        </tr>
+        <tr>
+          <td id="L73" class="blob-num js-line-number js-code-nav-line-number" data-line-number="73"></td>
+          <td id="LC73" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>login_result</span> <span class=pl-c1>=</span> <span class=pl-k>await</span> <span class=pl-s1>client</span>.<span class=pl-s1>profile</span>.<span class=pl-en>login</span>(</td>
+        </tr>
+        <tr>
+          <td id="L74" class="blob-num js-line-number js-code-nav-line-number" data-line-number="74"></td>
+          <td id="LC74" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>config</span>[<span class=pl-v>CONF_USERNAME</span>], <span class=pl-s1>config</span>[<span class=pl-v>CONF_PASSWORD</span>]</td>
+        </tr>
+        <tr>
+          <td id="L75" class="blob-num js-line-number js-code-nav-line-number" data-line-number="75"></td>
+          <td id="LC75" class="blob-code blob-code-inner js-file-line">        )</td>
+        </tr>
+        <tr>
+          <td id="L76" class="blob-num js-line-number js-code-nav-line-number" data-line-number="76"></td>
+          <td id="LC76" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L77" class="blob-num js-line-number js-code-nav-line-number" data-line-number="77"></td>
+          <td id="LC77" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-c1>not</span> <span class=pl-s1>login_result</span>:</td>
+        </tr>
+        <tr>
+          <td id="L78" class="blob-num js-line-number js-code-nav-line-number" data-line-number="78"></td>
+          <td id="LC78" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>_LOGGER</span>.<span class=pl-en>error</span>(<span class=pl-s>&quot;Invalid username and password provided&quot;</span>)</td>
+        </tr>
+        <tr>
+          <td id="L79" class="blob-num js-line-number js-code-nav-line-number" data-line-number="79"></td>
+          <td id="LC79" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>return</span></td>
+        </tr>
+        <tr>
+          <td id="L80" class="blob-num js-line-number js-code-nav-line-number" data-line-number="80"></td>
+          <td id="LC80" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>except</span> <span class=pl-v>SeventeenTrackError</span> <span class=pl-k>as</span> <span class=pl-s1>err</span>:</td>
+        </tr>
+        <tr>
+          <td id="L81" class="blob-num js-line-number js-code-nav-line-number" data-line-number="81"></td>
+          <td id="LC81" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>_LOGGER</span>.<span class=pl-en>error</span>(<span class=pl-s>&quot;There was an error while logging in: %s&quot;</span>, <span class=pl-s1>err</span>)</td>
+        </tr>
+        <tr>
+          <td id="L82" class="blob-num js-line-number js-code-nav-line-number" data-line-number="82"></td>
+          <td id="LC82" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span></td>
+        </tr>
+        <tr>
+          <td id="L83" class="blob-num js-line-number js-code-nav-line-number" data-line-number="83"></td>
+          <td id="LC83" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L84" class="blob-num js-line-number js-code-nav-line-number" data-line-number="84"></td>
+          <td id="LC84" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>scan_interval</span> <span class=pl-c1>=</span> <span class=pl-s1>config</span>.<span class=pl-en>get</span>(<span class=pl-v>CONF_SCAN_INTERVAL</span>, <span class=pl-v>DEFAULT_SCAN_INTERVAL</span>)</td>
+        </tr>
+        <tr>
+          <td id="L85" class="blob-num js-line-number js-code-nav-line-number" data-line-number="85"></td>
+          <td id="LC85" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L86" class="blob-num js-line-number js-code-nav-line-number" data-line-number="86"></td>
+          <td id="LC86" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>data</span> <span class=pl-c1>=</span> <span class=pl-v>SeventeenTrackData</span>(</td>
+        </tr>
+        <tr>
+          <td id="L87" class="blob-num js-line-number js-code-nav-line-number" data-line-number="87"></td>
+          <td id="LC87" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>client</span>,</td>
+        </tr>
+        <tr>
+          <td id="L88" class="blob-num js-line-number js-code-nav-line-number" data-line-number="88"></td>
+          <td id="LC88" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>async_add_entities</span>,</td>
+        </tr>
+        <tr>
+          <td id="L89" class="blob-num js-line-number js-code-nav-line-number" data-line-number="89"></td>
+          <td id="LC89" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>scan_interval</span>,</td>
+        </tr>
+        <tr>
+          <td id="L90" class="blob-num js-line-number js-code-nav-line-number" data-line-number="90"></td>
+          <td id="LC90" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>config</span>[<span class=pl-v>CONF_SHOW_ARCHIVED</span>],</td>
+        </tr>
+        <tr>
+          <td id="L91" class="blob-num js-line-number js-code-nav-line-number" data-line-number="91"></td>
+          <td id="LC91" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>config</span>[<span class=pl-v>CONF_SHOW_DELIVERED</span>],</td>
+        </tr>
+        <tr>
+          <td id="L92" class="blob-num js-line-number js-code-nav-line-number" data-line-number="92"></td>
+          <td id="LC92" class="blob-code blob-code-inner js-file-line">        <span class=pl-en>str</span>(<span class=pl-s1>hass</span>.<span class=pl-s1>config</span>.<span class=pl-s1>time_zone</span>),</td>
+        </tr>
+        <tr>
+          <td id="L93" class="blob-num js-line-number js-code-nav-line-number" data-line-number="93"></td>
+          <td id="LC93" class="blob-code blob-code-inner js-file-line">    )</td>
+        </tr>
+        <tr>
+          <td id="L94" class="blob-num js-line-number js-code-nav-line-number" data-line-number="94"></td>
+          <td id="LC94" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>await</span> <span class=pl-s1>data</span>.<span class=pl-en>async_update</span>()</td>
+        </tr>
+        <tr>
+          <td id="L95" class="blob-num js-line-number js-code-nav-line-number" data-line-number="95"></td>
+          <td id="LC95" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L96" class="blob-num js-line-number js-code-nav-line-number" data-line-number="96"></td>
+          <td id="LC96" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L97" class="blob-num js-line-number js-code-nav-line-number" data-line-number="97"></td>
+          <td id="LC97" class="blob-code blob-code-inner js-file-line"><span class=pl-k>class</span> <span class=pl-v>SeventeenTrackSummarySensor</span>(<span class=pl-v>SensorEntity</span>):</td>
+        </tr>
+        <tr>
+          <td id="L98" class="blob-num js-line-number js-code-nav-line-number" data-line-number="98"></td>
+          <td id="LC98" class="blob-code blob-code-inner js-file-line">    <span class=pl-s>&quot;&quot;&quot;Define a summary sensor.&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L99" class="blob-num js-line-number js-code-nav-line-number" data-line-number="99"></td>
+          <td id="LC99" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L100" class="blob-num js-line-number js-code-nav-line-number" data-line-number="100"></td>
+          <td id="LC100" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>_attr_icon</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;mdi:package&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L101" class="blob-num js-line-number js-code-nav-line-number" data-line-number="101"></td>
+          <td id="LC101" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>_attr_native_unit_of_measurement</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;packages&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L102" class="blob-num js-line-number js-code-nav-line-number" data-line-number="102"></td>
+          <td id="LC102" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L103" class="blob-num js-line-number js-code-nav-line-number" data-line-number="103"></td>
+          <td id="LC103" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>__init__</span>(<span class=pl-s1>self</span>, <span class=pl-s1>data</span>, <span class=pl-s1>status</span>, <span class=pl-s1>initial_state</span>):</td>
+        </tr>
+        <tr>
+          <td id="L104" class="blob-num js-line-number js-code-nav-line-number" data-line-number="104"></td>
+          <td id="LC104" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Initialize.&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L105" class="blob-num js-line-number js-code-nav-line-number" data-line-number="105"></td>
+          <td id="LC105" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_attr_extra_state_attributes</span> <span class=pl-c1>=</span> {<span class=pl-v>ATTR_ATTRIBUTION</span>: <span class=pl-v>ATTRIBUTION</span>}</td>
+        </tr>
+        <tr>
+          <td id="L106" class="blob-num js-line-number js-code-nav-line-number" data-line-number="106"></td>
+          <td id="LC106" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_data</span> <span class=pl-c1>=</span> <span class=pl-s1>data</span></td>
+        </tr>
+        <tr>
+          <td id="L107" class="blob-num js-line-number js-code-nav-line-number" data-line-number="107"></td>
+          <td id="LC107" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_state</span> <span class=pl-c1>=</span> <span class=pl-s1>initial_state</span></td>
+        </tr>
+        <tr>
+          <td id="L108" class="blob-num js-line-number js-code-nav-line-number" data-line-number="108"></td>
+          <td id="LC108" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_status</span> <span class=pl-c1>=</span> <span class=pl-s1>status</span></td>
+        </tr>
+        <tr>
+          <td id="L109" class="blob-num js-line-number js-code-nav-line-number" data-line-number="109"></td>
+          <td id="LC109" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_attr_name</span> <span class=pl-c1>=</span> <span class=pl-s>f&quot;Seventeentrack Packages <span class=pl-s1><span class=pl-kos>{</span><span class=pl-s1>status</span><span class=pl-kos>}</span></span>&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L110" class="blob-num js-line-number js-code-nav-line-number" data-line-number="110"></td>
+          <td id="LC110" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_attr_unique_id</span> <span class=pl-c1>=</span> <span class=pl-s>f&quot;summary_<span class=pl-s1><span class=pl-kos>{</span><span class=pl-s1>data</span>.<span class=pl-s1>account_id</span><span class=pl-kos>}</span></span>_<span class=pl-s1><span class=pl-kos>{</span><span class=pl-en>slugify</span>(<span class=pl-s1>status</span>)<span class=pl-kos>}</span></span>&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L111" class="blob-num js-line-number js-code-nav-line-number" data-line-number="111"></td>
+          <td id="LC111" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L112" class="blob-num js-line-number js-code-nav-line-number" data-line-number="112"></td>
+          <td id="LC112" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>@<span class=pl-s1>property</span></span></td>
+        </tr>
+        <tr>
+          <td id="L113" class="blob-num js-line-number js-code-nav-line-number" data-line-number="113"></td>
+          <td id="LC113" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>available</span>(<span class=pl-s1>self</span>):</td>
+        </tr>
+        <tr>
+          <td id="L114" class="blob-num js-line-number js-code-nav-line-number" data-line-number="114"></td>
+          <td id="LC114" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Return whether the entity is available.&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L115" class="blob-num js-line-number js-code-nav-line-number" data-line-number="115"></td>
+          <td id="LC115" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1>self</span>.<span class=pl-s1>_state</span> <span class=pl-c1>is</span> <span class=pl-c1>not</span> <span class=pl-c1>None</span></td>
+        </tr>
+        <tr>
+          <td id="L116" class="blob-num js-line-number js-code-nav-line-number" data-line-number="116"></td>
+          <td id="LC116" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L117" class="blob-num js-line-number js-code-nav-line-number" data-line-number="117"></td>
+          <td id="LC117" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>@<span class=pl-s1>property</span></span></td>
+        </tr>
+        <tr>
+          <td id="L118" class="blob-num js-line-number js-code-nav-line-number" data-line-number="118"></td>
+          <td id="LC118" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>native_value</span>(<span class=pl-s1>self</span>):</td>
+        </tr>
+        <tr>
+          <td id="L119" class="blob-num js-line-number js-code-nav-line-number" data-line-number="119"></td>
+          <td id="LC119" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Return the state.&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L120" class="blob-num js-line-number js-code-nav-line-number" data-line-number="120"></td>
+          <td id="LC120" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1>self</span>.<span class=pl-s1>_state</span></td>
+        </tr>
+        <tr>
+          <td id="L121" class="blob-num js-line-number js-code-nav-line-number" data-line-number="121"></td>
+          <td id="LC121" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L122" class="blob-num js-line-number js-code-nav-line-number" data-line-number="122"></td>
+          <td id="LC122" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>async</span> <span class=pl-k>def</span> <span class=pl-en>async_update</span>(<span class=pl-s1>self</span>):</td>
+        </tr>
+        <tr>
+          <td id="L123" class="blob-num js-line-number js-code-nav-line-number" data-line-number="123"></td>
+          <td id="LC123" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Update the sensor.&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L124" class="blob-num js-line-number js-code-nav-line-number" data-line-number="124"></td>
+          <td id="LC124" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>await</span> <span class=pl-s1>self</span>.<span class=pl-s1>_data</span>.<span class=pl-en>async_update</span>()</td>
+        </tr>
+        <tr>
+          <td id="L125" class="blob-num js-line-number js-code-nav-line-number" data-line-number="125"></td>
+          <td id="LC125" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L126" class="blob-num js-line-number js-code-nav-line-number" data-line-number="126"></td>
+          <td id="LC126" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>package_data</span> <span class=pl-c1>=</span> []</td>
+        </tr>
+        <tr>
+          <td id="L127" class="blob-num js-line-number js-code-nav-line-number" data-line-number="127"></td>
+          <td id="LC127" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>for</span> <span class=pl-s1>package</span> <span class=pl-c1>in</span> <span class=pl-s1>self</span>.<span class=pl-s1>_data</span>.<span class=pl-s1>packages</span>.<span class=pl-en>values</span>():</td>
+        </tr>
+        <tr>
+          <td id="L128" class="blob-num js-line-number js-code-nav-line-number" data-line-number="128"></td>
+          <td id="LC128" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span> <span class=pl-s1>package</span>.<span class=pl-s1>status</span> <span class=pl-c1>!=</span> <span class=pl-s1>self</span>.<span class=pl-s1>_status</span>:</td>
+        </tr>
+        <tr>
+          <td id="L129" class="blob-num js-line-number js-code-nav-line-number" data-line-number="129"></td>
+          <td id="LC129" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>continue</span></td>
+        </tr>
+        <tr>
+          <td id="L130" class="blob-num js-line-number js-code-nav-line-number" data-line-number="130"></td>
+          <td id="LC130" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L131" class="blob-num js-line-number js-code-nav-line-number" data-line-number="131"></td>
+          <td id="LC131" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>package_data</span>.<span class=pl-en>append</span>(</td>
+        </tr>
+        <tr>
+          <td id="L132" class="blob-num js-line-number js-code-nav-line-number" data-line-number="132"></td>
+          <td id="LC132" class="blob-code blob-code-inner js-file-line">                {</td>
+        </tr>
+        <tr>
+          <td id="L133" class="blob-num js-line-number js-code-nav-line-number" data-line-number="133"></td>
+          <td id="LC133" class="blob-code blob-code-inner js-file-line">                    <span class=pl-v>ATTR_FRIENDLY_NAME</span>: <span class=pl-s1>package</span>.<span class=pl-s1>friendly_name</span>,</td>
+        </tr>
+        <tr>
+          <td id="L134" class="blob-num js-line-number js-code-nav-line-number" data-line-number="134"></td>
+          <td id="LC134" class="blob-code blob-code-inner js-file-line">                    <span class=pl-v>ATTR_INFO_TEXT</span>: <span class=pl-s1>package</span>.<span class=pl-s1>info_text</span>,</td>
+        </tr>
+        <tr>
+          <td id="L135" class="blob-num js-line-number js-code-nav-line-number" data-line-number="135"></td>
+          <td id="LC135" class="blob-code blob-code-inner js-file-line">                    <span class=pl-v>ATTR_TIMESTAMP</span>: <span class=pl-s1>package</span>.<span class=pl-s1>timestamp</span>,</td>
+        </tr>
+        <tr>
+          <td id="L136" class="blob-num js-line-number js-code-nav-line-number" data-line-number="136"></td>
+          <td id="LC136" class="blob-code blob-code-inner js-file-line">                    <span class=pl-v>ATTR_STATUS</span>: <span class=pl-s1>package</span>.<span class=pl-s1>status</span>,</td>
+        </tr>
+        <tr>
+          <td id="L137" class="blob-num js-line-number js-code-nav-line-number" data-line-number="137"></td>
+          <td id="LC137" class="blob-code blob-code-inner js-file-line">                    <span class=pl-v>ATTR_LOCATION</span>: <span class=pl-s1>package</span>.<span class=pl-s1>location</span>,</td>
+        </tr>
+        <tr>
+          <td id="L138" class="blob-num js-line-number js-code-nav-line-number" data-line-number="138"></td>
+          <td id="LC138" class="blob-code blob-code-inner js-file-line">                    <span class=pl-v>ATTR_TRACKING_NUMBER</span>: <span class=pl-s1>package</span>.<span class=pl-s1>tracking_number</span>,</td>
+        </tr>
+        <tr>
+          <td id="L139" class="blob-num js-line-number js-code-nav-line-number" data-line-number="139"></td>
+          <td id="LC139" class="blob-code blob-code-inner js-file-line">                }</td>
+        </tr>
+        <tr>
+          <td id="L140" class="blob-num js-line-number js-code-nav-line-number" data-line-number="140"></td>
+          <td id="LC140" class="blob-code blob-code-inner js-file-line">            )</td>
+        </tr>
+        <tr>
+          <td id="L141" class="blob-num js-line-number js-code-nav-line-number" data-line-number="141"></td>
+          <td id="LC141" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L142" class="blob-num js-line-number js-code-nav-line-number" data-line-number="142"></td>
+          <td id="LC142" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-s1>package_data</span>:</td>
+        </tr>
+        <tr>
+          <td id="L143" class="blob-num js-line-number js-code-nav-line-number" data-line-number="143"></td>
+          <td id="LC143" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>self</span>.<span class=pl-s1>_attr_extra_state_attributes</span>[<span class=pl-v>ATTR_PACKAGES</span>] <span class=pl-c1>=</span> <span class=pl-s1>package_data</span></td>
+        </tr>
+        <tr>
+          <td id="L144" class="blob-num js-line-number js-code-nav-line-number" data-line-number="144"></td>
+          <td id="LC144" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L145" class="blob-num js-line-number js-code-nav-line-number" data-line-number="145"></td>
+          <td id="LC145" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_state</span> <span class=pl-c1>=</span> <span class=pl-s1>self</span>.<span class=pl-s1>_data</span>.<span class=pl-s1>summary</span>.<span class=pl-en>get</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_status</span>)</td>
+        </tr>
+        <tr>
+          <td id="L146" class="blob-num js-line-number js-code-nav-line-number" data-line-number="146"></td>
+          <td id="LC146" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L147" class="blob-num js-line-number js-code-nav-line-number" data-line-number="147"></td>
+          <td id="LC147" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L148" class="blob-num js-line-number js-code-nav-line-number" data-line-number="148"></td>
+          <td id="LC148" class="blob-code blob-code-inner js-file-line"><span class=pl-k>class</span> <span class=pl-v>SeventeenTrackPackageSensor</span>(<span class=pl-v>SensorEntity</span>):</td>
+        </tr>
+        <tr>
+          <td id="L149" class="blob-num js-line-number js-code-nav-line-number" data-line-number="149"></td>
+          <td id="LC149" class="blob-code blob-code-inner js-file-line">    <span class=pl-s>&quot;&quot;&quot;Define an individual package sensor.&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L150" class="blob-num js-line-number js-code-nav-line-number" data-line-number="150"></td>
+          <td id="LC150" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L151" class="blob-num js-line-number js-code-nav-line-number" data-line-number="151"></td>
+          <td id="LC151" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>_attr_icon</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;mdi:package&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L152" class="blob-num js-line-number js-code-nav-line-number" data-line-number="152"></td>
+          <td id="LC152" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L153" class="blob-num js-line-number js-code-nav-line-number" data-line-number="153"></td>
+          <td id="LC153" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>__init__</span>(<span class=pl-s1>self</span>, <span class=pl-s1>data</span>, <span class=pl-s1>package</span>):</td>
+        </tr>
+        <tr>
+          <td id="L154" class="blob-num js-line-number js-code-nav-line-number" data-line-number="154"></td>
+          <td id="LC154" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Initialize.&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L155" class="blob-num js-line-number js-code-nav-line-number" data-line-number="155"></td>
+          <td id="LC155" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_attr_extra_state_attributes</span> <span class=pl-c1>=</span> {</td>
+        </tr>
+        <tr>
+          <td id="L156" class="blob-num js-line-number js-code-nav-line-number" data-line-number="156"></td>
+          <td id="LC156" class="blob-code blob-code-inner js-file-line">            <span class=pl-v>ATTR_ATTRIBUTION</span>: <span class=pl-v>ATTRIBUTION</span>,</td>
+        </tr>
+        <tr>
+          <td id="L157" class="blob-num js-line-number js-code-nav-line-number" data-line-number="157"></td>
+          <td id="LC157" class="blob-code blob-code-inner js-file-line">            <span class=pl-v>ATTR_DESTINATION_COUNTRY</span>: <span class=pl-s1>package</span>.<span class=pl-s1>destination_country</span>,</td>
+        </tr>
+        <tr>
+          <td id="L158" class="blob-num js-line-number js-code-nav-line-number" data-line-number="158"></td>
+          <td id="LC158" class="blob-code blob-code-inner js-file-line">            <span class=pl-v>ATTR_INFO_TEXT</span>: <span class=pl-s1>package</span>.<span class=pl-s1>info_text</span>,</td>
+        </tr>
+        <tr>
+          <td id="L159" class="blob-num js-line-number js-code-nav-line-number" data-line-number="159"></td>
+          <td id="LC159" class="blob-code blob-code-inner js-file-line">            <span class=pl-v>ATTR_TIMESTAMP</span>: <span class=pl-s1>package</span>.<span class=pl-s1>timestamp</span>,</td>
+        </tr>
+        <tr>
+          <td id="L160" class="blob-num js-line-number js-code-nav-line-number" data-line-number="160"></td>
+          <td id="LC160" class="blob-code blob-code-inner js-file-line">            <span class=pl-v>ATTR_LOCATION</span>: <span class=pl-s1>package</span>.<span class=pl-s1>location</span>,</td>
+        </tr>
+        <tr>
+          <td id="L161" class="blob-num js-line-number js-code-nav-line-number" data-line-number="161"></td>
+          <td id="LC161" class="blob-code blob-code-inner js-file-line">            <span class=pl-v>ATTR_ORIGIN_COUNTRY</span>: <span class=pl-s1>package</span>.<span class=pl-s1>origin_country</span>,</td>
+        </tr>
+        <tr>
+          <td id="L162" class="blob-num js-line-number js-code-nav-line-number" data-line-number="162"></td>
+          <td id="LC162" class="blob-code blob-code-inner js-file-line">            <span class=pl-v>ATTR_PACKAGE_TYPE</span>: <span class=pl-s1>package</span>.<span class=pl-s1>package_type</span>,</td>
+        </tr>
+        <tr>
+          <td id="L163" class="blob-num js-line-number js-code-nav-line-number" data-line-number="163"></td>
+          <td id="LC163" class="blob-code blob-code-inner js-file-line">            <span class=pl-v>ATTR_TRACKING_INFO_LANGUAGE</span>: <span class=pl-s1>package</span>.<span class=pl-s1>tracking_info_language</span>,</td>
+        </tr>
+        <tr>
+          <td id="L164" class="blob-num js-line-number js-code-nav-line-number" data-line-number="164"></td>
+          <td id="LC164" class="blob-code blob-code-inner js-file-line">            <span class=pl-v>ATTR_TRACKING_NUMBER</span>: <span class=pl-s1>package</span>.<span class=pl-s1>tracking_number</span>,</td>
+        </tr>
+        <tr>
+          <td id="L165" class="blob-num js-line-number js-code-nav-line-number" data-line-number="165"></td>
+          <td id="LC165" class="blob-code blob-code-inner js-file-line">        }</td>
+        </tr>
+        <tr>
+          <td id="L166" class="blob-num js-line-number js-code-nav-line-number" data-line-number="166"></td>
+          <td id="LC166" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_data</span> <span class=pl-c1>=</span> <span class=pl-s1>data</span></td>
+        </tr>
+        <tr>
+          <td id="L167" class="blob-num js-line-number js-code-nav-line-number" data-line-number="167"></td>
+          <td id="LC167" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_friendly_name</span> <span class=pl-c1>=</span> <span class=pl-s1>package</span>.<span class=pl-s1>friendly_name</span></td>
+        </tr>
+        <tr>
+          <td id="L168" class="blob-num js-line-number js-code-nav-line-number" data-line-number="168"></td>
+          <td id="LC168" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_state</span> <span class=pl-c1>=</span> <span class=pl-s1>package</span>.<span class=pl-s1>status</span></td>
+        </tr>
+        <tr>
+          <td id="L169" class="blob-num js-line-number js-code-nav-line-number" data-line-number="169"></td>
+          <td id="LC169" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span> <span class=pl-c1>=</span> <span class=pl-s1>package</span>.<span class=pl-s1>tracking_number</span></td>
+        </tr>
+        <tr>
+          <td id="L170" class="blob-num js-line-number js-code-nav-line-number" data-line-number="170"></td>
+          <td id="LC170" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>entity_id</span> <span class=pl-c1>=</span> <span class=pl-v>ENTITY_ID_TEMPLATE</span>.<span class=pl-en>format</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span>)</td>
+        </tr>
+        <tr>
+          <td id="L171" class="blob-num js-line-number js-code-nav-line-number" data-line-number="171"></td>
+          <td id="LC171" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_attr_unique_id</span> <span class=pl-c1>=</span> <span class=pl-v>UNIQUE_ID_TEMPLATE</span>.<span class=pl-en>format</span>(</td>
+        </tr>
+        <tr>
+          <td id="L172" class="blob-num js-line-number js-code-nav-line-number" data-line-number="172"></td>
+          <td id="LC172" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>data</span>.<span class=pl-s1>account_id</span>, <span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span></td>
+        </tr>
+        <tr>
+          <td id="L173" class="blob-num js-line-number js-code-nav-line-number" data-line-number="173"></td>
+          <td id="LC173" class="blob-code blob-code-inner js-file-line">        )</td>
+        </tr>
+        <tr>
+          <td id="L174" class="blob-num js-line-number js-code-nav-line-number" data-line-number="174"></td>
+          <td id="LC174" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L175" class="blob-num js-line-number js-code-nav-line-number" data-line-number="175"></td>
+          <td id="LC175" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>@<span class=pl-s1>property</span></span></td>
+        </tr>
+        <tr>
+          <td id="L176" class="blob-num js-line-number js-code-nav-line-number" data-line-number="176"></td>
+          <td id="LC176" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>available</span>(<span class=pl-s1>self</span>):</td>
+        </tr>
+        <tr>
+          <td id="L177" class="blob-num js-line-number js-code-nav-line-number" data-line-number="177"></td>
+          <td id="LC177" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Return whether the entity is available.&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L178" class="blob-num js-line-number js-code-nav-line-number" data-line-number="178"></td>
+          <td id="LC178" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1>self</span>.<span class=pl-s1>_data</span>.<span class=pl-s1>packages</span>.<span class=pl-en>get</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span>) <span class=pl-c1>is</span> <span class=pl-c1>not</span> <span class=pl-c1>None</span></td>
+        </tr>
+        <tr>
+          <td id="L179" class="blob-num js-line-number js-code-nav-line-number" data-line-number="179"></td>
+          <td id="LC179" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L180" class="blob-num js-line-number js-code-nav-line-number" data-line-number="180"></td>
+          <td id="LC180" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>@<span class=pl-s1>property</span></span></td>
+        </tr>
+        <tr>
+          <td id="L181" class="blob-num js-line-number js-code-nav-line-number" data-line-number="181"></td>
+          <td id="LC181" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>name</span>(<span class=pl-s1>self</span>):</td>
+        </tr>
+        <tr>
+          <td id="L182" class="blob-num js-line-number js-code-nav-line-number" data-line-number="182"></td>
+          <td id="LC182" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Return the name.&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L183" class="blob-num js-line-number js-code-nav-line-number" data-line-number="183"></td>
+          <td id="LC183" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-c1>not</span> (<span class=pl-s1>name</span> <span class=pl-c1>:=</span> <span class=pl-s1>self</span>.<span class=pl-s1>_friendly_name</span>):</td>
+        </tr>
+        <tr>
+          <td id="L184" class="blob-num js-line-number js-code-nav-line-number" data-line-number="184"></td>
+          <td id="LC184" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>name</span> <span class=pl-c1>=</span> <span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span></td>
+        </tr>
+        <tr>
+          <td id="L185" class="blob-num js-line-number js-code-nav-line-number" data-line-number="185"></td>
+          <td id="LC185" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s>f&quot;Seventeentrack Package: <span class=pl-s1><span class=pl-kos>{</span><span class=pl-s1>name</span><span class=pl-kos>}</span></span>&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L186" class="blob-num js-line-number js-code-nav-line-number" data-line-number="186"></td>
+          <td id="LC186" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L187" class="blob-num js-line-number js-code-nav-line-number" data-line-number="187"></td>
+          <td id="LC187" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>@<span class=pl-s1>property</span></span></td>
+        </tr>
+        <tr>
+          <td id="L188" class="blob-num js-line-number js-code-nav-line-number" data-line-number="188"></td>
+          <td id="LC188" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>native_value</span>(<span class=pl-s1>self</span>):</td>
+        </tr>
+        <tr>
+          <td id="L189" class="blob-num js-line-number js-code-nav-line-number" data-line-number="189"></td>
+          <td id="LC189" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Return the state.&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L190" class="blob-num js-line-number js-code-nav-line-number" data-line-number="190"></td>
+          <td id="LC190" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1>self</span>.<span class=pl-s1>_state</span></td>
+        </tr>
+        <tr>
+          <td id="L191" class="blob-num js-line-number js-code-nav-line-number" data-line-number="191"></td>
+          <td id="LC191" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L192" class="blob-num js-line-number js-code-nav-line-number" data-line-number="192"></td>
+          <td id="LC192" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>async</span> <span class=pl-k>def</span> <span class=pl-en>async_update</span>(<span class=pl-s1>self</span>):</td>
+        </tr>
+        <tr>
+          <td id="L193" class="blob-num js-line-number js-code-nav-line-number" data-line-number="193"></td>
+          <td id="LC193" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Update the sensor.&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L194" class="blob-num js-line-number js-code-nav-line-number" data-line-number="194"></td>
+          <td id="LC194" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>await</span> <span class=pl-s1>self</span>.<span class=pl-s1>_data</span>.<span class=pl-en>async_update</span>()</td>
+        </tr>
+        <tr>
+          <td id="L195" class="blob-num js-line-number js-code-nav-line-number" data-line-number="195"></td>
+          <td id="LC195" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L196" class="blob-num js-line-number js-code-nav-line-number" data-line-number="196"></td>
+          <td id="LC196" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-c1>not</span> <span class=pl-s1>self</span>.<span class=pl-s1>available</span>:</td>
+        </tr>
+        <tr>
+          <td id="L197" class="blob-num js-line-number js-code-nav-line-number" data-line-number="197"></td>
+          <td id="LC197" class="blob-code blob-code-inner js-file-line">            <span class=pl-c># Entity cannot be removed while its being added</span></td>
+        </tr>
+        <tr>
+          <td id="L198" class="blob-num js-line-number js-code-nav-line-number" data-line-number="198"></td>
+          <td id="LC198" class="blob-code blob-code-inner js-file-line">            <span class=pl-en>async_call_later</span>(<span class=pl-s1>self</span>.<span class=pl-s1>hass</span>, <span class=pl-c1>1</span>, <span class=pl-s1>self</span>.<span class=pl-s1>_remove</span>)</td>
+        </tr>
+        <tr>
+          <td id="L199" class="blob-num js-line-number js-code-nav-line-number" data-line-number="199"></td>
+          <td id="LC199" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>return</span></td>
+        </tr>
+        <tr>
+          <td id="L200" class="blob-num js-line-number js-code-nav-line-number" data-line-number="200"></td>
+          <td id="LC200" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L201" class="blob-num js-line-number js-code-nav-line-number" data-line-number="201"></td>
+          <td id="LC201" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>package</span> <span class=pl-c1>=</span> <span class=pl-s1>self</span>.<span class=pl-s1>_data</span>.<span class=pl-s1>packages</span>.<span class=pl-en>get</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span>, <span class=pl-c1>None</span>)</td>
+        </tr>
+        <tr>
+          <td id="L202" class="blob-num js-line-number js-code-nav-line-number" data-line-number="202"></td>
+          <td id="LC202" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L203" class="blob-num js-line-number js-code-nav-line-number" data-line-number="203"></td>
+          <td id="LC203" class="blob-code blob-code-inner js-file-line">        <span class=pl-c># If the user has elected to not see delivered packages and one gets</span></td>
+        </tr>
+        <tr>
+          <td id="L204" class="blob-num js-line-number js-code-nav-line-number" data-line-number="204"></td>
+          <td id="LC204" class="blob-code blob-code-inner js-file-line">        <span class=pl-c># delivered, post a notification:</span></td>
+        </tr>
+        <tr>
+          <td id="L205" class="blob-num js-line-number js-code-nav-line-number" data-line-number="205"></td>
+          <td id="LC205" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-s1>package</span>.<span class=pl-s1>status</span> <span class=pl-c1>==</span> <span class=pl-v>VALUE_DELIVERED</span> <span class=pl-c1>and</span> <span class=pl-c1>not</span> <span class=pl-s1>self</span>.<span class=pl-s1>_data</span>.<span class=pl-s1>show_delivered</span>:</td>
+        </tr>
+        <tr>
+          <td id="L206" class="blob-num js-line-number js-code-nav-line-number" data-line-number="206"></td>
+          <td id="LC206" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>self</span>.<span class=pl-en>_notify_delivered</span>()</td>
+        </tr>
+        <tr>
+          <td id="L207" class="blob-num js-line-number js-code-nav-line-number" data-line-number="207"></td>
+          <td id="LC207" class="blob-code blob-code-inner js-file-line">            <span class=pl-c># Entity cannot be removed while its being added</span></td>
+        </tr>
+        <tr>
+          <td id="L208" class="blob-num js-line-number js-code-nav-line-number" data-line-number="208"></td>
+          <td id="LC208" class="blob-code blob-code-inner js-file-line">            <span class=pl-en>async_call_later</span>(<span class=pl-s1>self</span>.<span class=pl-s1>hass</span>, <span class=pl-c1>1</span>, <span class=pl-s1>self</span>.<span class=pl-s1>_remove</span>)</td>
+        </tr>
+        <tr>
+          <td id="L209" class="blob-num js-line-number js-code-nav-line-number" data-line-number="209"></td>
+          <td id="LC209" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>return</span></td>
+        </tr>
+        <tr>
+          <td id="L210" class="blob-num js-line-number js-code-nav-line-number" data-line-number="210"></td>
+          <td id="LC210" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L211" class="blob-num js-line-number js-code-nav-line-number" data-line-number="211"></td>
+          <td id="LC211" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_attr_extra_state_attributes</span>.<span class=pl-en>update</span>(</td>
+        </tr>
+        <tr>
+          <td id="L212" class="blob-num js-line-number js-code-nav-line-number" data-line-number="212"></td>
+          <td id="LC212" class="blob-code blob-code-inner js-file-line">            {</td>
+        </tr>
+        <tr>
+          <td id="L213" class="blob-num js-line-number js-code-nav-line-number" data-line-number="213"></td>
+          <td id="LC213" class="blob-code blob-code-inner js-file-line">                <span class=pl-v>ATTR_INFO_TEXT</span>: <span class=pl-s1>package</span>.<span class=pl-s1>info_text</span>,</td>
+        </tr>
+        <tr>
+          <td id="L214" class="blob-num js-line-number js-code-nav-line-number" data-line-number="214"></td>
+          <td id="LC214" class="blob-code blob-code-inner js-file-line">                <span class=pl-v>ATTR_TIMESTAMP</span>: <span class=pl-s1>package</span>.<span class=pl-s1>timestamp</span>,</td>
+        </tr>
+        <tr>
+          <td id="L215" class="blob-num js-line-number js-code-nav-line-number" data-line-number="215"></td>
+          <td id="LC215" class="blob-code blob-code-inner js-file-line">                <span class=pl-v>ATTR_LOCATION</span>: <span class=pl-s1>package</span>.<span class=pl-s1>location</span>,</td>
+        </tr>
+        <tr>
+          <td id="L216" class="blob-num js-line-number js-code-nav-line-number" data-line-number="216"></td>
+          <td id="LC216" class="blob-code blob-code-inner js-file-line">            }</td>
+        </tr>
+        <tr>
+          <td id="L217" class="blob-num js-line-number js-code-nav-line-number" data-line-number="217"></td>
+          <td id="LC217" class="blob-code blob-code-inner js-file-line">        )</td>
+        </tr>
+        <tr>
+          <td id="L218" class="blob-num js-line-number js-code-nav-line-number" data-line-number="218"></td>
+          <td id="LC218" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_state</span> <span class=pl-c1>=</span> <span class=pl-s1>package</span>.<span class=pl-s1>status</span></td>
+        </tr>
+        <tr>
+          <td id="L219" class="blob-num js-line-number js-code-nav-line-number" data-line-number="219"></td>
+          <td id="LC219" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_friendly_name</span> <span class=pl-c1>=</span> <span class=pl-s1>package</span>.<span class=pl-s1>friendly_name</span></td>
+        </tr>
+        <tr>
+          <td id="L220" class="blob-num js-line-number js-code-nav-line-number" data-line-number="220"></td>
+          <td id="LC220" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L221" class="blob-num js-line-number js-code-nav-line-number" data-line-number="221"></td>
+          <td id="LC221" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>async</span> <span class=pl-k>def</span> <span class=pl-en>_remove</span>(<span class=pl-s1>self</span>, <span class=pl-c1>*</span><span class=pl-s1>_</span>):</td>
+        </tr>
+        <tr>
+          <td id="L222" class="blob-num js-line-number js-code-nav-line-number" data-line-number="222"></td>
+          <td id="LC222" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Remove entity itself.&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L223" class="blob-num js-line-number js-code-nav-line-number" data-line-number="223"></td>
+          <td id="LC223" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>await</span> <span class=pl-s1>self</span>.<span class=pl-en>async_remove</span>(<span class=pl-s1>force_remove</span><span class=pl-c1>=</span><span class=pl-c1>True</span>)</td>
+        </tr>
+        <tr>
+          <td id="L224" class="blob-num js-line-number js-code-nav-line-number" data-line-number="224"></td>
+          <td id="LC224" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L225" class="blob-num js-line-number js-code-nav-line-number" data-line-number="225"></td>
+          <td id="LC225" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>reg</span> <span class=pl-c1>=</span> <span class=pl-k>await</span> <span class=pl-s1>self</span>.<span class=pl-s1>hass</span>.<span class=pl-s1>helpers</span>.<span class=pl-s1>entity_registry</span>.<span class=pl-en>async_get_registry</span>()</td>
+        </tr>
+        <tr>
+          <td id="L226" class="blob-num js-line-number js-code-nav-line-number" data-line-number="226"></td>
+          <td id="LC226" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>entity_id</span> <span class=pl-c1>=</span> <span class=pl-s1>reg</span>.<span class=pl-en>async_get_entity_id</span>(</td>
+        </tr>
+        <tr>
+          <td id="L227" class="blob-num js-line-number js-code-nav-line-number" data-line-number="227"></td>
+          <td id="LC227" class="blob-code blob-code-inner js-file-line">            <span class=pl-s>&quot;sensor&quot;</span>,</td>
+        </tr>
+        <tr>
+          <td id="L228" class="blob-num js-line-number js-code-nav-line-number" data-line-number="228"></td>
+          <td id="LC228" class="blob-code blob-code-inner js-file-line">            <span class=pl-s>&quot;seventeentrack&quot;</span>,</td>
+        </tr>
+        <tr>
+          <td id="L229" class="blob-num js-line-number js-code-nav-line-number" data-line-number="229"></td>
+          <td id="LC229" class="blob-code blob-code-inner js-file-line">            <span class=pl-v>UNIQUE_ID_TEMPLATE</span>.<span class=pl-en>format</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_data</span>.<span class=pl-s1>account_id</span>, <span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span>),</td>
+        </tr>
+        <tr>
+          <td id="L230" class="blob-num js-line-number js-code-nav-line-number" data-line-number="230"></td>
+          <td id="LC230" class="blob-code blob-code-inner js-file-line">        )</td>
+        </tr>
+        <tr>
+          <td id="L231" class="blob-num js-line-number js-code-nav-line-number" data-line-number="231"></td>
+          <td id="LC231" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-s1>entity_id</span>:</td>
+        </tr>
+        <tr>
+          <td id="L232" class="blob-num js-line-number js-code-nav-line-number" data-line-number="232"></td>
+          <td id="LC232" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>reg</span>.<span class=pl-en>async_remove</span>(<span class=pl-s1>entity_id</span>)</td>
+        </tr>
+        <tr>
+          <td id="L233" class="blob-num js-line-number js-code-nav-line-number" data-line-number="233"></td>
+          <td id="LC233" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L234" class="blob-num js-line-number js-code-nav-line-number" data-line-number="234"></td>
+          <td id="LC234" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>_notify_delivered</span>(<span class=pl-s1>self</span>):</td>
+        </tr>
+        <tr>
+          <td id="L235" class="blob-num js-line-number js-code-nav-line-number" data-line-number="235"></td>
+          <td id="LC235" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Notify when package is delivered.&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L236" class="blob-num js-line-number js-code-nav-line-number" data-line-number="236"></td>
+          <td id="LC236" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>_LOGGER</span>.<span class=pl-en>info</span>(<span class=pl-s>&quot;Package delivered: %s&quot;</span>, <span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span>)</td>
+        </tr>
+        <tr>
+          <td id="L237" class="blob-num js-line-number js-code-nav-line-number" data-line-number="237"></td>
+          <td id="LC237" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L238" class="blob-num js-line-number js-code-nav-line-number" data-line-number="238"></td>
+          <td id="LC238" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>identification</span> <span class=pl-c1>=</span> (</td>
+        </tr>
+        <tr>
+          <td id="L239" class="blob-num js-line-number js-code-nav-line-number" data-line-number="239"></td>
+          <td id="LC239" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>self</span>.<span class=pl-s1>_friendly_name</span> <span class=pl-k>if</span> <span class=pl-s1>self</span>.<span class=pl-s1>_friendly_name</span> <span class=pl-k>else</span> <span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span></td>
+        </tr>
+        <tr>
+          <td id="L240" class="blob-num js-line-number js-code-nav-line-number" data-line-number="240"></td>
+          <td id="LC240" class="blob-code blob-code-inner js-file-line">        )</td>
+        </tr>
+        <tr>
+          <td id="L241" class="blob-num js-line-number js-code-nav-line-number" data-line-number="241"></td>
+          <td id="LC241" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>message</span> <span class=pl-c1>=</span> <span class=pl-v>NOTIFICATION_DELIVERED_MESSAGE</span>.<span class=pl-en>format</span>(</td>
+        </tr>
+        <tr>
+          <td id="L242" class="blob-num js-line-number js-code-nav-line-number" data-line-number="242"></td>
+          <td id="LC242" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>identification</span>, <span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span></td>
+        </tr>
+        <tr>
+          <td id="L243" class="blob-num js-line-number js-code-nav-line-number" data-line-number="243"></td>
+          <td id="LC243" class="blob-code blob-code-inner js-file-line">        )</td>
+        </tr>
+        <tr>
+          <td id="L244" class="blob-num js-line-number js-code-nav-line-number" data-line-number="244"></td>
+          <td id="LC244" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>title</span> <span class=pl-c1>=</span> <span class=pl-v>NOTIFICATION_DELIVERED_TITLE</span>.<span class=pl-en>format</span>(<span class=pl-s1>identification</span>)</td>
+        </tr>
+        <tr>
+          <td id="L245" class="blob-num js-line-number js-code-nav-line-number" data-line-number="245"></td>
+          <td id="LC245" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>notification_id</span> <span class=pl-c1>=</span> <span class=pl-v>NOTIFICATION_DELIVERED_TITLE</span>.<span class=pl-en>format</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_tracking_number</span>)</td>
+        </tr>
+        <tr>
+          <td id="L246" class="blob-num js-line-number js-code-nav-line-number" data-line-number="246"></td>
+          <td id="LC246" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L247" class="blob-num js-line-number js-code-nav-line-number" data-line-number="247"></td>
+          <td id="LC247" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>hass</span>.<span class=pl-s1>components</span>.<span class=pl-s1>persistent_notification</span>.<span class=pl-en>create</span>(</td>
+        </tr>
+        <tr>
+          <td id="L248" class="blob-num js-line-number js-code-nav-line-number" data-line-number="248"></td>
+          <td id="LC248" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>message</span>, <span class=pl-s1>title</span><span class=pl-c1>=</span><span class=pl-s1>title</span>, <span class=pl-s1>notification_id</span><span class=pl-c1>=</span><span class=pl-s1>notification_id</span></td>
+        </tr>
+        <tr>
+          <td id="L249" class="blob-num js-line-number js-code-nav-line-number" data-line-number="249"></td>
+          <td id="LC249" class="blob-code blob-code-inner js-file-line">        )</td>
+        </tr>
+        <tr>
+          <td id="L250" class="blob-num js-line-number js-code-nav-line-number" data-line-number="250"></td>
+          <td id="LC250" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L251" class="blob-num js-line-number js-code-nav-line-number" data-line-number="251"></td>
+          <td id="LC251" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L252" class="blob-num js-line-number js-code-nav-line-number" data-line-number="252"></td>
+          <td id="LC252" class="blob-code blob-code-inner js-file-line"><span class=pl-k>class</span> <span class=pl-v>SeventeenTrackData</span>:</td>
+        </tr>
+        <tr>
+          <td id="L253" class="blob-num js-line-number js-code-nav-line-number" data-line-number="253"></td>
+          <td id="LC253" class="blob-code blob-code-inner js-file-line">    <span class=pl-s>&quot;&quot;&quot;Define a data handler for 17track.net.&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L254" class="blob-num js-line-number js-code-nav-line-number" data-line-number="254"></td>
+          <td id="LC254" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L255" class="blob-num js-line-number js-code-nav-line-number" data-line-number="255"></td>
+          <td id="LC255" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>__init__</span>(</td>
+        </tr>
+        <tr>
+          <td id="L256" class="blob-num js-line-number js-code-nav-line-number" data-line-number="256"></td>
+          <td id="LC256" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>,</td>
+        </tr>
+        <tr>
+          <td id="L257" class="blob-num js-line-number js-code-nav-line-number" data-line-number="257"></td>
+          <td id="LC257" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>client</span>,</td>
+        </tr>
+        <tr>
+          <td id="L258" class="blob-num js-line-number js-code-nav-line-number" data-line-number="258"></td>
+          <td id="LC258" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>async_add_entities</span>,</td>
+        </tr>
+        <tr>
+          <td id="L259" class="blob-num js-line-number js-code-nav-line-number" data-line-number="259"></td>
+          <td id="LC259" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>scan_interval</span>,</td>
+        </tr>
+        <tr>
+          <td id="L260" class="blob-num js-line-number js-code-nav-line-number" data-line-number="260"></td>
+          <td id="LC260" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>show_archived</span>,</td>
+        </tr>
+        <tr>
+          <td id="L261" class="blob-num js-line-number js-code-nav-line-number" data-line-number="261"></td>
+          <td id="LC261" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>show_delivered</span>,</td>
+        </tr>
+        <tr>
+          <td id="L262" class="blob-num js-line-number js-code-nav-line-number" data-line-number="262"></td>
+          <td id="LC262" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>timezone</span>,</td>
+        </tr>
+        <tr>
+          <td id="L263" class="blob-num js-line-number js-code-nav-line-number" data-line-number="263"></td>
+          <td id="LC263" class="blob-code blob-code-inner js-file-line">    ):</td>
+        </tr>
+        <tr>
+          <td id="L264" class="blob-num js-line-number js-code-nav-line-number" data-line-number="264"></td>
+          <td id="LC264" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Initialize.&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L265" class="blob-num js-line-number js-code-nav-line-number" data-line-number="265"></td>
+          <td id="LC265" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_async_add_entities</span> <span class=pl-c1>=</span> <span class=pl-s1>async_add_entities</span></td>
+        </tr>
+        <tr>
+          <td id="L266" class="blob-num js-line-number js-code-nav-line-number" data-line-number="266"></td>
+          <td id="LC266" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_client</span> <span class=pl-c1>=</span> <span class=pl-s1>client</span></td>
+        </tr>
+        <tr>
+          <td id="L267" class="blob-num js-line-number js-code-nav-line-number" data-line-number="267"></td>
+          <td id="LC267" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_scan_interval</span> <span class=pl-c1>=</span> <span class=pl-s1>scan_interval</span></td>
+        </tr>
+        <tr>
+          <td id="L268" class="blob-num js-line-number js-code-nav-line-number" data-line-number="268"></td>
+          <td id="LC268" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>_show_archived</span> <span class=pl-c1>=</span> <span class=pl-s1>show_archived</span></td>
+        </tr>
+        <tr>
+          <td id="L269" class="blob-num js-line-number js-code-nav-line-number" data-line-number="269"></td>
+          <td id="LC269" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>account_id</span> <span class=pl-c1>=</span> <span class=pl-s1>client</span>.<span class=pl-s1>profile</span>.<span class=pl-s1>account_id</span></td>
+        </tr>
+        <tr>
+          <td id="L270" class="blob-num js-line-number js-code-nav-line-number" data-line-number="270"></td>
+          <td id="LC270" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>packages</span> <span class=pl-c1>=</span> {}</td>
+        </tr>
+        <tr>
+          <td id="L271" class="blob-num js-line-number js-code-nav-line-number" data-line-number="271"></td>
+          <td id="LC271" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>show_delivered</span> <span class=pl-c1>=</span> <span class=pl-s1>show_delivered</span></td>
+        </tr>
+        <tr>
+          <td id="L272" class="blob-num js-line-number js-code-nav-line-number" data-line-number="272"></td>
+          <td id="LC272" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>timezone</span> <span class=pl-c1>=</span> <span class=pl-s1>timezone</span></td>
+        </tr>
+        <tr>
+          <td id="L273" class="blob-num js-line-number js-code-nav-line-number" data-line-number="273"></td>
+          <td id="LC273" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>summary</span> <span class=pl-c1>=</span> {}</td>
+        </tr>
+        <tr>
+          <td id="L274" class="blob-num js-line-number js-code-nav-line-number" data-line-number="274"></td>
+          <td id="LC274" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L275" class="blob-num js-line-number js-code-nav-line-number" data-line-number="275"></td>
+          <td id="LC275" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>async_update</span> <span class=pl-c1>=</span> <span class=pl-v>Throttle</span>(<span class=pl-s1>self</span>.<span class=pl-s1>_scan_interval</span>)(<span class=pl-s1>self</span>.<span class=pl-s1>_async_update</span>)</td>
+        </tr>
+        <tr>
+          <td id="L276" class="blob-num js-line-number js-code-nav-line-number" data-line-number="276"></td>
+          <td id="LC276" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>first_update</span> <span class=pl-c1>=</span> <span class=pl-c1>True</span></td>
+        </tr>
+        <tr>
+          <td id="L277" class="blob-num js-line-number js-code-nav-line-number" data-line-number="277"></td>
+          <td id="LC277" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L278" class="blob-num js-line-number js-code-nav-line-number" data-line-number="278"></td>
+          <td id="LC278" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>async</span> <span class=pl-k>def</span> <span class=pl-en>_async_update</span>(<span class=pl-s1>self</span>):</td>
+        </tr>
+        <tr>
+          <td id="L279" class="blob-num js-line-number js-code-nav-line-number" data-line-number="279"></td>
+          <td id="LC279" class="blob-code blob-code-inner js-file-line">        <span class=pl-s>&quot;&quot;&quot;Get updated data from 17track.net.&quot;&quot;&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="L280" class="blob-num js-line-number js-code-nav-line-number" data-line-number="280"></td>
+          <td id="LC280" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L281" class="blob-num js-line-number js-code-nav-line-number" data-line-number="281"></td>
+          <td id="LC281" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>try</span>:</td>
+        </tr>
+        <tr>
+          <td id="L282" class="blob-num js-line-number js-code-nav-line-number" data-line-number="282"></td>
+          <td id="LC282" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>packages</span> <span class=pl-c1>=</span> <span class=pl-k>await</span> <span class=pl-s1>self</span>.<span class=pl-s1>_client</span>.<span class=pl-s1>profile</span>.<span class=pl-en>packages</span>(</td>
+        </tr>
+        <tr>
+          <td id="L283" class="blob-num js-line-number js-code-nav-line-number" data-line-number="283"></td>
+          <td id="LC283" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>show_archived</span><span class=pl-c1>=</span><span class=pl-s1>self</span>.<span class=pl-s1>_show_archived</span>, <span class=pl-s1>tz</span><span class=pl-c1>=</span><span class=pl-s1>self</span>.<span class=pl-s1>timezone</span></td>
+        </tr>
+        <tr>
+          <td id="L284" class="blob-num js-line-number js-code-nav-line-number" data-line-number="284"></td>
+          <td id="LC284" class="blob-code blob-code-inner js-file-line">            )</td>
+        </tr>
+        <tr>
+          <td id="L285" class="blob-num js-line-number js-code-nav-line-number" data-line-number="285"></td>
+          <td id="LC285" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>_LOGGER</span>.<span class=pl-en>debug</span>(<span class=pl-s>&quot;New package data received: %s&quot;</span>, <span class=pl-s1>packages</span>)</td>
+        </tr>
+        <tr>
+          <td id="L286" class="blob-num js-line-number js-code-nav-line-number" data-line-number="286"></td>
+          <td id="LC286" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L287" class="blob-num js-line-number js-code-nav-line-number" data-line-number="287"></td>
+          <td id="LC287" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>new_packages</span> <span class=pl-c1>=</span> {<span class=pl-s1>p</span>.<span class=pl-s1>tracking_number</span>: <span class=pl-s1>p</span> <span class=pl-k>for</span> <span class=pl-s1>p</span> <span class=pl-c1>in</span> <span class=pl-s1>packages</span>}</td>
+        </tr>
+        <tr>
+          <td id="L288" class="blob-num js-line-number js-code-nav-line-number" data-line-number="288"></td>
+          <td id="LC288" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L289" class="blob-num js-line-number js-code-nav-line-number" data-line-number="289"></td>
+          <td id="LC289" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>to_add</span> <span class=pl-c1>=</span> <span class=pl-en>set</span>(<span class=pl-s1>new_packages</span>) <span class=pl-c1>-</span> <span class=pl-en>set</span>(<span class=pl-s1>self</span>.<span class=pl-s1>packages</span>)</td>
+        </tr>
+        <tr>
+          <td id="L290" class="blob-num js-line-number js-code-nav-line-number" data-line-number="290"></td>
+          <td id="LC290" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L291" class="blob-num js-line-number js-code-nav-line-number" data-line-number="291"></td>
+          <td id="LC291" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>_LOGGER</span>.<span class=pl-en>debug</span>(<span class=pl-s>&quot;Will add new tracking numbers: %s&quot;</span>, <span class=pl-s1>to_add</span>)</td>
+        </tr>
+        <tr>
+          <td id="L292" class="blob-num js-line-number js-code-nav-line-number" data-line-number="292"></td>
+          <td id="LC292" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span> <span class=pl-s1>to_add</span>:</td>
+        </tr>
+        <tr>
+          <td id="L293" class="blob-num js-line-number js-code-nav-line-number" data-line-number="293"></td>
+          <td id="LC293" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>self</span>.<span class=pl-en>_async_add_entities</span>(</td>
+        </tr>
+        <tr>
+          <td id="L294" class="blob-num js-line-number js-code-nav-line-number" data-line-number="294"></td>
+          <td id="LC294" class="blob-code blob-code-inner js-file-line">                    [</td>
+        </tr>
+        <tr>
+          <td id="L295" class="blob-num js-line-number js-code-nav-line-number" data-line-number="295"></td>
+          <td id="LC295" class="blob-code blob-code-inner js-file-line">                        <span class=pl-v>SeventeenTrackPackageSensor</span>(<span class=pl-s1>self</span>, <span class=pl-s1>new_packages</span>[<span class=pl-s1>tracking_number</span>])</td>
+        </tr>
+        <tr>
+          <td id="L296" class="blob-num js-line-number js-code-nav-line-number" data-line-number="296"></td>
+          <td id="LC296" class="blob-code blob-code-inner js-file-line">                        <span class=pl-k>for</span> <span class=pl-s1>tracking_number</span> <span class=pl-c1>in</span> <span class=pl-s1>to_add</span></td>
+        </tr>
+        <tr>
+          <td id="L297" class="blob-num js-line-number js-code-nav-line-number" data-line-number="297"></td>
+          <td id="LC297" class="blob-code blob-code-inner js-file-line">                    ],</td>
+        </tr>
+        <tr>
+          <td id="L298" class="blob-num js-line-number js-code-nav-line-number" data-line-number="298"></td>
+          <td id="LC298" class="blob-code blob-code-inner js-file-line">                    <span class=pl-c1>True</span>,</td>
+        </tr>
+        <tr>
+          <td id="L299" class="blob-num js-line-number js-code-nav-line-number" data-line-number="299"></td>
+          <td id="LC299" class="blob-code blob-code-inner js-file-line">                )</td>
+        </tr>
+        <tr>
+          <td id="L300" class="blob-num js-line-number js-code-nav-line-number" data-line-number="300"></td>
+          <td id="LC300" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L301" class="blob-num js-line-number js-code-nav-line-number" data-line-number="301"></td>
+          <td id="LC301" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>self</span>.<span class=pl-s1>packages</span> <span class=pl-c1>=</span> <span class=pl-s1>new_packages</span></td>
+        </tr>
+        <tr>
+          <td id="L302" class="blob-num js-line-number js-code-nav-line-number" data-line-number="302"></td>
+          <td id="LC302" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>except</span> <span class=pl-v>SeventeenTrackError</span> <span class=pl-k>as</span> <span class=pl-s1>err</span>:</td>
+        </tr>
+        <tr>
+          <td id="L303" class="blob-num js-line-number js-code-nav-line-number" data-line-number="303"></td>
+          <td id="LC303" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>_LOGGER</span>.<span class=pl-en>error</span>(<span class=pl-s>&quot;There was an error retrieving packages: %s&quot;</span>, <span class=pl-s1>err</span>)</td>
+        </tr>
+        <tr>
+          <td id="L304" class="blob-num js-line-number js-code-nav-line-number" data-line-number="304"></td>
+          <td id="LC304" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L305" class="blob-num js-line-number js-code-nav-line-number" data-line-number="305"></td>
+          <td id="LC305" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>try</span>:</td>
+        </tr>
+        <tr>
+          <td id="L306" class="blob-num js-line-number js-code-nav-line-number" data-line-number="306"></td>
+          <td id="LC306" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>self</span>.<span class=pl-s1>summary</span> <span class=pl-c1>=</span> <span class=pl-k>await</span> <span class=pl-s1>self</span>.<span class=pl-s1>_client</span>.<span class=pl-s1>profile</span>.<span class=pl-en>summary</span>(</td>
+        </tr>
+        <tr>
+          <td id="L307" class="blob-num js-line-number js-code-nav-line-number" data-line-number="307"></td>
+          <td id="LC307" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>show_archived</span><span class=pl-c1>=</span><span class=pl-s1>self</span>.<span class=pl-s1>_show_archived</span></td>
+        </tr>
+        <tr>
+          <td id="L308" class="blob-num js-line-number js-code-nav-line-number" data-line-number="308"></td>
+          <td id="LC308" class="blob-code blob-code-inner js-file-line">            )</td>
+        </tr>
+        <tr>
+          <td id="L309" class="blob-num js-line-number js-code-nav-line-number" data-line-number="309"></td>
+          <td id="LC309" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>_LOGGER</span>.<span class=pl-en>debug</span>(<span class=pl-s>&quot;New summary data received: %s&quot;</span>, <span class=pl-s1>self</span>.<span class=pl-s1>summary</span>)</td>
+        </tr>
+        <tr>
+          <td id="L310" class="blob-num js-line-number js-code-nav-line-number" data-line-number="310"></td>
+          <td id="LC310" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L311" class="blob-num js-line-number js-code-nav-line-number" data-line-number="311"></td>
+          <td id="LC311" class="blob-code blob-code-inner js-file-line">            <span class=pl-c># creating summary sensors on first update</span></td>
+        </tr>
+        <tr>
+          <td id="L312" class="blob-num js-line-number js-code-nav-line-number" data-line-number="312"></td>
+          <td id="LC312" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span> <span class=pl-s1>self</span>.<span class=pl-s1>first_update</span>:</td>
+        </tr>
+        <tr>
+          <td id="L313" class="blob-num js-line-number js-code-nav-line-number" data-line-number="313"></td>
+          <td id="LC313" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>self</span>.<span class=pl-s1>first_update</span> <span class=pl-c1>=</span> <span class=pl-c1>False</span></td>
+        </tr>
+        <tr>
+          <td id="L314" class="blob-num js-line-number js-code-nav-line-number" data-line-number="314"></td>
+          <td id="LC314" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L315" class="blob-num js-line-number js-code-nav-line-number" data-line-number="315"></td>
+          <td id="LC315" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>self</span>.<span class=pl-en>_async_add_entities</span>(</td>
+        </tr>
+        <tr>
+          <td id="L316" class="blob-num js-line-number js-code-nav-line-number" data-line-number="316"></td>
+          <td id="LC316" class="blob-code blob-code-inner js-file-line">                    [</td>
+        </tr>
+        <tr>
+          <td id="L317" class="blob-num js-line-number js-code-nav-line-number" data-line-number="317"></td>
+          <td id="LC317" class="blob-code blob-code-inner js-file-line">                        <span class=pl-v>SeventeenTrackSummarySensor</span>(<span class=pl-s1>self</span>, <span class=pl-s1>status</span>, <span class=pl-s1>quantity</span>)</td>
+        </tr>
+        <tr>
+          <td id="L318" class="blob-num js-line-number js-code-nav-line-number" data-line-number="318"></td>
+          <td id="LC318" class="blob-code blob-code-inner js-file-line">                        <span class=pl-k>for</span> <span class=pl-s1>status</span>, <span class=pl-s1>quantity</span> <span class=pl-c1>in</span> <span class=pl-s1>self</span>.<span class=pl-s1>summary</span>.<span class=pl-en>items</span>()</td>
+        </tr>
+        <tr>
+          <td id="L319" class="blob-num js-line-number js-code-nav-line-number" data-line-number="319"></td>
+          <td id="LC319" class="blob-code blob-code-inner js-file-line">                    ],</td>
+        </tr>
+        <tr>
+          <td id="L320" class="blob-num js-line-number js-code-nav-line-number" data-line-number="320"></td>
+          <td id="LC320" class="blob-code blob-code-inner js-file-line">                    <span class=pl-c1>True</span>,</td>
+        </tr>
+        <tr>
+          <td id="L321" class="blob-num js-line-number js-code-nav-line-number" data-line-number="321"></td>
+          <td id="LC321" class="blob-code blob-code-inner js-file-line">                )</td>
+        </tr>
+        <tr>
+          <td id="L322" class="blob-num js-line-number js-code-nav-line-number" data-line-number="322"></td>
+          <td id="LC322" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L323" class="blob-num js-line-number js-code-nav-line-number" data-line-number="323"></td>
+          <td id="LC323" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>except</span> <span class=pl-v>SeventeenTrackError</span> <span class=pl-k>as</span> <span class=pl-s1>err</span>:</td>
+        </tr>
+        <tr>
+          <td id="L324" class="blob-num js-line-number js-code-nav-line-number" data-line-number="324"></td>
+          <td id="LC324" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>_LOGGER</span>.<span class=pl-en>error</span>(<span class=pl-s>&quot;There was an error retrieving the summary: %s&quot;</span>, <span class=pl-s1>err</span>)</td>
+        </tr>
+        <tr>
+          <td id="L325" class="blob-num js-line-number js-code-nav-line-number" data-line-number="325"></td>
+          <td id="LC325" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>self</span>.<span class=pl-s1>summary</span> <span class=pl-c1>=</span> {}</td>
+        </tr>
+  </table>
+</div>
 
   <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
-    <summary class="btn-octicon ml-0 px-2 p-0 bg-white border border-gray-dark rounded-1" aria-label="Inline file action toolbar">
-      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
+    <summary class="btn-octicon ml-0 px-2 p-0 color-bg-default border color-border-default rounded-1" aria-label="Inline file action toolbar">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
+    <path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+</svg>
     </summary>
     <details-menu>
-      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2" style="width:185px">
+
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se ml-2 mt-2"
+      style="width:185px"
+      >
         <li>
-          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;">
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" aria-label="Copy lines">
             Copy lines
           </clipboard-copy>
         </li>
         <li>
-          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;">
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" aria-label="Copy permalink">
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/home-assistant/core/blame/06e6005fbba2420f708bcf4046e21dbcb6dcd8fc/homeassistant/components/seventeentrack/sensor.py">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/home-assistant/core/blame/caa04c186699fef953e8fb5840f5cac8e7bb016e/homeassistant/components/seventeentrack/sensor.py">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/home-assistant/core/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
@@ -2455,6 +3899,7 @@
 
     </div>
 
+
   
 
   <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog">
@@ -2462,19 +3907,20 @@
     <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast linejump" aria-label="Jump to line">
       <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form Box-body d-flex" action="" accept-charset="UTF-8" method="get">
         <input class="form-control flex-auto mr-3 linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
-        <button type="submit" class="btn" data-close-dialog>Go</button>
+        <button data-close-dialog="" type="submit" data-view-component="true" class="btn">
+  
+  Go
+  
+
+</button>
 </form>    </details-dialog>
   </details>
 
     <div class="Popover anim-scale-in js-tagsearch-popover"
      hidden
      data-tagsearch-url="/home-assistant/core/find-definition"
-     data-tagsearch-ref="dev"
-     data-tagsearch-path="homeassistant/components/seventeentrack/sensor.py"
-     data-tagsearch-lang="Python"
-     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:12888993,&quot;ref&quot;:&quot;dev&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:null}}"
-     data-hydro-click-hmac="a38a3eb75717680bb876cfbc8d3dc99faad5f927336eab01bfd872edb9f5d7cf">
-  <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box box-shadow-large">
+     data-tagsearch-ref="dev">
+  <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box color-shadow-large">
     <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
     </div>
   </div>
@@ -2493,60 +3939,70 @@
 
   </div>
 
-          
-<div class="footer container-xl width-full p-responsive" role="contentinfo">
-  <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
-    <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-      <li class="mr-3 mr-lg-0">&copy; 2021 GitHub, Inc.</li>
-        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
-        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
-        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://www.githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
-        <li><a data-ga-click="Footer, go to help, text:Docs" href="https://docs.github.com">Docs</a></li>
-    </ul>
+            <footer class="footer width-full container-xl p-responsive" role="contentinfo">
 
-    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mx-lg-4" href="https://github.com">
-      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
-</a>
-    <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
-      <li class="mr-3 mr-lg-0"><a href="https://docs.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
-      <li class="mr-3 mr-lg-0"><a href="https://services.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+
+  <div class="position-relative d-flex flex-items-center pb-2 f6 color-fg-muted border-top color-border-muted flex-column-reverse flex-lg-row flex-wrap flex-lg-nowrap mt-6 pt-6">
+    <ul class="list-style-none d-flex flex-wrap col-0 col-lg-2 flex-justify-start flex-lg-justify-between mb-2 mb-lg-0">
+      <li class="mt-2 mt-lg-0 d-flex flex-items-center">
+        <a aria-label="Homepage" title="GitHub" class="footer-octicon mr-2" href="https://github.com">
+          <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true" class="octicon octicon-mark-github">
+    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+</svg>
+</a>        <span>
+        &copy; 2021 GitHub, Inc.
+        </span>
+      </li>
+    </ul>
+    <ul class="list-style-none d-flex flex-wrap col-12 col-lg-8 flex-justify-start flex-lg-justify-between mb-2 mb-lg-0">
+        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-terms-of-service" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="b0dc2d47d9b6ffeb5a7f99fcceee0ba5371acd99331edc2c41cf2d20d9699e49" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;}">Terms</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-privacy-statement" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="545917709d1b00802a9f94db69b7036a88d3c24ad2e695297952bee0bbb9c77b" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;}">Privacy</a></li>
+        <li class="mr-3 mr-lg-0"><a data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="6a5b4c16892bcbf3e9d6c0b6aadb89adbb64d2d263b1d57a09253e47605649f9" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;}" href="https://github.com/security">Security</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://www.githubstatus.com/" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="5bb37b67cdc9fa60dd828faf5e12189a913669b6e3faac0bbc3a668e21c2c7c4" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;}">Status</a></li>
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to help, text:Docs" href="https://docs.github.com">Docs</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://support.github.com?tags=dotcom-footer" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="fe1d53e20bf243b7266c1c777f88ec27b7b4b5c594b003d394abb5f7aec6e1b9" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;}">Contact GitHub</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Pricing&quot;,&quot;label&quot;:&quot;text:Pricing&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="7ac94cab95b53d5825e56ea0788ba9260f0484b6d1ea74739598b86647cbac6d" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Pricing&quot;,&quot;label&quot;:&quot;text:Pricing&quot;}">Pricing</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://docs.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="f2513c938a6f34fd165fa1f1ba91f10ed18d5a42fd932033376cbc050ea5954c" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;}">API</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://services.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to training&quot;,&quot;label&quot;:&quot;text:training&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="bca114b24705f3966eeb2581f91d3868812a82bade0892f088049a52d3654f43" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to training&quot;,&quot;label&quot;:&quot;text:training&quot;}">Training</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;,&quot;originating_url&quot;:&quot;https://github.com/home-assistant/core/blob/dev/homeassistant/components/seventeentrack/sensor.py&quot;,&quot;user_id&quot;:67979015}}" data-hydro-click-hmac="56c702252a3f47f936c52480ddfd0a1ed41bcacfc06fcf7b9128ff5f854eb9c0" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;}">Blog</a></li>
         <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
     </ul>
   </div>
   <div class="d-flex flex-justify-center pb-6">
-    <span class="f6 text-gray-light"></span>
+    <span class="f6 color-fg-muted"></span>
   </div>
-
-  
-</div>
+</footer>
 
 
 
   <div id="ajax-error-message" class="ajax-error-message flash flash-error" hidden>
-    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path></svg>
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
     <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
-      <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
     </button>
     You can’t perform that action at this time.
   </div>
 
-
   <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
     >
-    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path></svg>
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
     <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
     <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
   </div>
     <template id="site-details-dialog">
-  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark hx_rsm" open>
+  <details class="details-reset details-overlay details-overlay-dark lh-default color-fg-default hx_rsm" open>
     <summary role="button" aria-label="Close dialog"></summary>
     <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
       <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
-        <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
       </button>
       <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
     </details-dialog>
@@ -2554,9 +4010,34 @@
 </template>
 
     <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
-  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box color-shadow-large" style="width:360px;">
   </div>
 </div>
+
+    <template id="snippet-clipboard-copy-button">
+  <div class="zeroclipboard-container position-absolute right-0 top-0">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon m-2">
+    <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none m-2">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+    </clipboard-copy>
+  </div>
+</template>
+
+
+    <style>
+      .user-mention[href$="/shlomifgm"] {
+        color: var(--color-user-mention-fg);
+        background-color: var(--color-user-mention-bg);
+        border-radius: 2px;
+        margin-left: -2px;
+        margin-right: -2px;
+        padding: 0 2px;
+      }
+    </style>
 
 
   </body>
