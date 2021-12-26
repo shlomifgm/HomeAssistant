@@ -73,6 +73,19 @@
   mode: single  
 
 
+
+#- alias: Set Socket01 Watts To Input Sensor
+#  trigger:
+#    platform: time
+#    minutes: 0
+#    seconds: 0
+#  action:
+#    service: input_number.set_value
+#    entity_id: input_number.socket01_watts
+#    data_template:
+#      value: "{{ states('sensor.socket01_energy_power') }}"
+
+
 #- alias: Hass start Update Cost Sensor
 #  trigger:
 #  - event_type: homeassistant_start

@@ -60,7 +60,7 @@ api:
 
 ffmpeg:
 recorder:
-  db_url: !secret mariadb_url
+#  db_url: !secret mariadb_url
   exclude:
     event_types:
       - folder_watcher
@@ -225,44 +225,44 @@ influxdb:
   max_retries: 3
   default_measurement: state
 browser_mod:
-  devices:
-    c20ac329-2594125d:
-      name: laptop
+#  devices:
+#    c20ac329-2594125d:
+#      name: laptop
     cea76277-cd34bb7c:
       name: tablet_home  
       camera: true     
-    e27fb4e3-083bb116:
-      name: ipad_pro  
-    5d9edae7-eac28e1e:
-      name: iphone_sf
-      disable:
-        - light
-        - media_player
-    01a6b8f2-0203d10c:
-      name: iphone_saf
-      disable:
-        - light
-        - media_player    
-    feb4e683-08256aa9:
-      name: iphone_lf
-      disable:
-        - light
-        - media_player
-    9a9aeae9-f455e09e:
-      name: iphone_mef
-      disable:
-        - light
-        - media_player
-    e6f61f0d_8b82a892:
-      name: room03_desktop
-      disable:
-        - light
-        - media_player
-    6aeaadef-2591b9dd:
-      name: iphone_mf
-      disable:
-        - light
-        - media_player        
+#    e27fb4e3-083bb116:
+#      name: ipad_pro  
+#    5d9edae7-eac28e1e:
+#      name: iphone_sf
+#      disable:
+#        - light
+#        - media_player
+#    01a6b8f2-0203d10c:
+#      name: iphone_saf
+#      disable:
+#        - light
+#        - media_player    
+#    feb4e683-08256aa9:
+#      name: iphone_lf
+#      disable:
+#        - light
+#        - media_player
+#    9a9aeae9-f455e09e:
+#      name: iphone_mef
+#      disable:
+#        - light
+#        - media_player
+#    e6f61f0d_8b82a892:
+#      name: room03_desktop
+#      disable:
+#        - light
+#        - media_player
+#    6aeaadef-2591b9dd:
+#      name: iphone_mf
+#      disable:
+#        - light
+#        - media_player        
 
 ptz_camera:  
 

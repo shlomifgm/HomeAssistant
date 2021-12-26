@@ -303,19 +303,19 @@ binary_sensor.dlt_gynh_contact:
 binary_sensor.khlvn_hvrym_shml_contact:
   friendly_name: הורים שמאל
   icon: mdi:window-open-variant
-binary_sensor.lumi_lumi_sensor_magnet_aq2_da3bc006_on_off:
-  friendly_name: קומה3
-  icon: mdi:window-open-variant
 binary_sensor.khlvn_mytr_contact:
   friendly_name: מיתר
   icon: mdi:window-open-variant
 binary_sensor.khlvn_mvr_contact:
   friendly_name: מאור
   icon: mdi:window-open-variant
-binary_sensor.lumi_lumi_sensor_magnet_aq2_18c9be06_on_off:
+binary_sensor.khlvn_qvmh_3_contact:  
+  friendly_name: קומה 3
+  icon: mdi:window-open-variant
+binary_sensor.mkhsn_knysh_contact:
   friendly_name: מחסן-כניסה
   icon: mdi:door-open
-binary_sensor.mkhsn_3_khdr_contact:
+binary_sensor.mkhsn_khdr_contact:
   friendly_name: מחסן-חדר
   icon: mdi:door-open      
 binary_sensor.gly_nzylvt_mtbkh_water_leak:
@@ -368,7 +368,7 @@ sensor.gly_vybrtsyh_battery:
   friendly_name: ויברציה                                
 sensor.lumi_lumi_weather_power:
   friendly_name: טמפרטורה  
-sensor.lumi_lumi_sensor_magnet_aq2_da3bc006_power:
+sensor.khlvn_qvmh_3_battery:
   friendly_name: קומה 3  
 sensor.qvbyh_battery:
   friendly_name: קוביה    
@@ -377,9 +377,9 @@ sensor.khlvn_mytr_battery:
   friendly_name: מיתר
 sensor.khlvn_mvr_battery:
   friendly_name: מאור
-sensor.lumi_lumi_sensor_magnet_aq2_18c9be06_power:
+sensor.mkhsn_knysh_battery:
   friendly_name: מחסן-כניסה
-sensor.mkhsn_3_khdr_battery:
+sensor.mkhsn_khdr_battery:
   friendly_name: מחסן-חדר
 sensor.lumi_lumi_remote_b186acn01_37055504_power:
   friendly_name: מדרגות01-תחתון
@@ -615,113 +615,99 @@ binary_sensor.home_alert:
 sensor.house_energy_kwh:    
 #  state_class: total_increasing
   friendly_name: צריכה ביתית
-sensor.liel_energy_kwh:
+sensor.liel_light_energy:
   friendly_name: תאורה - ליאל
-sensor.maor_energy_kwh:
+sensor.maor_light_energy:
   friendly_name: תאורה - מאור
-sensor.kitchen_energy_kwh:
+sensor.kitchen_light_energy:
   friendly_name: תאורה - מטבח
-sensor.saloon_main_power_energy_kwh:
+sensor.saloon_rashy_light_energy:
   friendly_name: תאורה - סלון ראשי
-sensor.hall_near_restroom_energy_kwh:
+sensor.hall_near_restroom_light_energy:
   friendly_name: תאורה - מסדרון ליד שרותים
-sensor.meitar_energy_kwh:
+sensor.meitar_light_energy:
   friendly_name: תאורה - מיתר
-sensor.parents_energy_kwh:
+sensor.parents_light_energy:
   friendly_name: תאורה - הורים
-sensor.parents_shower_energy_kwh:
+sensor.parents_shower_light_energy:
   friendly_name: תאורה - מקלחת הורים
-sensor.saloon_cubes_energy_kwh:
+sensor.saloon_cubes_light_energy:
   friendly_name: תאורה - סלון קוביות
-sensor.saloon_led_energy_kwh:
+sensor.saloon_led_light_energy:
   friendly_name: תאורה - סלון לד
-sensor.stairsf01_energy_kwh:
+sensor.stairs01_down_light_energy:
   friendly_name: תאורה - מדרגות קומה 1 תחתון
-sensor.stairsf01more_energy_kwh:
+sensor.stairs01_up_light_energy:
   friendly_name: תאורה - מדרגות קומה 1 עליון
-sensor.stairsf02_energy_kwh:
+sensor.stairs02_light_energy:
   friendly_name: תאורה - מדרגות קומה 2
-sensor.stairsf03_energy_kwh:
+sensor.stairs03_down_light_energy:
   friendly_name: תאורה - מדרגות קומה 3 תחתון
-sensor.stairsf03more_energy_kwh:
+sensor.stairs03_up_light_energy:
   friendly_name: תאורה - מדרגות קומה 3 עליון
-sensor.entrance_outside_energy_kwh:
+sensor.entrance_outside_light_energy:
   friendly_name: תאורה - כניסה חוץ
-sensor.childrens_shower_energy_kwh:
+sensor.childrens_shower_light_energy:
   friendly_name: תאורה - מקלחת ילדים
-sensor.dinning_energy_kwh:
+sensor.dinning_light_energy:
   friendly_name: תאורה - פינת אוכל
-sensor.entrance_inside_energy_kwh:
+sensor.entrance_inside_light_energy:
   friendly_name: תאורה - כניסה פנים
-sensor.childrens_restroom_energy_kwh:
+sensor.childrens_restroom_light_energy:
   friendly_name: תאורה - שרותים ילדים
-sensor.tv_floor01_energy_kwh:
+sensor.tv_fl01_energy:
   friendly_name: טלויזיה קומה 1
-sensor.receiver_floor01_energy_kwh:
+sensor.receiver_floor01_energy:
   friendly_name: מגבר קומה 1
-sensor.sherut_energy_kwh:
+sensor.sherut_light_energy:
   friendly_name: תאורה - מרפסת שירות
-sensor.garden_big_energy_kwh:
+sensor.garden_big_light_energy:
   friendly_name: תאורה - גינה גדול
-sensor.garden_small_energy_kwh:
+sensor.garden_small_light_energy:
   friendly_name: תאורה - גינה קטן
-sensor.restroom_f01_energy_kwh:
+sensor.restroomf01_light_energy:
   friendly_name: תאורה - שרותים קומה 1
-sensor.roomf03_energy_kwh:
+sensor.roomf03_light_energy:
   friendly_name: תאורה - חדר קומה 3
-sensor.sign_outside_energy_kwh:
+sensor.street_sign_light_energy:
   friendly_name: תאורה - שלט חוץ
-sensor.parents_restroom_energy_kwh:
+sensor.parents_restroom_light_energy:
   friendly_name: תאורה - שרותים הורים
-sensor.switcher_energy_kwh:
+sensor.switch_switcher_energy:
   friendly_name: דוד שמש
-sensor.climate_floor01_ac_cool_energy_kwh:
-  friendly_name: מזגן קומה 1 קירור
-sensor.climate_floor01_ac_heat_energy_kwh:
-  friendly_name: מזגן קומה 1 חימום
-sensor.climate_floor02_ac_cool_energy_kwh:
-  friendly_name: מזגן קומה 2 קירור
-sensor.climate_floor02_ac_heat_energy_kwh:
-  friendly_name: מזגן קומה 2 חימום
-sensor.climate_floor03_ac_cool_energy_kwh:
-  friendly_name: מזגן קומה 3 קירור
-sensor.climate_floor03_ac_heat_energy_kwh:
-  friendly_name: מזגן קומה 3 חימום
-sensor.refrigerator_energy_kwh:
+sensor.climate_fl01_energy:
+  friendly_name: מזגן קומה 1
+sensor.climate_fl02_energy:
+  friendly_name: מזגן קומה 2
+sensor.climate_fl03_energy:
+  friendly_name: מזגן קומה 3
+sensor.refrigerator_energy:
   friendly_name: מקרר  
-sensor.androidtvsaloon_energy_kwh:
+sensor.androidtvsaloon_energy:
   friendly_name: סטרימר אנדרואיד סלון
-sensor.appletv_energy_kwh:
+sensor.appletv_energy:
   friendly_name: סטרימר אפל טיוי 
-sensor.dlinkswitches_energy_kwh:
+sensor.dlinkswitches_energy:
   friendly_name: DLINK מתגים
-sensor.routersdeco_energy_kwh:
+sensor.routersdeco_energy:
   friendly_name: DECO נתבים
-sensor.dishwasher_energy_kwh:
+sensor.dishwaser_energy:
   friendly_name: מדיח כלים
-sensor.socket01_energy_total:
-  friendly_name: מדיח כלים
-sensor.oven_energy_kwh:
+sensor.oven_energy:
   friendly_name: תנור
-sensor.socket02_energy_total:
-  friendly_name: תנור
-sensor.microgal_energy_kwh:
+sensor.microgal_energy:
   friendly_name: מיקרוגל
-sensor.socket03_energy_total:
-  friendly_name: מיקרוגל
-sensor.washing_machine_energy_kwh:
+sensor.washing_machine_energy:
   friendly_name: מכונת כביסה
-sensor.socket04_energy_total:
-  friendly_name: מכונת כביסה
-sensor.kitchen_devices_energy_kwh:
+sensor.kitchen_devices_energy:
   friendly_name: מטבח מכשירים
-sensor.socket05_energy_total:
-  friendly_name: מטבח מכשירים
-sensor.wdmyclouddisks_energy_kwh:
+sensor.wdmyclouddisks_energy:
   friendly_name: NAS דיסקים
-sensor.meitar_pc_energy_kwh:
+sensor.synology_nas01_energy:
+  friendly_name: NAS Synology01  
+sensor.meitar_pc_energy:
   friendly_name: מחשב של מיתר
-sensor.maor_pc_energy_kwh:
+sensor.maor_pc_energy:
   friendly_name: מחשב של מאור
 
 
