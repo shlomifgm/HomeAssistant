@@ -40,10 +40,13 @@ class KodiMediaEntity(Entity):
         return self._state
 
     async def async_update(self) -> None:
+<<<<<<< HEAD
         if not self.kodi._conn.connected:
             _LOGGER.debug("Kodi is not connected, skipping update.")
             return
 
+=======
+>>>>>>> 978e2b9282b8e2cf0e2b7a38c2883fdd8555a397
         result = None
         try:
             result = await self.kodi.call_method(
