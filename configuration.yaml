@@ -301,3 +301,11 @@ telegram_bot:
     api_key: !secret telegram_bot_api_key
     allowed_chat_ids:
       - !secret telegram_bot_chat_id01
+
+#powercalc:
+#  create_utility_meters: true
+#  utility_meter_types:
+#    - daily
+#    - weekly
+#    - monthly
+#    - yearly      
