@@ -94,6 +94,68 @@ recorder:
       - binary_sensor.tplink_switch_tl_sg108e    
       - sensor.processor_use_percent
       - weather.openweathermap
+
+      - sensor.socket01_wifi_connect_count
+      - sensor.socket01_mqtt_connect_count
+      - sensor.socket01_energy_apparentpower
+      - sensor.socket01_energy_current
+      - sensor.socket01_energy_factor
+      - sensor.socket01_energy_reactivepower
+      - sensor.socket01_energy_today
+      - sensor.socket01_energy_total
+      - sensor.socket01_energy_totalstarttime
+      - sensor.socket01_energy_voltage
+      - sensor.socket01_energy_yesterday
+      - sensor.socket02_wifi_connect_count
+      - sensor.socket02_mqtt_connect_count
+      - sensor.socket02_energy_apparentpower
+      - sensor.socket02_energy_current
+      - sensor.socket02_energy_factor
+      - sensor.socket02_energy_reactivepower
+      - sensor.socket02_energy_today
+      - sensor.socket02_energy_total
+      - sensor.socket02_energy_totalstarttime
+      - sensor.socket02_energy_voltage
+      - sensor.socket02_energy_yesterday
+      - sensor.socket03_wifi_connect_count
+      - sensor.socket03_mqtt_connect_count
+      - sensor.socket03_energy_apparentpower
+      - sensor.socket03_energy_current
+      - sensor.socket03_energy_factor
+      - sensor.socket03_energy_reactivepower
+      - sensor.socket03_energy_today
+      - sensor.socket03_energy_total
+      - sensor.socket03_energy_totalstarttime
+      - sensor.socket03_energy_voltage
+      - sensor.socket03_energy_yesterday
+      - sensor.socket04_wifi_connect_count
+      - sensor.socket04_mqtt_connect_count
+      - sensor.socket04_energy_apparentpower
+      - sensor.socket04_energy_current
+      - sensor.socket04_energy_factor
+      - sensor.socket04_energy_reactivepower
+      - sensor.socket04_energy_today
+      - sensor.socket04_energy_total
+      - sensor.socket04_energy_totalstarttime
+      - sensor.socket04_energy_voltage
+      - sensor.socket04_energy_yesterday
+      - sensor.socket05_wifi_connect_count
+      - sensor.socket05_mqtt_connect_count
+      - sensor.socket05_energy_apparentpower
+      - sensor.socket05_energy_current
+      - sensor.socket05_energy_factor
+      - sensor.socket05_energy_reactivepower
+      - sensor.socket05_energy_today
+      - sensor.socket05_energy_total
+      - sensor.socket05_energy_totalstarttime
+      - sensor.socket05_energy_voltage
+      - sensor.socket05_energy_yesterday
+      - sensor.ping_google
+      - sensor.ping_pfsense
+      - sensor.ping_discord
+      - sensor.switcher_boiler_31f2_remaining_time
+      - sensor.ece70d35_a72f0216
+
 panel_iframe:
   tasmoadmin:
     title: TasmoAdmin
@@ -225,44 +287,13 @@ influxdb:
   max_retries: 3
   default_measurement: state
 browser_mod:
-#  devices:
-#    c20ac329-2594125d:
-#      name: laptop
+  devices:
     cea76277-cd34bb7c:
       name: tablet_home  
       camera: true     
-#    e27fb4e3-083bb116:
-#      name: ipad_pro  
-#    5d9edae7-eac28e1e:
-#      name: iphone_sf
-#      disable:
-#        - light
-#        - media_player
-#    01a6b8f2-0203d10c:
-#      name: iphone_saf
-#      disable:
-#        - light
-#        - media_player    
-#    feb4e683-08256aa9:
-#      name: iphone_lf
-#      disable:
-#        - light
-#        - media_player
-#    9a9aeae9-f455e09e:
-#      name: iphone_mef
-#      disable:
-#        - light
-#        - media_player
-#    e6f61f0d_8b82a892:
-#      name: room03_desktop
-#      disable:
-#        - light
-#        - media_player
-#    6aeaadef-2591b9dd:
-#      name: iphone_mf
-#      disable:
-#        - light
-#        - media_player        
+  disable:
+    - all
+
 
 ptz_camera:  
 
