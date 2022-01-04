@@ -493,6 +493,10 @@ switch.kerui_alarm_away:
 media_player.apple_tv4_9:
   friendly_name: אפל טיוי
   icon: mdi:apple
+
+media_player.airplay_homepod01_f434f00f192a:
+  friendly_name: הומפוד סלון
+  icon: mdi:apple
 media_player.sei_s905x2:
   friendly_name: סטרימר סלון
   icon: mdi:android
@@ -673,7 +677,7 @@ sensor.street_sign_light_energy:
   friendly_name: תאורה - שלט חוץ
 sensor.parents_restroom_light_energy:
   friendly_name: תאורה - שרותים הורים
-sensor.switch_switcher_energy:
+sensor.switcher_boiler_energy:
   friendly_name: דוד שמש
 sensor.climate_fl01_energy:
   friendly_name: מזגן קומה 1

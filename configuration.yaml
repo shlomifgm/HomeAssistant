@@ -102,7 +102,6 @@ recorder:
       - sensor.socket01_energy_factor
       - sensor.socket01_energy_reactivepower
       - sensor.socket01_energy_today
-      - sensor.socket01_energy_total
       - sensor.socket01_energy_totalstarttime
       - sensor.socket01_energy_voltage
       - sensor.socket01_energy_yesterday
@@ -113,7 +112,6 @@ recorder:
       - sensor.socket02_energy_factor
       - sensor.socket02_energy_reactivepower
       - sensor.socket02_energy_today
-      - sensor.socket02_energy_total
       - sensor.socket02_energy_totalstarttime
       - sensor.socket02_energy_voltage
       - sensor.socket02_energy_yesterday
@@ -124,7 +122,6 @@ recorder:
       - sensor.socket03_energy_factor
       - sensor.socket03_energy_reactivepower
       - sensor.socket03_energy_today
-      - sensor.socket03_energy_total
       - sensor.socket03_energy_totalstarttime
       - sensor.socket03_energy_voltage
       - sensor.socket03_energy_yesterday
@@ -135,7 +132,6 @@ recorder:
       - sensor.socket04_energy_factor
       - sensor.socket04_energy_reactivepower
       - sensor.socket04_energy_today
-      - sensor.socket04_energy_total
       - sensor.socket04_energy_totalstarttime
       - sensor.socket04_energy_voltage
       - sensor.socket04_energy_yesterday
@@ -146,7 +142,6 @@ recorder:
       - sensor.socket05_energy_factor
       - sensor.socket05_energy_reactivepower
       - sensor.socket05_energy_today
-      - sensor.socket05_energy_total
       - sensor.socket05_energy_totalstarttime
       - sensor.socket05_energy_voltage
       - sensor.socket05_energy_yesterday
@@ -291,8 +286,8 @@ browser_mod:
     cea76277-cd34bb7c:
       name: tablet_home  
       camera: true     
-  disable:
-    - all
+#  disable:
+#    - all
 
 
 ptz_camera:  
@@ -334,6 +329,8 @@ telegram_bot:
       - !secret telegram_bot_chat_id01
 
 #powercalc:
+#  scan_interval: 00:00:05 #Each 5 Seconds
+
 #  create_utility_meters: true
 #  utility_meter_types:
 #    - daily
