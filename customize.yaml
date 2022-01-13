@@ -728,9 +728,52 @@ light.kitchen_fridge_lights:
 light.kitchen_sink_lights:
   icon: mdi:google-circles-communities
 
+######## Alarm Low Battery Sensors #######
 
-
-
+binary_sensor.alarm_windowsensor_floor03_low_battery:
+  friendly_name: סוללה חלשה - גלאי חלון קומה 3
+binary_sensor.alarm_windowsensor_kitchen_low_battery:
+  friendly_name: סוללה חלשה - גלאי חלון מטבח
+binary_sensor.alarm_windowsensor_liel_low_battery:
+  friendly_name: סוללה חלשה - גלאי חלון ליאל
+binary_sensor.alarm_windowsensor_maor_low_battery:
+  friendly_name: סוללה חלשה - גלאי חלון מאור
+binary_sensor.alarm_windowsensor_meitar_low_battery:
+  friendly_name: סוללה חלשה - גלאי חלון מיתר
+binary_sensor.alarm_windowsensor_parents_low_battery:
+  friendly_name: סוללה חלשה - גלאי חלון הורים
+binary_sensor.alarm_windowsensor_saloonbig_low_battery:
+  friendly_name: סוללה חלשה - גלאי דלת גינה
+binary_sensor.alarm_windowsensor_saloonsmall_low_battery:
+  friendly_name: סוללה חלשה - גלאי חלון גינה
+binary_sensor.alarm_windowsensor_sherut_low_battery:
+  friendly_name: סוללה חלשה - גלאי חלון מ.שירות
+binary_sensor.alarm_gassensor_kitchen_low_battery:
+  friendly_name: סוללה חלשה - גלאי חלון מטבח
+binary_sensor.alarm_motionsensor_saloon_low_battery:
+  friendly_name: סוללה חלשה - גלאי תנועה סלון
+binary_sensor.alarm_motionsensor_stairs01_low_battery:
+  friendly_name: סוללה חלשה - גלאי תנועה מדרגות 1
+binary_sensor.alarm_motionsensor_stairs02_low_battery:
+  friendly_name: סוללה חלשה - גלאי תנועה מדרגות 2
+binary_sensor.alarm_doorsensor_entrance_low_battery:
+  friendly_name: סוללה חלשה - גלאי דלת כניסה
+binary_sensor.alarm_smokesensor_hallfloor02_low_battery:
+  friendly_name: סוללה חלשה - גלאי עשן קומה 2
+binary_sensor.alarm_smokesensor_kitchen_low_battery:
+  friendly_name: סוללה חלשה - גלאי עשן מטבח
+binary_sensor.alarm_smokesensor_liel_low_battery:
+  friendly_name: סוללה חלשה - גלאי עשן ליאל
+binary_sensor.alarm_smokesensor_maor_low_battery:
+  friendly_name: סוללה חלשה - גלאי עשן מאור
+binary_sensor.alarm_smokesensor_meitar_low_battery:
+  friendly_name: סוללה חלשה - גלאי עשן מיתר
+binary_sensor.alarm_smokesensor_parents_low_battery:
+  friendly_name: סוללה חלשה - גלאי עשן הורים
+binary_sensor.alarm_smokesensor_room03_low_battery:
+  friendly_name: סוללה חלשה - גלאי עשן קומה 3
+binary_sensor.alarm_smokesensor_saloon_low_battery:
+  friendly_name: סוללה חלשה - גלאי עשן סלון
 
 
 #Templates
@@ -760,9 +803,6 @@ light.kitchen_sink_lights:
 #      if (state === 'above_horizon') return 'green';
 #      if (state === 'below_horizon') return 'yellow';
 #      return 'grey';      
-
-
-
 
 
 
