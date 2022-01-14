@@ -12,7 +12,7 @@
   action:
   - service: recorder.purge
     data:
-      keep_days: 10
+      keep_days: 8
       repack: true
 
 - alias: Unavailable Entities Notification

@@ -1,0 +1,33 @@
+Traceback (most recent call last): File "/config/custom_components/reolink_dev/sensor.py", line 134, in _update_event_range file["name"], KeyError: 'name'
+
+Does anyone know what might be the problem?
+
+Best Regards
+
+@cpainchaud
+Collaborator
+cpainchaud commented on 8 Oct 2021 • 
+it sounds like yet another issue with the NVR. Before I attemps a fix, would potentially first try to edit the script?
+
+after line 122 in sensor.py you have this:
+
+        end = dt.datetime.combine(start.date(), dt.time.max, tzinfo=end.tzinfo)
+        _, files = await self._base.send_search(start, end)
+        file = files[-1] if files and len(files) > 0 else None
+        if not file:
+            return
+Please replace with:
+
+        end = dt.datetime.combine(start.date(), dt.time.max, tzinfo=end.tzinfo)
+        _, files = await self._base.send_search(start, end)
+        file = files[-1] if files and len(files) > 0 else None
+        if file is None:
+            return
+
+        if "name" not in file:
+            file = files[-2] if files and len(files) > 1 else None
+            if file is None:
+                return
+            if "name" not in file:
+                _LOGGER.warning("Search query returned a file with no name at n-1: %s", str(file))
+                return

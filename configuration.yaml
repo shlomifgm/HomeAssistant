@@ -328,12 +328,11 @@ telegram_bot:
     allowed_chat_ids:
       - !secret telegram_bot_chat_id01
 
-#powercalc:
-#  scan_interval: 00:00:05 #Each 5 Seconds
-
-#  create_utility_meters: true
-#  utility_meter_types:
-#    - daily
-#    - weekly
+powercalc:
+  create_utility_meters: true
+  utility_meter_types:
+    - daily
+    - weekly
 #    - monthly
-#    - yearly      
+
+
