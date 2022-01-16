@@ -1,0 +1,170 @@
+##################################### Send Photos And Videos From Cameras ######################################
+########## Photo ##############
+## Send notification for new Photo Cam01
+- alias: 'Motion detected Cam01 Jpg'
+  trigger:
+    platform: event
+    event_type: folder_watcher
+    event_data:
+      event_type: created
+
+  condition:
+  - condition: template
+    value_template: "{{ 'ReolinkOut01' in trigger.event.data.file }}"    
+  - condition: template
+    value_template: "{{ 'jpg' in trigger.event.data.file }}"        
+  - condition: state
+    entity_id: alarm_control_panel.home_alarm
+    state: 'armed_home'
+
+  action:
+  - service: input_text.set_value
+    entity_id: input_text.text_latest_cam01_file_lp_jpg
+    data_template:
+      value: "/media/local/Cameras/{{ now().strftime('%Y/%m/%d') }}/{{ trigger.event.data.file}}"
+  - service: input_text.set_value
+    entity_id: input_text.text_latest_cam01_file_jpg
+    data_template:
+      value: "{{ trigger.event.data.path }}"
+  - delay: 
+      seconds: 5
+  - service: notify.mobile_app_iphone_sf
+    data:
+      message: "Camera_Out01_Photo , Telegram Link: https://t.me/shlomifgm_bot"
+      title: Motion Detect On Camera Out01
+      data:
+        image: "{{ states.input_text.text_latest_cam01_file_lp_jpg.state }}"      
+#  - service: telegram_bot.send_photo
+#    data:
+#      file: "{{ states.input_text.text_latest_cam01_file_jpg.state }}"
+
+## Send notification for new Photo Cam02
+- alias: 'Motion detected Cam02 Jpg'
+  trigger:
+    platform: event
+    event_type: folder_watcher
+    event_data:
+      event_type: created
+
+  condition:
+  - condition: template
+    value_template: "{{ 'ReolinkOut02' in trigger.event.data.file }}"    
+  - condition: template
+    value_template: "{{ 'jpg' in trigger.event.data.file }}"        
+  - condition: state
+    entity_id: alarm_control_panel.home_alarm
+    state: 'armed_home'
+
+  action:
+  - service: input_text.set_value
+    entity_id: input_text.text_latest_cam02_file_lp_jpg
+    data_template:
+      value: "/media/local/Cameras/{{ now().strftime('%Y/%m/%d') }}/{{ trigger.event.data.file}}"
+  - service: input_text.set_value
+    entity_id: input_text.text_latest_cam02_file_jpg
+    data_template:
+      value: "{{ trigger.event.data.path }}"
+  - delay: 
+      seconds: 5
+  - service: notify.mobile_app_iphone_sf
+    data:
+      message: "Camera_Out02_Photo , Telegram Link: https://t.me/shlomifgm_bot"
+      title: Motion Detect On Camera Out02
+      data:
+        image: "{{ states.input_text.text_latest_cam02_file_lp_jpg.state }}"      
+#  - service: telegram_bot.send_photo
+#    data:
+#      file: "{{ states.input_text.text_latest_cam02_file_jpg.state }}"
+
+########## Video ##############
+
+## Send notification for new Video Cam01
+- alias: 'Motion detected Cam01 mp4'
+  trigger:
+    platform: event
+    event_type: folder_watcher
+    event_data:
+      event_type: created
+
+  condition:
+  - condition: template
+    value_template: "{{ 'ReolinkOut01' in trigger.event.data.file }}"    
+  - condition: template
+    value_template: "{{ 'mp4' in trigger.event.data.file }}"        
+  - condition: state
+    entity_id: alarm_control_panel.home_alarm
+    state: 'armed_home'
+
+  action:
+  - service: input_text.set_value
+    entity_id: input_text.text_latest_cam01_file_mp4
+    data_template:
+      value: "{{ trigger.event.data.path }}"
+  - delay: 
+      seconds: 60
+  - service: notify.notify_telegram
+    data:
+      title: Send My Video
+      message: "Send My Video"
+      data:
+        video:
+#          - file: "/config/www/ftp/Cameras/{{ now().strftime('%Y/%m/%d') }}/{{ trigger.event.data.file }}"
+          - file: "{{ states.input_text.text_latest_cam01_file_mp4.state }}"
+            timeout: 1000 # set any timeout
+
+## Send notification for new Video Cam02
+- alias: 'Motion detected Cam02 mp4'
+  trigger:
+    platform: event
+    event_type: folder_watcher
+    event_data:
+      event_type: created
+
+  condition:
+  - condition: template
+    value_template: "{{ 'ReolinkOut02' in trigger.event.data.file }}"    
+  - condition: template
+    value_template: "{{ 'mp4' in trigger.event.data.file }}"        
+  - condition: state
+    entity_id: alarm_control_panel.home_alarm
+    state: 'armed_home'
+
+  action:  
+#  - service: notify.mobile_app_iphone_sf
+#    data:
+#      message: "Created {{ trigger.event.data.file }}  {{ trigger.event.data.folder }} {{ trigger.event.data.path }}"
+  - service: input_text.set_value
+    entity_id: input_text.text_latest_cam02_file_mp4
+    data_template:
+      value: "{{ trigger.event.data.path }}"
+  - delay: 
+      seconds: 60
+  - service: notify.notify_telegram
+    data:
+      title: Send My Video
+      message: "Send My Video"
+      data:
+        video:
+#          - file: "/config/www/ftp/Cameras/{{ now().strftime('%Y/%m/%d') }}/{{ trigger.event.data.file }}"
+          - file: "{{ states.input_text.text_latest_cam02_file_mp4.state }}"
+            timeout: 1000 # set any timeout    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

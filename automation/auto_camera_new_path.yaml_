@@ -1,9 +1,0 @@
-- alias: Map cifs Drive to HassIO
-  id: map_cifs_drive_to_hassio
-  initial_state: 'on'
-  trigger:
-    - platform: homeassistant
-      event: start
-  action:
-    - delay: '00:00:15'
-    - service: shell_command.map_cifs_video_folder

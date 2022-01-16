@@ -7,6 +7,7 @@ homeassistant:
     - "/tmp"
     - "/media/Cameras"
 
+
 # Customization file 
   customize: !include customize.yaml
 
@@ -20,6 +21,7 @@ http:
     - !secret subnet_mask  # You may also provide the subnet mask  
     - !secret trusted_proxies01
   base_url: !secret base_url
+
 
 websocket_api:
 
@@ -334,5 +336,3 @@ powercalc:
     - daily
     - weekly
 #    - monthly
-
-
