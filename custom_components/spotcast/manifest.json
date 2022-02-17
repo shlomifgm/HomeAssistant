@@ -1,18 +1,19 @@
 {
   "domain": "spotcast",
-  "name": "Start Spotify on chromecast",
+  "name": "Spotcast",
   "documentation": "https://github.com/fondberg/spotcast",
   "issue_tracker": "https://github.com/fondberg/spotcast/issues",
+  "iot_class": "cloud_polling",
   "requirements": [
     "spotify_token==1.0.0"
   ],
-  "homeassistant": "2021.4.1",
-  "version": "3.5.6",
+  "version": "v3.6.25",
   "dependencies": [
     "spotify"
   ],
   "after_dependencies": [
-    "cast"
+    "cast",
+    "spotify"
   ],
   "codeowners": [
     "@fondberg"

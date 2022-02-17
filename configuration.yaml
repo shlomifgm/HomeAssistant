@@ -196,6 +196,10 @@ media_player:
       'Media Server': '44'
       'Favorites': '45'
       'Game': '49'      
+  - platform: itunes
+    host: !secret itunes_ip
+    port: !secret itunes_port
+
 smartir:
   check_updates: false
                     

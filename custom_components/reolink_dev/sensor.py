@@ -125,17 +125,6 @@ class LastEventSensor(ReolinkEntity, SensorEntity):
         if file is None:
             return
 
-        if "name" not in file:
-            file = files[-2] if files and len(files) > 1 else None
-            if file is None:
-                return
-            if "name" not in file:
-                _LOGGER.warning("Search query returned a file with no name at n-1: %s", str(file))
-                return
-
-
-
-
         filename = file.get("name", "")
         if len(filename) == 0:
             _LOGGER.info("Search command provided a file record without a name: %s", str(file))
@@ -168,10 +157,10 @@ class LastEventSensor(ReolinkEntity, SensorEntity):
     async def handle_event(self, event):
         """Handle incoming event for VoD update"""
 
-        if not "motion" in event.data:
+        if "motion" not in event.data:
             return
 
-        self._hass.async_add_job(self._update_event_range)
+        await self._hass.async_add_job(self._update_event_range)
 
     @property
     def unique_id(self):

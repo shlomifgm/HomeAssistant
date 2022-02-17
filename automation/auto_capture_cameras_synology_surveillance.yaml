@@ -1,0 +1,205 @@
+########################auto_cameras_synology_surveillance_motion_detection_webhook#############################
+#Trigger motion detection reolink01
+- alias: 'Reolink01 Camera Motion'   # For reference, paste your webhook URL that you setup in Synology here: http://x.x.x.x:8123/api/webhook/motion_porch
+  trigger:
+    - platform: webhook
+      webhook_id: reolink01_motion
+  action:
+#    - service: camera.snapshot
+#      data:
+#          entity_id: camera.synology_shl01_reolink_out01
+#          filename: '/config/www/snapshot-reolink01.jpg'
+    - service: input_boolean.turn_on
+      entity_id: input_boolean.reolink01_motion_detected
+    - delay: 00:00:05
+    - service: input_boolean.turn_off
+      entity_id: input_boolean.reolink01_motion_detected
+
+#Trigger motion detection reolink02
+- alias: 'Reolink02 Camera Motion'   # For reference, paste your webhook URL that you setup in Synology here: http://x.x.x.x:8123/api/webhook/motion_porch
+  trigger:
+    - platform: webhook
+      webhook_id: reolink02_motion
+  action:
+#    - service: camera.snapshot
+#      data:
+#          entity_id: camera.synology_shl01_reolink_out02
+#          filename: '/config/www/snapshot-reolink02.jpg'
+    - service: input_boolean.turn_on
+      entity_id: input_boolean.reolink02_motion_detected
+    - delay: 00:00:05
+    - service: input_boolean.turn_off
+      entity_id: input_boolean.reolink02_motion_detected
+ 
+ #################################### Send Photos And Videos From Cameras ######################################
+ ######### Photo ##############
+ # Send notification for new Photo Camera 01
+- alias: 'Motion detected Camera01 Jpg'
+  trigger:
+    platform: event
+    event_type: folder_watcher
+    event_data:
+      event_type: created
+ 
+  condition:
+    - condition: template
+      value_template: "{{ '@Snapshot' in trigger.event.data.path }}"    
+    - condition: template
+      value_template: "{{ 'ReolinkOut01' in trigger.event.data.path }}"        
+    - condition: template
+      value_template: "{{ 'jpg' in trigger.event.data.path }}"
+    - condition: or
+      conditions:
+        - condition: state
+          entity_id: alarm_control_panel.home_alarm
+          state: 'armed_home'
+        - condition: state
+          entity_id: alarm_control_panel.home_alarm
+          state: 'armed_away'
+
+
+
+
+  action:
+  - service: input_text.set_value
+    entity_id: input_text.text_latest_camera01_file_jpg
+    data_template:
+      value: "{{ trigger.event.data.path}}"
+  - delay: 
+      seconds: 5
+  - service: notify.mobile_app_iphone_sf
+    data:
+      message: "Camera_Out01_Photo , Telegram Link: https://t.me/shlomifgm_bot"
+      title: Motion Detect On Camera Out01
+      data:
+        image: "{{ states.input_text.text.text_latest_camera01_file_jpg.state }}"      
+  - service: telegram_bot.send_photo
+    data:
+      file: "{{ states.input_text.text.text_latest_camera01_file_jpg.state }}"
+ ##############################
+# Send notification for new Photo Camera 02
+- alias: 'Motion detected Camera02 Jpg'
+  trigger:
+    platform: event
+    event_type: folder_watcher
+    event_data:
+      event_type: created
+  
+  condition:
+    - condition: template
+      value_template: "{{ '@Snapshot' in trigger.event.data.path }}"    
+    - condition: template
+      value_template: "{{ 'ReolinkOut02' in trigger.event.data.path }}"        
+    - condition: template
+      value_template: "{{ 'jpg' in trigger.event.data.path }}"
+    - condition: or
+      conditions:
+        - condition: state
+          entity_id: alarm_control_panel.home_alarm
+          state: 'armed_home'
+        - condition: state
+          entity_id: alarm_control_panel.home_alarm
+          state: 'armed_away'
+
+  
+  action:
+  - service: input_text.set_value
+    entity_id: input_text.text_latest_camera02_file_jpg
+    data_template:
+      value: "{{ trigger.event.data.path}}"
+  - delay: 
+      seconds: 5
+  - service: notify.mobile_app_iphone_sf
+    data:
+      message: "Camera_Out01_Photo , Telegram Link: https://t.me/shlomifgm_bot"
+      title: Motion Detect On Camera Out02
+      data:
+        image: "{{ states.input_text.text.text_latest_camera02_file_jpg.state }}"      
+  - service: telegram_bot.send_photo
+    data:
+      file: "{{ states.input_text.text.text_latest_camera02_file_jpg.state }}"
+##############################
+
+
+########## Video #############
+ # Send notification for new Video Camera01
+- alias: 'Motion detected Camera01 mp4'
+  trigger:
+    platform: event
+    event_type: folder_watcher
+    event_data:
+      event_type: created
+ 
+  condition:
+    - condition: template
+      value_template: "{{ 'ReolinkOut01' in trigger.event.data.path }}"    
+    - condition: template
+      value_template: "{{ 'mp4' in trigger.event.data.path }}"    
+    - condition: or
+      conditions:
+        - condition: state
+          entity_id: alarm_control_panel.home_alarm
+          state: 'armed_home'
+        - condition: state
+          entity_id: alarm_control_panel.home_alarm
+          state: 'armed_away'
+
+
+  action:
+  - service: input_text.set_value
+    entity_id: input_text.text_latest_camera01_file_mp4
+    data_template:
+      value: "{{ trigger.event.data.path }}"
+  - delay: 
+      seconds: 60
+  - service: notify.notify_telegram
+    data:
+      title: Send My Video
+      message: "Send My Video Reolink01"
+      data:
+        video:
+#          - file: "/config/www/ftp/Cameras/{{ now().strftime('%Y/%m/%d') }}/{{ trigger.event.data.path }}"
+          - file: "{{ states.input_text.text_latest_camera01_file_mp4.state }}"
+            timeout: 1000 # set any timeout
+ ##################################################################################
+  # Send notification for new Video Camera02
+- alias: 'Motion detected Camera02 mp4'
+  trigger:
+    platform: event
+    event_type: folder_watcher
+    event_data:
+      event_type: created
+ 
+  condition:
+    - condition: template
+      value_template: "{{ 'ReolinkOut02' in trigger.event.data.path }}"    
+    - condition: template
+      value_template: "{{ 'mp4' in trigger.event.data.path }}"    
+    - condition: or
+      conditions:
+        - condition: state
+          entity_id: alarm_control_panel.home_alarm
+          state: 'armed_home'
+        - condition: state
+          entity_id: alarm_control_panel.home_alarm
+          state: 'armed_away'
+
+
+ 
+  action:
+  - service: input_text.set_value
+    entity_id: input_text.text_latest_camera02_file_mp4
+    data_template:
+      value: "{{ trigger.event.data.path }}"
+  - delay: 
+      seconds: 60
+  - service: notify.notify_telegram
+    data:
+      title: Send My Video
+      message: "Send My Video Reolink02"
+      data:
+        video:
+#          - file: "/config/www/ftp/Cameras/{{ now().strftime('%Y/%m/%d') }}/{{ trigger.event.data.path }}"
+          - file: "{{ states.input_text.text_latest_camera02_file_mp4.state }}"
+            timeout: 1000 # set any timeout
+ ##################################################################################

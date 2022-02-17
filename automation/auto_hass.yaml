@@ -73,6 +73,251 @@
   mode: single  
 
 
+- alias: Fix unknown status on sensors connected to RF
+  description: 'Fix unknown status on sensors connected to RF'
+  trigger:
+    - platform: homeassistant
+      event: start
+  condition: []
+  action:
+    - service: python_script.set_state
+      data_template:
+        entity_id: binary_sensor.alarm_gassensor_kitchen
+        state: 'off'
+        allow_create: true
+    - service: python_script.set_state
+      data_template:
+        entity_id: binary_sensor.alarm_doorsensor_entrance_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_gassensor_kitchen
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_gassensor_kitchen_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_motionsensor_saloon_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_motionsensor_stairs01_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_motionsensor_stairs02_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_smokesensor_hallfloor02
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_smokesensor_hallfloor02_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_smokesensor_kitchen
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_smokesensor_kitchen_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_smokesensor_liel
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_smokesensor_liel_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_smokesensor_maor
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_smokesensor_maor_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_smokesensor_meitar
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_smokesensor_meitar_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_smokesensor_parents
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_smokesensor_parents_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_smokesensor_room03
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_smokesensor_room03_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_smokesensor_saloon
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_smokesensor_saloon_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_windowsensor_floor03
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_windowsensor_floor03_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_windowsensor_kitchen
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_windowsensor_kitchen_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_windowsensor_liel
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_windowsensor_liel_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_windowsensor_maor
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_windowsensor_maor_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_windowsensor_meitar
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_windowsensor_meitar_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_windowsensor_parents
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_windowsensor_parents_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_windowsensor_saloonbig
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_windowsensor_saloonbig_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_windowsensor_saloonsmall
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_windowsensor_saloonsmall_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_windowsensor_sherut
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_windowsensor_sherut_low_battery
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_doorsensor_entrance
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_motionsensor_saloon
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_motionsensor_stairs01
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.alarm_motionsensor_stairs02
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.gly_nzylvt_mtbkh_battery_low
+        state: 'off'
+        allow_create: true        
+    - service: python_script.set_state
+      data_template:        
+        entity_id: binary_sensor.gly_nzylvt_mtbkh_water_leak
+        state: 'off'
+        allow_create: true        
+
+
+
 
 #- alias: Set Socket01 Watts To Input Sensor
 #  trigger:

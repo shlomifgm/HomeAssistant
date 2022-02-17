@@ -490,8 +490,11 @@ switch.kerui_alarm_away:
 
 
 #Media Players
-media_player.apple_tv4_9:
+media_player.appletv:
   friendly_name: אפל טיוי
+  icon: mdi:apple
+media_player.homepod_mini:
+  friendly_name: אפל הומפוד
   icon: mdi:apple
 
 media_player.airplay_homepod01_f434f00f192a:
